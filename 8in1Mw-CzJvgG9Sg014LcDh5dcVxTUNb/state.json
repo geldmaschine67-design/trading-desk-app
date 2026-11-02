@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AMZN @ 198.07",
-      "at": "2026-11-02T14:33:42+00:00"
+      "note": "BUY 1 QQQ @ 512.67",
+      "at": "2026-11-02T14:34:55+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T14:33:44+00:00"
+      "at": "2026-11-02T14:34:57+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 55.6 TAKE",
-      "at": "2026-11-02T14:33:47+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-02T14:33:51+00:00"
+      "note": "score 87.2 TAKE",
+      "at": "2026-11-02T14:35:00+00:00"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-02T14:33:49+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 132.41
     }
   ],
-  "pnl": -13.96,
-  "updated_at": "2026-11-02T14:33:52+00:00",
+  "pnl": -88.71,
   "realized_pnl": -17.33,
-  "unrealized_pnl": 3.37,
+  "unrealized_pnl": -71.38,
   "last_signal": {
-    "id": "cd8fa16d",
-    "symbol": "AMZN",
-    "side": "SELL",
-    "price": 198.07,
-    "qty": 10,
-    "strength": 0.709,
+    "id": "5db41c4e",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 512.67,
+    "qty": 1,
+    "strength": 0.855,
     "source": "paper-sim",
-    "ts": "2026-11-02T14:33:42+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 55.6,
+    "ts": "2026-11-02T14:34:55+00:00",
+    "verdict": "pending",
+    "score": 87.2,
     "recommendation": "TAKE"
   },
-  "cycle": 88,
+  "cycle": 92,
   "fills": [
     {
       "fill": 85.55,
@@ -226,5 +221,6 @@
       "symbol": "NVDA",
       "at": "2026-11-02T14:05:40+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-02T14:35:00+00:00"
 }
