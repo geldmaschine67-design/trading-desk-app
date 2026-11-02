@@ -4,63 +4,81 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 QQQ @ 349.59",
-      "at": "2026-11-02T13:57:03+00:00"
+      "note": "BUY 2 BTC-USD @ 85.86",
+      "at": "2026-11-02T14:07:17+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T13:57:05+00:00"
-    },
-    "analyst": {
-      "status": "idle",
-      "note": "score 73.6 TAKE",
-      "at": "2026-11-02T13:57:08+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T13:57:10+00:00"
-    },
-    "executor": {
       "status": "running",
       "note": null,
-      "at": "2026-11-02T13:57:11+00:00"
+      "at": "2026-11-02T14:07:18+00:00"
+    },
+    "analyst": {
+      "status": "idle"
+    },
+    "risk": {
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
     {
+      "symbol": "NVDA",
+      "qty": -1,
+      "avg": 97.35
+    },
+    {
+      "symbol": "MSFT",
+      "qty": -10,
+      "avg": 359.53
+    },
+    {
       "symbol": "AAPL",
-      "qty": 2,
-      "avg": 410.26
+      "qty": -1,
+      "avg": 231.58
     }
   ],
-  "pnl": -5.34,
+  "pnl": -18.39,
   "realized_pnl": 0.0,
-  "unrealized_pnl": -5.34,
+  "unrealized_pnl": -18.39,
   "last_signal": {
-    "id": "3e73db41",
-    "symbol": "QQQ",
+    "id": "13cbb9ba",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 349.59,
-    "qty": 5,
-    "strength": 0.76,
+    "price": 85.86,
+    "qty": 2,
+    "strength": 0.732,
     "source": "paper-sim",
-    "ts": "2026-11-02T13:57:03+00:00",
-    "verdict": "pending",
-    "score": 73.6,
-    "recommendation": "TAKE"
+    "ts": "2026-11-02T14:07:17+00:00",
+    "verdict": "pending"
   },
-  "cycle": 4,
+  "cycle": 6,
   "fills": [
     {
-      "fill": 410.26,
-      "qty": 2,
+      "fill": 231.58,
+      "qty": -1,
       "realized": 0.0,
       "paper": true,
       "symbol": "AAPL",
-      "at": "2026-11-02T13:56:15+00:00"
+      "at": "2026-11-02T14:07:03+00:00"
+    },
+    {
+      "fill": 359.53,
+      "qty": -10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "MSFT",
+      "at": "2026-11-02T14:06:02+00:00"
+    },
+    {
+      "fill": 97.35,
+      "qty": -1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-02T14:05:40+00:00"
     }
   ],
-  "updated_at": "2026-11-02T13:57:11+00:00"
+  "updated_at": "2026-11-02T14:07:18+00:00"
 }
