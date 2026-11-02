@@ -1,0 +1,18 @@
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;padding:calc(env(safe-area-inset-top) + 12px) 14px 24px;background:#0b0f14;color:#e6edf3;font:16px -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+h1{font-size:24px;margin:0}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:#8b98a5;margin:0 0 10px}
+.badge{background:#2d6cdf;color:#fff;border-radius:999px;padding:4px 12px;font-weight:700;font-size:13px}
+.badge.live{background:#d13b3b}
+.card{background:#121821;border:1px solid #1f2a36;border-radius:14px;padding:14px;margin-bottom:12px}
+.row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #1a222d}
+.row:last-child{border-bottom:0}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{border-radius:999px;padding:8px 12px;font-size:14px;background:#1a2330;border:1px solid #2a3646}
+.pill b{font-weight:600;margin-right:6px}
+.s-idle{color:#8b98a5}.s-running,.s-active,.s-ok{color:#3fb950;border-color:#2f6f3a}
+.s-error,.s-halted{color:#f85149;border-color:#7a2e2b}.s-busy,.s-warn{color:#d29922}
+.dot.on{color:#3fb950}.dot.off{color:#f85149}
+.muted{color:#8b98a5}.small{font-size:12px}

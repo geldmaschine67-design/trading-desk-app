@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Trading Desk">
+<meta name="theme-color" content="#0b0f14">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+<title>Trading Desk</title>
+</head>
+<body>
+<header>
+  <h1>Trading Desk</h1>
+  <span id="mode" class="badge">PAPER</span>
+</header>
+<section class="card">
+  <div class="row"><span>Health</span><span id="health" class="dot off">…</span></div>
+  <div class="row"><span>Status</span><span id="status">–</span></div>
+  <div class="row"><span>P&amp;L</span><span id="pnl">0</span></div>
+  <div class="row"><span>Last update</span><span id="updated">–</span></div>
+</section>
+<section class="card">
+  <h2>Agents</h2>
+  <div id="agents" class="pills"></div>
+</section>
+<section class="card">
+  <h2>Positions</h2>
+  <div id="positions" class="muted">None</div>
+</section>
+<p id="err" class="muted small"></p>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "mode": "PAPER",
+  "status": "online",
+  "agents": {
+    "scanner": {
+      "status": "idle"
+    },
+    "auditor": {
+      "status": "idle"
+    },
+    "analyst": {
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
+    },
+    "risk": {
+      "status": "idle"
+    }
+  },
+  "positions": [],
+  "pnl": 0,
+  "updated_at": "2026-11-02T12:54:46+00:00"
+}
