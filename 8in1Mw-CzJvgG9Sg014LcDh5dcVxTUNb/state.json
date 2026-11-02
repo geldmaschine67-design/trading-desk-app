@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 BTC-USD @ 128.82",
-      "at": "2026-11-02T22:57:07+00:00"
+      "note": "BUY 2 MSFT @ 100.98",
+      "at": "2026-11-02T22:58:08+00:00"
     },
     "auditor": {
       "status": "running",
       "note": null,
-      "at": "2026-11-02T22:57:09+00:00"
+      "at": "2026-11-02T22:58:09+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -25,7 +25,7 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 9,
+      "qty": 8,
       "avg": 380.7844
     },
     {
@@ -49,22 +49,30 @@
       "avg": 59.17
     }
   ],
-  "pnl": 144.61,
-  "realized_pnl": 2.99,
-  "unrealized_pnl": 141.62,
+  "pnl": 124.67,
+  "realized_pnl": 16.89,
+  "unrealized_pnl": 107.78,
   "last_signal": {
-    "id": "9a353a27",
-    "symbol": "BTC-USD",
+    "id": "e17061ff",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 128.82,
-    "qty": 1,
-    "strength": 0.919,
+    "price": 100.98,
+    "qty": 2,
+    "strength": 0.536,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:57:07+00:00",
+    "ts": "2026-11-02T22:58:08+00:00",
     "verdict": "pending"
   },
-  "cycle": 148,
+  "cycle": 151,
   "fills": [
+    {
+      "fill": 394.68,
+      "qty": -1,
+      "realized": 13.9,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-02T22:57:55+00:00"
+    },
     {
       "fill": 480.99,
       "qty": -10,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-02T22:16:22+00:00"
-    },
-    {
-      "fill": 97.74,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "MSFT",
-      "at": "2026-11-02T22:15:35+00:00"
     }
   ],
-  "updated_at": "2026-11-02T22:57:09+00:00"
+  "updated_at": "2026-11-02T22:58:09+00:00"
 }
