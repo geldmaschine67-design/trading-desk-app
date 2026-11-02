@@ -3,21 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-02T23:09:26+00:00"
+      "status": "idle",
+      "note": "no signal",
+      "at": "2026-11-02T23:10:20+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T23:10:04+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 37.3 PASS",
+      "at": "2026-11-02T23:10:07+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -1 NVDA @ 485.51",
+      "at": "2026-11-02T23:06:06+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T23:06:04+00:00"
     }
   },
   "positions": [
@@ -47,23 +55,24 @@
       "avg": 59.17
     }
   ],
-  "pnl": 75.95,
+  "pnl": 101.73,
+  "updated_at": "2026-11-02T23:10:21+00:00",
   "realized_pnl": 16.55,
-  "unrealized_pnl": 59.4,
+  "unrealized_pnl": 85.18,
   "last_signal": {
-    "id": "f73f3217",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 99.12,
-    "qty": 2,
-    "strength": 0.168,
+    "id": "f946d437",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 132.51,
+    "qty": 5,
+    "strength": 0.209,
     "source": "paper-sim",
-    "ts": "2026-11-02T23:08:34+00:00",
-    "verdict": "pass (score 16.7)",
-    "score": 16.7,
+    "ts": "2026-11-02T23:10:02+00:00",
+    "verdict": "pass (score 37.3)",
+    "score": 37.3,
     "recommendation": "PASS"
   },
-  "cycle": 190,
+  "cycle": 193,
   "fills": [
     {
       "fill": 485.51,
@@ -225,6 +234,5 @@
       "symbol": "AAPL",
       "at": "2026-11-02T22:19:56+00:00"
     }
-  ],
-  "updated_at": "2026-11-02T23:09:26+00:00"
+  ]
 }
