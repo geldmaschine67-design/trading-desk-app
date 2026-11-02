@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 NVDA @ 476.25",
-      "at": "2026-11-02T22:59:04+00:00"
+      "note": "SELL 10 MSFT @ 101.38",
+      "at": "2026-11-02T23:00:07+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T22:59:06+00:00"
+      "at": "2026-11-02T23:00:09+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 32.9 PASS",
-      "at": "2026-11-02T22:59:09+00:00"
+      "note": "score 27.5 PASS",
+      "at": "2026-11-02T23:00:12+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +47,36 @@
     },
     {
       "symbol": "SPY",
-      "qty": 5,
+      "qty": 3,
       "avg": 59.17
     }
   ],
-  "pnl": 123.83,
-  "realized_pnl": 16.89,
-  "unrealized_pnl": 106.94,
+  "pnl": 200.51,
+  "realized_pnl": 16.55,
+  "unrealized_pnl": 183.96,
   "last_signal": {
-    "id": "0dc2780e",
-    "symbol": "NVDA",
+    "id": "b4e4a3d3",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 476.25,
-    "qty": 1,
-    "strength": 0.155,
+    "price": 101.38,
+    "qty": 10,
+    "strength": 0.13,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:59:04+00:00",
-    "verdict": "pass (score 32.9)",
-    "score": 32.9,
+    "ts": "2026-11-02T23:00:07+00:00",
+    "verdict": "pass (score 27.5)",
+    "score": 27.5,
     "recommendation": "PASS"
   },
-  "cycle": 154,
+  "cycle": 157,
   "fills": [
+    {
+      "fill": 59.0,
+      "qty": -2,
+      "realized": -0.34,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-02T22:59:51+00:00"
+    },
     {
       "fill": 394.68,
       "qty": -1,
@@ -220,15 +228,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-02T22:17:33+00:00"
-    },
-    {
-      "fill": 458.79,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-02T22:16:22+00:00"
     }
   ],
-  "updated_at": "2026-11-02T22:59:10+00:00"
+  "updated_at": "2026-11-02T23:00:13+00:00"
 }
