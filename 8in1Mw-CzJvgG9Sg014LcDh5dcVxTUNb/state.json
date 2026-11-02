@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 SPY @ 60.59",
-      "at": "2026-11-02T22:50:50+00:00"
+      "note": "SELL 10 AAPL @ 74.91",
+      "at": "2026-11-02T22:51:50+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T22:50:52+00:00"
+      "at": "2026-11-02T22:51:53+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 29.4 PASS",
-      "at": "2026-11-02T22:50:54+00:00"
+      "note": "score 80.0 TAKE",
+      "at": "2026-11-02T22:51:55+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T22:51:58+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -10 AAPL @ 74.88",
+      "at": "2026-11-02T22:52:01+00:00"
     }
   },
   "positions": [
@@ -42,8 +46,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": 7,
-      "avg": 77.72
+      "qty": -3,
+      "avg": 74.88
     },
     {
       "symbol": "SPY",
@@ -51,24 +55,32 @@
       "avg": 59.17
     }
   ],
-  "pnl": 133.74,
-  "realized_pnl": -15.28,
-  "unrealized_pnl": 149.02,
+  "pnl": 65.42,
+  "realized_pnl": -35.16,
+  "unrealized_pnl": 100.58,
   "last_signal": {
-    "id": "f897ba59",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 60.59,
-    "qty": 1,
-    "strength": 0.381,
+    "id": "1fafe9a7",
+    "symbol": "AAPL",
+    "side": "SELL",
+    "price": 74.91,
+    "qty": 10,
+    "strength": 0.81,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:50:50+00:00",
-    "verdict": "pass (score 29.4)",
-    "score": 29.4,
-    "recommendation": "PASS"
+    "ts": "2026-11-02T22:51:50+00:00",
+    "verdict": "PAPER filled -10 @ 74.88",
+    "score": 80.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 129,
+  "cycle": 132,
   "fills": [
+    {
+      "fill": 74.88,
+      "qty": -10,
+      "realized": -19.88,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-02T22:52:01+00:00"
+    },
     {
       "fill": 59.83,
       "qty": -5,
@@ -222,5 +234,5 @@
       "at": "2026-11-02T21:54:15+00:00"
     }
   ],
-  "updated_at": "2026-11-02T22:50:56+00:00"
+  "updated_at": "2026-11-02T22:52:01+00:00"
 }
