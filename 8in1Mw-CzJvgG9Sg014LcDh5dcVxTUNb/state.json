@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 SPY @ 60.17",
-      "at": "2026-11-02T23:50:03+00:00"
+      "note": "BUY 2 QQQ @ 380.81",
+      "at": "2026-11-02T23:51:00+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T23:50:06+00:00"
+      "at": "2026-11-02T23:51:02+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 40.0 PASS",
-      "at": "2026-11-02T23:50:08+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 22.5 PASS",
+      "at": "2026-11-02T23:51:05+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-02T23:49:52+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-02T23:49:51+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 59.53
     }
   ],
-  "pnl": 105.75,
+  "pnl": 118.11,
+  "updated_at": "2026-11-02T23:51:06+00:00",
   "realized_pnl": -8.83,
-  "unrealized_pnl": 114.58,
+  "unrealized_pnl": 126.94,
   "last_signal": {
-    "id": "05e1a5ba",
-    "symbol": "SPY",
+    "id": "a761d3b2",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 60.17,
-    "qty": 10,
-    "strength": 0.329,
+    "price": 380.81,
+    "qty": 2,
+    "strength": 0.211,
     "source": "paper-sim",
-    "ts": "2026-11-02T23:50:03+00:00",
-    "verdict": "pass (score 40.0)",
-    "score": 40.0,
+    "ts": "2026-11-02T23:51:00+00:00",
+    "verdict": "pass (score 22.5)",
+    "score": 22.5,
     "recommendation": "PASS"
   },
-  "cycle": 299,
+  "cycle": 302,
   "fills": [
     {
       "fill": 383.53,
@@ -229,6 +234,5 @@
       "symbol": "NVDA",
       "at": "2026-11-02T23:06:06+00:00"
     }
-  ],
-  "updated_at": "2026-11-02T23:50:09+00:00"
+  ]
 }
