@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 MSFT @ 97.03",
-      "at": "2026-11-02T22:19:15+00:00"
+      "note": "BUY 2 MSFT @ 97.52",
+      "at": "2026-11-02T22:20:08+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-02T22:19:16+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T22:20:10+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 55.0 PASS",
+      "at": "2026-11-02T22:20:12+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -5 AAPL @ 77.49",
+      "at": "2026-11-02T22:19:56+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T22:19:53+00:00"
     }
   },
   "positions": [
@@ -42,24 +48,40 @@
       "symbol": "AMZN",
       "qty": 10,
       "avg": 369.21
+    },
+    {
+      "symbol": "AAPL",
+      "qty": -5,
+      "avg": 77.49
     }
   ],
-  "pnl": 54.2,
+  "pnl": 83.69,
+  "updated_at": "2026-11-02T22:20:14+00:00",
   "realized_pnl": 0.0,
-  "unrealized_pnl": 54.2,
+  "unrealized_pnl": 83.69,
   "last_signal": {
-    "id": "29ce4027",
+    "id": "53851e88",
     "symbol": "MSFT",
-    "side": "SELL",
-    "price": 97.03,
-    "qty": 5,
-    "strength": 0.244,
+    "side": "BUY",
+    "price": 97.52,
+    "qty": 2,
+    "strength": 0.391,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:19:15+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-02T22:20:08+00:00",
+    "verdict": "pass (score 55.0)",
+    "score": 55.0,
+    "recommendation": "PASS"
   },
-  "cycle": 29,
+  "cycle": 32,
   "fills": [
+    {
+      "fill": 77.49,
+      "qty": -5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-02T22:19:56+00:00"
+    },
     {
       "fill": 369.21,
       "qty": 10,
@@ -100,6 +122,5 @@
       "symbol": "QQQ",
       "at": "2026-11-02T21:54:15+00:00"
     }
-  ],
-  "updated_at": "2026-11-02T22:19:16+00:00"
+  ]
 }
