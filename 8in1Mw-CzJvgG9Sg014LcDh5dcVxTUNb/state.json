@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-02T23:24:39+00:00"
+      "status": "idle",
+      "note": "SELL 10 MSFT @ 98.87",
+      "at": "2026-11-02T23:25:36+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T23:25:39+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-02T23:25:40+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,23 +51,21 @@
       "avg": 59.17
     }
   ],
-  "pnl": -34.57,
+  "pnl": -38.28,
   "realized_pnl": -14.15,
-  "unrealized_pnl": -20.42,
+  "unrealized_pnl": -24.13,
   "last_signal": {
-    "id": "6d9f18fd",
+    "id": "f0020f5c",
     "symbol": "MSFT",
-    "side": "BUY",
-    "price": 98.38,
-    "qty": 1,
-    "strength": 0.969,
+    "side": "SELL",
+    "price": 98.87,
+    "qty": 10,
+    "strength": 0.227,
     "source": "paper-sim",
-    "ts": "2026-11-02T23:24:15+00:00",
-    "verdict": "PAPER filled 1 @ 98.37",
-    "score": 96.5,
-    "recommendation": "TAKE"
+    "ts": "2026-11-02T23:25:36+00:00",
+    "verdict": "pending"
   },
-  "cycle": 221,
+  "cycle": 224,
   "fills": [
     {
       "fill": 98.37,
@@ -226,5 +228,5 @@
       "at": "2026-11-02T22:29:05+00:00"
     }
   ],
-  "updated_at": "2026-11-02T23:24:39+00:00"
+  "updated_at": "2026-11-02T23:25:40+00:00"
 }
