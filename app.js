@@ -17,15 +17,24 @@
   const $ = id => document.getElementById(id);
   const AGENTS = ['scanner','auditor','analyst','executor','risk'];
 
+  const GH_STATE = 'https://raw.githubusercontent.com/geldmaschine67-design/trading-desk-app/main/' + DATA_PATH + '/state.json?t=';
+  async function getJSON(url){
+    const r = await fetch(url, {cache:'no-store'});
+    if (!r.ok) throw new Error(url.split('?')[0] + ' ' + r.status);
+    return r.json();
+  }
   async function poll(){
     try {
-      let url = (token && IS_LOCAL) ? './api/state?token=' + encodeURIComponent(token)
-              : './' + dataPath + '/state.json?t=' + Date.now();
-      const r = await fetch(url, {cache:'no-store'});
-      if (!r.ok) throw new Error('state ' + r.status);
-      render(await r.json());
+      let s, src;
+      if (token && IS_LOCAL) {
+        s = await getJSON('./api/state?token=' + encodeURIComponent(token)); src = 'local';
+      } else {
+        try { s = await getJSON(GH_STATE + Date.now()); src = 'github'; }
+        catch (ghErr) { s = await getJSON('./' + dataPath + '/state.json?t=' + Date.now()); src = 'netlify'; }
+      }
+      render(s);
       $('health').textContent = 'OK'; $('health').className = 'dot on';
-      $('err').textContent = '';
+      $('err').textContent = 'source: ' + src;
     } catch(e) {
       $('health').textContent = 'OFFLINE'; $('health').className = 'dot off';
       $('err').textContent = String(e);
@@ -43,7 +52,10 @@
       return `<span class="pill s-${st.replace(/[^a-z]/gi,'')}"><b>${k[0].toUpperCase()+k.slice(1)}</b>${st}</span>`;
     }).join('');
     const p = s.positions || [];
-    $('positions').textContent = p.length ? p.map(x => typeof x==='string'?x:JSON.stringify(x)).join('\n') : 'None';
+    $('positions').textContent = p.length ? p.map(x => typeof x==='string'?x:
+      (x.symbol ? `${x.symbol}  ${x.qty>0?'+':''}${x.qty} @ ${Number(x.avg).toFixed(2)}` : JSON.stringify(x))).join('\n') : 'None';
+    const ls = s.last_signal, el = $('signal');
+    if (el) el.textContent = ls ? `${ls.side} ${ls.qty} ${ls.symbol} @ ${ls.price}` + (ls.score!=null?` · score ${ls.score}`:'') + (ls.verdict?`\n${ls.verdict}`:'') : 'None';
   }
   poll(); setInterval(poll, 3000);
 })();
