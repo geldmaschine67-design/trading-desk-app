@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-02T22:33:32+00:00"
+      "note": "BUY 10 AMZN @ 368.51",
+      "at": "2026-11-02T22:34:26+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T22:33:10+00:00"
+      "at": "2026-11-02T22:34:28+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 81.1 TAKE",
-      "at": "2026-11-02T22:33:12+00:00"
+      "note": "score 12.2 PASS",
+      "at": "2026-11-02T22:34:30+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 417.71
     }
   ],
-  "pnl": -4.08,
-  "updated_at": "2026-11-02T22:33:33+00:00",
+  "pnl": 9.44,
+  "updated_at": "2026-11-02T22:34:32+00:00",
   "realized_pnl": -30.24,
-  "unrealized_pnl": 26.16,
+  "unrealized_pnl": 39.68,
   "last_signal": {
-    "id": "92eb7c1f",
-    "symbol": "TSLA",
+    "id": "2c196bbb",
+    "symbol": "AMZN",
     "side": "BUY",
-    "price": 417.82,
-    "qty": 2,
-    "strength": 0.892,
+    "price": 368.51,
+    "qty": 10,
+    "strength": 0.083,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:33:07+00:00",
-    "verdict": "PAPER filled 2 @ 417.71",
-    "score": 81.1,
-    "recommendation": "TAKE"
+    "ts": "2026-11-02T22:34:26+00:00",
+    "verdict": "pass (score 12.2)",
+    "score": 12.2,
+    "recommendation": "PASS"
   },
-  "cycle": 75,
+  "cycle": 78,
   "fills": [
     {
       "fill": 417.71,
