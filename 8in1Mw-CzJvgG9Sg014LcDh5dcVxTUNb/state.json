@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 QQQ @ 392.45",
-      "at": "2026-11-02T23:43:52+00:00"
+      "note": "BUY 1 BTC-USD @ 130.92",
+      "at": "2026-11-02T23:45:01+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T23:43:54+00:00"
+      "at": "2026-11-02T23:45:04+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 81.8 TAKE",
-      "at": "2026-11-02T23:43:57+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -2 QQQ @ 392.47",
-      "at": "2026-11-02T23:44:02+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-02T23:45:05+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T23:43:59+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,21 @@
       "avg": 59.53
     }
   ],
-  "pnl": -52.3,
-  "updated_at": "2026-11-02T23:44:03+00:00",
+  "pnl": 75.41,
   "realized_pnl": -14.21,
-  "unrealized_pnl": -38.09,
+  "unrealized_pnl": 89.62,
   "last_signal": {
-    "id": "7a936449",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 392.45,
-    "qty": 2,
-    "strength": 0.962,
+    "id": "644b415b",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 130.92,
+    "qty": 1,
+    "strength": 0.217,
     "source": "paper-sim",
-    "ts": "2026-11-02T23:43:52+00:00",
-    "verdict": "PAPER filled -2 @ 392.47",
-    "score": 81.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-02T23:45:01+00:00",
+    "verdict": "pending"
   },
-  "cycle": 280,
+  "cycle": 284,
   "fills": [
     {
       "fill": 392.47,
@@ -234,5 +227,6 @@
       "symbol": "MSFT",
       "at": "2026-11-02T22:52:49+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-02T23:45:05+00:00"
 }
