@@ -4,23 +4,17 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 SPY @ 58.95",
-      "at": "2026-11-02T23:12:23+00:00"
+      "note": "SELL 5 AAPL @ 75.94",
+      "at": "2026-11-02T23:13:32+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T23:12:26+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 71.6 TAKE",
-      "at": "2026-11-02T23:12:28+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T23:12:31+00:00"
+      "status": "idle"
     },
     "executor": {
       "status": "idle"
@@ -49,28 +43,34 @@
     },
     {
       "symbol": "SPY",
-      "qty": 3,
+      "qty": 1,
       "avg": 59.17
     }
   ],
-  "pnl": 92.05,
-  "realized_pnl": -2.23,
-  "unrealized_pnl": 94.28,
+  "pnl": 58.66,
+  "realized_pnl": -2.63,
+  "unrealized_pnl": 61.29,
   "last_signal": {
-    "id": "1382cae7",
-    "symbol": "SPY",
+    "id": "4f670a4a",
+    "symbol": "AAPL",
     "side": "SELL",
-    "price": 58.95,
-    "qty": 2,
-    "strength": 0.799,
+    "price": 75.94,
+    "qty": 5,
+    "strength": 0.035,
     "source": "paper-sim",
-    "ts": "2026-11-02T23:12:23+00:00",
-    "verdict": "pending",
-    "score": 71.6,
-    "recommendation": "TAKE"
+    "ts": "2026-11-02T23:13:32+00:00",
+    "verdict": "pending"
   },
-  "cycle": 199,
+  "cycle": 202,
   "fills": [
+    {
+      "fill": 58.97,
+      "qty": -2,
+      "realized": -0.4,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-02T23:12:33+00:00"
+    },
     {
       "fill": 485.5,
       "qty": 5,
@@ -222,15 +222,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-02T22:27:06+00:00"
-    },
-    {
-      "fill": 77.31,
-      "qty": 2,
-      "realized": 0.36,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-02T22:21:13+00:00"
     }
   ],
-  "updated_at": "2026-11-02T23:12:31+00:00"
+  "updated_at": "2026-11-02T23:13:32+00:00"
 }
