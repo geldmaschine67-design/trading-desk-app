@@ -4,20 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 TSLA @ 421.9",
-      "at": "2026-11-02T22:35:38+00:00"
+      "note": "BUY 5 BTC-USD @ 125.91",
+      "at": "2026-11-02T22:36:26+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T22:36:28+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 41.5 PASS",
+      "at": "2026-11-02T22:36:31+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -2 TSLA @ 421.71",
+      "at": "2026-11-02T22:35:48+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T22:35:46+00:00"
     }
   },
   "positions": [
@@ -40,29 +48,35 @@
       "symbol": "AAPL",
       "qty": -3,
       "avg": 77.49
-    },
-    {
-      "symbol": "TSLA",
-      "qty": 2,
-      "avg": 417.71
     }
   ],
-  "pnl": 51.25,
-  "realized_pnl": -30.24,
-  "unrealized_pnl": 81.49,
+  "pnl": 58.72,
+  "updated_at": "2026-11-02T22:36:32+00:00",
+  "realized_pnl": -22.24,
+  "unrealized_pnl": 80.96,
   "last_signal": {
-    "id": "6980c207",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 421.9,
-    "qty": 2,
-    "strength": 0.784,
+    "id": "d3d36fa7",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 125.91,
+    "qty": 5,
+    "strength": 0.253,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:35:38+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-02T22:36:26+00:00",
+    "verdict": "pass (score 41.5)",
+    "score": 41.5,
+    "recommendation": "PASS"
   },
-  "cycle": 82,
+  "cycle": 84,
   "fills": [
+    {
+      "fill": 421.71,
+      "qty": -2,
+      "realized": 8.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-02T22:35:48+00:00"
+    },
     {
       "fill": 417.71,
       "qty": 2,
@@ -159,6 +173,5 @@
       "symbol": "QQQ",
       "at": "2026-11-02T21:54:15+00:00"
     }
-  ],
-  "updated_at": "2026-11-02T22:35:38+00:00"
+  ]
 }
