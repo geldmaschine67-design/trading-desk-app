@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 QQQ @ 372.81",
-      "at": "2026-11-02T22:27:21+00:00"
+      "note": "no signal",
+      "at": "2026-11-02T22:28:22+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T22:27:24+00:00"
+      "at": "2026-11-02T22:28:06+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 51.9 PASS",
-      "at": "2026-11-02T22:27:26+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 38.3 PASS",
+      "at": "2026-11-02T22:28:09+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 NVDA @ 474.17",
+      "at": "2026-11-02T22:27:53+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T22:27:50+00:00"
     }
   },
   "positions": [
@@ -37,8 +41,8 @@
     },
     {
       "symbol": "NVDA",
-      "qty": 2,
-      "avg": 464.865
+      "qty": 3,
+      "avg": 467.9667
     },
     {
       "symbol": "AMZN",
@@ -51,24 +55,33 @@
       "avg": 77.49
     }
   ],
-  "pnl": 31.66,
+  "pnl": 48.58,
+  "updated_at": "2026-11-02T22:28:23+00:00",
   "realized_pnl": 0.36,
-  "unrealized_pnl": 31.3,
+  "unrealized_pnl": 48.22,
   "last_signal": {
-    "id": "54d814d0",
-    "symbol": "QQQ",
+    "id": "94bed923",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 372.81,
+    "price": 127.38,
     "qty": 10,
-    "strength": 0.333,
+    "strength": 0.148,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:27:21+00:00",
-    "verdict": "pass (score 51.9)",
-    "score": 51.9,
+    "ts": "2026-11-02T22:28:04+00:00",
+    "verdict": "pass (score 38.3)",
+    "score": 38.3,
     "recommendation": "PASS"
   },
-  "cycle": 56,
+  "cycle": 59,
   "fills": [
+    {
+      "fill": 474.17,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-02T22:27:53+00:00"
+    },
     {
       "fill": 470.94,
       "qty": 1,
@@ -133,6 +146,5 @@
       "symbol": "QQQ",
       "at": "2026-11-02T21:54:15+00:00"
     }
-  ],
-  "updated_at": "2026-11-02T22:27:27+00:00"
+  ]
 }
