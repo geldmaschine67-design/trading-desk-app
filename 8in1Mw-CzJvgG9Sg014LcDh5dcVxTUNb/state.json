@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AMZN @ 380.5",
-      "at": "2026-11-02T23:54:15+00:00"
+      "note": "SELL 2 QQQ @ 376.77",
+      "at": "2026-11-02T23:55:11+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T23:54:18+00:00"
+      "at": "2026-11-02T23:55:13+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 53.9 PASS",
+      "at": "2026-11-02T23:55:15+00:00"
     },
     "risk": {
       "status": "idle"
@@ -49,21 +51,23 @@
       "avg": 59.88
     }
   ],
-  "pnl": 306.37,
+  "pnl": 352.4,
   "realized_pnl": -8.83,
-  "unrealized_pnl": 315.2,
+  "unrealized_pnl": 361.23,
   "last_signal": {
-    "id": "a828012a",
-    "symbol": "AMZN",
+    "id": "120871b7",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 380.5,
+    "price": 376.77,
     "qty": 2,
-    "strength": 0.226,
+    "strength": 0.735,
     "source": "paper-sim",
-    "ts": "2026-11-02T23:54:15+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-02T23:55:11+00:00",
+    "verdict": "pass (score 53.9)",
+    "score": 53.9,
+    "recommendation": "PASS"
   },
-  "cycle": 313,
+  "cycle": 316,
   "fills": [
     {
       "fill": 60.23,
@@ -226,5 +230,5 @@
       "at": "2026-11-02T23:11:23+00:00"
     }
   ],
-  "updated_at": "2026-11-02T23:54:18+00:00"
+  "updated_at": "2026-11-02T23:55:17+00:00"
 }
