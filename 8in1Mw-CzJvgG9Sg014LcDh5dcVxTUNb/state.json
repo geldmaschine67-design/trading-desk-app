@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 2 AMZN @ 199.97",
-      "at": "2026-11-02T16:38:07+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-02T16:39:46+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T16:38:09+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +47,23 @@
       "avg": 234.7527
     }
   ],
-  "pnl": -94.99,
+  "pnl": -119.12,
   "realized_pnl": -92.61,
-  "unrealized_pnl": -2.38,
+  "unrealized_pnl": -26.51,
   "last_signal": {
-    "id": "242ddc05",
-    "symbol": "AMZN",
+    "id": "950b00f9",
+    "symbol": "TSLA",
     "side": "SELL",
-    "price": 199.97,
+    "price": 544.52,
     "qty": 2,
-    "strength": 0.689,
+    "strength": 0.174,
     "source": "paper-sim",
-    "ts": "2026-11-02T16:38:07+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-02T16:38:47+00:00",
+    "verdict": "pass (score 36.6)",
+    "score": 36.6,
+    "recommendation": "PASS"
   },
-  "cycle": 109,
+  "cycle": 112,
   "fills": [
     {
       "fill": 234.68,
@@ -226,5 +226,5 @@
       "at": "2026-11-02T14:12:03+00:00"
     }
   ],
-  "updated_at": "2026-11-02T16:38:09+00:00"
+  "updated_at": "2026-11-02T16:39:46+00:00"
 }
