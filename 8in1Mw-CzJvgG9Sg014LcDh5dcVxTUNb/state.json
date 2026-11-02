@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 10 QQQ @ 377.02",
-      "at": "2026-11-02T23:23:35+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-02T23:24:39+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T23:23:38+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -30,8 +28,8 @@
     },
     {
       "symbol": "MSFT",
-      "qty": 2,
-      "avg": 97.5667
+      "qty": 3,
+      "avg": 97.8345
     },
     {
       "symbol": "NVDA",
@@ -49,22 +47,32 @@
       "avg": 59.17
     }
   ],
-  "pnl": -37.92,
+  "pnl": -34.57,
   "realized_pnl": -14.15,
-  "unrealized_pnl": -23.77,
+  "unrealized_pnl": -20.42,
   "last_signal": {
-    "id": "8bf24363",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 377.02,
-    "qty": 10,
-    "strength": 0.55,
+    "id": "6d9f18fd",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 98.38,
+    "qty": 1,
+    "strength": 0.969,
     "source": "paper-sim",
-    "ts": "2026-11-02T23:23:35+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-02T23:24:15+00:00",
+    "verdict": "PAPER filled 1 @ 98.37",
+    "score": 96.5,
+    "recommendation": "TAKE"
   },
-  "cycle": 218,
+  "cycle": 221,
   "fills": [
+    {
+      "fill": 98.37,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "MSFT",
+      "at": "2026-11-02T23:24:25+00:00"
+    },
     {
       "fill": 378.48,
       "qty": -5,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-02T22:29:05+00:00"
-    },
-    {
-      "fill": 474.17,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-02T22:27:53+00:00"
     }
   ],
-  "updated_at": "2026-11-02T23:23:38+00:00"
+  "updated_at": "2026-11-02T23:24:39+00:00"
 }
