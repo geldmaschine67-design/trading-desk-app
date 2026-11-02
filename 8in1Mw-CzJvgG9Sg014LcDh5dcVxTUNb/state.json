@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 BTC-USD @ 85.69",
-      "at": "2026-11-02T14:31:43+00:00"
+      "note": "SELL 10 BTC-USD @ 85.58",
+      "at": "2026-11-02T14:32:42+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T14:31:45+00:00"
+      "at": "2026-11-02T14:32:45+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 32.4 PASS",
-      "at": "2026-11-02T14:31:47+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 61.8 TAKE",
+      "at": "2026-11-02T14:32:47+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -10 BTC-USD @ 85.55",
+      "at": "2026-11-02T14:32:52+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T14:32:50+00:00"
     }
   },
   "positions": [
@@ -42,8 +46,8 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": 8,
-      "avg": 85.7677
+      "qty": -2,
+      "avg": 85.55
     },
     {
       "symbol": "SPY",
@@ -51,24 +55,33 @@
       "avg": 132.41
     }
   ],
-  "pnl": -18.27,
-  "realized_pnl": -15.59,
-  "unrealized_pnl": -2.68,
+  "pnl": 32.01,
+  "updated_at": "2026-11-02T14:32:54+00:00",
+  "realized_pnl": -17.33,
+  "unrealized_pnl": 49.34,
   "last_signal": {
-    "id": "ccfcaac6",
+    "id": "52a3ee48",
     "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 85.69,
-    "qty": 5,
-    "strength": 0.389,
+    "price": 85.58,
+    "qty": 10,
+    "strength": 0.582,
     "source": "paper-sim",
-    "ts": "2026-11-02T14:31:43+00:00",
-    "verdict": "pass (score 32.4)",
-    "score": 32.4,
-    "recommendation": "PASS"
+    "ts": "2026-11-02T14:32:42+00:00",
+    "verdict": "PAPER filled -10 @ 85.55",
+    "score": 61.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 82,
+  "cycle": 85,
   "fills": [
+    {
+      "fill": 85.55,
+      "qty": -10,
+      "realized": -1.74,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-02T14:32:52+00:00"
+    },
     {
       "fill": 85.71,
       "qty": 1,
@@ -213,6 +226,5 @@
       "symbol": "NVDA",
       "at": "2026-11-02T14:05:40+00:00"
     }
-  ],
-  "updated_at": "2026-11-02T14:31:49+00:00"
+  ]
 }
