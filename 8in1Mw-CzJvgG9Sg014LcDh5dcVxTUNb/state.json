@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 SPY @ 57.99",
-      "at": "2026-11-02T21:54:25+00:00"
+      "note": "SELL 5 SPY @ 57.68",
+      "at": "2026-11-02T22:14:06+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-02T21:54:27+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T22:14:08+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-02T22:14:10+00:00"
     },
     "risk": {
       "status": "idle"
@@ -27,24 +29,37 @@
       "symbol": "QQQ",
       "qty": 5,
       "avg": 369.79
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 2,
+      "avg": 97.48
     }
   ],
-  "pnl": 9.87,
+  "pnl": 9.31,
   "realized_pnl": 0.0,
-  "unrealized_pnl": 9.87,
+  "unrealized_pnl": 9.31,
   "last_signal": {
-    "id": "95077290",
+    "id": "a7f191d2",
     "symbol": "SPY",
     "side": "SELL",
-    "price": 57.99,
+    "price": 57.68,
     "qty": 5,
-    "strength": 0.207,
+    "strength": 0.162,
     "source": "paper-sim",
-    "ts": "2026-11-02T21:54:25+00:00",
+    "ts": "2026-11-02T22:14:06+00:00",
     "verdict": "pending"
   },
-  "cycle": 11,
+  "cycle": 14,
   "fills": [
+    {
+      "fill": 97.48,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "MSFT",
+      "at": "2026-11-02T21:55:10+00:00"
+    },
     {
       "fill": 369.79,
       "qty": 5,
@@ -54,5 +69,5 @@
       "at": "2026-11-02T21:54:15+00:00"
     }
   ],
-  "updated_at": "2026-11-02T21:54:27+00:00"
+  "updated_at": "2026-11-02T22:14:10+00:00"
 }
