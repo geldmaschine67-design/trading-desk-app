@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 TSLA @ 415.88",
-      "at": "2026-11-02T22:30:28+00:00"
+      "note": "BUY 2 NVDA @ 481.22",
+      "at": "2026-11-02T22:31:23+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T22:30:30+00:00"
+      "at": "2026-11-02T22:31:26+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-02T22:30:31+00:00"
+      "status": "idle",
+      "note": "score 92.0 TAKE",
+      "at": "2026-11-02T22:31:28+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T22:31:31+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 2 NVDA @ 481.04",
+      "at": "2026-11-02T22:31:34+00:00"
     }
   },
   "positions": [
@@ -37,8 +41,8 @@
     },
     {
       "symbol": "NVDA",
-      "qty": 3,
-      "avg": 467.9667
+      "qty": 5,
+      "avg": 473.196
     },
     {
       "symbol": "AAPL",
@@ -46,22 +50,32 @@
       "avg": 77.49
     }
   ],
-  "pnl": 12.42,
+  "pnl": 17.24,
   "realized_pnl": -30.24,
-  "unrealized_pnl": 42.66,
+  "unrealized_pnl": 47.48,
   "last_signal": {
-    "id": "3418d4a9",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 415.88,
-    "qty": 5,
-    "strength": 0.521,
+    "id": "1987cb06",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 481.22,
+    "qty": 2,
+    "strength": 0.962,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:30:28+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-02T22:31:23+00:00",
+    "verdict": "PAPER filled 2 @ 481.04",
+    "score": 92.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 66,
+  "cycle": 69,
   "fills": [
+    {
+      "fill": 481.04,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-02T22:31:34+00:00"
+    },
     {
       "fill": 366.15,
       "qty": -10,
@@ -143,5 +157,5 @@
       "at": "2026-11-02T21:54:15+00:00"
     }
   ],
-  "updated_at": "2026-11-02T22:30:31+00:00"
+  "updated_at": "2026-11-02T22:31:34+00:00"
 }
