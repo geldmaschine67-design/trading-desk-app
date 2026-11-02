@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 BTC-USD @ 85.58",
-      "at": "2026-11-02T14:32:42+00:00"
+      "note": "SELL 10 AMZN @ 198.07",
+      "at": "2026-11-02T14:33:42+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T14:32:45+00:00"
+      "at": "2026-11-02T14:33:44+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 61.8 TAKE",
-      "at": "2026-11-02T14:32:47+00:00"
+      "note": "score 55.6 TAKE",
+      "at": "2026-11-02T14:33:47+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -10 BTC-USD @ 85.55",
-      "at": "2026-11-02T14:32:52+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-02T14:33:51+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T14:32:50+00:00"
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-02T14:33:49+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,24 @@
       "avg": 132.41
     }
   ],
-  "pnl": 32.01,
-  "updated_at": "2026-11-02T14:32:54+00:00",
+  "pnl": -13.96,
+  "updated_at": "2026-11-02T14:33:52+00:00",
   "realized_pnl": -17.33,
-  "unrealized_pnl": 49.34,
+  "unrealized_pnl": 3.37,
   "last_signal": {
-    "id": "52a3ee48",
-    "symbol": "BTC-USD",
+    "id": "cd8fa16d",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 85.58,
+    "price": 198.07,
     "qty": 10,
-    "strength": 0.582,
+    "strength": 0.709,
     "source": "paper-sim",
-    "ts": "2026-11-02T14:32:42+00:00",
-    "verdict": "PAPER filled -10 @ 85.55",
-    "score": 61.8,
+    "ts": "2026-11-02T14:33:42+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 55.6,
     "recommendation": "TAKE"
   },
-  "cycle": 85,
+  "cycle": 88,
   "fills": [
     {
       "fill": 85.55,
