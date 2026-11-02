@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 MSFT @ 97.52",
-      "at": "2026-11-02T22:20:08+00:00"
+      "note": "BUY 2 AAPL @ 77.32",
+      "at": "2026-11-02T22:21:03+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T22:20:10+00:00"
+      "at": "2026-11-02T22:21:05+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 55.0 PASS",
-      "at": "2026-11-02T22:20:12+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 AAPL @ 77.49",
-      "at": "2026-11-02T22:19:56+00:00"
+      "note": "score 76.7 TAKE",
+      "at": "2026-11-02T22:21:08+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T22:19:53+00:00"
+      "at": "2026-11-02T22:21:10+00:00"
+    },
+    "executor": {
+      "status": "idle",
+      "note": "PAPER fill 2 AAPL @ 77.31",
+      "at": "2026-11-02T22:21:13+00:00"
     }
   },
   "positions": [
@@ -51,29 +51,36 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -5,
+      "qty": -3,
       "avg": 77.49
     }
   ],
-  "pnl": 83.69,
-  "updated_at": "2026-11-02T22:20:14+00:00",
-  "realized_pnl": 0.0,
-  "unrealized_pnl": 83.69,
+  "pnl": 34.26,
+  "realized_pnl": 0.36,
+  "unrealized_pnl": 33.9,
   "last_signal": {
-    "id": "53851e88",
-    "symbol": "MSFT",
+    "id": "9e234c4b",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 97.52,
+    "price": 77.32,
     "qty": 2,
-    "strength": 0.391,
+    "strength": 0.841,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:20:08+00:00",
-    "verdict": "pass (score 55.0)",
-    "score": 55.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-02T22:21:03+00:00",
+    "verdict": "PAPER filled 2 @ 77.31",
+    "score": 76.7,
+    "recommendation": "TAKE"
   },
-  "cycle": 32,
+  "cycle": 35,
   "fills": [
+    {
+      "fill": 77.31,
+      "qty": 2,
+      "realized": 0.36,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-02T22:21:13+00:00"
+    },
     {
       "fill": 77.49,
       "qty": -5,
@@ -122,5 +129,6 @@
       "symbol": "QQQ",
       "at": "2026-11-02T21:54:15+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-02T22:21:14+00:00"
 }
