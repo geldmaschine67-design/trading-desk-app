@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 AMZN @ 200.1",
-      "at": "2026-11-02T14:28:31+00:00"
+      "note": "SELL 10 AAPL @ 232.25",
+      "at": "2026-11-02T14:29:37+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T14:28:34+00:00"
+      "at": "2026-11-02T14:29:39+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 59.9 TAKE",
-      "at": "2026-11-02T14:28:36+00:00"
+      "note": "score 55.1 TAKE",
+      "at": "2026-11-02T14:29:42+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-02T14:29:44+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-02T14:28:40+00:00"
-    },
-    "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-02T14:28:39+00:00"
+      "note": "PAPER fill -10 AAPL @ 232.35",
+      "at": "2026-11-02T14:29:47+00:00"
     }
   },
   "positions": [
@@ -41,8 +41,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": 6,
-      "avg": 232.31
+      "qty": -4,
+      "avg": 232.35
     },
     {
       "symbol": "BTC-USD",
@@ -55,25 +55,32 @@
       "avg": 132.41
     }
   ],
-  "pnl": 27.8,
-  "updated_at": "2026-11-02T14:28:42+00:00",
-  "realized_pnl": -15.83,
-  "unrealized_pnl": 43.63,
+  "pnl": -97.75,
+  "realized_pnl": -15.59,
+  "unrealized_pnl": -82.16,
   "last_signal": {
-    "id": "dcf9ff49",
-    "symbol": "AMZN",
-    "side": "BUY",
-    "price": 200.1,
-    "qty": 5,
-    "strength": 0.544,
+    "id": "31dc9ac0",
+    "symbol": "AAPL",
+    "side": "SELL",
+    "price": 232.25,
+    "qty": 10,
+    "strength": 0.536,
     "source": "paper-sim",
-    "ts": "2026-11-02T14:28:31+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 59.9,
+    "ts": "2026-11-02T14:29:37+00:00",
+    "verdict": "PAPER filled -10 @ 232.35",
+    "score": 55.1,
     "recommendation": "TAKE"
   },
-  "cycle": 72,
+  "cycle": 76,
   "fills": [
+    {
+      "fill": 232.35,
+      "qty": -10,
+      "realized": 0.24,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-02T14:29:47+00:00"
+    },
     {
       "fill": 85.16,
       "qty": 1,
@@ -202,5 +209,6 @@
       "symbol": "NVDA",
       "at": "2026-11-02T14:05:40+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-02T14:29:48+00:00"
 }
