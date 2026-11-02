@@ -4,35 +4,31 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 AMZN @ 359.97",
-      "at": "2026-11-02T22:47:45+00:00"
+      "note": "SELL 1 TSLA @ 416.28",
+      "at": "2026-11-02T22:48:53+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T22:47:48+00:00"
+      "at": "2026-11-02T22:48:56+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 21.1 PASS",
-      "at": "2026-11-02T22:47:50+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 5 SPY @ 59.5",
-      "at": "2026-11-02T22:42:18+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-02T22:48:57+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T22:42:16+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 4,
-      "avg": 369.79
+      "qty": 9,
+      "avg": 380.7844
     },
     {
       "symbol": "MSFT",
@@ -55,25 +51,30 @@
       "avg": 59.17
     }
   ],
-  "pnl": 61.06,
-  "updated_at": "2026-11-02T22:47:51+00:00",
+  "pnl": 103.39,
   "realized_pnl": -18.58,
-  "unrealized_pnl": 79.64,
+  "unrealized_pnl": 121.97,
   "last_signal": {
-    "id": "71cb4199",
-    "symbol": "AMZN",
+    "id": "fb95a578",
+    "symbol": "TSLA",
     "side": "SELL",
-    "price": 359.97,
-    "qty": 5,
-    "strength": 0.153,
+    "price": 416.28,
+    "qty": 1,
+    "strength": 0.989,
     "source": "paper-sim",
-    "ts": "2026-11-02T22:47:45+00:00",
-    "verdict": "pass (score 21.1)",
-    "score": 21.1,
-    "recommendation": "PASS"
+    "ts": "2026-11-02T22:48:53+00:00",
+    "verdict": "pending"
   },
-  "cycle": 120,
+  "cycle": 123,
   "fills": [
+    {
+      "fill": 389.58,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-02T22:48:16+00:00"
+    },
     {
       "fill": 59.5,
       "qty": 5,
@@ -210,5 +211,6 @@
       "symbol": "QQQ",
       "at": "2026-11-02T21:54:15+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-02T22:48:57+00:00"
 }
