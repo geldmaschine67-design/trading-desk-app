@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AAPL @ 86.86",
-      "at": "2026-11-03T17:40:49+00:00"
+      "note": "SELL 2 AMZN @ 361.82",
+      "at": "2026-11-03T17:41:46+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T17:40:52+00:00"
+      "at": "2026-11-03T17:41:49+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 78.7 TAKE",
-      "at": "2026-11-03T17:40:54+00:00"
+      "note": "score 91.5 TAKE",
+      "at": "2026-11-03T17:41:51+00:00"
     },
     "executor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T17:40:58+00:00"
+      "status": "idle",
+      "note": "PAPER fill -2 AMZN @ 361.66",
+      "at": "2026-11-03T17:41:56+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T17:40:57+00:00"
+      "at": "2026-11-03T17:41:54+00:00"
     }
   },
   "positions": [
@@ -36,8 +36,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -65,
-      "avg": 71.9933
+      "qty": -75,
+      "avg": 73.9742
     },
     {
       "symbol": "TSLA",
@@ -46,7 +46,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 7,
+      "qty": 5,
       "avg": 356.3083
     },
     {
@@ -55,25 +55,41 @@
       "avg": 673.4142
     }
   ],
-  "pnl": 5751.07,
-  "updated_at": "2026-11-03T17:40:58+00:00",
-  "realized_pnl": 6535.34,
-  "unrealized_pnl": -784.27,
+  "pnl": 5655.47,
+  "updated_at": "2026-11-03T17:41:58+00:00",
+  "realized_pnl": 6546.04,
+  "unrealized_pnl": -890.57,
   "last_signal": {
-    "id": "0612e65c",
-    "symbol": "AAPL",
+    "id": "182f9845",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 86.86,
-    "qty": 10,
-    "strength": 0.953,
+    "price": 361.82,
+    "qty": 2,
+    "strength": 0.925,
     "source": "paper-sim",
-    "ts": "2026-11-03T17:40:49+00:00",
-    "verdict": "pending",
-    "score": 78.7,
+    "ts": "2026-11-03T17:41:46+00:00",
+    "verdict": "PAPER filled -2 @ 361.66",
+    "score": 91.5,
     "recommendation": "TAKE"
   },
-  "cycle": 3446,
+  "cycle": 3449,
   "fills": [
+    {
+      "fill": 361.66,
+      "qty": -2,
+      "realized": 10.7,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T17:41:56+00:00"
+    },
+    {
+      "fill": 86.85,
+      "qty": -10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T17:40:59+00:00"
+    },
     {
       "fill": 651.7,
       "qty": -1,
@@ -217,22 +233,6 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-03T16:38:57+00:00"
-    },
-    {
-      "fill": 356.92,
-      "qty": -5,
-      "realized": -260.34,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T16:37:18+00:00"
-    },
-    {
-      "fill": 481.33,
-      "qty": -1,
-      "realized": -6.43,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T16:32:21+00:00"
     }
   ]
 }
