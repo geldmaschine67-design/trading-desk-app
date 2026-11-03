@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T14:19:14+00:00"
+      "status": "idle",
+      "note": "BUY 5 MSFT @ 114.48",
+      "at": "2026-11-03T14:20:14+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7798.55,
+  "pnl": 7640.56,
   "realized_pnl": 7742.12,
-  "unrealized_pnl": 56.43,
+  "unrealized_pnl": -101.56,
   "last_signal": {
-    "id": "f163b722",
-    "symbol": "NVDA",
+    "id": "fce52173",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 648.01,
-    "qty": 2,
-    "strength": 0.708,
+    "price": 114.48,
+    "qty": 5,
+    "strength": 0.487,
     "source": "paper-sim",
-    "ts": "2026-11-03T14:17:00+00:00",
-    "verdict": "PAPER filled 2 @ 647.83",
-    "score": 71.2,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T14:20:14+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2881,
+  "cycle": 2884,
   "fills": [
     {
       "fill": 647.83,
@@ -226,5 +224,5 @@
       "at": "2026-11-03T13:19:37+00:00"
     }
   ],
-  "updated_at": "2026-11-03T14:19:14+00:00"
+  "updated_at": "2026-11-03T14:20:14+00:00"
 }
