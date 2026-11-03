@@ -17,13 +17,15 @@
       "note": "score 72.4 TAKE",
       "at": "2026-11-03T18:48:06+00:00"
     },
+    "executor": {
+      "status": "idle",
+      "note": "PAPER fill -10 AMZN @ 349.21",
+      "at": "2026-11-03T18:51:51+00:00"
+    },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T18:48:24+00:00"
-    },
-    "executor": {
-      "status": "idle"
+      "at": "2026-11-03T18:51:49+00:00"
     }
   },
   "positions": [
@@ -44,8 +46,8 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 3,
-      "avg": 353.7109
+      "qty": -7,
+      "avg": 349.21
     },
     {
       "symbol": "NVDA",
@@ -53,9 +55,10 @@
       "avg": 671.3982
     }
   ],
-  "pnl": 5124.53,
-  "realized_pnl": 5942.8,
-  "unrealized_pnl": -818.27,
+  "pnl": 5134.78,
+  "updated_at": "2026-11-03T18:51:53+00:00",
+  "realized_pnl": 5929.3,
+  "unrealized_pnl": -794.52,
   "last_signal": {
     "id": "6be4ce98",
     "symbol": "AMZN",
@@ -65,12 +68,20 @@
     "strength": 0.618,
     "source": "paper-sim",
     "ts": "2026-11-03T18:48:01+00:00",
-    "verdict": "pending",
+    "verdict": "PAPER filled -10 @ 349.21",
     "score": 72.4,
     "recommendation": "TAKE"
   },
   "cycle": 3618,
   "fills": [
+    {
+      "fill": 349.21,
+      "qty": -10,
+      "realized": -13.5,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T18:51:51+00:00"
+    },
     {
       "fill": 346.1,
       "qty": -5,
@@ -222,15 +233,6 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T17:51:35+00:00"
-    },
-    {
-      "fill": 361.66,
-      "qty": -2,
-      "realized": 10.7,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-03T17:41:56+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T18:48:24+00:00"
+  ]
 }
