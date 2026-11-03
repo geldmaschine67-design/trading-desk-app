@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 SPY @ 46.74",
-      "at": "2026-11-03T21:05:41+00:00"
+      "note": "BUY 10 NVDA @ 588.87",
+      "at": "2026-11-03T21:06:42+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T21:05:43+00:00"
+      "at": "2026-11-03T21:06:45+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 52.4 PASS",
-      "at": "2026-11-03T21:05:45+00:00"
+      "note": "score 47.7 PASS",
+      "at": "2026-11-03T21:06:47+00:00"
     },
     "risk": {
       "status": "idle"
@@ -42,8 +42,8 @@
     },
     {
       "symbol": "NVDA",
-      "qty": -4,
-      "avg": 639.5434
+      "qty": -6,
+      "avg": 622.8623
     },
     {
       "symbol": "TSLA",
@@ -51,24 +51,32 @@
       "avg": 338.84
     }
   ],
-  "pnl": 5670.83,
+  "pnl": 5726.12,
   "realized_pnl": 6474.01,
-  "unrealized_pnl": -803.18,
+  "unrealized_pnl": -747.89,
   "last_signal": {
-    "id": "7604722e",
-    "symbol": "SPY",
+    "id": "584a1ac4",
+    "symbol": "NVDA",
     "side": "BUY",
-    "price": 46.74,
-    "qty": 5,
-    "strength": 0.562,
+    "price": 588.87,
+    "qty": 10,
+    "strength": 0.48,
     "source": "paper-sim",
-    "ts": "2026-11-03T21:05:41+00:00",
-    "verdict": "pass (score 52.4)",
-    "score": 52.4,
+    "ts": "2026-11-03T21:06:42+00:00",
+    "verdict": "pass (score 47.7)",
+    "score": 47.7,
     "recommendation": "PASS"
   },
-  "cycle": 3982,
+  "cycle": 3985,
   "fills": [
+    {
+      "fill": 589.5,
+      "qty": -2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-03T21:06:09+00:00"
+    },
     {
       "fill": 516.11,
       "qty": -2,
@@ -220,15 +228,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T20:07:04+00:00"
-    },
-    {
-      "fill": 337.67,
-      "qty": 5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T20:04:11+00:00"
     }
   ],
-  "updated_at": "2026-11-03T21:05:47+00:00"
+  "updated_at": "2026-11-03T21:06:48+00:00"
 }
