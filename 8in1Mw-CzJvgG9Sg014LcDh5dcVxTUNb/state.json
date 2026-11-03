@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 10 TSLA @ 358.59",
-      "at": "2026-11-03T04:03:11+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T04:04:16+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T04:03:14+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +47,23 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 1563.62,
+  "pnl": 1625.45,
   "realized_pnl": 392.11,
-  "unrealized_pnl": 1171.51,
+  "unrealized_pnl": 1233.34,
   "last_signal": {
-    "id": "6fc57c6c",
+    "id": "e716dd6f",
     "symbol": "TSLA",
-    "side": "SELL",
-    "price": 358.59,
-    "qty": 10,
-    "strength": 0.785,
+    "side": "BUY",
+    "price": 359.73,
+    "qty": 1,
+    "strength": 0.23,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:03:11+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T04:04:00+00:00",
+    "verdict": "pass (score 41.7)",
+    "score": 41.7,
+    "recommendation": "PASS"
   },
-  "cycle": 1049,
+  "cycle": 1053,
   "fills": [
     {
       "fill": 82.5,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T02:58:07+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:03:14+00:00"
+  "updated_at": "2026-11-03T04:04:16+00:00"
 }
