@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 5 BTC-USD @ 154.31",
-      "at": "2026-11-03T12:28:08+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T12:29:51+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T12:28:10+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T12:28:11+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +47,23 @@
       "avg": 335.8409
     }
   ],
-  "pnl": 8172.82,
+  "pnl": 8280.25,
   "realized_pnl": 5820.85,
-  "unrealized_pnl": 2351.97,
+  "unrealized_pnl": 2459.4,
   "last_signal": {
-    "id": "5563b0cb",
-    "symbol": "BTC-USD",
+    "id": "03d4af55",
+    "symbol": "TSLA",
     "side": "BUY",
-    "price": 154.31,
+    "price": 411.51,
     "qty": 5,
-    "strength": 0.448,
+    "strength": 0.049,
     "source": "paper-sim",
-    "ts": "2026-11-03T12:28:08+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T12:28:45+00:00",
+    "verdict": "pass (score 5.2)",
+    "score": 5.2,
+    "recommendation": "PASS"
   },
-  "cycle": 2555,
+  "cycle": 2558,
   "fills": [
     {
       "fill": 402.99,
@@ -228,5 +226,5 @@
       "at": "2026-11-03T11:25:50+00:00"
     }
   ],
-  "updated_at": "2026-11-03T12:28:11+00:00"
+  "updated_at": "2026-11-03T12:29:51+00:00"
 }
