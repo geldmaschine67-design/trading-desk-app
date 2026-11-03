@@ -5,7 +5,7 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-03T11:51:09+00:00"
+      "at": "2026-11-03T11:52:05+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 335.8409
     }
   ],
-  "pnl": 7603.33,
+  "pnl": 7561.58,
   "realized_pnl": 4763.2,
-  "unrealized_pnl": 2840.13,
+  "unrealized_pnl": 2798.38,
   "last_signal": {
-    "id": "cef89c08",
-    "symbol": "BTC-USD",
+    "id": "7d67ea49",
+    "symbol": "AAPL",
     "side": "SELL",
-    "price": 155.49,
-    "qty": 10,
-    "strength": 0.508,
+    "price": 69.24,
+    "qty": 1,
+    "strength": 0.591,
     "source": "paper-sim",
-    "ts": "2026-11-03T11:50:48+00:00",
-    "verdict": "pass (score 62.5)",
-    "score": 62.5,
+    "ts": "2026-11-03T11:51:46+00:00",
+    "verdict": "pass (score 60.8)",
+    "score": 60.8,
     "recommendation": "PASS"
   },
-  "cycle": 2444,
+  "cycle": 2447,
   "fills": [
     {
       "fill": 481.2,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T10:58:04+00:00"
     }
   ],
-  "updated_at": "2026-11-03T11:51:11+00:00"
+  "updated_at": "2026-11-03T11:52:06+00:00"
 }
