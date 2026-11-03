@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T02:08:14+00:00"
+      "status": "idle",
+      "note": "BUY 1 MSFT @ 94.03",
+      "at": "2026-11-03T02:09:14+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T02:09:15+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 364.16
     }
   ],
-  "pnl": 346.01,
+  "pnl": 423.45,
   "realized_pnl": 142.7,
-  "unrealized_pnl": 203.31,
+  "unrealized_pnl": 280.75,
   "last_signal": {
-    "id": "3c0593be",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 352.64,
-    "qty": 2,
-    "strength": 0.122,
+    "id": "d5c20129",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 94.03,
+    "qty": 1,
+    "strength": 0.409,
     "source": "paper-sim",
-    "ts": "2026-11-03T02:07:54+00:00",
-    "verdict": "pass (score 17.8)",
-    "score": 17.8,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T02:09:14+00:00",
+    "verdict": "pending"
   },
-  "cycle": 704,
+  "cycle": 707,
   "fills": [
     {
       "fill": 350.82,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T01:35:27+00:00"
     }
   ],
-  "updated_at": "2026-11-03T02:08:14+00:00"
+  "updated_at": "2026-11-03T02:09:15+00:00"
 }
