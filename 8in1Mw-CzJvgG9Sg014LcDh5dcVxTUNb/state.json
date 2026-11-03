@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 QQQ @ 487.48",
-      "at": "2026-11-03T11:49:02+00:00"
+      "note": "SELL 5 QQQ @ 481.2",
+      "at": "2026-11-03T11:50:04+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T11:49:04+00:00"
+      "at": "2026-11-03T11:50:07+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 50.3 PASS",
-      "at": "2026-11-03T11:49:06+00:00"
+      "note": "score 72.8 TAKE",
+      "at": "2026-11-03T11:50:09+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +47,36 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 11,
-      "avg": 332.4047
+      "qty": 13,
+      "avg": 335.8409
     }
   ],
-  "pnl": 7559.04,
+  "pnl": 7611.24,
   "realized_pnl": 4448.17,
-  "unrealized_pnl": 3110.87,
+  "unrealized_pnl": 3163.07,
   "last_signal": {
-    "id": "9ec4a648",
+    "id": "9002aadf",
     "symbol": "QQQ",
-    "side": "BUY",
-    "price": 487.48,
-    "qty": 2,
-    "strength": 0.554,
+    "side": "SELL",
+    "price": 481.2,
+    "qty": 5,
+    "strength": 0.789,
     "source": "paper-sim",
-    "ts": "2026-11-03T11:49:02+00:00",
-    "verdict": "pass (score 50.3)",
-    "score": 50.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T11:50:04+00:00",
+    "verdict": "pending",
+    "score": 72.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 2438,
+  "cycle": 2441,
   "fills": [
+    {
+      "fill": 354.74,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T11:49:49+00:00"
+    },
     {
       "fill": 613.62,
       "qty": 1,
@@ -220,15 +228,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T10:56:29+00:00"
-    },
-    {
-      "fill": 440.66,
-      "qty": -2,
-      "realized": 57.15,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T10:54:21+00:00"
     }
   ],
-  "updated_at": "2026-11-03T11:49:08+00:00"
+  "updated_at": "2026-11-03T11:50:09+00:00"
 }
