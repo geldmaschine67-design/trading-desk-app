@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 SPY @ 64.63",
-      "at": "2026-11-03T05:52:32+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T05:53:33+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -38,8 +38,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": 10,
-      "avg": 65.0262
+      "qty": 15,
+      "avg": 64.8941
     },
     {
       "symbol": "TSLA",
@@ -47,22 +47,32 @@
       "avg": 368.404
     }
   ],
-  "pnl": 3784.84,
+  "pnl": 3981.71,
   "realized_pnl": 1288.65,
-  "unrealized_pnl": 2496.19,
+  "unrealized_pnl": 2693.06,
   "last_signal": {
-    "id": "b3584f97",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 64.63,
-    "qty": 5,
-    "strength": 0.952,
+    "id": "f8984dde",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 324.21,
+    "qty": 10,
+    "strength": 0.19,
     "source": "paper-sim",
-    "ts": "2026-11-03T05:52:32+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T05:53:12+00:00",
+    "verdict": "pass (score 17.3)",
+    "score": 17.3,
+    "recommendation": "PASS"
   },
-  "cycle": 1391,
+  "cycle": 1394,
   "fills": [
+    {
+      "fill": 64.63,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-03T05:52:42+00:00"
+    },
     {
       "fill": 374.44,
       "qty": 1,
@@ -214,15 +224,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T05:08:25+00:00"
-    },
-    {
-      "fill": 66.25,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-03T05:06:52+00:00"
     }
   ],
-  "updated_at": "2026-11-03T05:52:32+00:00"
+  "updated_at": "2026-11-03T05:53:33+00:00"
 }
