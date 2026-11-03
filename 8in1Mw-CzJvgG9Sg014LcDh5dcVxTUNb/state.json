@@ -4,26 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 SPY @ 45.48",
-      "at": "2026-11-03T17:35:44+00:00"
+      "note": "SELL 2 BTC-USD @ 153.87",
+      "at": "2026-11-03T17:36:40+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T17:35:46+00:00"
+      "at": "2026-11-03T17:36:42+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 84.3 TAKE",
-      "at": "2026-11-03T17:35:48+00:00"
-    },
-    "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-03T17:35:51+00:00"
+      "note": "score 65.9 PASS",
+      "at": "2026-11-03T17:36:45+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T17:35:53+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T17:35:51+00:00"
     }
   },
   "positions": [
@@ -53,23 +55,24 @@
       "avg": 675.3882
     }
   ],
-  "pnl": 5384.69,
+  "pnl": 5324.49,
+  "updated_at": "2026-11-03T17:36:46+00:00",
   "realized_pnl": 6528.66,
-  "unrealized_pnl": -1143.97,
+  "unrealized_pnl": -1204.17,
   "last_signal": {
-    "id": "35cf891f",
-    "symbol": "SPY",
+    "id": "c6f8524c",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 45.48,
-    "qty": 5,
-    "strength": 0.975,
+    "price": 153.87,
+    "qty": 2,
+    "strength": 0.668,
     "source": "paper-sim",
-    "ts": "2026-11-03T17:35:44+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 84.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T17:36:40+00:00",
+    "verdict": "pass (score 65.9)",
+    "score": 65.9,
+    "recommendation": "PASS"
   },
-  "cycle": 3431,
+  "cycle": 3434,
   "fills": [
     {
       "fill": 660.53,
@@ -231,6 +234,5 @@
       "symbol": "QQQ",
       "at": "2026-11-03T16:28:14+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T17:35:51+00:00"
+  ]
 }
