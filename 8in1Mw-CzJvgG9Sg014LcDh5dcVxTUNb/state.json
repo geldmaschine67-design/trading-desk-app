@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 QQQ @ 419.92",
-      "at": "2026-11-03T14:32:38+00:00"
+      "note": "BUY 2 BTC-USD @ 154.16",
+      "at": "2026-11-03T14:33:41+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T14:32:40+00:00"
+      "at": "2026-11-03T14:33:43+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 72.8 TAKE",
-      "at": "2026-11-03T14:32:43+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T14:36:17+00:00"
     },
     "risk": {
       "status": "idle"
@@ -27,7 +27,7 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 7,
+      "qty": 5,
       "avg": 451.3006
     },
     {
@@ -51,24 +51,30 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7559.34,
-  "realized_pnl": 7734.1,
-  "unrealized_pnl": -174.76,
+  "pnl": 7647.23,
+  "realized_pnl": 7671.18,
+  "unrealized_pnl": -23.95,
   "last_signal": {
-    "id": "c945b50c",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 419.92,
+    "id": "eac659d1",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 154.16,
     "qty": 2,
-    "strength": 0.702,
+    "strength": 0.312,
     "source": "paper-sim",
-    "ts": "2026-11-03T14:32:38+00:00",
-    "verdict": "pending",
-    "score": 72.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T14:33:41+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2917,
+  "cycle": 2920,
   "fills": [
+    {
+      "fill": 419.84,
+      "qty": -2,
+      "realized": -62.92,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T14:32:48+00:00"
+    },
     {
       "fill": 340.75,
       "qty": -1,
@@ -220,15 +226,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T13:41:21+00:00"
-    },
-    {
-      "fill": 625.04,
-      "qty": -1,
-      "realized": 67.49,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T13:33:27+00:00"
     }
   ],
-  "updated_at": "2026-11-03T14:32:43+00:00"
+  "updated_at": "2026-11-03T14:36:17+00:00"
 }
