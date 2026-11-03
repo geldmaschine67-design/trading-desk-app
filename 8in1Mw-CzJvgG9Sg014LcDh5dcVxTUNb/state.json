@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 SPY @ 49.8",
-      "at": "2026-11-03T18:06:15+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T18:07:16+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,23 @@
       "avg": 670.7347
     }
   ],
-  "pnl": 5427.31,
+  "pnl": 5336.33,
   "realized_pnl": 6611.61,
-  "unrealized_pnl": -1184.3,
+  "unrealized_pnl": -1275.28,
   "last_signal": {
-    "id": "490fe622",
-    "symbol": "SPY",
-    "side": "SELL",
-    "price": 49.8,
-    "qty": 10,
-    "strength": 0.635,
+    "id": "d834f893",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 537.15,
+    "qty": 1,
+    "strength": 0.798,
     "source": "paper-sim",
-    "ts": "2026-11-03T18:06:15+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T18:06:54+00:00",
+    "verdict": "pass (score 66.2)",
+    "score": 66.2,
+    "recommendation": "PASS"
   },
-  "cycle": 3498,
+  "cycle": 3502,
   "fills": [
     {
       "fill": 664.45,
@@ -224,5 +226,5 @@
       "at": "2026-11-03T16:54:15+00:00"
     }
   ],
-  "updated_at": "2026-11-03T18:06:15+00:00"
+  "updated_at": "2026-11-03T18:07:16+00:00"
 }
