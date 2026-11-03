@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 TSLA @ 363.02",
-      "at": "2026-11-03T08:19:49+00:00"
+      "note": "SELL 2 SPY @ 61.88",
+      "at": "2026-11-03T08:21:03+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T08:19:52+00:00"
+      "at": "2026-11-03T08:21:06+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 55.6 PASS",
-      "at": "2026-11-03T08:19:54+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 10 BTC-USD @ 149.04",
-      "at": "2026-11-03T08:18:07+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T08:21:07+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T08:18:04+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,21 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 4030.9,
-  "updated_at": "2026-11-03T08:19:55+00:00",
+  "pnl": 3821.22,
   "realized_pnl": 2366.54,
-  "unrealized_pnl": 1664.36,
+  "unrealized_pnl": 1454.68,
   "last_signal": {
-    "id": "f2ca7f9e",
-    "symbol": "TSLA",
-    "side": "BUY",
-    "price": 363.02,
-    "qty": 5,
-    "strength": 0.772,
+    "id": "0b650a07",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 61.88,
+    "qty": 2,
+    "strength": 0.159,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:19:49+00:00",
-    "verdict": "pass (score 55.6)",
-    "score": 55.6,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T08:21:03+00:00",
+    "verdict": "pending"
   },
-  "cycle": 1832,
+  "cycle": 1836,
   "fills": [
     {
       "fill": 149.04,
@@ -234,5 +227,6 @@
       "symbol": "QQQ",
       "at": "2026-11-03T07:25:27+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T08:21:07+00:00"
 }
