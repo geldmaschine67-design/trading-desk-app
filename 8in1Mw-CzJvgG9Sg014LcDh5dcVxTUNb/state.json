@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 MSFT @ 101.81",
-      "at": "2026-11-03T11:19:00+00:00"
+      "note": "BUY 10 MSFT @ 102.08",
+      "at": "2026-11-03T11:20:13+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T11:19:03+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T11:20:14+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 88.9 TAKE",
-      "at": "2026-11-03T11:19:05+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-03T11:19:08+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T11:19:09+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -51,28 +45,34 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 10,
-      "avg": 331.7562
+      "qty": 11,
+      "avg": 332.4047
     }
   ],
-  "pnl": 6974.46,
+  "pnl": 6890.86,
   "realized_pnl": 3879.46,
-  "unrealized_pnl": 3095.0,
+  "unrealized_pnl": 3011.4,
   "last_signal": {
-    "id": "e34c186d",
+    "id": "ce719122",
     "symbol": "MSFT",
     "side": "BUY",
-    "price": 101.81,
-    "qty": 5,
-    "strength": 0.851,
+    "price": 102.08,
+    "qty": 10,
+    "strength": 0.128,
     "source": "paper-sim",
-    "ts": "2026-11-03T11:19:00+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 88.9,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T11:20:13+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2354,
+  "cycle": 2357,
   "fills": [
+    {
+      "fill": 338.89,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T11:19:56+00:00"
+    },
     {
       "fill": 334.64,
       "qty": -2,
@@ -224,15 +224,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T10:47:34+00:00"
-    },
-    {
-      "fill": 371.64,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T10:45:05+00:00"
     }
   ],
-  "updated_at": "2026-11-03T11:19:11+00:00"
+  "updated_at": "2026-11-03T11:20:14+00:00"
 }
