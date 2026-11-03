@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 TSLA @ 392.56",
-      "at": "2026-11-03T09:20:48+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T09:21:48+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T09:20:51+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 41.2 PASS",
-      "at": "2026-11-03T09:20:53+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -42,8 +38,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 30,
-      "avg": 379.6735
+      "qty": 35,
+      "avg": 381.2801
     },
     {
       "symbol": "BTC-USD",
@@ -51,24 +47,32 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 4644.16,
+  "pnl": 4817.07,
   "realized_pnl": 2492.87,
-  "unrealized_pnl": 2151.29,
+  "unrealized_pnl": 2324.2,
   "last_signal": {
-    "id": "7b591006",
+    "id": "45a8b34c",
     "symbol": "TSLA",
-    "side": "SELL",
-    "price": 392.56,
-    "qty": 2,
-    "strength": 0.375,
+    "side": "BUY",
+    "price": 390.98,
+    "qty": 5,
+    "strength": 0.695,
     "source": "paper-sim",
-    "ts": "2026-11-03T09:20:48+00:00",
-    "verdict": "pass (score 41.2)",
-    "score": 41.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T09:21:25+00:00",
+    "verdict": "PAPER filled 5 @ 390.92",
+    "score": 75.7,
+    "recommendation": "TAKE"
   },
-  "cycle": 1996,
+  "cycle": 1999,
   "fills": [
+    {
+      "fill": 390.92,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T09:21:35+00:00"
+    },
     {
       "fill": 597.92,
       "qty": -1,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-03T08:01:42+00:00"
-    },
-    {
-      "fill": 433.82,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T08:01:21+00:00"
     }
   ],
-  "updated_at": "2026-11-03T09:20:54+00:00"
+  "updated_at": "2026-11-03T09:21:49+00:00"
 }
