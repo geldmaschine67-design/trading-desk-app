@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 TSLA @ 339.63",
-      "at": "2026-11-03T20:22:18+00:00"
+      "note": "BUY 2 AMZN @ 331.08",
+      "at": "2026-11-03T20:23:10+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T20:23:12+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 42.1 PASS",
+      "at": "2026-11-03T20:23:15+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,21 +51,23 @@
       "avg": 338.3917
     }
   ],
-  "pnl": 6195.55,
+  "pnl": 6258.31,
   "realized_pnl": 6274.09,
-  "unrealized_pnl": -78.54,
+  "unrealized_pnl": -15.78,
   "last_signal": {
-    "id": "4bc047a1",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 339.63,
-    "qty": 10,
-    "strength": 0.541,
+    "id": "9d07665b",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 331.08,
+    "qty": 2,
+    "strength": 0.584,
     "source": "paper-sim",
-    "ts": "2026-11-03T20:22:18+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T20:23:10+00:00",
+    "verdict": "pass (score 42.1)",
+    "score": 42.1,
+    "recommendation": "PASS"
   },
-  "cycle": 3869,
+  "cycle": 3872,
   "fills": [
     {
       "fill": 529.11,
@@ -224,5 +230,5 @@
       "at": "2026-11-03T19:40:10+00:00"
     }
   ],
-  "updated_at": "2026-11-03T20:22:18+00:00"
+  "updated_at": "2026-11-03T20:23:16+00:00"
 }
