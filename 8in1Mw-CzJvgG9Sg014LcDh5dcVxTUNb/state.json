@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 1 MSFT @ 104.21",
-      "at": "2026-11-03T08:36:28+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T08:37:33+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T08:36:29+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +47,23 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 3792.39,
+  "pnl": 3890.91,
   "realized_pnl": 2368.84,
-  "unrealized_pnl": 1423.55,
+  "unrealized_pnl": 1522.07,
   "last_signal": {
-    "id": "144067a3",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 104.21,
-    "qty": 1,
-    "strength": 0.67,
+    "id": "7a338ce4",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 574.29,
+    "qty": 10,
+    "strength": 0.045,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:36:28+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T08:37:07+00:00",
+    "verdict": "pass (score 19.8)",
+    "score": 19.8,
+    "recommendation": "PASS"
   },
-  "cycle": 1885,
+  "cycle": 1888,
   "fills": [
     {
       "fill": 407.52,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T07:28:43+00:00"
     }
   ],
-  "updated_at": "2026-11-03T08:36:29+00:00"
+  "updated_at": "2026-11-03T08:37:33+00:00"
 }
