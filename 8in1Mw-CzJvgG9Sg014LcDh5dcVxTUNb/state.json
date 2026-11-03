@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 5 QQQ @ 387.27",
-      "at": "2026-11-03T01:34:57+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T01:36:02+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T01:34:59+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T01:35:01+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -37,8 +33,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": 7,
-      "avg": 79.9958
+      "qty": 9,
+      "avg": 79.019
     },
     {
       "symbol": "SPY",
@@ -51,22 +47,32 @@
       "avg": 382.81
     }
   ],
-  "pnl": 181.56,
+  "pnl": 235.34,
   "realized_pnl": -73.37,
-  "unrealized_pnl": 254.93,
+  "unrealized_pnl": 308.71,
   "last_signal": {
-    "id": "e8334ba0",
-    "symbol": "QQQ",
-    "side": "BUY",
-    "price": 387.27,
-    "qty": 5,
-    "strength": 0.535,
+    "id": "8f6a7c8f",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 139.91,
+    "qty": 10,
+    "strength": 0.843,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:34:57+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T01:35:42+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 88.4,
+    "recommendation": "TAKE"
   },
-  "cycle": 604,
+  "cycle": 607,
   "fills": [
+    {
+      "fill": 75.6,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T01:35:27+00:00"
+    },
     {
       "fill": 64.33,
       "qty": 5,
@@ -218,15 +224,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-03T00:41:36+00:00"
-    },
-    {
-      "fill": 351.77,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T00:33:52+00:00"
     }
   ],
-  "updated_at": "2026-11-03T01:35:01+00:00"
+  "updated_at": "2026-11-03T01:36:02+00:00"
 }
