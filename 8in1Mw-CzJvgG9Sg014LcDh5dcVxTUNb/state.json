@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 1 MSFT @ 93.4",
-      "at": "2026-11-03T05:24:51+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T05:25:56+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T05:24:54+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T05:24:55+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -42,7 +38,7 @@
     },
     {
       "symbol": "SPY",
-      "qty": 22,
+      "qty": 20,
       "avg": 65.0262
     },
     {
@@ -51,22 +47,32 @@
       "avg": 366.397
     }
   ],
-  "pnl": 3707.32,
-  "realized_pnl": 828.42,
-  "unrealized_pnl": 2878.9,
+  "pnl": 3911.11,
+  "realized_pnl": 831.47,
+  "unrealized_pnl": 3079.64,
   "last_signal": {
-    "id": "b0d95b29",
-    "symbol": "MSFT",
+    "id": "239aed56",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 93.4,
-    "qty": 1,
-    "strength": 0.565,
+    "price": 66.54,
+    "qty": 2,
+    "strength": 0.973,
     "source": "paper-sim",
-    "ts": "2026-11-03T05:24:51+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T05:25:30+00:00",
+    "verdict": "PAPER filled -2 @ 66.55",
+    "score": 84.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 1304,
+  "cycle": 1307,
   "fills": [
+    {
+      "fill": 66.55,
+      "qty": -2,
+      "realized": 3.05,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-03T05:25:40+00:00"
+    },
     {
       "fill": 414.7,
       "qty": -5,
@@ -218,15 +224,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T04:34:20+00:00"
-    },
-    {
-      "fill": 383.94,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T04:33:05+00:00"
     }
   ],
-  "updated_at": "2026-11-03T05:24:55+00:00"
+  "updated_at": "2026-11-03T05:25:56+00:00"
 }
