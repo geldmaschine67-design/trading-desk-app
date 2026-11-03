@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 AMZN @ 314.16",
-      "at": "2026-11-03T22:47:48+00:00"
+      "note": "BUY 5 MSFT @ 126.3",
+      "at": "2026-11-03T22:48:37+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T22:47:49+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T22:48:39+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 72.4 TAKE",
+      "at": "2026-11-03T22:48:42+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-03T22:48:44+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T22:48:46+00:00"
     }
   },
   "positions": [
@@ -40,7 +46,7 @@
     },
     {
       "symbol": "NVDA",
-      "qty": -7,
+      "qty": -5,
       "avg": 644.2099
     },
     {
@@ -49,22 +55,32 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 6389.82,
-  "realized_pnl": 6387.9,
-  "unrealized_pnl": 1.92,
+  "pnl": 6213.11,
+  "realized_pnl": 6386.62,
+  "unrealized_pnl": -173.51,
   "last_signal": {
-    "id": "c31ccea5",
-    "symbol": "AMZN",
-    "side": "SELL",
-    "price": 314.16,
+    "id": "c9d2b6a8",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 126.3,
     "qty": 5,
-    "strength": 0.318,
+    "strength": 0.81,
     "source": "paper-sim",
-    "ts": "2026-11-03T22:47:48+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T22:48:37+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 72.4,
+    "recommendation": "TAKE"
   },
-  "cycle": 4250,
+  "cycle": 4252,
   "fills": [
+    {
+      "fill": 644.85,
+      "qty": 2,
+      "realized": -1.28,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-03T22:48:20+00:00"
+    },
     {
       "fill": 95.9,
       "qty": 5,
@@ -216,15 +232,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T21:28:45+00:00"
-    },
-    {
-      "fill": 343.36,
-      "qty": 5,
-      "realized": 16.98,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-03T21:24:24+00:00"
     }
   ],
-  "updated_at": "2026-11-03T22:47:49+00:00"
+  "updated_at": "2026-11-03T22:48:47+00:00"
 }
