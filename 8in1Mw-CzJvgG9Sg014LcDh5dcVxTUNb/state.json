@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 BTC-USD @ 136.18",
-      "at": "2026-11-03T04:59:18+00:00"
+      "note": "SELL 10 NVDA @ 571.62",
+      "at": "2026-11-03T05:00:18+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T04:59:20+00:00"
+      "at": "2026-11-03T05:00:20+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T04:59:21+00:00"
+      "status": "idle",
+      "note": "score 40.5 PASS",
+      "at": "2026-11-03T05:00:22+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +51,23 @@
       "avg": 351.5576
     }
   ],
-  "pnl": 3041.91,
+  "pnl": 3024.47,
   "realized_pnl": 608.9,
-  "unrealized_pnl": 2433.01,
+  "unrealized_pnl": 2415.57,
   "last_signal": {
-    "id": "e341699a",
-    "symbol": "BTC-USD",
+    "id": "ee652132",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 136.18,
-    "qty": 2,
-    "strength": 0.716,
+    "price": 571.62,
+    "qty": 10,
+    "strength": 0.192,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:59:18+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T05:00:18+00:00",
+    "verdict": "pass (score 40.5)",
+    "score": 40.5,
+    "recommendation": "PASS"
   },
-  "cycle": 1223,
+  "cycle": 1227,
   "fills": [
     {
       "fill": 78.46,
@@ -228,5 +230,5 @@
       "at": "2026-11-03T04:14:01+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:59:21+00:00"
+  "updated_at": "2026-11-03T05:00:22+00:00"
 }
