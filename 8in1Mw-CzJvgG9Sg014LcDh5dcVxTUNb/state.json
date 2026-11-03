@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 QQQ @ 481.2",
-      "at": "2026-11-03T11:50:04+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T11:51:09+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T11:50:07+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 72.8 TAKE",
-      "at": "2026-11-03T11:50:09+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -27,7 +23,7 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 22,
+      "qty": 17,
       "avg": 418.1931
     },
     {
@@ -51,24 +47,32 @@
       "avg": 335.8409
     }
   ],
-  "pnl": 7611.24,
-  "realized_pnl": 4448.17,
-  "unrealized_pnl": 3163.07,
+  "pnl": 7603.33,
+  "realized_pnl": 4763.2,
+  "unrealized_pnl": 2840.13,
   "last_signal": {
-    "id": "9002aadf",
-    "symbol": "QQQ",
+    "id": "cef89c08",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 481.2,
-    "qty": 5,
-    "strength": 0.789,
+    "price": 155.49,
+    "qty": 10,
+    "strength": 0.508,
     "source": "paper-sim",
-    "ts": "2026-11-03T11:50:04+00:00",
-    "verdict": "pending",
-    "score": 72.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T11:50:48+00:00",
+    "verdict": "pass (score 62.5)",
+    "score": 62.5,
+    "recommendation": "PASS"
   },
-  "cycle": 2441,
+  "cycle": 2444,
   "fills": [
+    {
+      "fill": 481.2,
+      "qty": -5,
+      "realized": 315.03,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T11:50:14+00:00"
+    },
     {
       "fill": 354.74,
       "qty": 2,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T10:58:04+00:00"
-    },
-    {
-      "fill": 61.45,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-03T10:56:29+00:00"
     }
   ],
-  "updated_at": "2026-11-03T11:50:09+00:00"
+  "updated_at": "2026-11-03T11:51:11+00:00"
 }
