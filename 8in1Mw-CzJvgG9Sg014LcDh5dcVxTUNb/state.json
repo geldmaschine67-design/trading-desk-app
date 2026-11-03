@@ -4,13 +4,11 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 TSLA @ 371.77",
-      "at": "2026-11-03T07:06:54+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T07:07:49+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T07:06:56+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +47,23 @@
       "avg": 153.1667
     }
   ],
-  "pnl": 2954.81,
+  "pnl": 3119.24,
   "realized_pnl": 1627.4,
-  "unrealized_pnl": 1327.41,
+  "unrealized_pnl": 1491.84,
   "last_signal": {
-    "id": "0a2d6498",
+    "id": "9f44374a",
     "symbol": "TSLA",
     "side": "BUY",
     "price": 371.77,
-    "qty": 5,
-    "strength": 0.364,
+    "qty": 1,
+    "strength": 0.848,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:06:54+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T07:07:32+00:00",
+    "verdict": "pass (score 65.4)",
+    "score": 65.4,
+    "recommendation": "PASS"
   },
-  "cycle": 1622,
+  "cycle": 1625,
   "fills": [
     {
       "fill": 553.78,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T06:17:31+00:00"
     }
   ],
-  "updated_at": "2026-11-03T07:06:56+00:00"
+  "updated_at": "2026-11-03T07:07:51+00:00"
 }
