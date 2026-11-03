@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 TSLA @ 343.88",
-      "at": "2026-11-03T02:26:37+00:00"
+      "note": "BUY 5 BTC-USD @ 134.99",
+      "at": "2026-11-03T02:27:30+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T02:26:38+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T02:27:33+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 74.5 TAKE",
-      "at": "2026-11-03T02:26:17+00:00"
+      "note": "score 72.0 TAKE",
+      "at": "2026-11-03T02:27:35+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-03T02:27:38+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -10 AAPL @ 83.2",
-      "at": "2026-11-03T02:26:22+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T02:26:19+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-03T02:27:39+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 364.16
     }
   ],
-  "pnl": 528.1,
-  "updated_at": "2026-11-03T02:26:38+00:00",
+  "pnl": 705.51,
   "realized_pnl": 204.88,
-  "unrealized_pnl": 323.22,
+  "unrealized_pnl": 500.63,
   "last_signal": {
-    "id": "9ba4dd79",
-    "symbol": "TSLA",
+    "id": "f64bb182",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 343.88,
-    "qty": 1,
-    "strength": 0.129,
+    "price": 134.99,
+    "qty": 5,
+    "strength": 0.61,
     "source": "paper-sim",
-    "ts": "2026-11-03T02:26:37+00:00",
-    "verdict": "pending",
-    "score": 74.5,
+    "ts": "2026-11-03T02:27:30+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 72.0,
     "recommendation": "TAKE"
   },
-  "cycle": 762,
+  "cycle": 765,
   "fills": [
     {
       "fill": 83.2,
@@ -234,5 +233,6 @@
       "symbol": "SPY",
       "at": "2026-11-03T01:41:42+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T02:27:39+00:00"
 }
