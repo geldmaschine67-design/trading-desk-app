@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 10 QQQ @ 525.8",
-      "at": "2026-11-03T22:26:50+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T22:27:54+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T22:26:52+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +47,23 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 6009.39,
+  "pnl": 5994.16,
   "realized_pnl": 6455.37,
-  "unrealized_pnl": -445.98,
+  "unrealized_pnl": -461.21,
   "last_signal": {
-    "id": "5972f15e",
-    "symbol": "QQQ",
+    "id": "864029a4",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 525.8,
-    "qty": 10,
-    "strength": 0.389,
+    "price": 140.61,
+    "qty": 5,
+    "strength": 0.474,
     "source": "paper-sim",
-    "ts": "2026-11-03T22:26:50+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T22:27:33+00:00",
+    "verdict": "pass (score 61.7)",
+    "score": 61.7,
+    "recommendation": "PASS"
   },
-  "cycle": 4215,
+  "cycle": 4218,
   "fills": [
     {
       "fill": 528.07,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T21:11:02+00:00"
     }
   ],
-  "updated_at": "2026-11-03T22:26:52+00:00"
+  "updated_at": "2026-11-03T22:27:54+00:00"
 }
