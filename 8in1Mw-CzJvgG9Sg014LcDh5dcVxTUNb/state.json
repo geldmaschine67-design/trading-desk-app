@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 SPY @ 45.04",
-      "at": "2026-11-03T20:35:36+00:00"
+      "note": "BUY 1 SPY @ 44.14",
+      "at": "2026-11-03T20:36:42+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T20:35:39+00:00"
+      "at": "2026-11-03T20:36:44+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 65.4 PASS",
-      "at": "2026-11-03T20:35:41+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T20:36:45+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +51,21 @@
       "avg": 338.84
     }
   ],
-  "pnl": 5664.06,
+  "pnl": 5632.62,
   "realized_pnl": 6282.16,
-  "unrealized_pnl": -618.1,
+  "unrealized_pnl": -649.54,
   "last_signal": {
-    "id": "c64ffbab",
+    "id": "24a966d1",
     "symbol": "SPY",
-    "side": "SELL",
-    "price": 45.04,
+    "side": "BUY",
+    "price": 44.14,
     "qty": 1,
-    "strength": 0.802,
+    "strength": 0.852,
     "source": "paper-sim",
-    "ts": "2026-11-03T20:35:36+00:00",
-    "verdict": "pass (score 65.4)",
-    "score": 65.4,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T20:36:42+00:00",
+    "verdict": "pending"
   },
-  "cycle": 3906,
+  "cycle": 3910,
   "fills": [
     {
       "fill": 343.02,
@@ -230,5 +228,5 @@
       "at": "2026-11-03T19:56:58+00:00"
     }
   ],
-  "updated_at": "2026-11-03T20:35:42+00:00"
+  "updated_at": "2026-11-03T20:36:45+00:00"
 }
