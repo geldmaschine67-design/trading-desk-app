@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 10 MSFT @ 102.93",
-      "at": "2026-11-03T11:22:03+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T11:23:55+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T11:22:05+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 37.5 PASS",
-      "at": "2026-11-03T11:22:08+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T11:20:55+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-03T11:20:54+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,10 +47,9 @@
       "avg": 332.4047
     }
   ],
-  "pnl": 6585.29,
-  "updated_at": "2026-11-03T11:22:09+00:00",
+  "pnl": 6340.72,
   "realized_pnl": 3879.46,
-  "unrealized_pnl": 2705.83,
+  "unrealized_pnl": 2461.26,
   "last_signal": {
     "id": "b73b6e97",
     "symbol": "MSFT",
@@ -72,7 +63,7 @@
     "score": 37.5,
     "recommendation": "PASS"
   },
-  "cycle": 2363,
+  "cycle": 2365,
   "fills": [
     {
       "fill": 338.89,
@@ -234,5 +225,6 @@
       "symbol": "AMZN",
       "at": "2026-11-03T10:47:34+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T11:23:55+00:00"
 }
