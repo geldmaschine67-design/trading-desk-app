@@ -5,7 +5,7 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-03T00:33:11+00:00"
+      "at": "2026-11-03T00:34:19+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -23,8 +23,8 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": -16,
-      "avg": 384.1438
+      "qty": -21,
+      "avg": 376.4358
     },
     {
       "symbol": "MSFT",
@@ -47,24 +47,32 @@
       "avg": 59.88
     }
   ],
-  "pnl": 419.9,
+  "pnl": 492.79,
   "realized_pnl": 139.99,
-  "unrealized_pnl": 279.91,
+  "unrealized_pnl": 352.8,
   "last_signal": {
-    "id": "46307ae1",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 80.6,
-    "qty": 10,
-    "strength": 0.15,
+    "id": "684e57b2",
+    "symbol": "QQQ",
+    "side": "SELL",
+    "price": 351.84,
+    "qty": 5,
+    "strength": 0.804,
     "source": "paper-sim",
-    "ts": "2026-11-03T00:32:55+00:00",
-    "verdict": "pass (score 16.7)",
-    "score": 16.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T00:33:42+00:00",
+    "verdict": "PAPER filled -5 @ 351.77",
+    "score": 70.3,
+    "recommendation": "TAKE"
   },
-  "cycle": 436,
+  "cycle": 440,
   "fills": [
+    {
+      "fill": 351.77,
+      "qty": -5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T00:33:52+00:00"
+    },
     {
       "fill": 103.93,
       "qty": -1,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-02T23:42:44+00:00"
-    },
-    {
-      "fill": 386.81,
-      "qty": -10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-02T23:41:58+00:00"
     }
   ],
-  "updated_at": "2026-11-03T00:33:11+00:00"
+  "updated_at": "2026-11-03T00:34:19+00:00"
 }
