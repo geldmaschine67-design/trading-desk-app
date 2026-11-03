@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 TSLA @ 382.23",
-      "at": "2026-11-03T04:31:46+00:00"
+      "note": "BUY 1 TSLA @ 383.75",
+      "at": "2026-11-03T04:32:55+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T04:31:48+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 25.6 PASS",
-      "at": "2026-11-03T04:31:51+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +47,21 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 2614.47,
+  "pnl": 2833.27,
   "realized_pnl": 524.41,
-  "unrealized_pnl": 2090.06,
+  "unrealized_pnl": 2308.86,
   "last_signal": {
-    "id": "c46451a6",
+    "id": "7f1f3cfb",
     "symbol": "TSLA",
     "side": "BUY",
-    "price": 382.23,
+    "price": 383.75,
     "qty": 1,
-    "strength": 0.161,
+    "strength": 0.964,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:31:46+00:00",
-    "verdict": "pass (score 25.6)",
-    "score": 25.6,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T04:32:55+00:00",
+    "verdict": "pending"
   },
-  "cycle": 1139,
+  "cycle": 1143,
   "fills": [
     {
       "fill": 575.82,
@@ -230,5 +224,5 @@
       "at": "2026-11-03T03:23:59+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:31:52+00:00"
+  "updated_at": "2026-11-03T04:32:55+00:00"
 }
