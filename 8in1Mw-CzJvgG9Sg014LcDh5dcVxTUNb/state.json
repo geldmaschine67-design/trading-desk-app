@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T03:01:00+00:00"
+      "status": "idle",
+      "note": "SELL 10 AMZN @ 365.62",
+      "at": "2026-11-03T03:02:00+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 364.16
     }
   ],
-  "pnl": 1216.07,
+  "pnl": 1270.67,
   "realized_pnl": 154.29,
-  "unrealized_pnl": 1061.78,
+  "unrealized_pnl": 1116.38,
   "last_signal": {
-    "id": "1783bd42",
-    "symbol": "BTC-USD",
+    "id": "d17a0f1c",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 135.93,
-    "qty": 5,
-    "strength": 0.916,
+    "price": 365.62,
+    "qty": 10,
+    "strength": 0.426,
     "source": "paper-sim",
-    "ts": "2026-11-03T03:00:45+00:00",
-    "verdict": "pass (score 68.5)",
-    "score": 68.5,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T03:02:00+00:00",
+    "verdict": "pending"
   },
-  "cycle": 861,
+  "cycle": 864,
   "fills": [
     {
       "fill": 67.4,
@@ -226,5 +224,5 @@
       "at": "2026-11-03T02:03:18+00:00"
     }
   ],
-  "updated_at": "2026-11-03T03:01:00+00:00"
+  "updated_at": "2026-11-03T03:02:00+00:00"
 }
