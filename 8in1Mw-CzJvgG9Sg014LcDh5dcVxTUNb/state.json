@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 155.79",
-      "at": "2026-11-03T13:07:06+00:00"
+      "note": "BUY 5 SPY @ 57.68",
+      "at": "2026-11-03T13:08:12+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T13:07:08+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T13:07:10+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +47,21 @@
       "avg": 360.8556
     }
   ],
-  "pnl": 8379.91,
+  "pnl": 8213.92,
   "realized_pnl": 6147.2,
-  "unrealized_pnl": 2232.71,
+  "unrealized_pnl": 2066.72,
   "last_signal": {
-    "id": "9bde3e25",
-    "symbol": "BTC-USD",
+    "id": "9ffda4fd",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 155.79,
+    "price": 57.68,
     "qty": 5,
-    "strength": 0.307,
+    "strength": 0.345,
     "source": "paper-sim",
-    "ts": "2026-11-03T13:07:06+00:00",
+    "ts": "2026-11-03T13:08:12+00:00",
     "verdict": "pending"
   },
-  "cycle": 2661,
+  "cycle": 2665,
   "fills": [
     {
       "fill": 461.69,
@@ -228,5 +224,5 @@
       "at": "2026-11-03T12:10:54+00:00"
     }
   ],
-  "updated_at": "2026-11-03T13:07:10+00:00"
+  "updated_at": "2026-11-03T13:08:12+00:00"
 }
