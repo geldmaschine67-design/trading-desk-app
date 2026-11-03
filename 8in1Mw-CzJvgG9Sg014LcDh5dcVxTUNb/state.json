@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 AMZN @ 358.13",
-      "at": "2026-11-03T03:26:19+00:00"
+      "note": "BUY 2 SPY @ 65.57",
+      "at": "2026-11-03T03:27:27+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T03:26:22+00:00"
+      "at": "2026-11-03T03:27:30+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 47.9 PASS",
-      "at": "2026-11-03T03:26:24+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 QQQ @ 374.22",
-      "at": "2026-11-03T03:23:59+00:00"
+      "note": "score 19.3 PASS",
+      "at": "2026-11-03T03:27:32+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T03:23:57+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 350.7
     }
   ],
-  "pnl": 1242.72,
-  "updated_at": "2026-11-03T03:26:25+00:00",
+  "pnl": 1194.27,
   "realized_pnl": 447.81,
-  "unrealized_pnl": 794.91,
+  "unrealized_pnl": 746.46,
   "last_signal": {
-    "id": "bb230058",
-    "symbol": "AMZN",
+    "id": "14eb8ae6",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 358.13,
-    "qty": 10,
-    "strength": 0.346,
+    "price": 65.57,
+    "qty": 2,
+    "strength": 0.063,
     "source": "paper-sim",
-    "ts": "2026-11-03T03:26:19+00:00",
-    "verdict": "pass (score 47.9)",
-    "score": 47.9,
+    "ts": "2026-11-03T03:27:27+00:00",
+    "verdict": "pass (score 19.3)",
+    "score": 19.3,
     "recommendation": "PASS"
   },
-  "cycle": 940,
+  "cycle": 944,
   "fills": [
     {
       "fill": 374.22,
@@ -234,5 +229,6 @@
       "symbol": "AAPL",
       "at": "2026-11-03T02:35:03+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T03:27:33+00:00"
 }
