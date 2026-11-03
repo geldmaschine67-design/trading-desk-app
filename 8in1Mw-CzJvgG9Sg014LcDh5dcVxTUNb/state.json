@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T01:54:56+00:00"
+      "status": "idle",
+      "note": "SELL 10 MSFT @ 97.07",
+      "at": "2026-11-03T01:55:56+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T01:55:58+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 370.83
     }
   ],
-  "pnl": 484.83,
+  "pnl": 590.58,
   "realized_pnl": 16.61,
-  "unrealized_pnl": 468.22,
+  "unrealized_pnl": 573.97,
   "last_signal": {
-    "id": "25b180f7",
+    "id": "0f377104",
     "symbol": "MSFT",
     "side": "SELL",
-    "price": 97.14,
+    "price": 97.07,
     "qty": 10,
-    "strength": 0.523,
+    "strength": 0.73,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:54:40+00:00",
-    "verdict": "pass (score 52.1)",
-    "score": 52.1,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T01:55:56+00:00",
+    "verdict": "pending"
   },
-  "cycle": 664,
+  "cycle": 667,
   "fills": [
     {
       "fill": 67.93,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T01:01:09+00:00"
     }
   ],
-  "updated_at": "2026-11-03T01:54:56+00:00"
+  "updated_at": "2026-11-03T01:55:58+00:00"
 }
