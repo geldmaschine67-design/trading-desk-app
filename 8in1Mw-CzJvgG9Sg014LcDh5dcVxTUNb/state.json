@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 BTC-USD @ 155.66",
-      "at": "2026-11-03T12:24:49+00:00"
+      "note": "BUY 2 TSLA @ 403.03",
+      "at": "2026-11-03T12:26:01+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T12:24:52+00:00"
+      "at": "2026-11-03T12:26:03+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 48.2 PASS",
-      "at": "2026-11-03T12:24:54+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 TSLA @ 396.55",
-      "at": "2026-11-03T12:23:35+00:00"
+      "note": "score 72.6 TAKE",
+      "at": "2026-11-03T12:26:06+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T12:23:33+00:00"
+      "at": "2026-11-03T12:26:08+00:00"
+    },
+    "executor": {
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T12:26:10+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 335.8409
     }
   ],
-  "pnl": 8000.56,
-  "updated_at": "2026-11-03T12:24:55+00:00",
+  "pnl": 8175.93,
   "realized_pnl": 5820.85,
-  "unrealized_pnl": 2179.71,
+  "unrealized_pnl": 2355.08,
   "last_signal": {
-    "id": "d1f473c5",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 155.66,
-    "qty": 10,
-    "strength": 0.295,
+    "id": "d4741a61",
+    "symbol": "TSLA",
+    "side": "BUY",
+    "price": 403.03,
+    "qty": 2,
+    "strength": 0.679,
     "source": "paper-sim",
-    "ts": "2026-11-03T12:24:49+00:00",
-    "verdict": "pass (score 48.2)",
-    "score": 48.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T12:26:01+00:00",
+    "verdict": "pending",
+    "score": 72.6,
+    "recommendation": "TAKE"
   },
-  "cycle": 2544,
+  "cycle": 2548,
   "fills": [
     {
       "fill": 396.55,
@@ -234,5 +233,6 @@
       "symbol": "AMZN",
       "at": "2026-11-03T11:19:56+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:26:10+00:00"
 }
