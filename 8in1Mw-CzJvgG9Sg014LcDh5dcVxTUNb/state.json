@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 SPY @ 63.88",
-      "at": "2026-11-03T01:10:14+00:00"
+      "note": "SELL 10 BTC-USD @ 127.33",
+      "at": "2026-11-03T01:11:08+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T01:10:17+00:00"
+      "at": "2026-11-03T01:11:10+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 51.4 PASS",
-      "at": "2026-11-03T01:10:19+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 50.4 PASS",
+      "at": "2026-11-03T01:11:13+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T01:07:19+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T01:07:18+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 382.81
     }
   ],
-  "pnl": -200.1,
+  "pnl": -310.52,
+  "updated_at": "2026-11-03T01:11:14+00:00",
   "realized_pnl": 123.67,
-  "unrealized_pnl": -323.77,
+  "unrealized_pnl": -434.19,
   "last_signal": {
-    "id": "04f02eb1",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 63.88,
+    "id": "e60a3524",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 127.33,
     "qty": 10,
-    "strength": 0.653,
+    "strength": 0.325,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:10:14+00:00",
-    "verdict": "pass (score 51.4)",
-    "score": 51.4,
+    "ts": "2026-11-03T01:11:08+00:00",
+    "verdict": "pass (score 50.4)",
+    "score": 50.4,
     "recommendation": "PASS"
   },
-  "cycle": 525,
+  "cycle": 528,
   "fills": [
     {
       "fill": 474.83,
@@ -229,6 +234,5 @@
       "symbol": "AAPL",
       "at": "2026-11-03T00:04:33+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T01:10:20+00:00"
+  ]
 }
