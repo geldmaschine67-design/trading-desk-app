@@ -3,29 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T04:18:35+00:00"
+      "status": "idle",
+      "note": "SELL 10 BTC-USD @ 132.14",
+      "at": "2026-11-03T04:19:23+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T04:18:15+00:00"
+      "at": "2026-11-03T04:19:26+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 82.8 TAKE",
-      "at": "2026-11-03T04:18:17+00:00"
+      "note": "score 43.2 PASS",
+      "at": "2026-11-03T04:19:28+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T04:18:21+00:00"
+      "note": "PAPER fill 10 SPY @ 62.5",
+      "at": "2026-11-03T04:19:07+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-03T04:18:20+00:00"
+      "note": "ok",
+      "at": "2026-11-03T04:19:04+00:00"
     }
   },
   "positions": [
@@ -46,8 +46,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": 7,
-      "avg": 63.0345
+      "qty": 17,
+      "avg": 62.7201
     },
     {
       "symbol": "TSLA",
@@ -55,25 +55,33 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 2197.3,
-  "updated_at": "2026-11-03T04:18:35+00:00",
+  "pnl": 2156.82,
+  "updated_at": "2026-11-03T04:19:29+00:00",
   "realized_pnl": 384.72,
-  "unrealized_pnl": 1812.58,
+  "unrealized_pnl": 1772.1,
   "last_signal": {
-    "id": "3f9b6ed5",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 95.06,
-    "qty": 1,
-    "strength": 0.786,
+    "id": "3f3ec8f2",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 132.14,
+    "qty": 10,
+    "strength": 0.458,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:18:12+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 82.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T04:19:23+00:00",
+    "verdict": "pass (score 43.2)",
+    "score": 43.2,
+    "recommendation": "PASS"
   },
-  "cycle": 1097,
+  "cycle": 1099,
   "fills": [
+    {
+      "fill": 62.5,
+      "qty": 10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-03T04:19:07+00:00"
+    },
     {
       "fill": 371.22,
       "qty": 1,
@@ -225,14 +233,6 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-03T03:12:09+00:00"
-    },
-    {
-      "fill": 549.19,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T03:08:26+00:00"
     }
   ]
 }
