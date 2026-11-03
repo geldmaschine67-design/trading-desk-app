@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 TSLA @ 376.84",
-      "at": "2026-11-03T08:34:19+00:00"
+      "note": "BUY 1 TSLA @ 374.72",
+      "at": "2026-11-03T08:35:23+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T08:34:21+00:00"
+      "at": "2026-11-03T08:35:25+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 57.0 PASS",
-      "at": "2026-11-03T08:34:24+00:00"
+      "note": "score 25.5 PASS",
+      "at": "2026-11-03T08:35:28+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +51,23 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 3785.14,
+  "pnl": 3802.27,
   "realized_pnl": 2368.84,
-  "unrealized_pnl": 1416.3,
+  "unrealized_pnl": 1433.43,
   "last_signal": {
-    "id": "b6a2b1f2",
+    "id": "bcda1f6b",
     "symbol": "TSLA",
-    "side": "SELL",
-    "price": 376.84,
-    "qty": 2,
-    "strength": 0.716,
+    "side": "BUY",
+    "price": 374.72,
+    "qty": 1,
+    "strength": 0.186,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:34:19+00:00",
-    "verdict": "pass (score 57.0)",
-    "score": 57.0,
+    "ts": "2026-11-03T08:35:23+00:00",
+    "verdict": "pass (score 25.5)",
+    "score": 25.5,
     "recommendation": "PASS"
   },
-  "cycle": 1879,
+  "cycle": 1882,
   "fills": [
     {
       "fill": 407.52,
@@ -230,5 +230,5 @@
       "at": "2026-11-03T07:28:43+00:00"
     }
   ],
-  "updated_at": "2026-11-03T08:34:25+00:00"
+  "updated_at": "2026-11-03T08:35:28+00:00"
 }
