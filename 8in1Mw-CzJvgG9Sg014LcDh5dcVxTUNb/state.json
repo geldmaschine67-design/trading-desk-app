@@ -4,34 +4,34 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 BTC-USD @ 148.4",
-      "at": "2026-11-03T07:30:12+00:00"
+      "note": "SELL 10 QQQ @ 416.49",
+      "at": "2026-11-03T07:31:22+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T07:30:14+00:00"
+      "at": "2026-11-03T07:31:24+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 86.6 TAKE",
-      "at": "2026-11-03T07:30:16+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 BTC-USD @ 148.44",
-      "at": "2026-11-03T07:30:22+00:00"
+      "note": "score 73.7 TAKE",
+      "at": "2026-11-03T07:31:27+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T07:30:19+00:00"
+      "at": "2026-11-03T07:31:30+00:00"
+    },
+    "executor": {
+      "status": "idle",
+      "note": "PAPER fill -10 QQQ @ 416.67",
+      "at": "2026-11-03T07:31:32+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 38,
+      "qty": 28,
       "avg": 400.7144
     },
     {
@@ -55,25 +55,32 @@
       "avg": 152.9088
     }
   ],
-  "pnl": 3222.44,
-  "updated_at": "2026-11-03T07:30:23+00:00",
-  "realized_pnl": 1783.09,
-  "unrealized_pnl": 1439.35,
+  "pnl": 3660.3,
+  "realized_pnl": 1942.65,
+  "unrealized_pnl": 1717.65,
   "last_signal": {
-    "id": "d8507991",
-    "symbol": "BTC-USD",
+    "id": "2bc80b6c",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 148.4,
-    "qty": 5,
-    "strength": 0.853,
+    "price": 416.49,
+    "qty": 10,
+    "strength": 0.738,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:30:12+00:00",
-    "verdict": "PAPER filled -5 @ 148.44",
-    "score": 86.6,
+    "ts": "2026-11-03T07:31:22+00:00",
+    "verdict": "PAPER filled -10 @ 416.67",
+    "score": 73.7,
     "recommendation": "TAKE"
   },
-  "cycle": 1696,
+  "cycle": 1700,
   "fills": [
+    {
+      "fill": 416.67,
+      "qty": -10,
+      "realized": 159.56,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T07:31:32+00:00"
+    },
     {
       "fill": 148.44,
       "qty": -5,
@@ -225,14 +232,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-03T06:55:15+00:00"
-    },
-    {
-      "fill": 69.66,
-      "qty": -5,
-      "realized": 11.61,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-03T06:52:18+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T07:31:32+00:00"
 }
