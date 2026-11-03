@@ -4,31 +4,35 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 SPY @ 68.53",
-      "at": "2026-11-03T06:39:14+00:00"
+      "note": "BUY 10 QQQ @ 423.13",
+      "at": "2026-11-03T06:39:58+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T06:39:16+00:00"
+      "at": "2026-11-03T06:40:01+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T06:39:17+00:00"
+      "status": "idle",
+      "note": "score 93.7 TAKE",
+      "at": "2026-11-03T06:40:03+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T06:40:06+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 10 QQQ @ 423.33",
+      "at": "2026-11-03T06:40:08+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 30,
-      "avg": 389.5198
+      "qty": 40,
+      "avg": 397.9724
     },
     {
       "symbol": "NVDA",
@@ -42,8 +46,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": 5,
-      "avg": 64.8941
+      "qty": 15,
+      "avg": 67.338
     },
     {
       "symbol": "TSLA",
@@ -51,22 +55,40 @@
       "avg": 368.404
     }
   ],
-  "pnl": 3581.02,
+  "pnl": 3580.75,
   "realized_pnl": 1422.37,
-  "unrealized_pnl": 2158.65,
+  "unrealized_pnl": 2158.38,
   "last_signal": {
-    "id": "cdf366a6",
-    "symbol": "SPY",
+    "id": "ad89ccb3",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 68.53,
+    "price": 423.13,
     "qty": 10,
-    "strength": 0.964,
+    "strength": 0.987,
     "source": "paper-sim",
-    "ts": "2026-11-03T06:39:14+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T06:39:58+00:00",
+    "verdict": "PAPER filled 10 @ 423.33",
+    "score": 93.7,
+    "recommendation": "TAKE"
   },
-  "cycle": 1534,
+  "cycle": 1536,
   "fills": [
+    {
+      "fill": 423.33,
+      "qty": 10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T06:40:08+00:00"
+    },
+    {
+      "fill": 68.56,
+      "qty": 10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-03T06:39:24+00:00"
+    },
     {
       "fill": 417.71,
       "qty": -1,
@@ -210,23 +232,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-03T05:46:00+00:00"
-    },
-    {
-      "fill": 582.14,
-      "qty": -2,
-      "realized": 132.8,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T05:42:55+00:00"
-    },
-    {
-      "fill": 385.14,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T05:38:40+00:00"
     }
   ],
-  "updated_at": "2026-11-03T06:39:17+00:00"
+  "updated_at": "2026-11-03T06:40:10+00:00"
 }
