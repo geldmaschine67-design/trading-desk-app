@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 MSFT @ 91.42",
-      "at": "2026-11-03T03:45:10+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T03:46:15+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T03:45:13+00:00"
+      "at": "2026-11-03T03:45:56+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 30.5 PASS",
-      "at": "2026-11-03T03:45:15+00:00"
+      "note": "score 83.9 TAKE",
+      "at": "2026-11-03T03:45:58+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -1 TSLA @ 353.77",
-      "at": "2026-11-03T03:44:18+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-03T03:46:02+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T03:44:16+00:00"
+      "note": "notional 5362 > 5000",
+      "at": "2026-11-03T03:46:01+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,24 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 1147.57,
-  "updated_at": "2026-11-03T03:45:16+00:00",
+  "pnl": 1341.54,
+  "updated_at": "2026-11-03T03:46:16+00:00",
   "realized_pnl": 424.73,
-  "unrealized_pnl": 722.84,
+  "unrealized_pnl": 916.81,
   "last_signal": {
-    "id": "efb1aebf",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 91.42,
-    "qty": 5,
-    "strength": 0.283,
+    "id": "291e4ef6",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 536.15,
+    "qty": 10,
+    "strength": 0.978,
     "source": "paper-sim",
-    "ts": "2026-11-03T03:45:10+00:00",
-    "verdict": "pass (score 30.5)",
-    "score": 30.5,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T03:45:54+00:00",
+    "verdict": "risk blocked: notional 5362 > 5000",
+    "score": 83.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 992,
+  "cycle": 995,
   "fills": [
     {
       "fill": 353.77,
