@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 BTC-USD @ 146.94",
-      "at": "2026-11-03T10:06:40+00:00"
+      "note": "BUY 10 MSFT @ 105.98",
+      "at": "2026-11-03T10:08:00+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T10:06:43+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 79.3 TAKE",
-      "at": "2026-11-03T10:06:45+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -2 BTC-USD @ 146.97",
-      "at": "2026-11-03T10:06:51+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T10:06:48+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,21 @@
       "avg": 147.37
     }
   ],
-  "pnl": 5447.91,
-  "updated_at": "2026-11-03T10:06:52+00:00",
+  "pnl": 5352.18,
   "realized_pnl": 2688.66,
-  "unrealized_pnl": 2759.25,
+  "unrealized_pnl": 2663.52,
   "last_signal": {
-    "id": "612761b3",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 146.94,
-    "qty": 2,
-    "strength": 0.942,
+    "id": "3c9a9fde",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 105.98,
+    "qty": 10,
+    "strength": 0.871,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:06:40+00:00",
-    "verdict": "PAPER filled -2 @ 146.97",
-    "score": 79.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T10:08:00+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2141,
+  "cycle": 2145,
   "fills": [
     {
       "fill": 146.97,
@@ -234,5 +223,6 @@
       "symbol": "AAPL",
       "at": "2026-11-03T09:02:44+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T10:08:00+00:00"
 }
