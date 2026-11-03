@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 BTC-USD @ 132.48",
-      "at": "2026-11-03T02:22:32+00:00"
+      "note": "SELL 10 BTC-USD @ 133.3",
+      "at": "2026-11-03T02:23:33+00:00"
     },
     "auditor": {
       "status": "running",
       "note": null,
-      "at": "2026-11-03T02:22:33+00:00"
+      "at": "2026-11-03T02:23:34+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +49,21 @@
       "avg": 364.16
     }
   ],
-  "pnl": 672.04,
+  "pnl": 821.62,
   "realized_pnl": 175.61,
-  "unrealized_pnl": 496.43,
+  "unrealized_pnl": 646.01,
   "last_signal": {
-    "id": "9e463277",
+    "id": "59a8e7e5",
     "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 132.48,
-    "qty": 5,
-    "strength": 0.96,
+    "price": 133.3,
+    "qty": 10,
+    "strength": 0.109,
     "source": "paper-sim",
-    "ts": "2026-11-03T02:22:32+00:00",
+    "ts": "2026-11-03T02:23:33+00:00",
     "verdict": "pending"
   },
-  "cycle": 750,
+  "cycle": 753,
   "fills": [
     {
       "fill": 69.77,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T01:39:05+00:00"
     }
   ],
-  "updated_at": "2026-11-03T02:22:33+00:00"
+  "updated_at": "2026-11-03T02:23:34+00:00"
 }
