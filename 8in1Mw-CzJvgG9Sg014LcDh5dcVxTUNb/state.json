@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 AMZN @ 346.32",
-      "at": "2026-11-03T15:33:59+00:00"
+      "note": "BUY 1 AMZN @ 348.54",
+      "at": "2026-11-03T15:35:07+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T15:34:02+00:00"
+      "at": "2026-11-03T15:35:10+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 76.4 TAKE",
-      "at": "2026-11-03T15:34:04+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T15:34:07+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T15:34:08+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -51,28 +45,34 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 1,
-      "avg": 353.5682
+      "qty": 3,
+      "avg": 348.7361
     }
   ],
-  "pnl": 7027.93,
+  "pnl": 6919.14,
   "realized_pnl": 7534.37,
-  "unrealized_pnl": -506.44,
+  "unrealized_pnl": -615.23,
   "last_signal": {
-    "id": "87ae7dac",
+    "id": "46d490e4",
     "symbol": "AMZN",
     "side": "BUY",
-    "price": 346.32,
-    "qty": 2,
-    "strength": 0.919,
+    "price": 348.54,
+    "qty": 1,
+    "strength": 0.142,
     "source": "paper-sim",
-    "ts": "2026-11-03T15:33:59+00:00",
-    "verdict": "pending",
-    "score": 76.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T15:35:07+00:00",
+    "verdict": "pending"
   },
-  "cycle": 3071,
+  "cycle": 3074,
   "fills": [
+    {
+      "fill": 346.32,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T15:34:09+00:00"
+    },
     {
       "fill": 347.93,
       "qty": -1,
@@ -224,15 +224,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T14:32:48+00:00"
-    },
-    {
-      "fill": 340.75,
-      "qty": -1,
-      "realized": -13.07,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-03T14:32:22+00:00"
     }
   ],
-  "updated_at": "2026-11-03T15:34:08+00:00"
+  "updated_at": "2026-11-03T15:35:10+00:00"
 }
