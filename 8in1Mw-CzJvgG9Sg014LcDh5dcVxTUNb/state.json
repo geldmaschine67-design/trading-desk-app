@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AMZN @ 325.26",
-      "at": "2026-11-03T07:48:54+00:00"
+      "note": "SELL 1 TSLA @ 366.71",
+      "at": "2026-11-03T07:49:54+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T07:48:55+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T07:49:57+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +49,21 @@
       "avg": 152.9088
     }
   ],
-  "pnl": 4491.89,
+  "pnl": 4503.07,
   "realized_pnl": 1986.67,
-  "unrealized_pnl": 2505.22,
+  "unrealized_pnl": 2516.4,
   "last_signal": {
-    "id": "c1480c8b",
-    "symbol": "AMZN",
+    "id": "70c92d5d",
+    "symbol": "TSLA",
     "side": "SELL",
-    "price": 325.26,
-    "qty": 2,
-    "strength": 0.855,
+    "price": 366.71,
+    "qty": 1,
+    "strength": 0.044,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:48:54+00:00",
+    "ts": "2026-11-03T07:49:54+00:00",
     "verdict": "pending"
   },
-  "cycle": 1737,
+  "cycle": 1740,
   "fills": [
     {
       "fill": 441.23,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T06:59:05+00:00"
     }
   ],
-  "updated_at": "2026-11-03T07:48:55+00:00"
+  "updated_at": "2026-11-03T07:49:57+00:00"
 }
