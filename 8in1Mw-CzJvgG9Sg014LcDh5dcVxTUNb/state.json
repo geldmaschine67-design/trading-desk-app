@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 MSFT @ 118.85",
-      "at": "2026-11-03T17:37:54+00:00"
+      "note": "SELL 1 AMZN @ 363.01",
+      "at": "2026-11-03T17:38:55+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -38,8 +38,8 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 7,
-      "avg": 355.5266
+      "qty": 8,
+      "avg": 356.3083
     },
     {
       "symbol": "NVDA",
@@ -47,22 +47,30 @@
       "avg": 675.3882
     }
   ],
-  "pnl": 5422.46,
+  "pnl": 5457.36,
   "realized_pnl": 6528.66,
-  "unrealized_pnl": -1106.2,
+  "unrealized_pnl": -1071.3,
   "last_signal": {
-    "id": "b81af67f",
-    "symbol": "MSFT",
+    "id": "f767df25",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 118.85,
-    "qty": 5,
-    "strength": 0.702,
+    "price": 363.01,
+    "qty": 1,
+    "strength": 0.837,
     "source": "paper-sim",
-    "ts": "2026-11-03T17:37:54+00:00",
+    "ts": "2026-11-03T17:38:55+00:00",
     "verdict": "pending"
   },
-  "cycle": 3438,
+  "cycle": 3440,
   "fills": [
+    {
+      "fill": 361.78,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T17:38:40+00:00"
+    },
     {
       "fill": 660.53,
       "qty": -5,
@@ -214,15 +222,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T16:30:07+00:00"
-    },
-    {
-      "fill": 489.76,
-      "qty": 5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T16:28:14+00:00"
     }
   ],
-  "updated_at": "2026-11-03T17:37:54+00:00"
+  "updated_at": "2026-11-03T17:38:55+00:00"
 }
