@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 TSLA @ 419.93",
-      "at": "2026-11-03T14:37:18+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T14:38:18+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,23 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7551.44,
+  "pnl": 7585.48,
   "realized_pnl": 7671.18,
-  "unrealized_pnl": -119.74,
+  "unrealized_pnl": -85.7,
   "last_signal": {
-    "id": "4caeaa2a",
-    "symbol": "TSLA",
+    "id": "d6b4eb76",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 419.93,
+    "price": 49.94,
     "qty": 1,
-    "strength": 0.386,
+    "strength": 0.371,
     "source": "paper-sim",
-    "ts": "2026-11-03T14:37:18+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T14:37:57+00:00",
+    "verdict": "pass (score 55.2)",
+    "score": 55.2,
+    "recommendation": "PASS"
   },
-  "cycle": 2923,
+  "cycle": 2926,
   "fills": [
     {
       "fill": 660.25,
@@ -224,5 +226,5 @@
       "at": "2026-11-03T13:44:13+00:00"
     }
   ],
-  "updated_at": "2026-11-03T14:37:18+00:00"
+  "updated_at": "2026-11-03T14:38:19+00:00"
 }
