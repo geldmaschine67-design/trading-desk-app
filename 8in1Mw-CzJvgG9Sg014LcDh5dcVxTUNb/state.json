@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T00:34:19+00:00"
+      "status": "idle",
+      "note": "no signal",
+      "at": "2026-11-03T00:34:06+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,9 +47,9 @@
       "avg": 59.88
     }
   ],
-  "pnl": 492.79,
+  "pnl": 416.31,
   "realized_pnl": 139.99,
-  "unrealized_pnl": 352.8,
+  "unrealized_pnl": 276.32,
   "last_signal": {
     "id": "684e57b2",
     "symbol": "QQQ",
@@ -63,7 +63,7 @@
     "score": 70.3,
     "recommendation": "TAKE"
   },
-  "cycle": 440,
+  "cycle": 439,
   "fills": [
     {
       "fill": 351.77,
@@ -226,5 +226,5 @@
       "at": "2026-11-02T23:42:44+00:00"
     }
   ],
-  "updated_at": "2026-11-03T00:34:19+00:00"
+  "updated_at": "2026-11-03T00:34:07+00:00"
 }
