@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 QQQ @ 360.23",
-      "at": "2026-11-03T02:29:21+00:00"
+      "note": "BUY 10 SPY @ 68.0",
+      "at": "2026-11-03T02:30:27+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T02:29:23+00:00"
+      "at": "2026-11-03T02:30:30+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 87.7 TAKE",
-      "at": "2026-11-03T02:29:26+00:00"
+      "note": "score 19.0 PASS",
+      "at": "2026-11-03T02:30:32+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 364.16
     }
   ],
-  "pnl": 613.14,
-  "updated_at": "2026-11-03T02:29:33+00:00",
+  "pnl": 491.06,
+  "updated_at": "2026-11-03T02:30:33+00:00",
   "realized_pnl": 218.01,
-  "unrealized_pnl": 395.13,
+  "unrealized_pnl": 273.05,
   "last_signal": {
-    "id": "4044bd48",
-    "symbol": "QQQ",
+    "id": "2eee59df",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 360.23,
+    "price": 68.0,
     "qty": 10,
-    "strength": 0.832,
+    "strength": 0.01,
     "source": "paper-sim",
-    "ts": "2026-11-03T02:29:21+00:00",
-    "verdict": "PAPER filled 10 @ 360.18",
-    "score": 87.7,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T02:30:27+00:00",
+    "verdict": "pass (score 19.0)",
+    "score": 19.0,
+    "recommendation": "PASS"
   },
-  "cycle": 771,
+  "cycle": 775,
   "fills": [
     {
       "fill": 360.18,
