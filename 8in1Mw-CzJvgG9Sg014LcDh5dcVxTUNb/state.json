@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 NVDA @ 598.19",
-      "at": "2026-11-03T21:19:57+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T21:21:06+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T21:19:59+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 42.4 PASS",
-      "at": "2026-11-03T21:20:02+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T21:19:45+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-03T21:19:44+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 322.91
     }
   ],
-  "pnl": 5611.86,
-  "updated_at": "2026-11-03T21:20:03+00:00",
+  "pnl": 5523.59,
   "realized_pnl": 6596.02,
-  "unrealized_pnl": -984.16,
+  "unrealized_pnl": -1072.43,
   "last_signal": {
-    "id": "5abd357c",
-    "symbol": "NVDA",
+    "id": "bee8b274",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 598.19,
+    "price": 532.89,
     "qty": 1,
-    "strength": 0.541,
+    "strength": 0.036,
     "source": "paper-sim",
-    "ts": "2026-11-03T21:19:57+00:00",
-    "verdict": "pass (score 42.4)",
-    "score": 42.4,
+    "ts": "2026-11-03T21:20:50+00:00",
+    "verdict": "pass (score 21.3)",
+    "score": 21.3,
     "recommendation": "PASS"
   },
-  "cycle": 4026,
+  "cycle": 4030,
   "fills": [
     {
       "fill": 593.08,
@@ -234,5 +225,6 @@
       "symbol": "TSLA",
       "at": "2026-11-03T20:18:22+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T21:21:07+00:00"
 }
