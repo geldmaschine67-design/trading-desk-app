@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AAPL @ 88.9",
-      "at": "2026-11-03T19:25:09+00:00"
+      "note": "SELL 1 BTC-USD @ 165.67",
+      "at": "2026-11-03T19:26:07+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T19:25:11+00:00"
+      "at": "2026-11-03T19:26:10+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 8.2 PASS",
-      "at": "2026-11-03T19:25:14+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 60.2 PASS",
+      "at": "2026-11-03T19:26:12+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T19:24:29+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T19:24:28+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 161.67
     }
   ],
-  "pnl": 6166.27,
+  "pnl": 6174.66,
+  "updated_at": "2026-11-03T19:26:13+00:00",
   "realized_pnl": 5922.76,
-  "unrealized_pnl": 243.51,
+  "unrealized_pnl": 251.9,
   "last_signal": {
-    "id": "14e34250",
-    "symbol": "AAPL",
+    "id": "bcefc430",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 88.9,
-    "qty": 2,
-    "strength": 0.008,
+    "price": 165.67,
+    "qty": 1,
+    "strength": 0.569,
     "source": "paper-sim",
-    "ts": "2026-11-03T19:25:09+00:00",
-    "verdict": "pass (score 8.2)",
-    "score": 8.2,
+    "ts": "2026-11-03T19:26:07+00:00",
+    "verdict": "pass (score 60.2)",
+    "score": 60.2,
     "recommendation": "PASS"
   },
-  "cycle": 3717,
+  "cycle": 3720,
   "fills": [
     {
       "fill": 340.92,
@@ -229,6 +234,5 @@
       "symbol": "NVDA",
       "at": "2026-11-03T18:17:16+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T19:25:15+00:00"
+  ]
 }
