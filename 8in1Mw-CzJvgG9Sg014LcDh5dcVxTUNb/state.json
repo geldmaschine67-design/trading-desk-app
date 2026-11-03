@@ -10,18 +10,22 @@
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T19:01:05+00:00"
+      "at": "2026-11-03T19:01:28+00:00"
     },
     "analyst": {
       "status": "idle",
       "note": "score 60.1 PASS",
-      "at": "2026-11-03T19:01:07+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "at": "2026-11-03T19:01:30+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 AAPL @ 89.86",
+      "at": "2026-11-03T19:00:16+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T19:00:14+00:00"
     }
   },
   "positions": [
@@ -52,6 +56,7 @@
     }
   ],
   "pnl": 5618.96,
+  "updated_at": "2026-11-03T19:01:31+00:00",
   "realized_pnl": 5919.98,
   "unrealized_pnl": -301.02,
   "last_signal": {
@@ -229,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-03T17:55:36+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T19:01:09+00:00"
+  ]
 }
