@@ -3,28 +3,36 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T09:44:28+00:00"
+      "status": "idle",
+      "note": "BUY 5 TSLA @ 396.78",
+      "at": "2026-11-03T09:45:14+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T09:45:17+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 13.3 PASS",
+      "at": "2026-11-03T09:45:19+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T09:45:01+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T09:44:59+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 26,
-      "avg": 411.2301
+      "qty": 36,
+      "avg": 411.2578
     },
     {
       "symbol": "NVDA",
@@ -47,24 +55,33 @@
       "avg": 143.09
     }
   ],
-  "pnl": 4889.02,
+  "pnl": 4923.82,
+  "updated_at": "2026-11-03T09:45:20+00:00",
   "realized_pnl": 2683.87,
-  "unrealized_pnl": 2205.15,
+  "unrealized_pnl": 2239.95,
   "last_signal": {
-    "id": "93917617",
+    "id": "ecdceed2",
     "symbol": "TSLA",
     "side": "BUY",
-    "price": 397.66,
-    "qty": 1,
-    "strength": 0.195,
+    "price": 396.78,
+    "qty": 5,
+    "strength": 0.019,
     "source": "paper-sim",
-    "ts": "2026-11-03T09:44:12+00:00",
-    "verdict": "pass (score 43.3)",
-    "score": 43.3,
+    "ts": "2026-11-03T09:45:14+00:00",
+    "verdict": "pass (score 13.3)",
+    "score": 13.3,
     "recommendation": "PASS"
   },
-  "cycle": 2071,
+  "cycle": 2073,
   "fills": [
+    {
+      "fill": 411.33,
+      "qty": 10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T09:44:39+00:00"
+    },
     {
       "fill": 409.08,
       "qty": 10,
@@ -216,15 +233,6 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T08:33:24+00:00"
-    },
-    {
-      "fill": 146.74,
-      "qty": -5,
-      "realized": -12.98,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-03T08:22:49+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T09:44:28+00:00"
+  ]
 }
