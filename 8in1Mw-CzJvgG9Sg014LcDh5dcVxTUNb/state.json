@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 2 AMZN @ 321.69",
-      "at": "2026-11-03T23:41:43+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T23:42:44+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,23 @@
       "avg": 323.03
     }
   ],
-  "pnl": 5697.37,
+  "pnl": 5697.09,
   "realized_pnl": 6196.78,
-  "unrealized_pnl": -499.41,
+  "unrealized_pnl": -499.69,
   "last_signal": {
-    "id": "af3c72fe",
-    "symbol": "AMZN",
+    "id": "72e2656a",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 321.69,
-    "qty": 2,
-    "strength": 0.088,
+    "price": 130.03,
+    "qty": 1,
+    "strength": 0.307,
     "source": "paper-sim",
-    "ts": "2026-11-03T23:41:43+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T23:42:15+00:00",
+    "verdict": "pass (score 27.4)",
+    "score": 27.4,
+    "recommendation": "PASS"
   },
-  "cycle": 4403,
+  "cycle": 4407,
   "fills": [
     {
       "fill": 332.93,
@@ -224,5 +226,5 @@
       "at": "2026-11-03T22:45:22+00:00"
     }
   ],
-  "updated_at": "2026-11-03T23:41:43+00:00"
+  "updated_at": "2026-11-03T23:42:44+00:00"
 }
