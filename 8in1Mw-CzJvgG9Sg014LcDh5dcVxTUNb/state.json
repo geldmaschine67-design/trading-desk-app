@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AMZN @ 350.7",
-      "at": "2026-11-03T15:26:43+00:00"
+      "note": "SELL 5 AMZN @ 355.81",
+      "at": "2026-11-03T15:27:55+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T15:26:46+00:00"
+      "at": "2026-11-03T15:27:58+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 49.7 PASS",
-      "at": "2026-11-03T15:26:48+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -1 QQQ @ 430.71",
-      "at": "2026-11-03T15:25:50+00:00"
+      "note": "score 23.3 PASS",
+      "at": "2026-11-03T15:28:00+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T15:25:47+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -46,8 +42,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 6,
-      "avg": 406.2484
+      "qty": 7,
+      "avg": 409.8143
     },
     {
       "symbol": "AMZN",
@@ -55,25 +51,32 @@
       "avg": 353.5682
     }
   ],
-  "pnl": 7428.77,
-  "updated_at": "2026-11-03T15:26:49+00:00",
+  "pnl": 7433.53,
   "realized_pnl": 7522.33,
-  "unrealized_pnl": -93.56,
+  "unrealized_pnl": -88.8,
   "last_signal": {
-    "id": "7a2dcd2e",
+    "id": "ec95a1e3",
     "symbol": "AMZN",
     "side": "SELL",
-    "price": 350.7,
-    "qty": 1,
-    "strength": 0.602,
+    "price": 355.81,
+    "qty": 5,
+    "strength": 0.042,
     "source": "paper-sim",
-    "ts": "2026-11-03T15:26:43+00:00",
-    "verdict": "pass (score 49.7)",
-    "score": 49.7,
+    "ts": "2026-11-03T15:27:55+00:00",
+    "verdict": "pass (score 23.3)",
+    "score": 23.3,
     "recommendation": "PASS"
   },
-  "cycle": 3048,
+  "cycle": 3052,
   "fills": [
+    {
+      "fill": 431.21,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T15:27:11+00:00"
+    },
     {
       "fill": 430.71,
       "qty": -1,
@@ -225,14 +228,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T14:16:14+00:00"
-    },
-    {
-      "fill": 434.75,
-      "qty": -10,
-      "realized": 310.97,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T14:11:42+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T15:28:00+00:00"
 }
