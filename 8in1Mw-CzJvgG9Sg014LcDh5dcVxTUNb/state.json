@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 TSLA @ 339.15",
-      "at": "2026-11-03T20:18:12+00:00"
+      "note": "BUY 1 MSFT @ 125.67",
+      "at": "2026-11-03T20:19:10+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T20:18:13+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T20:19:12+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 55.8 PASS",
+      "at": "2026-11-03T20:19:15+00:00"
     },
     "risk": {
       "status": "idle"
@@ -45,26 +47,36 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 6,
+      "qty": 1,
       "avg": 338.3917
     }
   ],
-  "pnl": 6221.95,
-  "realized_pnl": 6355.16,
-  "unrealized_pnl": -133.21,
+  "pnl": 6101.28,
+  "realized_pnl": 6358.5,
+  "unrealized_pnl": -257.22,
   "last_signal": {
-    "id": "09135747",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 339.15,
-    "qty": 5,
-    "strength": 0.982,
+    "id": "0c7237ab",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 125.67,
+    "qty": 1,
+    "strength": 0.457,
     "source": "paper-sim",
-    "ts": "2026-11-03T20:18:12+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T20:19:10+00:00",
+    "verdict": "pass (score 55.8)",
+    "score": 55.8,
+    "recommendation": "PASS"
   },
-  "cycle": 3856,
+  "cycle": 3859,
   "fills": [
+    {
+      "fill": 339.06,
+      "qty": -5,
+      "realized": 3.34,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T20:18:22+00:00"
+    },
     {
       "fill": 334.33,
       "qty": 1,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-03T19:26:36+00:00"
-    },
-    {
-      "fill": 340.92,
-      "qty": 1,
-      "realized": 2.78,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-03T19:23:49+00:00"
     }
   ],
-  "updated_at": "2026-11-03T20:18:13+00:00"
+  "updated_at": "2026-11-03T20:19:15+00:00"
 }
