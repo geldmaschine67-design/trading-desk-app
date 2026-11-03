@@ -4,19 +4,23 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 TSLA @ 366.64",
-      "at": "2026-11-03T10:36:08+00:00"
+      "note": "SELL 1 QQQ @ 426.38",
+      "at": "2026-11-03T10:37:05+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T10:36:10+00:00"
+      "at": "2026-11-03T10:37:07+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 78.0 TAKE",
+      "at": "2026-11-03T10:37:09+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T10:37:11+00:00"
     },
     "executor": {
       "status": "idle"
@@ -49,21 +53,23 @@
       "avg": 350.23
     }
   ],
-  "pnl": 5231.52,
+  "pnl": 5321.83,
   "realized_pnl": 2949.66,
-  "unrealized_pnl": 2281.86,
+  "unrealized_pnl": 2372.17,
   "last_signal": {
-    "id": "940cbb9a",
-    "symbol": "TSLA",
+    "id": "d3701ed0",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 366.64,
+    "price": 426.38,
     "qty": 1,
-    "strength": 0.219,
+    "strength": 0.694,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:36:08+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T10:37:05+00:00",
+    "verdict": "pending",
+    "score": 78.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 2222,
+  "cycle": 2225,
   "fills": [
     {
       "fill": 363.14,
@@ -226,5 +232,5 @@
       "at": "2026-11-03T09:44:39+00:00"
     }
   ],
-  "updated_at": "2026-11-03T10:36:10+00:00"
+  "updated_at": "2026-11-03T10:37:11+00:00"
 }
