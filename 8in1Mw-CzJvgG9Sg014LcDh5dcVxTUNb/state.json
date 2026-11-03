@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AMZN @ 329.09",
-      "at": "2026-11-03T14:54:22+00:00"
+      "note": "SELL 5 QQQ @ 419.08",
+      "at": "2026-11-03T14:55:22+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T14:54:24+00:00"
+      "at": "2026-11-03T14:55:24+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 34.3 PASS",
-      "at": "2026-11-03T14:54:26+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 64.8 PASS",
+      "at": "2026-11-03T14:55:27+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T14:55:05+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T14:55:04+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7577.16,
+  "pnl": 7524.53,
+  "updated_at": "2026-11-03T14:55:28+00:00",
   "realized_pnl": 7723.18,
-  "unrealized_pnl": -146.02,
+  "unrealized_pnl": -198.65,
   "last_signal": {
-    "id": "3afe4471",
-    "symbol": "AMZN",
+    "id": "06607590",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 329.09,
-    "qty": 2,
-    "strength": 0.239,
+    "price": 419.08,
+    "qty": 5,
+    "strength": 0.621,
     "source": "paper-sim",
-    "ts": "2026-11-03T14:54:22+00:00",
-    "verdict": "pass (score 34.3)",
-    "score": 34.3,
+    "ts": "2026-11-03T14:55:22+00:00",
+    "verdict": "pass (score 64.8)",
+    "score": 64.8,
     "recommendation": "PASS"
   },
-  "cycle": 2966,
+  "cycle": 2968,
   "fills": [
     {
       "fill": 414.53,
@@ -229,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-03T13:54:35+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T14:54:28+00:00"
+  ]
 }
