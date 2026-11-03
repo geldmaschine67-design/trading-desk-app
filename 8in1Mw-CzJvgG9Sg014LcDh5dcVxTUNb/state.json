@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 QQQ @ 376.89",
-      "at": "2026-11-03T00:07:27+00:00"
+      "note": "BUY 1 TSLA @ 386.52",
+      "at": "2026-11-03T00:08:20+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T00:07:29+00:00"
+      "at": "2026-11-03T00:08:23+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 60.2 PASS",
-      "at": "2026-11-03T00:07:32+00:00"
+      "note": "score 25.5 PASS",
+      "at": "2026-11-03T00:08:25+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 59.88
     }
   ],
-  "pnl": 458.45,
-  "updated_at": "2026-11-03T00:07:33+00:00",
+  "pnl": 429.98,
+  "updated_at": "2026-11-03T00:08:26+00:00",
   "realized_pnl": 115.52,
-  "unrealized_pnl": 342.93,
+  "unrealized_pnl": 314.46,
   "last_signal": {
-    "id": "054e38b0",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 376.89,
-    "qty": 2,
-    "strength": 0.78,
+    "id": "e14813be",
+    "symbol": "TSLA",
+    "side": "BUY",
+    "price": 386.52,
+    "qty": 1,
+    "strength": 0.219,
     "source": "paper-sim",
-    "ts": "2026-11-03T00:07:27+00:00",
-    "verdict": "pass (score 60.2)",
-    "score": 60.2,
+    "ts": "2026-11-03T00:08:20+00:00",
+    "verdict": "pass (score 25.5)",
+    "score": 25.5,
     "recommendation": "PASS"
   },
-  "cycle": 354,
+  "cycle": 357,
   "fills": [
     {
       "fill": 82.1,
