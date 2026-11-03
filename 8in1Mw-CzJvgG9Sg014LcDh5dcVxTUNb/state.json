@@ -3,21 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T05:59:45+00:00"
+      "status": "idle",
+      "note": "BUY 2 MSFT @ 97.02",
+      "at": "2026-11-03T05:59:26+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T05:59:28+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 27.1 PASS",
+      "at": "2026-11-03T05:59:31+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 QQQ @ 422.69",
+      "at": "2026-11-03T05:53:55+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T05:53:53+00:00"
     }
   },
   "positions": [
@@ -47,9 +55,10 @@
       "avg": 368.404
     }
   ],
-  "pnl": 3881.89,
+  "pnl": 3795.48,
+  "updated_at": "2026-11-03T05:59:32+00:00",
   "realized_pnl": 1288.65,
-  "unrealized_pnl": 2593.24,
+  "unrealized_pnl": 2506.83,
   "last_signal": {
     "id": "10da805f",
     "symbol": "MSFT",
@@ -63,7 +72,7 @@
     "score": 27.1,
     "recommendation": "PASS"
   },
-  "cycle": 1414,
+  "cycle": 1413,
   "fills": [
     {
       "fill": 422.69,
@@ -225,6 +234,5 @@
       "symbol": "QQQ",
       "at": "2026-11-03T05:08:47+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T05:59:45+00:00"
+  ]
 }
