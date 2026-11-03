@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 10 QQQ @ 485.03",
-      "at": "2026-11-03T16:12:06+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T16:13:09+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T16:12:07+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -25,8 +23,8 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": -6,
-      "avg": 456.4225
+      "qty": 4,
+      "avg": 485.25
     },
     {
       "symbol": "AAPL",
@@ -49,22 +47,32 @@
       "avg": 658.47
     }
   ],
-  "pnl": 6236.26,
-  "realized_pnl": 7547.28,
-  "unrealized_pnl": -1311.02,
+  "pnl": 6207.36,
+  "realized_pnl": 7374.32,
+  "unrealized_pnl": -1166.96,
   "last_signal": {
-    "id": "ed9ab7d9",
-    "symbol": "QQQ",
-    "side": "BUY",
-    "price": 485.03,
-    "qty": 10,
-    "strength": 0.85,
+    "id": "a8187caf",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 157.36,
+    "qty": 5,
+    "strength": 0.315,
     "source": "paper-sim",
-    "ts": "2026-11-03T16:12:06+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T16:12:48+00:00",
+    "verdict": "pass (score 32.4)",
+    "score": 32.4,
+    "recommendation": "PASS"
   },
-  "cycle": 3187,
+  "cycle": 3190,
   "fills": [
+    {
+      "fill": 485.25,
+      "qty": 10,
+      "realized": -172.96,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T16:12:16+00:00"
+    },
     {
       "fill": 393.65,
       "qty": -1,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T15:31:38+00:00"
-    },
-    {
-      "fill": 78.64,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-03T15:30:42+00:00"
     }
   ],
-  "updated_at": "2026-11-03T16:12:07+00:00"
+  "updated_at": "2026-11-03T16:13:09+00:00"
 }
