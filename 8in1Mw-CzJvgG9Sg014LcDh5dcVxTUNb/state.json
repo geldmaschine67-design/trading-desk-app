@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 MSFT @ 102.37",
-      "at": "2026-11-03T01:06:11+00:00"
+      "note": "SELL 1 BTC-USD @ 127.75",
+      "at": "2026-11-03T01:07:11+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T01:06:14+00:00"
+      "at": "2026-11-03T01:07:13+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 34.9 PASS",
-      "at": "2026-11-03T01:06:16+00:00"
+      "note": "score 72.6 TAKE",
+      "at": "2026-11-03T01:07:16+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-03T01:07:18+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 2 NVDA @ 474.83",
-      "at": "2026-11-03T01:06:00+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T01:05:58+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-03T01:07:19+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 382.81
     }
   ],
-  "pnl": 86.83,
-  "updated_at": "2026-11-03T01:06:17+00:00",
+  "pnl": 19.89,
   "realized_pnl": 123.67,
-  "unrealized_pnl": -36.84,
+  "unrealized_pnl": -103.78,
   "last_signal": {
-    "id": "715f5644",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 102.37,
-    "qty": 10,
-    "strength": 0.205,
+    "id": "9bcbc06a",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 127.75,
+    "qty": 1,
+    "strength": 0.906,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:06:11+00:00",
-    "verdict": "pass (score 34.9)",
-    "score": 34.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T01:07:11+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 72.6,
+    "recommendation": "TAKE"
   },
-  "cycle": 512,
+  "cycle": 515,
   "fills": [
     {
       "fill": 474.83,
@@ -234,5 +233,6 @@
       "symbol": "AAPL",
       "at": "2026-11-03T00:04:33+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T01:07:21+00:00"
 }
