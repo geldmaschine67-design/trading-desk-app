@@ -4,11 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 MSFT @ 122.8",
-      "at": "2026-11-03T21:44:46+00:00"
+      "note": "BUY 5 TSLA @ 295.36",
+      "at": "2026-11-03T21:45:44+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T21:45:46+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,21 +49,21 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 5387.94,
+  "pnl": 5325.98,
   "realized_pnl": 6602.9,
-  "unrealized_pnl": -1214.96,
+  "unrealized_pnl": -1276.92,
   "last_signal": {
-    "id": "18dcd90f",
-    "symbol": "MSFT",
+    "id": "5e00b8d3",
+    "symbol": "TSLA",
     "side": "BUY",
-    "price": 122.8,
-    "qty": 2,
-    "strength": 0.303,
+    "price": 295.36,
+    "qty": 5,
+    "strength": 0.652,
     "source": "paper-sim",
-    "ts": "2026-11-03T21:44:46+00:00",
+    "ts": "2026-11-03T21:45:44+00:00",
     "verdict": "pending"
   },
-  "cycle": 4106,
+  "cycle": 4109,
   "fills": [
     {
       "fill": 631.76,
@@ -224,5 +226,5 @@
       "at": "2026-11-03T20:34:21+00:00"
     }
   ],
-  "updated_at": "2026-11-03T21:44:46+00:00"
+  "updated_at": "2026-11-03T21:45:46+00:00"
 }
