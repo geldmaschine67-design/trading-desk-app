@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 2 SPY @ 67.93",
-      "at": "2026-11-03T01:50:00+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T01:51:23+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T01:50:02+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 83.3 TAKE",
-      "at": "2026-11-03T01:50:05+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 2 SPY @ 67.93",
-      "at": "2026-11-03T01:50:10+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T01:50:08+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 370.83
     }
   ],
-  "pnl": 588.89,
-  "updated_at": "2026-11-03T01:50:12+00:00",
+  "pnl": 690.01,
   "realized_pnl": 16.61,
-  "unrealized_pnl": 572.28,
+  "unrealized_pnl": 673.4,
   "last_signal": {
-    "id": "3cb2c678",
+    "id": "7799da23",
     "symbol": "SPY",
     "side": "BUY",
-    "price": 67.93,
-    "qty": 2,
-    "strength": 0.829,
+    "price": 68.0,
+    "qty": 5,
+    "strength": 0.1,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:50:00+00:00",
-    "verdict": "PAPER filled 2 @ 67.93",
-    "score": 83.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T01:51:06+00:00",
+    "verdict": "pass (score 31.8)",
+    "score": 31.8,
+    "recommendation": "PASS"
   },
-  "cycle": 650,
+  "cycle": 654,
   "fills": [
     {
       "fill": 67.93,
@@ -234,5 +225,6 @@
       "symbol": "NVDA",
       "at": "2026-11-03T01:01:09+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T01:51:23+00:00"
 }
