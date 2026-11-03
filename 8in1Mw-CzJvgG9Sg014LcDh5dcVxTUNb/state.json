@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 2 MSFT @ 89.99",
-      "at": "2026-11-03T03:17:18+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T03:18:23+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T03:17:20+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T03:17:21+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +47,23 @@
       "avg": 350.7
     }
   ],
-  "pnl": 1153.92,
+  "pnl": 959.67,
   "realized_pnl": 445.84,
-  "unrealized_pnl": 708.08,
+  "unrealized_pnl": 513.83,
   "last_signal": {
-    "id": "1278515a",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 89.99,
-    "qty": 2,
-    "strength": 0.4,
+    "id": "ec4e1fc5",
+    "symbol": "TSLA",
+    "side": "BUY",
+    "price": 346.42,
+    "qty": 1,
+    "strength": 0.594,
     "source": "paper-sim",
-    "ts": "2026-11-03T03:17:18+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T03:17:54+00:00",
+    "verdict": "pass (score 64.0)",
+    "score": 64.0,
+    "recommendation": "PASS"
   },
-  "cycle": 911,
+  "cycle": 915,
   "fills": [
     {
       "fill": 350.52,
@@ -228,5 +226,5 @@
       "at": "2026-11-03T02:25:43+00:00"
     }
   ],
-  "updated_at": "2026-11-03T03:17:21+00:00"
+  "updated_at": "2026-11-03T03:18:23+00:00"
 }
