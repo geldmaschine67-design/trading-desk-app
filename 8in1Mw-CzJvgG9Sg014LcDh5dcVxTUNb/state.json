@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 MSFT @ 130.91",
-      "at": "2026-11-03T20:39:33+00:00"
+      "note": "BUY 10 AAPL @ 95.47",
+      "at": "2026-11-03T20:40:49+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T20:39:36+00:00"
+      "at": "2026-11-03T20:40:52+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 32.0 PASS",
-      "at": "2026-11-03T20:39:38+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -2 NVDA @ 621.99",
-      "at": "2026-11-03T20:39:20+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T20:39:17+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +49,21 @@
       "avg": 338.84
     }
   ],
-  "pnl": 5570.62,
-  "updated_at": "2026-11-03T20:39:39+00:00",
+  "pnl": 5499.24,
   "realized_pnl": 6282.16,
-  "unrealized_pnl": -711.54,
+  "unrealized_pnl": -782.92,
   "last_signal": {
-    "id": "016f44d8",
-    "symbol": "MSFT",
+    "id": "7932a216",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 130.91,
+    "price": 95.47,
     "qty": 10,
-    "strength": 0.061,
+    "strength": 0.214,
     "source": "paper-sim",
-    "ts": "2026-11-03T20:39:33+00:00",
-    "verdict": "pass (score 32.0)",
-    "score": 32.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T20:40:49+00:00",
+    "verdict": "pending"
   },
-  "cycle": 3919,
+  "cycle": 3923,
   "fills": [
     {
       "fill": 621.99,
@@ -234,5 +225,6 @@
       "symbol": "AAPL",
       "at": "2026-11-03T19:57:41+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T20:40:52+00:00"
 }
