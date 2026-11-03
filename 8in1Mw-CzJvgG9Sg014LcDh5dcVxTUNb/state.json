@@ -3,21 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T17:31:14+00:00"
+      "status": "idle",
+      "note": "SELL 10 SPY @ 46.25",
+      "at": "2026-11-03T17:30:48+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T17:30:50+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 90.0 TAKE",
+      "at": "2026-11-03T17:30:53+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T17:30:57+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-03T17:30:56+00:00"
     }
   },
   "positions": [
@@ -47,9 +55,10 @@
       "avg": 687.77
     }
   ],
-  "pnl": 5285.03,
+  "pnl": 5257.62,
+  "updated_at": "2026-11-03T17:30:58+00:00",
   "realized_pnl": 6528.66,
-  "unrealized_pnl": -1243.63,
+  "unrealized_pnl": -1271.04,
   "last_signal": {
     "id": "717ff8a4",
     "symbol": "SPY",
@@ -63,7 +72,7 @@
     "score": 90.0,
     "recommendation": "TAKE"
   },
-  "cycle": 3425,
+  "cycle": 3424,
   "fills": [
     {
       "fill": 337.87,
@@ -225,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-03T16:22:45+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T17:31:14+00:00"
+  ]
 }
