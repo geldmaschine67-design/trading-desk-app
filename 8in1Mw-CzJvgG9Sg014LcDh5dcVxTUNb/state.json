@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 5 QQQ @ 498.96",
-      "at": "2026-11-03T21:55:27+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T21:56:28+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,23 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 5381.21,
+  "pnl": 5410.99,
   "realized_pnl": 6607.58,
-  "unrealized_pnl": -1226.37,
+  "unrealized_pnl": -1196.59,
   "last_signal": {
-    "id": "472e5cb4",
+    "id": "13d95652",
     "symbol": "QQQ",
     "side": "SELL",
-    "price": 498.96,
-    "qty": 5,
-    "strength": 0.383,
+    "price": 502.05,
+    "qty": 10,
+    "strength": 0.912,
     "source": "paper-sim",
-    "ts": "2026-11-03T21:55:27+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T21:56:08+00:00",
+    "verdict": "risk blocked: notional 5020 > 5000",
+    "score": 75.3,
+    "recommendation": "TAKE"
   },
-  "cycle": 4132,
+  "cycle": 4135,
   "fills": [
     {
       "fill": 344.92,
@@ -224,5 +226,5 @@
       "at": "2026-11-03T20:46:19+00:00"
     }
   ],
-  "updated_at": "2026-11-03T21:55:27+00:00"
+  "updated_at": "2026-11-03T21:56:28+00:00"
 }
