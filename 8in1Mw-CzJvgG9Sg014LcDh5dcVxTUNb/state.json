@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 MSFT @ 94.03",
-      "at": "2026-11-03T02:09:14+00:00"
+      "note": "BUY 5 MSFT @ 93.83",
+      "at": "2026-11-03T02:10:14+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T02:09:15+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T02:10:16+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +49,21 @@
       "avg": 364.16
     }
   ],
-  "pnl": 423.45,
+  "pnl": 583.75,
   "realized_pnl": 142.7,
-  "unrealized_pnl": 280.75,
+  "unrealized_pnl": 441.05,
   "last_signal": {
-    "id": "d5c20129",
+    "id": "ad5cf78a",
     "symbol": "MSFT",
     "side": "BUY",
-    "price": 94.03,
-    "qty": 1,
-    "strength": 0.409,
+    "price": 93.83,
+    "qty": 5,
+    "strength": 0.356,
     "source": "paper-sim",
-    "ts": "2026-11-03T02:09:14+00:00",
+    "ts": "2026-11-03T02:10:14+00:00",
     "verdict": "pending"
   },
-  "cycle": 707,
+  "cycle": 710,
   "fills": [
     {
       "fill": 350.82,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T01:35:27+00:00"
     }
   ],
-  "updated_at": "2026-11-03T02:09:15+00:00"
+  "updated_at": "2026-11-03T02:10:16+00:00"
 }
