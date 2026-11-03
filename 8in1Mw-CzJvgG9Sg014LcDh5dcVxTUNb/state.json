@@ -4,35 +4,31 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 MSFT @ 105.62",
-      "at": "2026-11-02T23:59:06+00:00"
+      "note": "BUY 1 MSFT @ 106.04",
+      "at": "2026-11-03T00:00:21+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-02T23:59:08+00:00"
+      "at": "2026-11-03T00:00:23+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 77.6 TAKE",
-      "at": "2026-11-02T23:59:11+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 MSFT @ 105.65",
-      "at": "2026-11-02T23:59:16+00:00"
+      "note": "score 46.9 PASS",
+      "at": "2026-11-03T00:00:26+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-02T23:59:14+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": -16,
-      "avg": 387.2337
+      "qty": -21,
+      "avg": 385.5376
     },
     {
       "symbol": "MSFT",
@@ -55,25 +51,32 @@
       "avg": 59.88
     }
   ],
-  "pnl": 372.15,
-  "updated_at": "2026-11-02T23:59:18+00:00",
+  "pnl": 430.97,
   "realized_pnl": 14.62,
-  "unrealized_pnl": 357.53,
+  "unrealized_pnl": 416.35,
   "last_signal": {
-    "id": "d00ab257",
+    "id": "5966fe8c",
     "symbol": "MSFT",
-    "side": "SELL",
-    "price": 105.62,
-    "qty": 5,
-    "strength": 0.71,
+    "side": "BUY",
+    "price": 106.04,
+    "qty": 1,
+    "strength": 0.435,
     "source": "paper-sim",
-    "ts": "2026-11-02T23:59:06+00:00",
-    "verdict": "PAPER filled -5 @ 105.65",
-    "score": 77.6,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T00:00:21+00:00",
+    "verdict": "pass (score 46.9)",
+    "score": 46.9,
+    "recommendation": "PASS"
   },
-  "cycle": 329,
+  "cycle": 332,
   "fills": [
+    {
+      "fill": 380.11,
+      "qty": -5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T00:00:04+00:00"
+    },
     {
       "fill": 105.65,
       "qty": -5,
@@ -225,14 +228,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-02T23:21:01+00:00"
-    },
-    {
-      "fill": 58.97,
-      "qty": -2,
-      "realized": -0.4,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-02T23:12:33+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T00:00:26+00:00"
 }
