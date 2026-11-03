@@ -3,29 +3,25 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T05:56:37+00:00"
+      "status": "idle",
+      "note": "BUY 5 MSFT @ 97.24",
+      "at": "2026-11-03T05:57:35+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T05:56:25+00:00"
+      "at": "2026-11-03T05:57:38+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 23.7 PASS",
-      "at": "2026-11-03T05:56:28+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 1 QQQ @ 422.69",
-      "at": "2026-11-03T05:53:55+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T05:57:39+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T05:53:53+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,21 @@
       "avg": 368.404
     }
   ],
-  "pnl": 3941.64,
-  "updated_at": "2026-11-03T05:56:37+00:00",
+  "pnl": 3772.05,
   "realized_pnl": 1288.65,
-  "unrealized_pnl": 2652.99,
+  "unrealized_pnl": 2483.4,
   "last_signal": {
-    "id": "0b4aa8e0",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 79.08,
-    "qty": 1,
-    "strength": 0.261,
+    "id": "713595e8",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 97.24,
+    "qty": 5,
+    "strength": 0.518,
     "source": "paper-sim",
-    "ts": "2026-11-03T05:56:23+00:00",
-    "verdict": "pass (score 23.7)",
-    "score": 23.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T05:57:35+00:00",
+    "verdict": "pending"
   },
-  "cycle": 1404,
+  "cycle": 1407,
   "fills": [
     {
       "fill": 422.69,
@@ -234,5 +227,6 @@
       "symbol": "QQQ",
       "at": "2026-11-03T05:08:47+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T05:57:39+00:00"
 }
