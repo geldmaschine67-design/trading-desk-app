@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 MSFT @ 109.75",
-      "at": "2026-11-03T14:41:14+00:00"
+      "note": "SELL 2 AMZN @ 344.74",
+      "at": "2026-11-03T14:42:23+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T14:41:16+00:00"
+      "at": "2026-11-03T14:42:26+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 26.9 PASS",
-      "at": "2026-11-03T14:41:19+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T14:42:27+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +51,21 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7453.62,
+  "pnl": 7430.89,
   "realized_pnl": 7708.07,
-  "unrealized_pnl": -254.45,
+  "unrealized_pnl": -277.18,
   "last_signal": {
-    "id": "1bb43688",
-    "symbol": "MSFT",
+    "id": "cf26af8d",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 109.75,
-    "qty": 10,
-    "strength": 0.207,
+    "price": 344.74,
+    "qty": 2,
+    "strength": 0.155,
     "source": "paper-sim",
-    "ts": "2026-11-03T14:41:14+00:00",
-    "verdict": "pass (score 26.9)",
-    "score": 26.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T14:42:23+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2935,
+  "cycle": 2939,
   "fills": [
     {
       "fill": 422.1,
@@ -230,5 +228,5 @@
       "at": "2026-11-03T13:46:19+00:00"
     }
   ],
-  "updated_at": "2026-11-03T14:41:20+00:00"
+  "updated_at": "2026-11-03T14:42:27+00:00"
 }
