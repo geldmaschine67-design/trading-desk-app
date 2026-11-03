@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 TSLA @ 325.59",
-      "at": "2026-11-03T22:55:57+00:00"
+      "note": "SELL 5 MSFT @ 124.63",
+      "at": "2026-11-03T22:56:54+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T22:56:00+00:00"
+      "at": "2026-11-03T22:56:57+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T22:56:01+00:00"
+      "status": "idle",
+      "note": "score 20.9 PASS",
+      "at": "2026-11-03T22:56:59+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +51,23 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 6388.35,
+  "pnl": 6534.66,
   "realized_pnl": 6386.62,
-  "unrealized_pnl": 1.73,
+  "unrealized_pnl": 148.04,
   "last_signal": {
-    "id": "9b954044",
-    "symbol": "TSLA",
-    "side": "BUY",
-    "price": 325.59,
-    "qty": 10,
-    "strength": 0.209,
+    "id": "fdd49b5b",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 124.63,
+    "qty": 5,
+    "strength": 0.233,
     "source": "paper-sim",
-    "ts": "2026-11-03T22:55:57+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T22:56:54+00:00",
+    "verdict": "pass (score 20.9)",
+    "score": 20.9,
+    "recommendation": "PASS"
   },
-  "cycle": 4276,
+  "cycle": 4279,
   "fills": [
     {
       "fill": 522.35,
@@ -228,5 +230,5 @@
       "at": "2026-11-03T21:29:26+00:00"
     }
   ],
-  "updated_at": "2026-11-03T22:56:01+00:00"
+  "updated_at": "2026-11-03T22:57:00+00:00"
 }
