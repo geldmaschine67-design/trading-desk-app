@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 AMZN @ 330.42",
-      "at": "2026-11-03T11:10:48+00:00"
+      "note": "BUY 1 AMZN @ 330.8",
+      "at": "2026-11-03T11:12:02+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T11:10:51+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 79.7 TAKE",
-      "at": "2026-11-03T11:10:53+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T11:10:56+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "PAPER fill 5 AMZN @ 330.36",
-      "at": "2026-11-03T11:10:58+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,23 +47,21 @@
       "avg": 331.8242
     }
   ],
-  "pnl": 6683.4,
+  "pnl": 6790.67,
   "realized_pnl": 3666.35,
-  "unrealized_pnl": 3017.05,
+  "unrealized_pnl": 3124.32,
   "last_signal": {
-    "id": "cca5fe34",
+    "id": "91070d23",
     "symbol": "AMZN",
     "side": "BUY",
-    "price": 330.42,
-    "qty": 5,
-    "strength": 0.931,
+    "price": 330.8,
+    "qty": 1,
+    "strength": 0.795,
     "source": "paper-sim",
-    "ts": "2026-11-03T11:10:48+00:00",
-    "verdict": "PAPER filled 5 @ 330.36",
-    "score": 79.7,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T11:12:02+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2329,
+  "cycle": 2333,
   "fills": [
     {
       "fill": 330.36,
@@ -234,5 +224,5 @@
       "at": "2026-11-03T10:33:34+00:00"
     }
   ],
-  "updated_at": "2026-11-03T11:11:00+00:00"
+  "updated_at": "2026-11-03T11:12:02+00:00"
 }
