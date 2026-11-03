@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 2 TSLA @ 401.07",
-      "at": "2026-11-03T15:59:37+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T16:00:50+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T15:59:39+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 21.1 PASS",
-      "at": "2026-11-03T15:59:41+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +47,23 @@
       "avg": 658.47
     }
   ],
-  "pnl": 6204.88,
+  "pnl": 6222.47,
   "realized_pnl": 7603.29,
-  "unrealized_pnl": -1398.41,
+  "unrealized_pnl": -1380.82,
   "last_signal": {
-    "id": "bb263721",
-    "symbol": "TSLA",
-    "side": "BUY",
-    "price": 401.07,
+    "id": "7c5a93b5",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 117.91,
     "qty": 2,
-    "strength": 0.191,
+    "strength": 0.238,
     "source": "paper-sim",
-    "ts": "2026-11-03T15:59:37+00:00",
-    "verdict": "pass (score 21.1)",
-    "score": 21.1,
+    "ts": "2026-11-03T16:00:35+00:00",
+    "verdict": "pass (score 31.5)",
+    "score": 31.5,
     "recommendation": "PASS"
   },
-  "cycle": 3149,
+  "cycle": 3153,
   "fills": [
     {
       "fill": 658.47,
@@ -230,5 +226,5 @@
       "at": "2026-11-03T15:21:52+00:00"
     }
   ],
-  "updated_at": "2026-11-03T15:59:43+00:00"
+  "updated_at": "2026-11-03T16:00:50+00:00"
 }
