@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 QQQ @ 424.2",
-      "at": "2026-11-03T05:46:17+00:00"
+      "note": "SELL 10 MSFT @ 99.66",
+      "at": "2026-11-03T05:47:23+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T05:46:19+00:00"
+      "at": "2026-11-03T05:47:25+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 25.7 PASS",
-      "at": "2026-11-03T05:46:22+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +45,34 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 23,
+      "qty": 18,
       "avg": 368.0268
     }
   ],
-  "pnl": 3982.52,
-  "realized_pnl": 1204.03,
-  "unrealized_pnl": 2778.49,
+  "pnl": 3823.49,
+  "realized_pnl": 1259.0,
+  "unrealized_pnl": 2564.49,
   "last_signal": {
-    "id": "c8f1da57",
-    "symbol": "QQQ",
-    "side": "BUY",
-    "price": 424.2,
-    "qty": 5,
-    "strength": 0.127,
+    "id": "09f0b979",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 99.66,
+    "qty": 10,
+    "strength": 0.233,
     "source": "paper-sim",
-    "ts": "2026-11-03T05:46:17+00:00",
-    "verdict": "pass (score 25.7)",
-    "score": 25.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T05:47:23+00:00",
+    "verdict": "pending"
   },
-  "cycle": 1372,
+  "cycle": 1375,
   "fills": [
+    {
+      "fill": 379.02,
+      "qty": -5,
+      "realized": 54.97,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T05:46:47+00:00"
+    },
     {
       "fill": 64.32,
       "qty": -10,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T04:52:04+00:00"
-    },
-    {
-      "fill": 400.26,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T04:51:07+00:00"
     }
   ],
-  "updated_at": "2026-11-03T05:46:23+00:00"
+  "updated_at": "2026-11-03T05:47:25+00:00"
 }
