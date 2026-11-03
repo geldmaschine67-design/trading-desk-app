@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 SPY @ 46.43",
-      "at": "2026-11-03T22:03:38+00:00"
+      "note": "BUY 10 QQQ @ 506.19",
+      "at": "2026-11-03T22:04:40+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,21 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 5279.88,
+  "pnl": 5207.13,
   "realized_pnl": 6607.58,
-  "unrealized_pnl": -1327.7,
+  "unrealized_pnl": -1400.45,
   "last_signal": {
-    "id": "7409ca40",
-    "symbol": "SPY",
+    "id": "39734326",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 46.43,
+    "price": 506.19,
     "qty": 10,
-    "strength": 0.744,
+    "strength": 0.319,
     "source": "paper-sim",
-    "ts": "2026-11-03T22:03:38+00:00",
+    "ts": "2026-11-03T22:04:40+00:00",
     "verdict": "pending"
   },
-  "cycle": 4156,
+  "cycle": 4159,
   "fills": [
     {
       "fill": 99.39,
@@ -224,5 +224,5 @@
       "at": "2026-11-03T20:50:20+00:00"
     }
   ],
-  "updated_at": "2026-11-03T22:03:38+00:00"
+  "updated_at": "2026-11-03T22:04:40+00:00"
 }
