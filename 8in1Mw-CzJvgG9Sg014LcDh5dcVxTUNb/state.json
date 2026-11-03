@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 QQQ @ 540.2",
-      "at": "2026-11-03T19:04:35+00:00"
+      "note": "SELL 10 NVDA @ 637.19",
+      "at": "2026-11-03T19:05:36+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T19:04:37+00:00"
+      "at": "2026-11-03T19:05:39+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 50.1 PASS",
-      "at": "2026-11-03T19:04:40+00:00"
+      "note": "score 70.0 TAKE",
+      "at": "2026-11-03T19:05:41+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "notional 6372 > 5000",
+      "at": "2026-11-03T19:05:44+00:00"
     },
     "executor": {
       "status": "idle",
       "note": "skipped (risk)",
-      "at": "2026-11-03T19:04:18+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-03T19:04:17+00:00"
+      "at": "2026-11-03T19:05:45+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 162.04
     }
   ],
-  "pnl": 5515.69,
-  "updated_at": "2026-11-03T19:04:41+00:00",
+  "pnl": 5570.11,
   "realized_pnl": 5919.98,
-  "unrealized_pnl": -404.29,
+  "unrealized_pnl": -349.87,
   "last_signal": {
-    "id": "c7fddb07",
-    "symbol": "QQQ",
-    "side": "BUY",
-    "price": 540.2,
-    "qty": 2,
-    "strength": 0.675,
+    "id": "9b8047ea",
+    "symbol": "NVDA",
+    "side": "SELL",
+    "price": 637.19,
+    "qty": 10,
+    "strength": 0.679,
     "source": "paper-sim",
-    "ts": "2026-11-03T19:04:35+00:00",
-    "verdict": "pass (score 50.1)",
-    "score": 50.1,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T19:05:36+00:00",
+    "verdict": "risk blocked: notional 6372 > 5000",
+    "score": 70.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 3657,
+  "cycle": 3660,
   "fills": [
     {
       "fill": 89.86,
@@ -234,5 +233,6 @@
       "symbol": "TSLA",
       "at": "2026-11-03T17:55:36+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T19:05:47+00:00"
 }
