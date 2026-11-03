@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 AAPL @ 68.93",
-      "at": "2026-11-03T09:07:33+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T09:08:36+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T09:07:35+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T09:08:19+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 52.6 PASS",
+      "at": "2026-11-03T09:08:22+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 10 AAPL @ 68.9",
+      "at": "2026-11-03T09:07:44+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T09:07:41+00:00"
     }
   },
   "positions": [
@@ -35,7 +41,7 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -77,
+      "qty": -67,
       "avg": 74.5862
     },
     {
@@ -49,22 +55,33 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 4524.72,
-  "realized_pnl": 2353.38,
-  "unrealized_pnl": 2171.34,
+  "pnl": 4718.48,
+  "updated_at": "2026-11-03T09:08:36+00:00",
+  "realized_pnl": 2410.24,
+  "unrealized_pnl": 2308.24,
   "last_signal": {
-    "id": "3f6909d7",
-    "symbol": "AAPL",
+    "id": "c8b93320",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 68.93,
+    "price": 407.03,
     "qty": 10,
-    "strength": 0.889,
+    "strength": 0.584,
     "source": "paper-sim",
-    "ts": "2026-11-03T09:07:33+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T09:08:17+00:00",
+    "verdict": "pass (score 52.6)",
+    "score": 52.6,
+    "recommendation": "PASS"
   },
-  "cycle": 1954,
+  "cycle": 1957,
   "fills": [
+    {
+      "fill": 68.9,
+      "qty": 10,
+      "realized": 56.86,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T09:07:44+00:00"
+    },
     {
       "fill": 68.89,
       "qty": -2,
@@ -216,15 +233,6 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T07:47:13+00:00"
-    },
-    {
-      "fill": 382.44,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T07:43:45+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T09:07:35+00:00"
+  ]
 }
