@@ -4,35 +4,35 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 NVDA @ 638.05",
-      "at": "2026-11-03T15:23:42+00:00"
+      "note": "BUY 10 MSFT @ 114.64",
+      "at": "2026-11-03T15:24:44+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T15:23:44+00:00"
+      "at": "2026-11-03T15:24:47+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 20.7 PASS",
-      "at": "2026-11-03T15:23:46+00:00"
+      "note": "score 66.8 PASS",
+      "at": "2026-11-03T15:24:49+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 1 AMZN @ 353.32",
-      "at": "2026-11-03T15:23:09+00:00"
+      "note": "PAPER fill 2 QQQ @ 430.91",
+      "at": "2026-11-03T15:24:12+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T15:23:07+00:00"
+      "at": "2026-11-03T15:24:10+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 5,
-      "avg": 427.93
+      "qty": 7,
+      "avg": 428.7814
     },
     {
       "symbol": "NVDA",
@@ -55,25 +55,33 @@
       "avg": 353.5682
     }
   ],
-  "pnl": 7377.14,
-  "updated_at": "2026-11-03T15:23:48+00:00",
+  "pnl": 7506.52,
+  "updated_at": "2026-11-03T15:24:50+00:00",
   "realized_pnl": 7520.4,
-  "unrealized_pnl": -143.26,
+  "unrealized_pnl": -13.88,
   "last_signal": {
-    "id": "92af658f",
-    "symbol": "NVDA",
-    "side": "SELL",
-    "price": 638.05,
+    "id": "50a231a0",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 114.64,
     "qty": 10,
-    "strength": 0.262,
+    "strength": 0.66,
     "source": "paper-sim",
-    "ts": "2026-11-03T15:23:42+00:00",
-    "verdict": "pass (score 20.7)",
-    "score": 20.7,
+    "ts": "2026-11-03T15:24:44+00:00",
+    "verdict": "pass (score 66.8)",
+    "score": 66.8,
     "recommendation": "PASS"
   },
-  "cycle": 3039,
+  "cycle": 3042,
   "fills": [
+    {
+      "fill": 430.91,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T15:24:12+00:00"
+    },
     {
       "fill": 353.32,
       "qty": 1,
@@ -225,14 +233,6 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T14:07:46+00:00"
-    },
-    {
-      "fill": 68.75,
-      "qty": 1,
-      "realized": 2.54,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-03T14:06:09+00:00"
     }
   ]
 }
