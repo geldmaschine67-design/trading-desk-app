@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 NVDA @ 628.93",
-      "at": "2026-11-03T13:40:05+00:00"
+      "note": "SELL 5 AAPL @ 68.32",
+      "at": "2026-11-03T13:41:11+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T13:40:07+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T13:41:12+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 63.7 PASS",
-      "at": "2026-11-03T13:40:10+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +49,21 @@
       "avg": 352.9978
     }
   ],
-  "pnl": 7739.5,
+  "pnl": 7767.14,
   "realized_pnl": 6958.05,
-  "unrealized_pnl": 781.45,
+  "unrealized_pnl": 809.09,
   "last_signal": {
-    "id": "6acc42a3",
-    "symbol": "NVDA",
-    "side": "BUY",
-    "price": 628.93,
+    "id": "37b12e8d",
+    "symbol": "AAPL",
+    "side": "SELL",
+    "price": 68.32,
     "qty": 5,
-    "strength": 0.587,
+    "strength": 0.816,
     "source": "paper-sim",
-    "ts": "2026-11-03T13:40:05+00:00",
-    "verdict": "pass (score 63.7)",
-    "score": 63.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T13:41:11+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2768,
+  "cycle": 2772,
   "fills": [
     {
       "fill": 625.04,
@@ -230,5 +226,5 @@
       "at": "2026-11-03T12:26:11+00:00"
     }
   ],
-  "updated_at": "2026-11-03T13:40:10+00:00"
+  "updated_at": "2026-11-03T13:41:12+00:00"
 }
