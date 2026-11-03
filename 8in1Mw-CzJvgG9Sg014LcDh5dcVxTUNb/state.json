@@ -4,26 +4,34 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 QQQ @ 354.71",
-      "at": "2026-11-03T02:54:50+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T02:55:42+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T02:54:53+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 83.0 TAKE",
+      "at": "2026-11-03T02:54:55+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -5 QQQ @ 354.53",
+      "at": "2026-11-03T02:55:00+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T02:54:58+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 6,
+      "qty": 1,
       "avg": 360.2817
     },
     {
@@ -47,9 +55,10 @@
       "avg": 364.16
     }
   ],
-  "pnl": 812.06,
-  "realized_pnl": 180.31,
-  "unrealized_pnl": 631.75,
+  "pnl": 835.71,
+  "updated_at": "2026-11-03T02:55:43+00:00",
+  "realized_pnl": 151.55,
+  "unrealized_pnl": 684.16,
   "last_signal": {
     "id": "5584b8c7",
     "symbol": "QQQ",
@@ -59,10 +68,20 @@
     "strength": 0.792,
     "source": "paper-sim",
     "ts": "2026-11-03T02:54:50+00:00",
-    "verdict": "pending"
+    "verdict": "PAPER filled -5 @ 354.53",
+    "score": 83.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 842,
+  "cycle": 845,
   "fills": [
+    {
+      "fill": 354.53,
+      "qty": -5,
+      "realized": -28.76,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T02:55:00+00:00"
+    },
     {
       "fill": 358.99,
       "qty": -10,
@@ -214,15 +233,6 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T01:58:41+00:00"
-    },
-    {
-      "fill": 69.94,
-      "qty": -1,
-      "realized": 4.07,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-03T01:57:19+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T02:54:50+00:00"
+  ]
 }
