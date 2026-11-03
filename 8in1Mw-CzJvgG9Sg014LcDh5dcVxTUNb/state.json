@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 10 SPY @ 45.67",
-      "at": "2026-11-03T17:29:47+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T17:31:14+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T17:29:49+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 86.0 TAKE",
-      "at": "2026-11-03T17:29:52+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T17:29:56+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-03T17:29:55+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -41,8 +33,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 2,
-      "avg": 366.1815
+      "qty": -3,
+      "avg": 337.87
     },
     {
       "symbol": "AMZN",
@@ -55,25 +47,32 @@
       "avg": 687.77
     }
   ],
-  "pnl": 5200.27,
-  "updated_at": "2026-11-03T17:29:58+00:00",
-  "realized_pnl": 6585.28,
-  "unrealized_pnl": -1385.01,
+  "pnl": 5285.03,
+  "realized_pnl": 6528.66,
+  "unrealized_pnl": -1243.63,
   "last_signal": {
-    "id": "1dc753c1",
+    "id": "717ff8a4",
     "symbol": "SPY",
     "side": "SELL",
-    "price": 45.67,
+    "price": 46.25,
     "qty": 10,
-    "strength": 0.916,
+    "strength": 0.911,
     "source": "paper-sim",
-    "ts": "2026-11-03T17:29:47+00:00",
+    "ts": "2026-11-03T17:30:48+00:00",
     "verdict": "risk blocked: max positions",
-    "score": 86.0,
+    "score": 90.0,
     "recommendation": "TAKE"
   },
-  "cycle": 3421,
+  "cycle": 3425,
   "fills": [
+    {
+      "fill": 337.87,
+      "qty": -5,
+      "realized": -56.62,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T17:30:33+00:00"
+    },
     {
       "fill": 345.15,
       "qty": -10,
@@ -225,14 +224,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T16:22:45+00:00"
-    },
-    {
-      "fill": 394.7,
-      "qty": -10,
-      "realized": -204.2,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T16:17:07+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T17:31:14+00:00"
 }
