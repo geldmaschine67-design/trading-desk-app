@@ -4,33 +4,35 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 TSLA @ 366.67",
-      "at": "2026-11-03T10:32:58+00:00"
+      "note": "BUY 2 TSLA @ 365.37",
+      "at": "2026-11-03T10:33:49+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T10:33:01+00:00"
+      "at": "2026-11-03T10:33:51+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 73.7 TAKE",
-      "at": "2026-11-03T10:33:03+00:00"
-    },
-    "risk": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T10:33:05+00:00"
+      "note": "score 14.2 PASS",
+      "at": "2026-11-03T10:33:54+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 2 QQQ @ 425.31",
+      "at": "2026-11-03T10:33:34+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T10:33:32+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 32,
-      "avg": 411.2578
+      "qty": 34,
+      "avg": 412.0844
     },
     {
       "symbol": "NVDA",
@@ -44,8 +46,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 21,
-      "avg": 379.3958
+      "qty": 26,
+      "avg": 376.9735
     },
     {
       "symbol": "AMZN",
@@ -53,24 +55,41 @@
       "avg": 350.23
     }
   ],
-  "pnl": 5394.3,
+  "pnl": 5254.53,
+  "updated_at": "2026-11-03T10:33:55+00:00",
   "realized_pnl": 2963.49,
-  "unrealized_pnl": 2430.81,
+  "unrealized_pnl": 2291.04,
   "last_signal": {
-    "id": "085c5b68",
+    "id": "6d0a04bb",
     "symbol": "TSLA",
     "side": "BUY",
-    "price": 366.67,
-    "qty": 5,
-    "strength": 0.692,
+    "price": 365.37,
+    "qty": 2,
+    "strength": 0.013,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:32:58+00:00",
-    "verdict": "pending",
-    "score": 73.7,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T10:33:49+00:00",
+    "verdict": "pass (score 14.2)",
+    "score": 14.2,
+    "recommendation": "PASS"
   },
-  "cycle": 2213,
+  "cycle": 2215,
   "fills": [
+    {
+      "fill": 425.31,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T10:33:34+00:00"
+    },
+    {
+      "fill": 366.8,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T10:33:08+00:00"
+    },
     {
       "fill": 59.08,
       "qty": -2,
@@ -214,23 +233,6 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T09:42:33+00:00"
-    },
-    {
-      "fill": 417.44,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T09:40:34+00:00"
-    },
-    {
-      "fill": 415.94,
-      "qty": -2,
-      "realized": 22.95,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T09:39:32+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T10:33:05+00:00"
+  ]
 }
