@@ -5,7 +5,7 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-03T09:18:48+00:00"
+      "at": "2026-11-03T09:19:48+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 4568.3,
+  "pnl": 4639.53,
   "realized_pnl": 2423.11,
-  "unrealized_pnl": 2145.19,
+  "unrealized_pnl": 2216.42,
   "last_signal": {
-    "id": "0c20ab88",
-    "symbol": "AAPL",
+    "id": "06109102",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 68.53,
-    "qty": 5,
-    "strength": 0.306,
+    "price": 102.12,
+    "qty": 1,
+    "strength": 0.401,
     "source": "paper-sim",
-    "ts": "2026-11-03T09:18:30+00:00",
-    "verdict": "pass (score 31.7)",
-    "score": 31.7,
+    "ts": "2026-11-03T09:19:26+00:00",
+    "verdict": "pass (score 32.8)",
+    "score": 32.8,
     "recommendation": "PASS"
   },
-  "cycle": 1990,
+  "cycle": 1993,
   "fills": [
     {
       "fill": 151.91,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T07:59:31+00:00"
     }
   ],
-  "updated_at": "2026-11-03T09:18:49+00:00"
+  "updated_at": "2026-11-03T09:19:49+00:00"
 }
