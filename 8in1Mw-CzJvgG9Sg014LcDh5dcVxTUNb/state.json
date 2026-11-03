@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 QQQ @ 522.48",
-      "at": "2026-11-03T19:36:32+00:00"
+      "note": "SELL 2 BTC-USD @ 164.35",
+      "at": "2026-11-03T19:37:29+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T19:37:31+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 68.6 PASS",
+      "at": "2026-11-03T19:37:34+00:00"
     },
     "risk": {
       "status": "idle"
@@ -23,7 +27,7 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": -4,
+      "qty": -2,
       "avg": 486.9055
     },
     {
@@ -47,22 +51,32 @@
       "avg": 161.67
     }
   ],
-  "pnl": 5882.59,
-  "realized_pnl": 6230.25,
-  "unrealized_pnl": -347.66,
+  "pnl": 5901.45,
+  "realized_pnl": 6159.34,
+  "unrealized_pnl": -257.89,
   "last_signal": {
-    "id": "39b00bb2",
-    "symbol": "QQQ",
-    "side": "BUY",
-    "price": 522.48,
+    "id": "5e4e4cfd",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 164.35,
     "qty": 2,
-    "strength": 1.0,
+    "strength": 0.642,
     "source": "paper-sim",
-    "ts": "2026-11-03T19:36:32+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T19:37:29+00:00",
+    "verdict": "pass (score 68.6)",
+    "score": 68.6,
+    "recommendation": "PASS"
   },
-  "cycle": 3755,
+  "cycle": 3758,
   "fills": [
+    {
+      "fill": 522.36,
+      "qty": 2,
+      "realized": -70.91,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T19:36:42+00:00"
+    },
     {
       "fill": 609.9,
       "qty": 5,
@@ -214,15 +228,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T18:31:12+00:00"
-    },
-    {
-      "fill": 527.34,
-      "qty": 5,
-      "realized": -202.17,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T18:23:55+00:00"
     }
   ],
-  "updated_at": "2026-11-03T19:36:32+00:00"
+  "updated_at": "2026-11-03T19:37:35+00:00"
 }
