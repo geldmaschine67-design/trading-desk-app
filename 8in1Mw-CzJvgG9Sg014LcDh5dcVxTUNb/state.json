@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 AMZN @ 356.12",
-      "at": "2026-11-03T17:46:42+00:00"
+      "note": "BUY 2 BTC-USD @ 157.87",
+      "at": "2026-11-03T17:47:54+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T17:46:45+00:00"
+      "at": "2026-11-03T17:47:56+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 38.4 PASS",
-      "at": "2026-11-03T17:46:47+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -2 AMZN @ 361.66",
-      "at": "2026-11-03T17:41:56+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T17:47:57+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T17:41:54+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,21 @@
       "avg": 673.4142
     }
   ],
-  "pnl": 5537.61,
-  "updated_at": "2026-11-03T17:46:48+00:00",
+  "pnl": 5485.36,
   "realized_pnl": 6546.04,
-  "unrealized_pnl": -1008.43,
+  "unrealized_pnl": -1060.68,
   "last_signal": {
-    "id": "dfb11a1a",
-    "symbol": "AMZN",
+    "id": "c1b9fb1d",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 356.12,
-    "qty": 5,
-    "strength": 0.158,
+    "price": 157.87,
+    "qty": 2,
+    "strength": 0.984,
     "source": "paper-sim",
-    "ts": "2026-11-03T17:46:42+00:00",
-    "verdict": "pass (score 38.4)",
-    "score": 38.4,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T17:47:54+00:00",
+    "verdict": "pending"
   },
-  "cycle": 3454,
+  "cycle": 3458,
   "fills": [
     {
       "fill": 361.66,
@@ -234,5 +227,6 @@
       "symbol": "NVDA",
       "at": "2026-11-03T16:38:57+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T17:47:57+00:00"
 }
