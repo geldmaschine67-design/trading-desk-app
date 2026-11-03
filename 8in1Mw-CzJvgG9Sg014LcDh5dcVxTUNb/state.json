@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AAPL @ 90.62",
-      "at": "2026-11-03T19:07:46+00:00"
+      "note": "BUY 1 AMZN @ 331.66",
+      "at": "2026-11-03T19:08:50+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T19:07:48+00:00"
+      "at": "2026-11-03T19:08:52+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 77.3 TAKE",
-      "at": "2026-11-03T19:07:51+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -32,8 +30,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -49,
-      "avg": 74.3011
+      "qty": -59,
+      "avg": 77.0721
     },
     {
       "symbol": "AMZN",
@@ -51,24 +49,30 @@
       "avg": 162.04
     }
   ],
-  "pnl": 5709.19,
+  "pnl": 5799.29,
   "realized_pnl": 5919.98,
-  "unrealized_pnl": -210.79,
+  "unrealized_pnl": -120.69,
   "last_signal": {
-    "id": "90986757",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 90.62,
-    "qty": 10,
-    "strength": 0.89,
+    "id": "cc25838b",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 331.66,
+    "qty": 1,
+    "strength": 0.536,
     "source": "paper-sim",
-    "ts": "2026-11-03T19:07:46+00:00",
-    "verdict": "pending",
-    "score": 77.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T19:08:50+00:00",
+    "verdict": "pending"
   },
-  "cycle": 3667,
+  "cycle": 3670,
   "fills": [
+    {
+      "fill": 90.65,
+      "qty": -10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T19:07:56+00:00"
+    },
     {
       "fill": 89.86,
       "qty": 1,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-03T18:03:01+00:00"
-    },
-    {
-      "fill": 322.32,
-      "qty": -1,
-      "realized": 4.76,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T17:55:36+00:00"
     }
   ],
-  "updated_at": "2026-11-03T19:07:51+00:00"
+  "updated_at": "2026-11-03T19:08:52+00:00"
 }
