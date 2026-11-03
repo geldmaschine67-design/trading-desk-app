@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 MSFT @ 124.63",
-      "at": "2026-11-03T22:56:54+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T22:57:54+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T22:56:57+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 20.9 PASS",
-      "at": "2026-11-03T22:56:59+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +43,36 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 7,
-      "avg": 320.4629
+      "qty": 12,
+      "avg": 321.17
     }
   ],
-  "pnl": 6534.66,
+  "pnl": 6571.27,
   "realized_pnl": 6386.62,
-  "unrealized_pnl": 148.04,
+  "unrealized_pnl": 184.65,
   "last_signal": {
-    "id": "fdd49b5b",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 124.63,
+    "id": "54acd559",
+    "symbol": "TSLA",
+    "side": "BUY",
+    "price": 322.16,
     "qty": 5,
-    "strength": 0.233,
+    "strength": 0.853,
     "source": "paper-sim",
-    "ts": "2026-11-03T22:56:54+00:00",
-    "verdict": "pass (score 20.9)",
-    "score": 20.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T22:57:29+00:00",
+    "verdict": "PAPER filled 5 @ 322.16",
+    "score": 84.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 4279,
+  "cycle": 4282,
   "fills": [
+    {
+      "fill": 322.16,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T22:57:39+00:00"
+    },
     {
       "fill": 522.35,
       "qty": -5,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T21:34:50+00:00"
-    },
-    {
-      "fill": 616.85,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T21:29:26+00:00"
     }
   ],
-  "updated_at": "2026-11-03T22:57:00+00:00"
+  "updated_at": "2026-11-03T22:57:55+00:00"
 }
