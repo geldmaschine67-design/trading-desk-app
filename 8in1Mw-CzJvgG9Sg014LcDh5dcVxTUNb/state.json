@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 AMZN @ 357.15",
-      "at": "2026-11-03T10:42:16+00:00"
+      "note": "SELL 10 MSFT @ 107.96",
+      "at": "2026-11-03T10:43:17+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T10:42:18+00:00"
+      "at": "2026-11-03T10:43:20+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -45,26 +45,34 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -9,
+      "qty": -8,
       "avg": 350.23
     }
   ],
-  "pnl": 5803.78,
-  "realized_pnl": 2964.12,
-  "unrealized_pnl": 2839.66,
+  "pnl": 5777.71,
+  "realized_pnl": 2957.22,
+  "unrealized_pnl": 2820.49,
   "last_signal": {
-    "id": "a565a569",
-    "symbol": "AMZN",
-    "side": "BUY",
-    "price": 357.15,
-    "qty": 1,
-    "strength": 0.96,
+    "id": "2d3ad92c",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 107.96,
+    "qty": 10,
+    "strength": 0.351,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:42:16+00:00",
+    "ts": "2026-11-03T10:43:17+00:00",
     "verdict": "pending"
   },
-  "cycle": 2241,
+  "cycle": 2244,
   "fills": [
+    {
+      "fill": 357.13,
+      "qty": 1,
+      "realized": -6.9,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T10:42:26+00:00"
+    },
     {
       "fill": 372.89,
       "qty": 5,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-03T09:55:04+00:00"
-    },
-    {
-      "fill": 380.4,
-      "qty": -5,
-      "realized": -4.4,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T09:53:02+00:00"
     }
   ],
-  "updated_at": "2026-11-03T10:42:18+00:00"
+  "updated_at": "2026-11-03T10:43:20+00:00"
 }
