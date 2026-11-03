@@ -4,13 +4,11 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 AMZN @ 337.91",
-      "at": "2026-11-03T04:29:48+00:00"
+      "note": "SELL 2 NVDA @ 575.74",
+      "at": "2026-11-03T04:30:52+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T04:29:50+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -25,8 +23,8 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 17,
-      "avg": 373.6102
+      "qty": 19,
+      "avg": 373.3091
     },
     {
       "symbol": "NVDA",
@@ -49,22 +47,30 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 2276.82,
+  "pnl": 2523.31,
   "realized_pnl": 384.72,
-  "unrealized_pnl": 1892.1,
+  "unrealized_pnl": 2138.59,
   "last_signal": {
-    "id": "1359df75",
-    "symbol": "AMZN",
+    "id": "4b5e6bcd",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 337.91,
-    "qty": 5,
-    "strength": 0.819,
+    "price": 575.74,
+    "qty": 2,
+    "strength": 0.92,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:29:48+00:00",
+    "ts": "2026-11-03T04:30:52+00:00",
     "verdict": "pending"
   },
-  "cycle": 1133,
+  "cycle": 1136,
   "fills": [
+    {
+      "fill": 370.75,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T04:30:18+00:00"
+    },
     {
       "fill": 76.29,
       "qty": -5,
@@ -216,15 +222,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T03:21:22+00:00"
-    },
-    {
-      "fill": 529.64,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T03:19:55+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:29:50+00:00"
+  "updated_at": "2026-11-03T04:30:52+00:00"
 }
