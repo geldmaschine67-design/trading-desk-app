@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 1 QQQ @ 363.37",
-      "at": "2026-11-03T04:07:05+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T04:08:21+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T04:07:08+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 17.7 PASS",
-      "at": "2026-11-03T04:07:10+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T04:05:25+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-03T04:05:23+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 1924.54,
-  "updated_at": "2026-11-03T04:07:11+00:00",
+  "pnl": 1895.65,
   "realized_pnl": 392.11,
-  "unrealized_pnl": 1532.43,
+  "unrealized_pnl": 1503.54,
   "last_signal": {
-    "id": "4fb13389",
-    "symbol": "QQQ",
+    "id": "883d8d54",
+    "symbol": "AAPL",
     "side": "SELL",
-    "price": 363.37,
-    "qty": 1,
-    "strength": 0.174,
+    "price": 81.29,
+    "qty": 10,
+    "strength": 0.063,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:07:05+00:00",
-    "verdict": "pass (score 17.7)",
-    "score": 17.7,
+    "ts": "2026-11-03T04:08:05+00:00",
+    "verdict": "pass (score 29.3)",
+    "score": 29.3,
     "recommendation": "PASS"
   },
-  "cycle": 1062,
+  "cycle": 1066,
   "fills": [
     {
       "fill": 82.5,
@@ -234,5 +225,6 @@
       "symbol": "SPY",
       "at": "2026-11-03T02:58:07+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T04:08:21+00:00"
 }
