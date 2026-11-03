@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 TSLA @ 398.64",
-      "at": "2026-11-03T09:22:37+00:00"
+      "note": "BUY 5 NVDA @ 603.07",
+      "at": "2026-11-03T09:23:45+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T09:22:39+00:00"
+      "at": "2026-11-03T09:23:47+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 72.3 TAKE",
-      "at": "2026-11-03T09:22:41+00:00"
+      "note": "score 62.3 PASS",
+      "at": "2026-11-03T09:23:50+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -10 TSLA @ 398.71",
-      "at": "2026-11-03T09:22:47+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-03T09:23:29+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T09:22:44+00:00"
+      "note": "max positions",
+      "at": "2026-11-03T09:23:27+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,24 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 4958.92,
-  "updated_at": "2026-11-03T09:22:48+00:00",
+  "pnl": 4978.18,
+  "updated_at": "2026-11-03T09:23:51+00:00",
   "realized_pnl": 2667.17,
-  "unrealized_pnl": 2291.75,
+  "unrealized_pnl": 2311.01,
   "last_signal": {
-    "id": "54892c00",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 398.64,
-    "qty": 10,
-    "strength": 0.844,
+    "id": "e5251fc1",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 603.07,
+    "qty": 5,
+    "strength": 0.517,
     "source": "paper-sim",
-    "ts": "2026-11-03T09:22:37+00:00",
-    "verdict": "PAPER filled -10 @ 398.71",
-    "score": 72.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T09:23:45+00:00",
+    "verdict": "pass (score 62.3)",
+    "score": 62.3,
+    "recommendation": "PASS"
   },
-  "cycle": 2002,
+  "cycle": 2005,
   "fills": [
     {
       "fill": 398.71,
