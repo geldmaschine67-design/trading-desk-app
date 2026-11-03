@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 5 SPY @ 45.47",
-      "at": "2026-11-03T20:12:08+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T20:13:59+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T20:12:10+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 14.4 PASS",
-      "at": "2026-11-03T20:12:12+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 1 TSLA @ 342.0",
-      "at": "2026-11-03T20:08:45+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T20:08:43+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,10 +47,9 @@
       "avg": 338.3917
     }
   ],
-  "pnl": 6052.9,
-  "updated_at": "2026-11-03T20:12:14+00:00",
+  "pnl": 6090.25,
   "realized_pnl": 6346.34,
-  "unrealized_pnl": -293.44,
+  "unrealized_pnl": -256.09,
   "last_signal": {
     "id": "8dc7524d",
     "symbol": "SPY",
@@ -72,7 +63,7 @@
     "score": 14.4,
     "recommendation": "PASS"
   },
-  "cycle": 3849,
+  "cycle": 3850,
   "fills": [
     {
       "fill": 342.0,
@@ -234,5 +225,6 @@
       "symbol": "BTC-USD",
       "at": "2026-11-03T19:20:05+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T20:13:59+00:00"
 }
