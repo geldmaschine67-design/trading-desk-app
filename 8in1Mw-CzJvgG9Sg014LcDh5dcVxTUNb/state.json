@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-03T16:24:03+00:00"
+      "note": "BUY 10 BTC-USD @ 154.77",
+      "at": "2026-11-03T16:24:59+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T16:23:44+00:00"
+      "at": "2026-11-03T16:25:01+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 51.3 PASS",
-      "at": "2026-11-03T16:23:47+00:00"
+      "note": "score 33.5 PASS",
+      "at": "2026-11-03T16:25:03+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 658.47
     }
   ],
-  "pnl": 6334.53,
-  "updated_at": "2026-11-03T16:24:04+00:00",
+  "pnl": 6318.8,
+  "updated_at": "2026-11-03T16:25:05+00:00",
   "realized_pnl": 7129.22,
-  "unrealized_pnl": -794.69,
+  "unrealized_pnl": -810.42,
   "last_signal": {
-    "id": "4f13cad3",
-    "symbol": "NVDA",
+    "id": "8baed523",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 672.92,
-    "qty": 1,
-    "strength": 0.327,
+    "price": 154.77,
+    "qty": 10,
+    "strength": 0.27,
     "source": "paper-sim",
-    "ts": "2026-11-03T16:23:42+00:00",
-    "verdict": "pass (score 51.3)",
-    "score": 51.3,
+    "ts": "2026-11-03T16:24:59+00:00",
+    "verdict": "pass (score 33.5)",
+    "score": 33.5,
     "recommendation": "PASS"
   },
-  "cycle": 3216,
+  "cycle": 3220,
   "fills": [
     {
       "fill": 387.52,
