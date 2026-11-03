@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 MSFT @ 106.46",
-      "at": "2026-11-03T12:35:51+00:00"
+      "note": "BUY 1 TSLA @ 400.64",
+      "at": "2026-11-03T12:36:46+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T12:35:54+00:00"
+      "at": "2026-11-03T12:36:48+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T12:35:55+00:00"
+      "status": "idle",
+      "note": "score 67.7 PASS",
+      "at": "2026-11-03T12:36:51+00:00"
     },
     "risk": {
       "status": "idle"
@@ -27,8 +27,8 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 6,
-      "avg": 424.335
+      "qty": 16,
+      "avg": 451.3006
     },
     {
       "symbol": "NVDA",
@@ -51,22 +51,32 @@
       "avg": 360.8556
     }
   ],
-  "pnl": 8002.15,
+  "pnl": 8175.89,
   "realized_pnl": 5820.85,
-  "unrealized_pnl": 2181.3,
+  "unrealized_pnl": 2355.04,
   "last_signal": {
-    "id": "4b951d46",
-    "symbol": "MSFT",
+    "id": "a9c08602",
+    "symbol": "TSLA",
     "side": "BUY",
-    "price": 106.46,
+    "price": 400.64,
     "qty": 1,
-    "strength": 0.202,
+    "strength": 0.766,
     "source": "paper-sim",
-    "ts": "2026-11-03T12:35:51+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T12:36:46+00:00",
+    "verdict": "pass (score 67.7)",
+    "score": 67.7,
+    "recommendation": "PASS"
   },
-  "cycle": 2574,
+  "cycle": 2577,
   "fills": [
+    {
+      "fill": 467.48,
+      "qty": 10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T12:36:34+00:00"
+    },
     {
       "fill": 368.36,
       "qty": 10,
@@ -218,15 +228,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T11:41:44+00:00"
-    },
-    {
-      "fill": 468.58,
-      "qty": -10,
-      "realized": 503.87,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T11:38:42+00:00"
     }
   ],
-  "updated_at": "2026-11-03T12:35:55+00:00"
+  "updated_at": "2026-11-03T12:36:52+00:00"
 }
