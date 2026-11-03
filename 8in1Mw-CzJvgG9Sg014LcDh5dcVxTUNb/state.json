@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T10:24:23+00:00"
+      "status": "idle",
+      "note": "SELL 2 QQQ @ 425.18",
+      "at": "2026-11-03T10:25:26+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 350.23
     }
   ],
-  "pnl": 5511.42,
+  "pnl": 5414.37,
   "realized_pnl": 2963.49,
-  "unrealized_pnl": 2547.93,
+  "unrealized_pnl": 2450.88,
   "last_signal": {
-    "id": "bdee1892",
-    "symbol": "MSFT",
+    "id": "4ebae457",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 108.72,
+    "price": 425.18,
     "qty": 2,
-    "strength": 0.002,
+    "strength": 0.363,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:24:06+00:00",
-    "verdict": "pass (score 29.3)",
-    "score": 29.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T10:25:26+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2197,
+  "cycle": 2200,
   "fills": [
     {
       "fill": 58.12,
@@ -226,5 +224,5 @@
       "at": "2026-11-03T09:38:49+00:00"
     }
   ],
-  "updated_at": "2026-11-03T10:24:23+00:00"
+  "updated_at": "2026-11-03T10:25:26+00:00"
 }
