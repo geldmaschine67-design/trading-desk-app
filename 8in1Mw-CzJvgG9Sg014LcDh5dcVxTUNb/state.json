@@ -4,11 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-03T04:28:45+00:00"
+      "note": "SELL 5 AMZN @ 337.91",
+      "at": "2026-11-03T04:29:48+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T04:29:50+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 2457.46,
+  "pnl": 2276.82,
   "realized_pnl": 384.72,
-  "unrealized_pnl": 2072.74,
+  "unrealized_pnl": 1892.1,
   "last_signal": {
-    "id": "66d76c38",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 62.75,
-    "qty": 10,
-    "strength": 0.582,
+    "id": "1359df75",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 337.91,
+    "qty": 5,
+    "strength": 0.819,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:28:29+00:00",
-    "verdict": "pass (score 41.7)",
-    "score": 41.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T04:29:48+00:00",
+    "verdict": "pending"
   },
-  "cycle": 1129,
+  "cycle": 1133,
   "fills": [
     {
       "fill": 76.29,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T03:19:55+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:28:46+00:00"
+  "updated_at": "2026-11-03T04:29:50+00:00"
 }
