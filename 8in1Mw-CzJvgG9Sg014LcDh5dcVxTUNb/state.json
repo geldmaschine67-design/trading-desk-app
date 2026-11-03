@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 162.16",
-      "at": "2026-11-03T11:31:40+00:00"
+      "note": "BUY 10 MSFT @ 105.93",
+      "at": "2026-11-03T11:32:36+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T11:31:41+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T11:32:38+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 63.6 PASS",
+      "at": "2026-11-03T11:32:41+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T11:31:49+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T11:31:48+00:00"
     }
   },
   "positions": [
@@ -49,21 +55,24 @@
       "avg": 332.4047
     }
   ],
-  "pnl": 6957.13,
+  "pnl": 6851.78,
+  "updated_at": "2026-11-03T11:32:42+00:00",
   "realized_pnl": 3924.65,
-  "unrealized_pnl": 3032.48,
+  "unrealized_pnl": 2927.13,
   "last_signal": {
-    "id": "0551e120",
-    "symbol": "BTC-USD",
+    "id": "ceb89a68",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 162.16,
-    "qty": 5,
-    "strength": 0.976,
+    "price": 105.93,
+    "qty": 10,
+    "strength": 0.661,
     "source": "paper-sim",
-    "ts": "2026-11-03T11:31:40+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T11:32:36+00:00",
+    "verdict": "pass (score 63.6)",
+    "score": 63.6,
+    "recommendation": "PASS"
   },
-  "cycle": 2384,
+  "cycle": 2387,
   "fills": [
     {
       "fill": 451.18,
@@ -225,6 +234,5 @@
       "symbol": "QQQ",
       "at": "2026-11-03T10:51:22+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T11:31:41+00:00"
+  ]
 }
