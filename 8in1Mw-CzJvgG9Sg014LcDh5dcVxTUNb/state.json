@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AAPL @ 71.35",
-      "at": "2026-11-03T07:34:08+00:00"
+      "note": "BUY 1 AAPL @ 71.14",
+      "at": "2026-11-03T07:40:28+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T07:34:41+00:00"
+      "at": "2026-11-03T07:40:31+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 95.2 TAKE",
+      "at": "2026-11-03T07:40:33+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 AAPL @ 71.15",
+      "at": "2026-11-03T07:40:38+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T07:40:36+00:00"
     }
   },
   "positions": [
@@ -35,7 +41,7 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -61,
+      "qty": -60,
       "avg": 75.823
     },
     {
@@ -49,22 +55,33 @@
       "avg": 152.9088
     }
   ],
-  "pnl": 4134.8,
-  "realized_pnl": 1982.0,
-  "unrealized_pnl": 2152.8,
+  "pnl": 4205.82,
+  "updated_at": "2026-11-03T07:40:40+00:00",
+  "realized_pnl": 1986.67,
+  "unrealized_pnl": 2219.15,
   "last_signal": {
-    "id": "ac57982e",
+    "id": "66f63c12",
     "symbol": "AAPL",
-    "side": "SELL",
-    "price": 71.35,
-    "qty": 2,
-    "strength": 0.456,
+    "side": "BUY",
+    "price": 71.14,
+    "qty": 1,
+    "strength": 0.992,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:34:08+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T07:40:28+00:00",
+    "verdict": "PAPER filled 1 @ 71.15",
+    "score": 95.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 1708,
+  "cycle": 1711,
   "fills": [
+    {
+      "fill": 71.15,
+      "qty": 1,
+      "realized": 4.67,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T07:40:38+00:00"
+    },
     {
       "fill": 566.02,
       "qty": -1,
@@ -216,15 +233,6 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-03T06:57:29+00:00"
-    },
-    {
-      "fill": 152.22,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-03T06:55:42+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T07:34:41+00:00"
+  ]
 }
