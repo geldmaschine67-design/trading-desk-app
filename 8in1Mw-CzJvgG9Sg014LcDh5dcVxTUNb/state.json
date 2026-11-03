@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 AAPL @ 70.55",
-      "at": "2026-11-03T08:21:58+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T08:23:06+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T08:22:00+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 42.0 PASS",
-      "at": "2026-11-03T08:22:02+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +43,36 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": 11,
+      "qty": 6,
       "avg": 149.3355
     }
   ],
-  "pnl": 3904.09,
-  "realized_pnl": 2366.54,
-  "unrealized_pnl": 1537.55,
+  "pnl": 4073.46,
+  "realized_pnl": 2353.56,
+  "unrealized_pnl": 1719.9,
   "last_signal": {
-    "id": "065bbc93",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 70.55,
-    "qty": 2,
-    "strength": 0.569,
+    "id": "fc99f7a8",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 146.67,
+    "qty": 5,
+    "strength": 0.674,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:21:58+00:00",
-    "verdict": "pass (score 42.0)",
-    "score": 42.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T08:22:40+00:00",
+    "verdict": "PAPER filled -5 @ 146.74",
+    "score": 71.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 1839,
+  "cycle": 1842,
   "fills": [
+    {
+      "fill": 146.74,
+      "qty": -5,
+      "realized": -12.98,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-03T08:22:49+00:00"
+    },
     {
       "fill": 149.04,
       "qty": 10,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-03T07:25:50+00:00"
-    },
-    {
-      "fill": 414.65,
-      "qty": -2,
-      "realized": 27.87,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T07:25:27+00:00"
     }
   ],
-  "updated_at": "2026-11-03T08:22:04+00:00"
+  "updated_at": "2026-11-03T08:23:07+00:00"
 }
