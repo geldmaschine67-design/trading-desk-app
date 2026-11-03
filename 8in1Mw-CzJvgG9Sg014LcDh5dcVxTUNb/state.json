@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 143.63",
-      "at": "2026-11-03T22:08:38+00:00"
+      "note": "SELL 5 BTC-USD @ 143.78",
+      "at": "2026-11-03T22:09:34+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T22:08:41+00:00"
+      "at": "2026-11-03T22:09:36+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 39.5 PASS",
-      "at": "2026-11-03T22:08:43+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 21.1 PASS",
+      "at": "2026-11-03T22:09:38+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -10 AAPL @ 99.35",
+      "at": "2026-11-03T22:06:31+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T22:06:29+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 5187.5,
+  "pnl": 5233.34,
+  "updated_at": "2026-11-03T22:09:40+00:00",
   "realized_pnl": 6607.58,
-  "unrealized_pnl": -1420.08,
+  "unrealized_pnl": -1374.24,
   "last_signal": {
-    "id": "6c81ea33",
+    "id": "4a74fa14",
     "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 143.63,
+    "side": "SELL",
+    "price": 143.78,
     "qty": 5,
-    "strength": 0.454,
+    "strength": 0.159,
     "source": "paper-sim",
-    "ts": "2026-11-03T22:08:38+00:00",
-    "verdict": "pass (score 39.5)",
-    "score": 39.5,
+    "ts": "2026-11-03T22:09:34+00:00",
+    "verdict": "pass (score 21.1)",
+    "score": 21.1,
     "recommendation": "PASS"
   },
-  "cycle": 4172,
+  "cycle": 4175,
   "fills": [
     {
       "fill": 99.35,
@@ -229,6 +234,5 @@
       "symbol": "NVDA",
       "at": "2026-11-03T20:52:25+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T22:08:44+00:00"
+  ]
 }
