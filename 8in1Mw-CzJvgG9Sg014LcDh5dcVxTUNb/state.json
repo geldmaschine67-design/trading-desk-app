@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 BTC-USD @ 127.85",
-      "at": "2026-11-03T00:29:02+00:00"
+      "note": "BUY 1 BTC-USD @ 127.72",
+      "at": "2026-11-03T00:29:56+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T00:29:04+00:00"
+      "at": "2026-11-03T00:29:58+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T00:29:05+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 23.1 PASS",
+      "at": "2026-11-03T00:30:01+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T00:19:56+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T00:19:55+00:00"
     }
   },
   "positions": [
@@ -51,21 +55,24 @@
       "avg": 59.88
     }
   ],
-  "pnl": 326.7,
+  "pnl": 313.55,
+  "updated_at": "2026-11-03T00:30:02+00:00",
   "realized_pnl": 139.99,
-  "unrealized_pnl": 186.71,
+  "unrealized_pnl": 173.56,
   "last_signal": {
-    "id": "8789c352",
+    "id": "5006ea7b",
     "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 127.85,
+    "price": 127.72,
     "qty": 1,
-    "strength": 0.797,
+    "strength": 0.327,
     "source": "paper-sim",
-    "ts": "2026-11-03T00:29:02+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T00:29:56+00:00",
+    "verdict": "pass (score 23.1)",
+    "score": 23.1,
+    "recommendation": "PASS"
   },
-  "cycle": 423,
+  "cycle": 426,
   "fills": [
     {
       "fill": 103.93,
@@ -227,6 +234,5 @@
       "symbol": "QQQ",
       "at": "2026-11-02T23:41:58+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T00:29:05+00:00"
+  ]
 }
