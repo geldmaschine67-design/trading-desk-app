@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 TSLA @ 366.74",
-      "at": "2026-11-03T10:38:04+00:00"
+      "note": "BUY 5 AMZN @ 359.45",
+      "at": "2026-11-03T10:39:03+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T10:38:07+00:00"
+      "at": "2026-11-03T10:39:06+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 27.9 PASS",
-      "at": "2026-11-03T10:38:09+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 24.3 PASS",
+      "at": "2026-11-03T10:39:08+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T10:38:51+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T10:38:50+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 350.23
     }
   ],
-  "pnl": 5366.34,
+  "pnl": 5307.89,
+  "updated_at": "2026-11-03T10:39:09+00:00",
   "realized_pnl": 2964.12,
-  "unrealized_pnl": 2402.22,
+  "unrealized_pnl": 2343.77,
   "last_signal": {
-    "id": "5a9f6b2e",
-    "symbol": "TSLA",
+    "id": "60ba0001",
+    "symbol": "AMZN",
     "side": "BUY",
-    "price": 366.74,
-    "qty": 10,
-    "strength": 0.247,
+    "price": 359.45,
+    "qty": 5,
+    "strength": 0.267,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:38:04+00:00",
-    "verdict": "pass (score 27.9)",
-    "score": 27.9,
+    "ts": "2026-11-03T10:39:03+00:00",
+    "verdict": "pass (score 24.3)",
+    "score": 24.3,
     "recommendation": "PASS"
   },
-  "cycle": 2228,
+  "cycle": 2231,
   "fills": [
     {
       "fill": 426.54,
@@ -229,6 +234,5 @@
       "symbol": "QQQ",
       "at": "2026-11-03T09:47:03+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T10:38:10+00:00"
+  ]
 }
