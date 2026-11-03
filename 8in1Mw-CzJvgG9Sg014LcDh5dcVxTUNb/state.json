@@ -4,17 +4,23 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AMZN @ 363.01",
-      "at": "2026-11-03T17:38:55+00:00"
+      "note": "SELL 1 NVDA @ 651.74",
+      "at": "2026-11-03T17:39:50+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T17:39:52+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 77.2 TAKE",
+      "at": "2026-11-03T17:39:54+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T17:39:57+00:00"
     },
     "executor": {
       "status": "idle"
@@ -38,7 +44,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 8,
+      "qty": 7,
       "avg": 356.3083
     },
     {
@@ -47,22 +53,32 @@
       "avg": 675.3882
     }
   ],
-  "pnl": 5457.36,
-  "realized_pnl": 6528.66,
-  "unrealized_pnl": -1071.3,
+  "pnl": 5403.7,
+  "realized_pnl": 6535.34,
+  "unrealized_pnl": -1131.64,
   "last_signal": {
-    "id": "f767df25",
-    "symbol": "AMZN",
+    "id": "1ce1f5e6",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 363.01,
+    "price": 651.74,
     "qty": 1,
-    "strength": 0.837,
+    "strength": 0.744,
     "source": "paper-sim",
-    "ts": "2026-11-03T17:38:55+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T17:39:50+00:00",
+    "verdict": "pending",
+    "score": 77.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 3440,
+  "cycle": 3443,
   "fills": [
+    {
+      "fill": 362.99,
+      "qty": -1,
+      "realized": 6.68,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T17:39:05+00:00"
+    },
     {
       "fill": 361.78,
       "qty": 1,
@@ -214,15 +230,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T16:31:33+00:00"
-    },
-    {
-      "fill": 354.36,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-03T16:30:07+00:00"
     }
   ],
-  "updated_at": "2026-11-03T17:38:55+00:00"
+  "updated_at": "2026-11-03T17:39:57+00:00"
 }
