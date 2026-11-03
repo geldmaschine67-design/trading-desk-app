@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 SPY @ 69.37",
-      "at": "2026-11-03T02:19:26+00:00"
+      "note": "BUY 1 SPY @ 69.45",
+      "at": "2026-11-03T02:20:22+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T02:19:29+00:00"
+      "at": "2026-11-03T02:20:24+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 32.2 PASS",
+      "at": "2026-11-03T02:20:27+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 SPY @ 69.77",
+      "at": "2026-11-03T02:20:09+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T02:20:07+00:00"
     }
   },
   "positions": [
@@ -40,8 +46,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": 21,
-      "avg": 65.8697
+      "qty": 22,
+      "avg": 66.047
     },
     {
       "symbol": "TSLA",
@@ -49,22 +55,33 @@
       "avg": 364.16
     }
   ],
-  "pnl": 536.44,
+  "pnl": 587.86,
+  "updated_at": "2026-11-03T02:20:28+00:00",
   "realized_pnl": 175.61,
-  "unrealized_pnl": 360.83,
+  "unrealized_pnl": 412.25,
   "last_signal": {
-    "id": "648ec7bd",
+    "id": "324291a8",
     "symbol": "SPY",
     "side": "BUY",
-    "price": 69.37,
-    "qty": 2,
-    "strength": 0.786,
+    "price": 69.45,
+    "qty": 1,
+    "strength": 0.094,
     "source": "paper-sim",
-    "ts": "2026-11-03T02:19:26+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T02:20:22+00:00",
+    "verdict": "pass (score 32.2)",
+    "score": 32.2,
+    "recommendation": "PASS"
   },
-  "cycle": 740,
+  "cycle": 743,
   "fills": [
+    {
+      "fill": 69.77,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-03T02:20:09+00:00"
+    },
     {
       "fill": 82.74,
       "qty": -1,
@@ -216,15 +233,6 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-03T01:39:05+00:00"
-    },
-    {
-      "fill": 374.95,
-      "qty": 5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T01:38:21+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T02:19:29+00:00"
+  ]
 }
