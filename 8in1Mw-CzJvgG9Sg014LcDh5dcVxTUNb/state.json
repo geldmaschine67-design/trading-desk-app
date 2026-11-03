@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 NVDA @ 575.74",
-      "at": "2026-11-03T04:30:52+00:00"
+      "note": "BUY 1 TSLA @ 382.23",
+      "at": "2026-11-03T04:31:46+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T04:31:48+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 25.6 PASS",
+      "at": "2026-11-03T04:31:51+00:00"
     },
     "risk": {
       "status": "idle"
@@ -28,7 +32,7 @@
     },
     {
       "symbol": "NVDA",
-      "qty": 24,
+      "qty": 22,
       "avg": 505.9741
     },
     {
@@ -47,22 +51,32 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 2523.31,
-  "realized_pnl": 384.72,
-  "unrealized_pnl": 2138.59,
+  "pnl": 2614.47,
+  "realized_pnl": 524.41,
+  "unrealized_pnl": 2090.06,
   "last_signal": {
-    "id": "4b5e6bcd",
-    "symbol": "NVDA",
-    "side": "SELL",
-    "price": 575.74,
-    "qty": 2,
-    "strength": 0.92,
+    "id": "c46451a6",
+    "symbol": "TSLA",
+    "side": "BUY",
+    "price": 382.23,
+    "qty": 1,
+    "strength": 0.161,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:30:52+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T04:31:46+00:00",
+    "verdict": "pass (score 25.6)",
+    "score": 25.6,
+    "recommendation": "PASS"
   },
-  "cycle": 1136,
+  "cycle": 1139,
   "fills": [
+    {
+      "fill": 575.82,
+      "qty": -2,
+      "realized": 139.69,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-03T04:31:02+00:00"
+    },
     {
       "fill": 370.75,
       "qty": 2,
@@ -214,15 +228,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T03:23:59+00:00"
-    },
-    {
-      "fill": 375.18,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T03:21:22+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:30:52+00:00"
+  "updated_at": "2026-11-03T04:31:52+00:00"
 }
