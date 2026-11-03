@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T16:00:50+00:00"
+      "status": "idle",
+      "note": "BUY 10 AMZN @ 356.1",
+      "at": "2026-11-03T16:01:51+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 658.47
     }
   ],
-  "pnl": 6222.47,
+  "pnl": 6316.94,
   "realized_pnl": 7603.29,
-  "unrealized_pnl": -1380.82,
+  "unrealized_pnl": -1286.35,
   "last_signal": {
-    "id": "7c5a93b5",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 117.91,
-    "qty": 2,
-    "strength": 0.238,
+    "id": "ab0aaca3",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 356.1,
+    "qty": 10,
+    "strength": 0.966,
     "source": "paper-sim",
-    "ts": "2026-11-03T16:00:35+00:00",
-    "verdict": "pass (score 31.5)",
-    "score": 31.5,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T16:01:51+00:00",
+    "verdict": "pending"
   },
-  "cycle": 3153,
+  "cycle": 3156,
   "fills": [
     {
       "fill": 658.47,
@@ -226,5 +224,5 @@
       "at": "2026-11-03T15:21:52+00:00"
     }
   ],
-  "updated_at": "2026-11-03T16:00:50+00:00"
+  "updated_at": "2026-11-03T16:01:51+00:00"
 }
