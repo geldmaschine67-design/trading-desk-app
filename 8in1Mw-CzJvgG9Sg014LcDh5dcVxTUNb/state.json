@@ -4,20 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-03T12:37:59+00:00"
+      "note": "BUY 1 BTC-USD @ 152.09",
+      "at": "2026-11-03T12:38:54+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T12:38:56+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 60.6 PASS",
+      "at": "2026-11-03T12:38:59+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 10 QQQ @ 467.48",
+      "at": "2026-11-03T12:36:34+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T12:36:31+00:00"
     }
   },
   "positions": [
@@ -47,23 +55,24 @@
       "avg": 360.8556
     }
   ],
-  "pnl": 8249.14,
+  "pnl": 8505.92,
+  "updated_at": "2026-11-03T12:39:00+00:00",
   "realized_pnl": 5820.85,
-  "unrealized_pnl": 2428.29,
+  "unrealized_pnl": 2685.07,
   "last_signal": {
-    "id": "8af744c6",
-    "symbol": "SPY",
-    "side": "SELL",
-    "price": 57.03,
+    "id": "0aed35cc",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 152.09,
     "qty": 1,
-    "strength": 0.498,
+    "strength": 0.458,
     "source": "paper-sim",
-    "ts": "2026-11-03T12:37:42+00:00",
-    "verdict": "pass (score 40.3)",
-    "score": 40.3,
+    "ts": "2026-11-03T12:38:54+00:00",
+    "verdict": "pass (score 60.6)",
+    "score": 60.6,
     "recommendation": "PASS"
   },
-  "cycle": 2581,
+  "cycle": 2585,
   "fills": [
     {
       "fill": 467.48,
@@ -225,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-03T11:41:44+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T12:37:59+00:00"
+  ]
 }
