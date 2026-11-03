@@ -4,20 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-03T12:49:11+00:00"
+      "note": "SELL 5 AMZN @ 360.71",
+      "at": "2026-11-03T12:50:02+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T12:50:05+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 76.2 TAKE",
+      "at": "2026-11-03T12:50:07+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T12:50:10+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -5 AMZN @ 360.71",
+      "at": "2026-11-03T12:50:12+00:00"
     }
   },
   "positions": [
@@ -43,28 +51,36 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 8,
+      "qty": 3,
       "avg": 360.8556
     }
   ],
-  "pnl": 8601.11,
-  "realized_pnl": 6049.04,
-  "unrealized_pnl": 2552.07,
+  "pnl": 8646.58,
+  "realized_pnl": 6048.31,
+  "unrealized_pnl": 2598.27,
   "last_signal": {
-    "id": "798dd6e0",
-    "symbol": "QQQ",
+    "id": "c8597271",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 463.6,
-    "qty": 10,
-    "strength": 0.598,
+    "price": 360.71,
+    "qty": 5,
+    "strength": 0.924,
     "source": "paper-sim",
-    "ts": "2026-11-03T12:48:49+00:00",
-    "verdict": "pass (score 64.0)",
-    "score": 64.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T12:50:02+00:00",
+    "verdict": "PAPER filled -5 @ 360.71",
+    "score": 76.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 2617,
+  "cycle": 2620,
   "fills": [
+    {
+      "fill": 360.71,
+      "qty": -5,
+      "realized": -0.73,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T12:50:12+00:00"
+    },
     {
       "fill": 67.77,
       "qty": 5,
@@ -216,15 +232,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T12:00:13+00:00"
-    },
-    {
-      "fill": 70.96,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-03T11:59:18+00:00"
     }
   ],
-  "updated_at": "2026-11-03T12:49:12+00:00"
+  "updated_at": "2026-11-03T12:50:14+00:00"
 }
