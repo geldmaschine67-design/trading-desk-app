@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T01:53:31+00:00"
+      "status": "idle",
+      "note": "BUY 10 AMZN @ 364.87",
+      "at": "2026-11-03T01:53:49+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T01:53:52+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 51.2 PASS",
+      "at": "2026-11-03T01:53:54+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,16 +55,16 @@
   "realized_pnl": 16.61,
   "unrealized_pnl": 402.1,
   "last_signal": {
-    "id": "c281d072",
-    "symbol": "SPY",
+    "id": "24507263",
+    "symbol": "AMZN",
     "side": "BUY",
-    "price": 68.63,
+    "price": 364.87,
     "qty": 10,
-    "strength": 0.54,
+    "strength": 0.651,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:53:00+00:00",
-    "verdict": "pass (score 45.0)",
-    "score": 45.0,
+    "ts": "2026-11-03T01:53:49+00:00",
+    "verdict": "pass (score 51.2)",
+    "score": 51.2,
     "recommendation": "PASS"
   },
   "cycle": 660,
@@ -226,5 +230,5 @@
       "at": "2026-11-03T01:01:09+00:00"
     }
   ],
-  "updated_at": "2026-11-03T01:53:31+00:00"
+  "updated_at": "2026-11-03T01:53:54+00:00"
 }
