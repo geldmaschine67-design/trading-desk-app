@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 TSLA @ 376.06",
-      "at": "2026-11-03T01:02:59+00:00"
+      "note": "SELL 5 BTC-USD @ 126.48",
+      "at": "2026-11-03T01:04:17+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T01:03:02+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T01:04:18+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 35.2 PASS",
-      "at": "2026-11-03T01:03:04+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 5 NVDA @ 472.28",
-      "at": "2026-11-03T01:01:09+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T01:01:07+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +49,21 @@
       "avg": 382.81
     }
   ],
-  "pnl": 84.0,
-  "updated_at": "2026-11-03T01:03:05+00:00",
+  "pnl": 49.4,
   "realized_pnl": 123.67,
-  "unrealized_pnl": -39.67,
+  "unrealized_pnl": -74.27,
   "last_signal": {
-    "id": "55025eff",
-    "symbol": "TSLA",
+    "id": "13800781",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 376.06,
-    "qty": 10,
-    "strength": 0.23,
+    "price": 126.48,
+    "qty": 5,
+    "strength": 0.556,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:02:59+00:00",
-    "verdict": "pass (score 35.2)",
-    "score": 35.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T01:04:17+00:00",
+    "verdict": "pending"
   },
-  "cycle": 502,
+  "cycle": 506,
   "fills": [
     {
       "fill": 472.28,
@@ -234,5 +225,6 @@
       "symbol": "QQQ",
       "at": "2026-11-03T00:02:44+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T01:04:18+00:00"
 }
