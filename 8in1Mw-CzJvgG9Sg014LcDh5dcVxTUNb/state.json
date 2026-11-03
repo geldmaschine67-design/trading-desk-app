@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 134.99",
-      "at": "2026-11-03T02:27:30+00:00"
+      "note": "SELL 1 QQQ @ 358.02",
+      "at": "2026-11-03T02:28:30+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T02:27:33+00:00"
+      "at": "2026-11-03T02:28:32+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 72.0 TAKE",
-      "at": "2026-11-03T02:27:35+00:00"
-    },
-    "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-03T02:27:38+00:00"
+      "note": "score 44.9 PASS",
+      "at": "2026-11-03T02:28:34+00:00"
     },
     "executor": {
       "status": "idle",
       "note": "skipped (risk)",
       "at": "2026-11-03T02:27:39+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T02:27:38+00:00"
     }
   },
   "positions": [
@@ -55,23 +55,24 @@
       "avg": 364.16
     }
   ],
-  "pnl": 705.51,
+  "pnl": 823.12,
+  "updated_at": "2026-11-03T02:28:36+00:00",
   "realized_pnl": 204.88,
-  "unrealized_pnl": 500.63,
+  "unrealized_pnl": 618.24,
   "last_signal": {
-    "id": "f64bb182",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 134.99,
-    "qty": 5,
-    "strength": 0.61,
+    "id": "66f31f54",
+    "symbol": "QQQ",
+    "side": "SELL",
+    "price": 358.02,
+    "qty": 1,
+    "strength": 0.246,
     "source": "paper-sim",
-    "ts": "2026-11-03T02:27:30+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 72.0,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T02:28:30+00:00",
+    "verdict": "pass (score 44.9)",
+    "score": 44.9,
+    "recommendation": "PASS"
   },
-  "cycle": 765,
+  "cycle": 768,
   "fills": [
     {
       "fill": 83.2,
@@ -233,6 +234,5 @@
       "symbol": "SPY",
       "at": "2026-11-03T01:41:42+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T02:27:39+00:00"
+  ]
 }
