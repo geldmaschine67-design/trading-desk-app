@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 5 NVDA @ 548.77",
-      "at": "2026-11-03T03:04:00+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T03:05:04+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T03:04:02+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T03:04:04+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -32,7 +28,7 @@
     },
     {
       "symbol": "NVDA",
-      "qty": 22,
+      "qty": 17,
       "avg": 490.3705
     },
     {
@@ -51,22 +47,32 @@
       "avg": 350.7
     }
   ],
-  "pnl": 1298.32,
-  "realized_pnl": 154.29,
-  "unrealized_pnl": 1144.03,
+  "pnl": 1456.16,
+  "realized_pnl": 446.59,
+  "unrealized_pnl": 1009.57,
   "last_signal": {
-    "id": "a4231314",
-    "symbol": "NVDA",
-    "side": "SELL",
-    "price": 548.77,
+    "id": "98c0ae6c",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 364.39,
     "qty": 5,
-    "strength": 0.978,
+    "strength": 0.755,
     "source": "paper-sim",
-    "ts": "2026-11-03T03:04:00+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T03:04:46+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 72.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 870,
+  "cycle": 873,
   "fills": [
+    {
+      "fill": 548.83,
+      "qty": -5,
+      "realized": 292.3,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-03T03:04:10+00:00"
+    },
     {
       "fill": 343.97,
       "qty": 10,
@@ -218,15 +224,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T02:04:51+00:00"
-    },
-    {
-      "fill": 494.18,
-      "qty": -5,
-      "realized": 19.05,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T02:03:39+00:00"
     }
   ],
-  "updated_at": "2026-11-03T03:04:04+00:00"
+  "updated_at": "2026-11-03T03:05:04+00:00"
 }
