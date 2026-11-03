@@ -4,19 +4,23 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 MSFT @ 102.8",
-      "at": "2026-11-03T08:17:00+00:00"
+      "note": "BUY 10 BTC-USD @ 149.1",
+      "at": "2026-11-03T08:17:57+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T08:17:01+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T08:17:59+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 89.2 TAKE",
+      "at": "2026-11-03T08:18:01+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T08:18:03+00:00"
     },
     "executor": {
       "status": "idle"
@@ -49,21 +53,23 @@
       "avg": 152.2907
     }
   ],
-  "pnl": 4605.4,
+  "pnl": 4326.38,
   "realized_pnl": 2366.54,
-  "unrealized_pnl": 2238.86,
+  "unrealized_pnl": 1959.84,
   "last_signal": {
-    "id": "089515b7",
-    "symbol": "MSFT",
+    "id": "6c9866ec",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 102.8,
+    "price": 149.1,
     "qty": 10,
-    "strength": 0.266,
+    "strength": 0.869,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:17:00+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T08:17:57+00:00",
+    "verdict": "pending",
+    "score": 89.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 1823,
+  "cycle": 1826,
   "fills": [
     {
       "fill": 147.68,
@@ -226,5 +232,5 @@
       "at": "2026-11-03T07:25:01+00:00"
     }
   ],
-  "updated_at": "2026-11-03T08:17:01+00:00"
+  "updated_at": "2026-11-03T08:18:03+00:00"
 }
