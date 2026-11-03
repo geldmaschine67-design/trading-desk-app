@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 BTC-USD @ 149.25",
-      "at": "2026-11-03T08:01:32+00:00"
+      "note": "BUY 10 BTC-USD @ 147.38",
+      "at": "2026-11-03T08:02:34+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T08:01:34+00:00"
+      "at": "2026-11-03T08:02:36+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 80.0 TAKE",
-      "at": "2026-11-03T08:01:37+00:00"
+      "note": "score 48.7 PASS",
+      "at": "2026-11-03T08:02:39+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T08:01:40+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T08:01:41+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -51,28 +47,36 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": 5,
-      "avg": 152.9088
+      "qty": 6,
+      "avg": 152.2907
     }
   ],
-  "pnl": 4957.95,
+  "pnl": 4844.51,
   "realized_pnl": 2041.2,
-  "unrealized_pnl": 2916.75,
+  "unrealized_pnl": 2803.31,
   "last_signal": {
-    "id": "f94cf695",
+    "id": "4ce149c4",
     "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 149.25,
-    "qty": 1,
-    "strength": 0.813,
+    "price": 147.38,
+    "qty": 10,
+    "strength": 0.273,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:01:32+00:00",
-    "verdict": "pending",
-    "score": 80.0,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T08:02:34+00:00",
+    "verdict": "pass (score 48.7)",
+    "score": 48.7,
+    "recommendation": "PASS"
   },
-  "cycle": 1775,
+  "cycle": 1778,
   "fills": [
+    {
+      "fill": 149.2,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-03T08:01:42+00:00"
+    },
     {
       "fill": 433.82,
       "qty": 1,
@@ -224,15 +228,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T07:15:32+00:00"
-    },
-    {
-      "fill": 74.12,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-03T07:14:17+00:00"
     }
   ],
-  "updated_at": "2026-11-03T08:01:41+00:00"
+  "updated_at": "2026-11-03T08:02:40+00:00"
 }
