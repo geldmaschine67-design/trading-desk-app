@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 TSLA @ 411.78",
-      "at": "2026-11-03T12:40:53+00:00"
+      "note": "SELL 5 MSFT @ 105.99",
+      "at": "2026-11-03T12:41:51+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T12:40:56+00:00"
+      "at": "2026-11-03T12:41:53+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 69.8 PASS",
-      "at": "2026-11-03T12:40:58+00:00"
+      "note": "score 71.8 TAKE",
+      "at": "2026-11-03T12:41:56+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-03T12:41:59+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -5 QQQ @ 474.69",
-      "at": "2026-11-03T12:40:29+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T12:40:27+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-03T12:42:00+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 360.8556
     }
   ],
-  "pnl": 8447.58,
-  "updated_at": "2026-11-03T12:40:59+00:00",
+  "pnl": 8664.07,
   "realized_pnl": 5959.99,
-  "unrealized_pnl": 2487.59,
+  "unrealized_pnl": 2704.08,
   "last_signal": {
-    "id": "ade0bc2e",
-    "symbol": "TSLA",
+    "id": "87cca270",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 411.78,
-    "qty": 1,
-    "strength": 0.958,
+    "price": 105.99,
+    "qty": 5,
+    "strength": 0.885,
     "source": "paper-sim",
-    "ts": "2026-11-03T12:40:53+00:00",
-    "verdict": "pass (score 69.8)",
-    "score": 69.8,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T12:41:51+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 71.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 2591,
+  "cycle": 2594,
   "fills": [
     {
       "fill": 474.69,
@@ -234,5 +233,6 @@
       "symbol": "AMZN",
       "at": "2026-11-03T11:49:49+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:42:02+00:00"
 }
