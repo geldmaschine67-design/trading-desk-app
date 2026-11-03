@@ -4,17 +4,23 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-03T07:24:20+00:00"
+      "note": "SELL 2 QQQ @ 414.86",
+      "at": "2026-11-03T07:25:17+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T07:25:19+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 71.3 TAKE",
+      "at": "2026-11-03T07:25:22+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T07:25:24+00:00"
     },
     "executor": {
       "status": "idle"
@@ -38,7 +44,7 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 27,
+      "qty": 17,
       "avg": 372.2944
     },
     {
@@ -47,24 +53,32 @@
       "avg": 153.1667
     }
   ],
-  "pnl": 3500.76,
-  "realized_pnl": 1705.8,
-  "unrealized_pnl": 1794.96,
+  "pnl": 3437.01,
+  "realized_pnl": 1777.56,
+  "unrealized_pnl": 1659.45,
   "last_signal": {
-    "id": "0bcceb35",
-    "symbol": "NVDA",
-    "side": "BUY",
-    "price": 566.84,
-    "qty": 5,
-    "strength": 0.964,
+    "id": "dcb14195",
+    "symbol": "QQQ",
+    "side": "SELL",
+    "price": 414.86,
+    "qty": 2,
+    "strength": 0.696,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:23:54+00:00",
-    "verdict": "PAPER filled 5 @ 566.96",
-    "score": 76.2,
+    "ts": "2026-11-03T07:25:17+00:00",
+    "verdict": "pending",
+    "score": 71.3,
     "recommendation": "TAKE"
   },
-  "cycle": 1678,
+  "cycle": 1681,
   "fills": [
+    {
+      "fill": 379.47,
+      "qty": -10,
+      "realized": 71.76,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T07:25:01+00:00"
+    },
     {
       "fill": 566.96,
       "qty": 5,
@@ -216,15 +230,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T06:40:08+00:00"
-    },
-    {
-      "fill": 68.56,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-03T06:39:24+00:00"
     }
   ],
-  "updated_at": "2026-11-03T07:24:21+00:00"
+  "updated_at": "2026-11-03T07:25:24+00:00"
 }
