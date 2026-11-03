@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AAPL @ 79.54",
-      "at": "2026-11-03T00:26:51+00:00"
+      "note": "SELL 1 TSLA @ 374.79",
+      "at": "2026-11-03T00:27:48+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T00:26:53+00:00"
+      "at": "2026-11-03T00:27:51+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 56.1 PASS",
-      "at": "2026-11-03T00:26:56+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 37.1 PASS",
+      "at": "2026-11-03T00:27:53+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T00:19:56+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T00:19:55+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 59.88
     }
   ],
-  "pnl": 304.34,
+  "pnl": 332.77,
+  "updated_at": "2026-11-03T00:27:54+00:00",
   "realized_pnl": 139.99,
-  "unrealized_pnl": 164.35,
+  "unrealized_pnl": 192.78,
   "last_signal": {
-    "id": "ab0f54ff",
-    "symbol": "AAPL",
+    "id": "acac1031",
+    "symbol": "TSLA",
     "side": "SELL",
-    "price": 79.54,
-    "qty": 10,
-    "strength": 0.414,
+    "price": 374.79,
+    "qty": 1,
+    "strength": 0.329,
     "source": "paper-sim",
-    "ts": "2026-11-03T00:26:51+00:00",
-    "verdict": "pass (score 56.1)",
-    "score": 56.1,
+    "ts": "2026-11-03T00:27:48+00:00",
+    "verdict": "pass (score 37.1)",
+    "score": 37.1,
     "recommendation": "PASS"
   },
-  "cycle": 416,
+  "cycle": 419,
   "fills": [
     {
       "fill": 103.93,
@@ -229,6 +234,5 @@
       "symbol": "QQQ",
       "at": "2026-11-02T23:41:58+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T00:26:57+00:00"
+  ]
 }
