@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 BTC-USD @ 156.9",
-      "at": "2026-11-03T07:05:51+00:00"
+      "note": "BUY 5 TSLA @ 371.77",
+      "at": "2026-11-03T07:06:54+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T07:05:53+00:00"
-    },
-    "analyst": {
       "status": "running",
       "note": null,
-      "at": "2026-11-03T07:05:54+00:00"
+      "at": "2026-11-03T07:06:56+00:00"
+    },
+    "analyst": {
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +49,21 @@
       "avg": 153.1667
     }
   ],
-  "pnl": 3283.96,
+  "pnl": 2954.81,
   "realized_pnl": 1627.4,
-  "unrealized_pnl": 1656.56,
+  "unrealized_pnl": 1327.41,
   "last_signal": {
-    "id": "91fc28cc",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 156.9,
-    "qty": 10,
-    "strength": 0.814,
+    "id": "0a2d6498",
+    "symbol": "TSLA",
+    "side": "BUY",
+    "price": 371.77,
+    "qty": 5,
+    "strength": 0.364,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:05:51+00:00",
+    "ts": "2026-11-03T07:06:54+00:00",
     "verdict": "pending"
   },
-  "cycle": 1619,
+  "cycle": 1622,
   "fills": [
     {
       "fill": 553.78,
@@ -228,5 +226,5 @@
       "at": "2026-11-03T06:17:31+00:00"
     }
   ],
-  "updated_at": "2026-11-03T07:05:54+00:00"
+  "updated_at": "2026-11-03T07:06:56+00:00"
 }
