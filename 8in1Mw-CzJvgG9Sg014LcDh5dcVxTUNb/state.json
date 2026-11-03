@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T16:59:10+00:00"
+      "status": "idle",
+      "note": "no signal",
+      "at": "2026-11-03T17:00:11+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 687.77
     }
   ],
-  "pnl": 5677.12,
+  "pnl": 5716.26,
   "realized_pnl": 6766.72,
-  "unrealized_pnl": -1089.6,
+  "unrealized_pnl": -1050.46,
   "last_signal": {
-    "id": "b50f1ace",
-    "symbol": "AMZN",
+    "id": "32c80f55",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 359.17,
-    "qty": 5,
-    "strength": 0.455,
+    "price": 46.1,
+    "qty": 10,
+    "strength": 0.901,
     "source": "paper-sim",
-    "ts": "2026-11-03T16:58:55+00:00",
-    "verdict": "pass (score 40.3)",
-    "score": 40.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T16:59:51+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 89.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 3329,
+  "cycle": 3331,
   "fills": [
     {
       "fill": 482.17,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T16:07:29+00:00"
     }
   ],
-  "updated_at": "2026-11-03T16:59:10+00:00"
+  "updated_at": "2026-11-03T17:00:12+00:00"
 }
