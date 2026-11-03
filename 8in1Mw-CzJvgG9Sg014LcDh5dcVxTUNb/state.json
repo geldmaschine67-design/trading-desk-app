@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 AAPL @ 90.3",
-      "at": "2026-11-03T20:24:09+00:00"
+      "note": "SELL 5 BTC-USD @ 164.13",
+      "at": "2026-11-03T20:25:11+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T20:24:12+00:00"
+      "at": "2026-11-03T20:25:14+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 29.6 PASS",
-      "at": "2026-11-03T20:24:14+00:00"
+      "note": "score 33.7 PASS",
+      "at": "2026-11-03T20:25:16+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 5 QQQ @ 529.11",
-      "at": "2026-11-03T20:22:07+00:00"
+      "note": "PAPER fill 2 AAPL @ 90.54",
+      "at": "2026-11-03T20:24:57+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T20:22:04+00:00"
+      "at": "2026-11-03T20:24:54+00:00"
     }
   },
   "positions": [
@@ -36,7 +36,7 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -74,
+      "qty": -72,
       "avg": 82.1121
     },
     {
@@ -55,25 +55,33 @@
       "avg": 338.3917
     }
   ],
-  "pnl": 6251.53,
-  "updated_at": "2026-11-03T20:24:15+00:00",
-  "realized_pnl": 6274.09,
-  "unrealized_pnl": -22.56,
+  "pnl": 6282.6,
+  "updated_at": "2026-11-03T20:25:17+00:00",
+  "realized_pnl": 6257.23,
+  "unrealized_pnl": 25.37,
   "last_signal": {
-    "id": "8fadec0a",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 90.3,
+    "id": "3bf6d48b",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 164.13,
     "qty": 5,
-    "strength": 0.144,
+    "strength": 0.066,
     "source": "paper-sim",
-    "ts": "2026-11-03T20:24:09+00:00",
-    "verdict": "pass (score 29.6)",
-    "score": 29.6,
+    "ts": "2026-11-03T20:25:11+00:00",
+    "verdict": "pass (score 33.7)",
+    "score": 33.7,
     "recommendation": "PASS"
   },
-  "cycle": 3875,
+  "cycle": 3878,
   "fills": [
+    {
+      "fill": 90.54,
+      "qty": 2,
+      "realized": -16.86,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T20:24:57+00:00"
+    },
     {
       "fill": 529.11,
       "qty": 5,
@@ -225,14 +233,6 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-03T19:40:34+00:00"
-    },
-    {
-      "fill": 89.56,
-      "qty": 2,
-      "realized": -24.98,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-03T19:40:10+00:00"
     }
   ]
 }
