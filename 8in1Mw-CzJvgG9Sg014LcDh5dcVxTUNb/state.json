@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 5 BTC-USD @ 147.61",
-      "at": "2026-11-03T10:01:52+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T10:02:54+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -43,26 +43,36 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -6,
-      "avg": 149.7483
+      "qty": 4,
+      "avg": 147.37
     }
   ],
-  "pnl": 5177.68,
-  "realized_pnl": 2675.19,
-  "unrealized_pnl": 2502.49,
+  "pnl": 5457.81,
+  "realized_pnl": 2689.46,
+  "unrealized_pnl": 2768.35,
   "last_signal": {
-    "id": "4a62beac",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 147.61,
-    "qty": 5,
-    "strength": 0.314,
+    "id": "b7006a60",
+    "symbol": "AAPL",
+    "side": "SELL",
+    "price": 61.36,
+    "qty": 10,
+    "strength": 0.133,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:01:52+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T10:02:34+00:00",
+    "verdict": "pass (score 17.9)",
+    "score": 17.9,
+    "recommendation": "PASS"
   },
-  "cycle": 2126,
+  "cycle": 2129,
   "fills": [
+    {
+      "fill": 147.37,
+      "qty": 10,
+      "realized": 14.27,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-03T10:02:22+00:00"
+    },
     {
       "fill": 151.08,
       "qty": -5,
@@ -214,15 +224,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-03T08:53:59+00:00"
-    },
-    {
-      "fill": 377.78,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T08:52:05+00:00"
     }
   ],
-  "updated_at": "2026-11-03T10:01:52+00:00"
+  "updated_at": "2026-11-03T10:02:54+00:00"
 }
