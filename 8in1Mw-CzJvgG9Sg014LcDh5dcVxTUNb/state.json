@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T07:04:53+00:00"
+      "status": "idle",
+      "note": "SELL 10 BTC-USD @ 156.9",
+      "at": "2026-11-03T07:05:51+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T07:05:53+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T07:05:54+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,23 +51,21 @@
       "avg": 153.1667
     }
   ],
-  "pnl": 3381.94,
+  "pnl": 3283.96,
   "realized_pnl": 1627.4,
-  "unrealized_pnl": 1754.54,
+  "unrealized_pnl": 1656.56,
   "last_signal": {
-    "id": "0174327b",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 104.59,
-    "qty": 2,
-    "strength": 0.707,
+    "id": "91fc28cc",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 156.9,
+    "qty": 10,
+    "strength": 0.814,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:04:34+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 76.2,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T07:05:51+00:00",
+    "verdict": "pending"
   },
-  "cycle": 1616,
+  "cycle": 1619,
   "fills": [
     {
       "fill": 553.78,
@@ -226,5 +228,5 @@
       "at": "2026-11-03T06:17:31+00:00"
     }
   ],
-  "updated_at": "2026-11-03T07:04:53+00:00"
+  "updated_at": "2026-11-03T07:05:54+00:00"
 }
