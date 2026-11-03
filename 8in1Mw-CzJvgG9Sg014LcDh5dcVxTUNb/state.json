@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 NVDA @ 497.38",
-      "at": "2026-11-03T01:38:55+00:00"
+      "note": "SELL 5 MSFT @ 100.04",
+      "at": "2026-11-03T01:40:03+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T01:38:57+00:00"
+      "at": "2026-11-03T01:40:06+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 81.4 TAKE",
-      "at": "2026-11-03T01:39:00+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T01:40:07+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T01:39:02+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "PAPER fill 10 NVDA @ 497.48",
-      "at": "2026-11-03T01:39:05+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -46,8 +42,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": 11,
-      "avg": 63.6668
+      "qty": 13,
+      "avg": 64.0734
     },
     {
       "symbol": "TSLA",
@@ -55,24 +51,30 @@
       "avg": 370.83
     }
   ],
-  "pnl": 257.34,
+  "pnl": 283.61,
   "realized_pnl": 7.13,
-  "unrealized_pnl": 250.21,
+  "unrealized_pnl": 276.48,
   "last_signal": {
-    "id": "fca87ebf",
-    "symbol": "NVDA",
-    "side": "BUY",
-    "price": 497.38,
-    "qty": 10,
-    "strength": 0.915,
+    "id": "78647f76",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 100.04,
+    "qty": 5,
+    "strength": 0.625,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:38:55+00:00",
-    "verdict": "PAPER filled 10 @ 497.48",
-    "score": 81.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T01:40:03+00:00",
+    "verdict": "pending"
   },
-  "cycle": 616,
+  "cycle": 619,
   "fills": [
+    {
+      "fill": 66.31,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-03T01:39:29+00:00"
+    },
     {
       "fill": 497.48,
       "qty": 10,
@@ -224,15 +226,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T00:50:35+00:00"
-    },
-    {
-      "fill": 104.4,
-      "qty": -2,
-      "realized": -3.44,
-      "paper": true,
-      "symbol": "MSFT",
-      "at": "2026-11-03T00:50:14+00:00"
     }
   ],
-  "updated_at": "2026-11-03T01:39:07+00:00"
+  "updated_at": "2026-11-03T01:40:07+00:00"
 }
