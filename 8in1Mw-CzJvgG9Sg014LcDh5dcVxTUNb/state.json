@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 NVDA @ 663.32",
-      "at": "2026-11-03T15:56:27+00:00"
+      "note": "BUY 1 BTC-USD @ 159.66",
+      "at": "2026-11-03T15:57:30+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T15:56:29+00:00"
+      "at": "2026-11-03T15:57:33+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 70.4 TAKE",
-      "at": "2026-11-03T15:56:32+00:00"
+      "note": "score 54.2 PASS",
+      "at": "2026-11-03T15:57:35+00:00"
     },
     "executor": {
       "status": "idle",
@@ -50,24 +50,24 @@
       "avg": 348.7361
     }
   ],
-  "pnl": 6450.52,
-  "updated_at": "2026-11-03T15:56:39+00:00",
+  "pnl": 6422.23,
+  "updated_at": "2026-11-03T15:57:36+00:00",
   "realized_pnl": 7603.29,
-  "unrealized_pnl": -1152.77,
+  "unrealized_pnl": -1181.06,
   "last_signal": {
-    "id": "4509f5f4",
-    "symbol": "NVDA",
+    "id": "839f7ff9",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 663.32,
-    "qty": 2,
-    "strength": 0.653,
+    "price": 159.66,
+    "qty": 1,
+    "strength": 0.659,
     "source": "paper-sim",
-    "ts": "2026-11-03T15:56:27+00:00",
-    "verdict": "PAPER filled 2 @ 663.46",
-    "score": 70.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T15:57:30+00:00",
+    "verdict": "pass (score 54.2)",
+    "score": 54.2,
+    "recommendation": "PASS"
   },
-  "cycle": 3140,
+  "cycle": 3143,
   "fills": [
     {
       "fill": 663.46,
