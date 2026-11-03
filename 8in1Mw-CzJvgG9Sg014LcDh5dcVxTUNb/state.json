@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AAPL @ 59.25",
-      "at": "2026-11-03T10:16:12+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T10:17:04+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -42,21 +42,23 @@
       "avg": 379.3958
     }
   ],
-  "pnl": 4908.06,
+  "pnl": 5008.73,
   "realized_pnl": 2755.16,
-  "unrealized_pnl": 2152.9,
+  "unrealized_pnl": 2253.57,
   "last_signal": {
-    "id": "bc5e46a3",
+    "id": "dd8b22cb",
     "symbol": "AAPL",
-    "side": "SELL",
-    "price": 59.25,
-    "qty": 10,
-    "strength": 0.923,
+    "side": "BUY",
+    "price": 59.11,
+    "qty": 1,
+    "strength": 0.931,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:16:12+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T10:16:29+00:00",
+    "verdict": "pass (score 65.4)",
+    "score": 65.4,
+    "recommendation": "PASS"
   },
-  "cycle": 2171,
+  "cycle": 2174,
   "fills": [
     {
       "fill": 155.58,
@@ -219,5 +221,5 @@
       "at": "2026-11-03T09:16:48+00:00"
     }
   ],
-  "updated_at": "2026-11-03T10:16:12+00:00"
+  "updated_at": "2026-11-03T10:17:06+00:00"
 }
