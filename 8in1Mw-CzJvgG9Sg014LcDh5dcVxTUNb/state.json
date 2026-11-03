@@ -5,7 +5,7 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-03T00:22:56+00:00"
+      "at": "2026-11-03T00:23:58+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 59.88
     }
   ],
-  "pnl": 304.85,
+  "pnl": 338.97,
   "realized_pnl": 139.99,
-  "unrealized_pnl": 164.86,
+  "unrealized_pnl": 198.98,
   "last_signal": {
-    "id": "7796f36b",
-    "symbol": "AMZN",
-    "side": "BUY",
-    "price": 351.67,
+    "id": "f9801311",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 62.39,
     "qty": 1,
-    "strength": 0.576,
+    "strength": 0.458,
     "source": "paper-sim",
-    "ts": "2026-11-03T00:22:34+00:00",
-    "verdict": "pass (score 42.6)",
-    "score": 42.6,
+    "ts": "2026-11-03T00:23:41+00:00",
+    "verdict": "pass (score 35.0)",
+    "score": 35.0,
     "recommendation": "PASS"
   },
-  "cycle": 402,
+  "cycle": 406,
   "fills": [
     {
       "fill": 103.93,
@@ -226,5 +226,5 @@
       "at": "2026-11-02T23:41:58+00:00"
     }
   ],
-  "updated_at": "2026-11-03T00:22:57+00:00"
+  "updated_at": "2026-11-03T00:23:58+00:00"
 }
