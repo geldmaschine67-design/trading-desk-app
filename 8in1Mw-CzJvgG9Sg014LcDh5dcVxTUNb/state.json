@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-03T11:16:03+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T11:17:09+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 331.7562
     }
   ],
-  "pnl": 7048.24,
+  "pnl": 7203.47,
   "realized_pnl": 3786.2,
-  "unrealized_pnl": 3262.04,
+  "unrealized_pnl": 3417.27,
   "last_signal": {
-    "id": "3deb1759",
-    "symbol": "AMZN",
+    "id": "043f9fd6",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 336.94,
-    "qty": 1,
-    "strength": 0.977,
+    "price": 157.68,
+    "qty": 10,
+    "strength": 0.247,
     "source": "paper-sim",
-    "ts": "2026-11-03T11:15:40+00:00",
-    "verdict": "PAPER filled -1 @ 336.98",
-    "score": 91.5,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T11:16:52+00:00",
+    "verdict": "pass (score 27.7)",
+    "score": 27.7,
+    "recommendation": "PASS"
   },
-  "cycle": 2345,
+  "cycle": 2349,
   "fills": [
     {
       "fill": 336.98,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T10:39:57+00:00"
     }
   ],
-  "updated_at": "2026-11-03T11:16:04+00:00"
+  "updated_at": "2026-11-03T11:17:09+00:00"
 }
