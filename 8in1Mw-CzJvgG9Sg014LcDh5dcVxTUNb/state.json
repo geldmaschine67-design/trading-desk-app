@@ -4,20 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 MSFT @ 127.8",
-      "at": "2026-11-03T18:35:05+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T18:35:56+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T18:35:42+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 63.2 PASS",
+      "at": "2026-11-03T18:35:44+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -2 AAPL @ 84.6",
+      "at": "2026-11-03T18:33:45+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T18:33:43+00:00"
     }
   },
   "positions": [
@@ -47,21 +55,24 @@
       "avg": 671.3982
     }
   ],
-  "pnl": 5070.91,
+  "pnl": 4918.44,
+  "updated_at": "2026-11-03T18:35:57+00:00",
   "realized_pnl": 6221.43,
-  "unrealized_pnl": -1150.52,
+  "unrealized_pnl": -1302.99,
   "last_signal": {
-    "id": "81bd1cf5",
-    "symbol": "MSFT",
+    "id": "362108cc",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 127.8,
-    "qty": 2,
-    "strength": 0.608,
+    "price": 160.21,
+    "qty": 10,
+    "strength": 0.848,
     "source": "paper-sim",
-    "ts": "2026-11-03T18:35:05+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T18:35:40+00:00",
+    "verdict": "pass (score 63.2)",
+    "score": 63.2,
+    "recommendation": "PASS"
   },
-  "cycle": 3577,
+  "cycle": 3580,
   "fills": [
     {
       "fill": 84.6,
@@ -223,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-03T17:30:33+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T18:35:05+00:00"
+  ]
 }
