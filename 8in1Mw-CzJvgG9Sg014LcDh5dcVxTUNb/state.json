@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T23:08:18+00:00"
+      "status": "idle",
+      "note": "SELL 2 BTC-USD @ 132.76",
+      "at": "2026-11-03T23:09:17+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T23:09:20+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 321.17
     }
   ],
-  "pnl": 6254.79,
+  "pnl": 6278.52,
   "realized_pnl": 6386.62,
-  "unrealized_pnl": -131.83,
+  "unrealized_pnl": -108.1,
   "last_signal": {
-    "id": "aeff7ecb",
-    "symbol": "AMZN",
+    "id": "d5d09ba4",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 317.06,
-    "qty": 1,
-    "strength": 0.866,
+    "price": 132.76,
+    "qty": 2,
+    "strength": 0.141,
     "source": "paper-sim",
-    "ts": "2026-11-03T23:07:54+00:00",
-    "verdict": "PAPER filled -1 @ 317.1",
-    "score": 76.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T23:09:17+00:00",
+    "verdict": "pending"
   },
-  "cycle": 4315,
+  "cycle": 4318,
   "fills": [
     {
       "fill": 317.1,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T21:50:57+00:00"
     }
   ],
-  "updated_at": "2026-11-03T23:08:18+00:00"
+  "updated_at": "2026-11-03T23:09:20+00:00"
 }
