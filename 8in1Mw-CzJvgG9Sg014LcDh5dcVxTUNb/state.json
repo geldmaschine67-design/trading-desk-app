@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 2 NVDA @ 648.01",
-      "at": "2026-11-03T14:17:00+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T14:19:14+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T14:17:02+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T14:17:03+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -32,8 +28,8 @@
     },
     {
       "symbol": "NVDA",
-      "qty": -1,
-      "avg": 644.63
+      "qty": 1,
+      "avg": 647.83
     },
     {
       "symbol": "AAPL",
@@ -51,9 +47,9 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7861.07,
-  "realized_pnl": 7745.32,
-  "unrealized_pnl": 115.75,
+  "pnl": 7798.55,
+  "realized_pnl": 7742.12,
+  "unrealized_pnl": 56.43,
   "last_signal": {
     "id": "f163b722",
     "symbol": "NVDA",
@@ -63,10 +59,20 @@
     "strength": 0.708,
     "source": "paper-sim",
     "ts": "2026-11-03T14:17:00+00:00",
-    "verdict": "pending"
+    "verdict": "PAPER filled 2 @ 647.83",
+    "score": 71.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 2880,
+  "cycle": 2881,
   "fills": [
+    {
+      "fill": 647.83,
+      "qty": 2,
+      "realized": -3.2,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-03T14:17:10+00:00"
+    },
     {
       "fill": 348.57,
       "qty": -5,
@@ -218,15 +224,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T13:19:37+00:00"
-    },
-    {
-      "fill": 644.14,
-      "qty": -2,
-      "realized": 173.18,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T13:15:42+00:00"
     }
   ],
-  "updated_at": "2026-11-03T14:17:03+00:00"
+  "updated_at": "2026-11-03T14:19:14+00:00"
 }
