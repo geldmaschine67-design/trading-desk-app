@@ -5,7 +5,7 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-03T05:29:01+00:00"
+      "at": "2026-11-03T05:30:02+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -23,7 +23,7 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 30,
+      "qty": 25,
       "avg": 382.7386
     },
     {
@@ -47,24 +47,32 @@
       "avg": 366.397
     }
   ],
-  "pnl": 4002.21,
-  "realized_pnl": 907.13,
-  "unrealized_pnl": 3095.08,
+  "pnl": 4135.6,
+  "realized_pnl": 1078.29,
+  "unrealized_pnl": 3057.31,
   "last_signal": {
-    "id": "0e3e253f",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 95.3,
-    "qty": 10,
-    "strength": 0.919,
+    "id": "ce418915",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 584.97,
+    "qty": 2,
+    "strength": 0.029,
     "source": "paper-sim",
-    "ts": "2026-11-03T05:28:42+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 82.1,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T05:29:46+00:00",
+    "verdict": "pass (score 15.9)",
+    "score": 15.9,
+    "recommendation": "PASS"
   },
-  "cycle": 1317,
+  "cycle": 1320,
   "fills": [
+    {
+      "fill": 416.97,
+      "qty": -5,
+      "realized": 171.16,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T05:29:12+00:00"
+    },
     {
       "fill": 381.53,
       "qty": -5,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T04:41:52+00:00"
-    },
-    {
-      "fill": 388.44,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T04:35:17+00:00"
     }
   ],
-  "updated_at": "2026-11-03T05:29:01+00:00"
+  "updated_at": "2026-11-03T05:30:02+00:00"
 }
