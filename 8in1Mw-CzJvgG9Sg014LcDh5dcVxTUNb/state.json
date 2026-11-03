@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 SPY @ 63.23",
-      "at": "2026-11-03T04:09:19+00:00"
+      "note": "BUY 1 BTC-USD @ 132.43",
+      "at": "2026-11-03T04:10:19+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T04:09:21+00:00"
+      "at": "2026-11-03T04:10:22+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 75.9 TAKE",
-      "at": "2026-11-03T04:09:23+00:00"
+      "note": "score 87.4 TAKE",
+      "at": "2026-11-03T04:10:24+00:00"
     },
     "risk": {
       "status": "idle"
@@ -37,12 +37,12 @@
     },
     {
       "symbol": "AAPL",
-      "qty": 3,
-      "avg": 82.0067
+      "qty": -7,
+      "avg": 81.52
     },
     {
       "symbol": "SPY",
-      "qty": 4,
+      "qty": 2,
       "avg": 66.1959
     },
     {
@@ -51,24 +51,40 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 1954.86,
-  "realized_pnl": 392.11,
-  "unrealized_pnl": 1562.75,
+  "pnl": 2112.71,
+  "realized_pnl": 384.72,
+  "unrealized_pnl": 1727.99,
   "last_signal": {
-    "id": "7de9a277",
-    "symbol": "SPY",
-    "side": "SELL",
-    "price": 63.23,
-    "qty": 2,
-    "strength": 0.838,
+    "id": "608c6529",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 132.43,
+    "qty": 1,
+    "strength": 0.839,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:09:19+00:00",
+    "ts": "2026-11-03T04:10:19+00:00",
     "verdict": "pending",
-    "score": 75.9,
+    "score": 87.4,
     "recommendation": "TAKE"
   },
-  "cycle": 1069,
+  "cycle": 1072,
   "fills": [
+    {
+      "fill": 81.52,
+      "qty": -10,
+      "realized": -1.46,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T04:10:03+00:00"
+    },
+    {
+      "fill": 63.23,
+      "qty": -2,
+      "realized": -5.93,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-03T04:09:29+00:00"
+    },
     {
       "fill": 82.5,
       "qty": 1,
@@ -212,23 +228,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T03:03:46+00:00"
-    },
-    {
-      "fill": 67.4,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-03T03:00:30+00:00"
-    },
-    {
-      "fill": 66.31,
-      "qty": -10,
-      "realized": 2.99,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-03T02:58:07+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:09:23+00:00"
+  "updated_at": "2026-11-03T04:10:24+00:00"
 }
