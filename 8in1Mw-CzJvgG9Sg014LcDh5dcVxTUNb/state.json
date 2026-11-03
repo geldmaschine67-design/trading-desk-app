@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T04:27:47+00:00"
+      "status": "idle",
+      "note": "no signal",
+      "at": "2026-11-03T04:28:45+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 2577.59,
+  "pnl": 2457.46,
   "realized_pnl": 384.72,
-  "unrealized_pnl": 2192.87,
+  "unrealized_pnl": 2072.74,
   "last_signal": {
-    "id": "e42a4abb",
-    "symbol": "NVDA",
-    "side": "SELL",
-    "price": 576.34,
-    "qty": 2,
-    "strength": 0.151,
+    "id": "66d76c38",
+    "symbol": "SPY",
+    "side": "BUY",
+    "price": 62.75,
+    "qty": 10,
+    "strength": 0.582,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:27:30+00:00",
-    "verdict": "pass (score 38.9)",
-    "score": 38.9,
+    "ts": "2026-11-03T04:28:29+00:00",
+    "verdict": "pass (score 41.7)",
+    "score": 41.7,
     "recommendation": "PASS"
   },
-  "cycle": 1126,
+  "cycle": 1129,
   "fills": [
     {
       "fill": 76.29,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T03:19:55+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:27:47+00:00"
+  "updated_at": "2026-11-03T04:28:46+00:00"
 }
