@@ -4,34 +4,30 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 QQQ @ 404.11",
-      "at": "2026-11-03T08:41:56+00:00"
+      "note": "SELL 1 SPY @ 61.37",
+      "at": "2026-11-03T08:42:58+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T08:41:59+00:00"
+      "at": "2026-11-03T08:43:01+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 75.3 TAKE",
-      "at": "2026-11-03T08:42:01+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T08:35:51+00:00"
+      "note": "score 50.9 PASS",
+      "at": "2026-11-03T08:43:03+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T08:42:04+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 24,
+      "qty": 23,
       "avg": 404.4638
     },
     {
@@ -55,25 +51,32 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 3811.81,
-  "updated_at": "2026-11-03T08:42:04+00:00",
-  "realized_pnl": 2368.84,
-  "unrealized_pnl": 1442.97,
+  "pnl": 3790.42,
+  "realized_pnl": 2368.59,
+  "unrealized_pnl": 1421.83,
   "last_signal": {
-    "id": "816de33f",
-    "symbol": "QQQ",
+    "id": "03f62f91",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 404.11,
+    "price": 61.37,
     "qty": 1,
-    "strength": 0.96,
+    "strength": 0.304,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:41:56+00:00",
-    "verdict": "pending",
-    "score": 75.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T08:42:58+00:00",
+    "verdict": "pass (score 50.9)",
+    "score": 50.9,
+    "recommendation": "PASS"
   },
-  "cycle": 1891,
+  "cycle": 1894,
   "fills": [
+    {
+      "fill": 404.21,
+      "qty": -1,
+      "realized": -0.25,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T08:42:06+00:00"
+    },
     {
       "fill": 407.52,
       "qty": -5,
@@ -225,14 +228,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-03T07:30:22+00:00"
-    },
-    {
-      "fill": 72.49,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-03T07:28:43+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T08:43:04+00:00"
 }
