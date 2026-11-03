@@ -5,27 +5,19 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-03T21:46:38+00:00"
+      "at": "2026-11-03T21:47:44+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T21:46:25+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 30.8 PASS",
-      "at": "2026-11-03T21:46:27+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 1 NVDA @ 631.76",
-      "at": "2026-11-03T21:37:50+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T21:37:48+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 5217.1,
-  "updated_at": "2026-11-03T21:46:39+00:00",
+  "pnl": 5208.93,
   "realized_pnl": 6602.9,
-  "unrealized_pnl": -1385.8,
+  "unrealized_pnl": -1393.97,
   "last_signal": {
-    "id": "2a71114e",
-    "symbol": "TSLA",
+    "id": "d69c39b2",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 295.11,
-    "qty": 2,
-    "strength": 0.11,
+    "price": 122.55,
+    "qty": 1,
+    "strength": 0.999,
     "source": "paper-sim",
-    "ts": "2026-11-03T21:46:23+00:00",
-    "verdict": "pass (score 30.8)",
-    "score": 30.8,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T21:47:12+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 73.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 4112,
+  "cycle": 4116,
   "fills": [
     {
       "fill": 631.76,
@@ -234,5 +225,6 @@
       "symbol": "TSLA",
       "at": "2026-11-03T20:34:21+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T21:47:46+00:00"
 }
