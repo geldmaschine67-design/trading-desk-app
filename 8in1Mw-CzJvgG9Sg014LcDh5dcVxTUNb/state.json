@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 QQQ @ 423.49",
-      "at": "2026-11-03T10:21:14+00:00"
+      "note": "BUY 5 NVDA @ 605.34",
+      "at": "2026-11-03T10:22:17+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T10:21:16+00:00"
+      "at": "2026-11-03T10:22:20+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 33.6 PASS",
-      "at": "2026-11-03T10:21:18+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T10:22:21+00:00"
     },
     "risk": {
       "status": "idle"
@@ -27,12 +27,12 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 34,
+      "qty": 32,
       "avg": 411.2578
     },
     {
       "symbol": "NVDA",
-      "qty": 20,
+      "qty": 18,
       "avg": 534.0547
     },
     {
@@ -51,24 +51,38 @@
       "avg": 350.23
     }
   ],
-  "pnl": 5337.39,
-  "realized_pnl": 2712.39,
-  "unrealized_pnl": 2625.0,
+  "pnl": 5182.15,
+  "realized_pnl": 2882.34,
+  "unrealized_pnl": 2299.81,
   "last_signal": {
-    "id": "a83096eb",
-    "symbol": "QQQ",
+    "id": "055543ca",
+    "symbol": "NVDA",
     "side": "BUY",
-    "price": 423.49,
-    "qty": 10,
-    "strength": 0.404,
+    "price": 605.34,
+    "qty": 5,
+    "strength": 0.054,
     "source": "paper-sim",
-    "ts": "2026-11-03T10:21:14+00:00",
-    "verdict": "pass (score 33.6)",
-    "score": 33.6,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T10:22:17+00:00",
+    "verdict": "pending"
   },
-  "cycle": 2187,
+  "cycle": 2190,
   "fills": [
+    {
+      "fill": 606.18,
+      "qty": -2,
+      "realized": 144.25,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-03T10:22:04+00:00"
+    },
+    {
+      "fill": 424.11,
+      "qty": -2,
+      "realized": 25.7,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T10:21:43+00:00"
+    },
     {
       "fill": 370.82,
       "qty": -5,
@@ -212,23 +226,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-03T09:36:51+00:00"
-    },
-    {
-      "fill": 590.07,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T09:28:18+00:00"
-    },
-    {
-      "fill": 398.71,
-      "qty": -10,
-      "realized": 174.3,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T09:22:47+00:00"
     }
   ],
-  "updated_at": "2026-11-03T10:21:18+00:00"
+  "updated_at": "2026-11-03T10:22:21+00:00"
 }
