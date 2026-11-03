@@ -4,31 +4,35 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 TSLA @ 376.86",
-      "at": "2026-11-03T08:00:30+00:00"
+      "note": "BUY 1 BTC-USD @ 149.25",
+      "at": "2026-11-03T08:01:32+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T08:00:33+00:00"
+      "at": "2026-11-03T08:01:34+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 21.3 PASS",
-      "at": "2026-11-03T08:00:35+00:00"
+      "note": "score 80.0 TAKE",
+      "at": "2026-11-03T08:01:37+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T08:01:40+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T08:01:41+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 28,
-      "avg": 403.4154
+      "qty": 29,
+      "avg": 404.4638
     },
     {
       "symbol": "NVDA",
@@ -51,24 +55,32 @@
       "avg": 152.9088
     }
   ],
-  "pnl": 4906.41,
+  "pnl": 4957.95,
   "realized_pnl": 2041.2,
-  "unrealized_pnl": 2865.21,
+  "unrealized_pnl": 2916.75,
   "last_signal": {
-    "id": "555d8a92",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 376.86,
-    "qty": 10,
-    "strength": 0.302,
+    "id": "f94cf695",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 149.25,
+    "qty": 1,
+    "strength": 0.813,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:00:30+00:00",
-    "verdict": "pass (score 21.3)",
-    "score": 21.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T08:01:32+00:00",
+    "verdict": "pending",
+    "score": 80.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 1772,
+  "cycle": 1775,
   "fills": [
+    {
+      "fill": 433.82,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T08:01:21+00:00"
+    },
     {
       "fill": 432.91,
       "qty": -2,
@@ -220,15 +232,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T07:14:17+00:00"
-    },
-    {
-      "fill": 152.06,
-      "qty": -5,
-      "realized": -5.53,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-03T07:12:59+00:00"
     }
   ],
-  "updated_at": "2026-11-03T08:00:36+00:00"
+  "updated_at": "2026-11-03T08:01:41+00:00"
 }
