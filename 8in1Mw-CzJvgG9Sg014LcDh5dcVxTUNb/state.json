@@ -4,35 +4,27 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 130.35",
-      "at": "2026-11-03T04:22:26+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T04:23:42+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T04:22:29+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 83.1 TAKE",
-      "at": "2026-11-03T04:22:31+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-03T04:22:34+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T04:22:35+00:00"
+      "status": "idle"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 12,
-      "avg": 372.3603
+      "qty": 17,
+      "avg": 373.6102
     },
     {
       "symbol": "NVDA",
@@ -55,24 +47,32 @@
       "avg": 349.6528
     }
   ],
-  "pnl": 2378.72,
+  "pnl": 2440.64,
   "realized_pnl": 384.72,
-  "unrealized_pnl": 1994.0,
+  "unrealized_pnl": 2055.92,
   "last_signal": {
-    "id": "3ba7880b",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 130.35,
-    "qty": 5,
-    "strength": 0.825,
+    "id": "bba96b5a",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 93.98,
+    "qty": 10,
+    "strength": 0.209,
     "source": "paper-sim",
-    "ts": "2026-11-03T04:22:26+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 83.1,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T04:23:25+00:00",
+    "verdict": "pass (score 24.4)",
+    "score": 24.4,
+    "recommendation": "PASS"
   },
-  "cycle": 1108,
+  "cycle": 1112,
   "fills": [
+    {
+      "fill": 376.61,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T04:23:08+00:00"
+    },
     {
       "fill": 76.69,
       "qty": -2,
@@ -224,15 +224,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T03:15:10+00:00"
-    },
-    {
-      "fill": 87.2,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-03T03:12:54+00:00"
     }
   ],
-  "updated_at": "2026-11-03T04:22:37+00:00"
+  "updated_at": "2026-11-03T04:23:42+00:00"
 }
