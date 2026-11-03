@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 MSFT @ 114.48",
-      "at": "2026-11-03T14:20:14+00:00"
+      "note": "BUY 10 AMZN @ 343.39",
+      "at": "2026-11-03T14:21:16+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,21 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7640.56,
+  "pnl": 7623.18,
   "realized_pnl": 7742.12,
-  "unrealized_pnl": -101.56,
+  "unrealized_pnl": -118.94,
   "last_signal": {
-    "id": "fce52173",
-    "symbol": "MSFT",
+    "id": "17244bbc",
+    "symbol": "AMZN",
     "side": "BUY",
-    "price": 114.48,
-    "qty": 5,
-    "strength": 0.487,
+    "price": 343.39,
+    "qty": 10,
+    "strength": 0.37,
     "source": "paper-sim",
-    "ts": "2026-11-03T14:20:14+00:00",
+    "ts": "2026-11-03T14:21:16+00:00",
     "verdict": "pending"
   },
-  "cycle": 2884,
+  "cycle": 2887,
   "fills": [
     {
       "fill": 647.83,
@@ -224,5 +224,5 @@
       "at": "2026-11-03T13:19:37+00:00"
     }
   ],
-  "updated_at": "2026-11-03T14:20:14+00:00"
+  "updated_at": "2026-11-03T14:21:16+00:00"
 }
