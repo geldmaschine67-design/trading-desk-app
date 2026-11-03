@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 TSLA @ 350.66",
-      "at": "2026-11-03T03:15:00+00:00"
+      "note": "BUY 2 QQQ @ 370.01",
+      "at": "2026-11-03T03:16:03+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T03:15:02+00:00"
+      "at": "2026-11-03T03:16:05+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 73.1 TAKE",
-      "at": "2026-11-03T03:15:05+00:00"
+      "note": "score 66.4 PASS",
+      "at": "2026-11-03T03:16:08+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 350.7
     }
   ],
-  "pnl": 1261.95,
-  "updated_at": "2026-11-03T03:15:12+00:00",
+  "pnl": 1302.51,
+  "updated_at": "2026-11-03T03:16:09+00:00",
   "realized_pnl": 445.84,
-  "unrealized_pnl": 816.11,
+  "unrealized_pnl": 856.67,
   "last_signal": {
-    "id": "db9542e4",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 350.66,
+    "id": "163ea83a",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 370.01,
     "qty": 2,
-    "strength": 0.846,
+    "strength": 0.852,
     "source": "paper-sim",
-    "ts": "2026-11-03T03:15:00+00:00",
-    "verdict": "PAPER filled -2 @ 350.52",
-    "score": 73.1,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T03:16:03+00:00",
+    "verdict": "pass (score 66.4)",
+    "score": 66.4,
+    "recommendation": "PASS"
   },
-  "cycle": 904,
+  "cycle": 907,
   "fills": [
     {
       "fill": 350.52,
