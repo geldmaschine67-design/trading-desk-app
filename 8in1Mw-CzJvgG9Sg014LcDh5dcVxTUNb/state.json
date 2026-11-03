@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 AAPL @ 89.83",
-      "at": "2026-11-03T19:00:06+00:00"
+      "note": "BUY 5 TSLA @ 302.23",
+      "at": "2026-11-03T19:00:48+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T19:00:08+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T19:01:05+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 60.1 PASS",
+      "at": "2026-11-03T19:01:07+00:00"
     },
     "risk": {
       "status": "idle"
@@ -30,7 +32,7 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -50,
+      "qty": -49,
       "avg": 74.3011
     },
     {
@@ -49,22 +51,32 @@
       "avg": 162.04
     }
   ],
-  "pnl": 5607.1,
-  "realized_pnl": 5935.54,
-  "unrealized_pnl": -328.44,
+  "pnl": 5618.96,
+  "realized_pnl": 5919.98,
+  "unrealized_pnl": -301.02,
   "last_signal": {
-    "id": "216b0be5",
-    "symbol": "AAPL",
+    "id": "52bac56d",
+    "symbol": "TSLA",
     "side": "BUY",
-    "price": 89.83,
-    "qty": 1,
-    "strength": 0.966,
+    "price": 302.23,
+    "qty": 5,
+    "strength": 0.458,
     "source": "paper-sim",
-    "ts": "2026-11-03T19:00:06+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T19:00:48+00:00",
+    "verdict": "pass (score 60.1)",
+    "score": 60.1,
+    "recommendation": "PASS"
   },
-  "cycle": 3645,
+  "cycle": 3647,
   "fills": [
+    {
+      "fill": 89.86,
+      "qty": 1,
+      "realized": -15.56,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T19:00:16+00:00"
+    },
     {
       "fill": 162.04,
       "qty": 5,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T17:55:36+00:00"
-    },
-    {
-      "fill": 657.8,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T17:53:58+00:00"
     }
   ],
-  "updated_at": "2026-11-03T19:00:08+00:00"
+  "updated_at": "2026-11-03T19:01:09+00:00"
 }
