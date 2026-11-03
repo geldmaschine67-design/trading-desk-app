@@ -5,7 +5,7 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-03T01:36:02+00:00"
+      "at": "2026-11-03T01:37:04+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -43,28 +43,36 @@
     },
     {
       "symbol": "TSLA",
-      "qty": -5,
-      "avg": 382.81
+      "qty": 5,
+      "avg": 366.71
     }
   ],
-  "pnl": 235.34,
-  "realized_pnl": -73.37,
-  "unrealized_pnl": 308.71,
+  "pnl": 246.47,
+  "realized_pnl": 7.13,
+  "unrealized_pnl": 239.34,
   "last_signal": {
-    "id": "8f6a7c8f",
-    "symbol": "BTC-USD",
+    "id": "02a9d58c",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 139.91,
-    "qty": 10,
-    "strength": 0.843,
+    "price": 65.59,
+    "qty": 2,
+    "strength": 0.25,
     "source": "paper-sim",
-    "ts": "2026-11-03T01:35:42+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 88.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T01:36:47+00:00",
+    "verdict": "pass (score 28.2)",
+    "score": 28.2,
+    "recommendation": "PASS"
   },
-  "cycle": 607,
+  "cycle": 610,
   "fills": [
+    {
+      "fill": 366.71,
+      "qty": 10,
+      "realized": 80.5,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T01:36:13+00:00"
+    },
     {
       "fill": 75.6,
       "qty": 2,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-03T00:42:37+00:00"
-    },
-    {
-      "fill": 64.02,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-03T00:41:36+00:00"
     }
   ],
-  "updated_at": "2026-11-03T01:36:02+00:00"
+  "updated_at": "2026-11-03T01:37:04+00:00"
 }
