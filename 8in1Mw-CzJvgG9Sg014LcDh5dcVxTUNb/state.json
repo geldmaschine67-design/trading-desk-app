@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 BTC-USD @ 128.23",
-      "at": "2026-11-03T23:51:57+00:00"
+      "note": "SELL 5 TSLA @ 322.29",
+      "at": "2026-11-03T23:52:49+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T23:52:51+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 24.2 PASS",
+      "at": "2026-11-03T23:52:54+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,21 +51,23 @@
       "avg": 323.03
     }
   ],
-  "pnl": 5648.19,
+  "pnl": 5604.76,
   "realized_pnl": 6171.8,
-  "unrealized_pnl": -523.61,
+  "unrealized_pnl": -567.04,
   "last_signal": {
-    "id": "a8465165",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 128.23,
-    "qty": 10,
-    "strength": 0.89,
+    "id": "26f9093e",
+    "symbol": "TSLA",
+    "side": "SELL",
+    "price": 322.29,
+    "qty": 5,
+    "strength": 0.043,
     "source": "paper-sim",
-    "ts": "2026-11-03T23:51:57+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T23:52:49+00:00",
+    "verdict": "pass (score 24.2)",
+    "score": 24.2,
+    "recommendation": "PASS"
   },
-  "cycle": 4435,
+  "cycle": 4438,
   "fills": [
     {
       "fill": 326.99,
@@ -224,5 +230,5 @@
       "at": "2026-11-03T23:04:41+00:00"
     }
   ],
-  "updated_at": "2026-11-03T23:51:57+00:00"
+  "updated_at": "2026-11-03T23:52:55+00:00"
 }
