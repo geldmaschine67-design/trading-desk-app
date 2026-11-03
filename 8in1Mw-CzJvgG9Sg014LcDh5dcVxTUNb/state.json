@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-03T21:47:44+00:00"
+      "note": "SELL 10 NVDA @ 650.09",
+      "at": "2026-11-03T21:48:46+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T21:48:48+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 24.5 PASS",
+      "at": "2026-11-03T21:48:51+00:00"
     },
     "risk": {
       "status": "idle"
@@ -33,7 +37,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -24,
+      "qty": -23,
       "avg": 345.9026
     },
     {
@@ -47,24 +51,32 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 5208.93,
-  "realized_pnl": 6602.9,
-  "unrealized_pnl": -1393.97,
+  "pnl": 5316.45,
+  "realized_pnl": 6605.64,
+  "unrealized_pnl": -1289.19,
   "last_signal": {
-    "id": "d69c39b2",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 122.55,
-    "qty": 1,
-    "strength": 0.999,
+    "id": "dc23b4ea",
+    "symbol": "NVDA",
+    "side": "SELL",
+    "price": 650.09,
+    "qty": 10,
+    "strength": 0.049,
     "source": "paper-sim",
-    "ts": "2026-11-03T21:47:12+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 73.9,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T21:48:46+00:00",
+    "verdict": "pass (score 24.5)",
+    "score": 24.5,
+    "recommendation": "PASS"
   },
-  "cycle": 4116,
+  "cycle": 4119,
   "fills": [
+    {
+      "fill": 343.16,
+      "qty": 1,
+      "realized": 2.74,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-03T21:48:07+00:00"
+    },
     {
       "fill": 631.76,
       "qty": 1,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T20:34:59+00:00"
-    },
-    {
-      "fill": 338.84,
-      "qty": -5,
-      "realized": 0.45,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T20:34:21+00:00"
     }
   ],
-  "updated_at": "2026-11-03T21:47:46+00:00"
+  "updated_at": "2026-11-03T21:48:51+00:00"
 }
