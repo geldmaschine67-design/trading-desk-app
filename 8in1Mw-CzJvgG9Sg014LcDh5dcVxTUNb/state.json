@@ -4,30 +4,34 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 NVDA @ 560.82",
-      "at": "2026-11-03T08:32:20+00:00"
+      "note": "SELL 5 QQQ @ 407.43",
+      "at": "2026-11-03T08:33:13+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T08:32:22+00:00"
+      "at": "2026-11-03T08:33:16+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T08:32:23+00:00"
+      "status": "idle",
+      "note": "score 73.6 TAKE",
+      "at": "2026-11-03T08:33:18+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T08:33:21+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -5 QQQ @ 407.52",
+      "at": "2026-11-03T08:33:24+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 29,
+      "qty": 24,
       "avg": 404.4638
     },
     {
@@ -51,22 +55,32 @@
       "avg": 149.3355
     }
   ],
-  "pnl": 3691.96,
-  "realized_pnl": 2353.56,
-  "unrealized_pnl": 1338.4,
+  "pnl": 3826.46,
+  "realized_pnl": 2368.84,
+  "unrealized_pnl": 1457.62,
   "last_signal": {
-    "id": "6377f705",
-    "symbol": "NVDA",
+    "id": "ebb9766e",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 560.82,
-    "qty": 10,
-    "strength": 0.222,
+    "price": 407.43,
+    "qty": 5,
+    "strength": 0.787,
     "source": "paper-sim",
-    "ts": "2026-11-03T08:32:20+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T08:33:13+00:00",
+    "verdict": "PAPER filled -5 @ 407.52",
+    "score": 73.6,
+    "recommendation": "TAKE"
   },
-  "cycle": 1873,
+  "cycle": 1876,
   "fills": [
+    {
+      "fill": 407.52,
+      "qty": -5,
+      "realized": 15.28,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-03T08:33:24+00:00"
+    },
     {
       "fill": 146.74,
       "qty": -5,
@@ -218,15 +232,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T07:28:43+00:00"
-    },
-    {
-      "fill": 150.33,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-03T07:25:50+00:00"
     }
   ],
-  "updated_at": "2026-11-03T08:32:23+00:00"
+  "updated_at": "2026-11-03T08:33:24+00:00"
 }
