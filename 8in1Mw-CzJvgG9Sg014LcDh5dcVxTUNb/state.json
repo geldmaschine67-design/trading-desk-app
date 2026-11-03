@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 AMZN @ 324.13",
-      "at": "2026-11-03T07:11:51+00:00"
+      "note": "SELL 5 BTC-USD @ 151.99",
+      "at": "2026-11-03T07:12:49+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T07:11:53+00:00"
+      "at": "2026-11-03T07:12:51+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 76.4 TAKE",
-      "at": "2026-11-03T07:11:55+00:00"
+      "note": "score 71.5 TAKE",
+      "at": "2026-11-03T07:12:54+00:00"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-03T07:11:58+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T07:12:57+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T07:12:00+00:00"
+      "note": "PAPER fill -5 BTC-USD @ 152.06",
+      "at": "2026-11-03T07:12:59+00:00"
     }
   },
   "positions": [
@@ -51,28 +51,36 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": 15,
+      "qty": 10,
       "avg": 153.1667
     }
   ],
-  "pnl": 3022.62,
-  "realized_pnl": 1627.4,
-  "unrealized_pnl": 1395.22,
+  "pnl": 3161.1,
+  "realized_pnl": 1621.87,
+  "unrealized_pnl": 1539.23,
   "last_signal": {
-    "id": "7fb2e4f4",
-    "symbol": "AMZN",
-    "side": "BUY",
-    "price": 324.13,
-    "qty": 10,
-    "strength": 0.904,
+    "id": "05e711da",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 151.99,
+    "qty": 5,
+    "strength": 0.661,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:11:51+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 76.4,
+    "ts": "2026-11-03T07:12:49+00:00",
+    "verdict": "PAPER filled -5 @ 152.06",
+    "score": 71.5,
     "recommendation": "TAKE"
   },
-  "cycle": 1639,
+  "cycle": 1642,
   "fills": [
+    {
+      "fill": 152.06,
+      "qty": -5,
+      "realized": -5.53,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-03T07:12:59+00:00"
+    },
     {
       "fill": 553.78,
       "qty": -2,
@@ -224,15 +232,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-03T06:21:39+00:00"
-    },
-    {
-      "fill": 417.66,
-      "qty": -1,
-      "realized": 28.14,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T06:17:31+00:00"
     }
   ],
-  "updated_at": "2026-11-03T07:12:01+00:00"
+  "updated_at": "2026-11-03T07:13:01+00:00"
 }
