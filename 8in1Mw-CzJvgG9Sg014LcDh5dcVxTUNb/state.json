@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 AAPL @ 96.93",
-      "at": "2026-11-03T23:56:56+00:00"
+      "note": "SELL 5 SPY @ 48.49",
+      "at": "2026-11-03T23:57:53+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T23:56:58+00:00"
+      "at": "2026-11-03T23:57:56+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 48.7 PASS",
-      "at": "2026-11-03T23:57:00+00:00"
+      "note": "score 71.8 TAKE",
+      "at": "2026-11-03T23:57:58+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-03T23:58:01+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -5 NVDA @ 627.85",
-      "at": "2026-11-03T23:56:38+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T23:56:36+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-03T23:58:02+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 323.03
     }
   ],
-  "pnl": 6052.97,
-  "updated_at": "2026-11-03T23:57:02+00:00",
+  "pnl": 5981.11,
   "realized_pnl": 6171.8,
-  "unrealized_pnl": -118.83,
+  "unrealized_pnl": -190.69,
   "last_signal": {
-    "id": "0139d65f",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 96.93,
+    "id": "32746a8d",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 48.49,
     "qty": 5,
-    "strength": 0.343,
+    "strength": 0.701,
     "source": "paper-sim",
-    "ts": "2026-11-03T23:56:56+00:00",
-    "verdict": "pass (score 48.7)",
-    "score": 48.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T23:57:53+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 71.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 4451,
+  "cycle": 4454,
   "fills": [
     {
       "fill": 627.85,
@@ -234,5 +233,6 @@
       "symbol": "AAPL",
       "at": "2026-11-03T23:06:48+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T23:58:04+00:00"
 }
