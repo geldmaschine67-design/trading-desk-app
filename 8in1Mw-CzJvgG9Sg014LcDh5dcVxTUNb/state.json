@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 QQQ @ 417.54",
-      "at": "2026-11-03T07:23:11+00:00"
+      "note": "no signal",
+      "at": "2026-11-03T07:24:20+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T07:23:13+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 11.1 PASS",
-      "at": "2026-11-03T07:23:16+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 QQQ @ 417.5",
-      "at": "2026-11-03T07:22:19+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T07:22:16+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -36,8 +28,8 @@
     },
     {
       "symbol": "NVDA",
-      "qty": 20,
-      "avg": 516.6005
+      "qty": 25,
+      "avg": 526.6724
     },
     {
       "symbol": "AAPL",
@@ -55,25 +47,32 @@
       "avg": 153.1667
     }
   ],
-  "pnl": 3654.82,
-  "updated_at": "2026-11-03T07:23:17+00:00",
+  "pnl": 3500.76,
   "realized_pnl": 1705.8,
-  "unrealized_pnl": 1949.02,
+  "unrealized_pnl": 1794.96,
   "last_signal": {
-    "id": "ba069602",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 417.54,
-    "qty": 10,
-    "strength": 0.074,
+    "id": "0bcceb35",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 566.84,
+    "qty": 5,
+    "strength": 0.964,
     "source": "paper-sim",
-    "ts": "2026-11-03T07:23:11+00:00",
-    "verdict": "pass (score 11.1)",
-    "score": 11.1,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T07:23:54+00:00",
+    "verdict": "PAPER filled 5 @ 566.96",
+    "score": 76.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 1674,
+  "cycle": 1678,
   "fills": [
+    {
+      "fill": 566.96,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-03T07:24:04+00:00"
+    },
     {
       "fill": 417.5,
       "qty": -5,
@@ -225,14 +224,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-03T06:39:24+00:00"
-    },
-    {
-      "fill": 417.71,
-      "qty": -1,
-      "realized": 28.19,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-03T06:37:33+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T07:24:21+00:00"
 }
