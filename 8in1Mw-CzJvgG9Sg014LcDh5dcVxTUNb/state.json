@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 MSFT @ 94.57",
-      "at": "2026-11-03T05:38:12+00:00"
+      "note": "SELL 10 SPY @ 64.16",
+      "at": "2026-11-03T05:39:12+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T05:38:13+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T05:39:14+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -45,26 +45,34 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 21,
-      "avg": 366.397
+      "qty": 23,
+      "avg": 368.0268
     }
   ],
-  "pnl": 3830.77,
+  "pnl": 3935.12,
   "realized_pnl": 1078.29,
-  "unrealized_pnl": 2752.48,
+  "unrealized_pnl": 2856.83,
   "last_signal": {
-    "id": "9c0ae2df",
-    "symbol": "MSFT",
+    "id": "5e91f785",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 94.57,
-    "qty": 5,
-    "strength": 0.534,
+    "price": 64.16,
+    "qty": 10,
+    "strength": 0.29,
     "source": "paper-sim",
-    "ts": "2026-11-03T05:38:12+00:00",
+    "ts": "2026-11-03T05:39:12+00:00",
     "verdict": "pending"
   },
-  "cycle": 1346,
+  "cycle": 1349,
   "fills": [
+    {
+      "fill": 385.14,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T05:38:40+00:00"
+    },
     {
       "fill": 78.66,
       "qty": -10,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-03T04:49:57+00:00"
-    },
-    {
-      "fill": 583.11,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-03T04:48:54+00:00"
     }
   ],
-  "updated_at": "2026-11-03T05:38:13+00:00"
+  "updated_at": "2026-11-03T05:39:14+00:00"
 }
