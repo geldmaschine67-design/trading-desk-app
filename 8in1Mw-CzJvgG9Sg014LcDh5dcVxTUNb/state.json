@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 QQQ @ 408.64",
-      "at": "2026-11-03T06:12:08+00:00"
+      "note": "BUY 1 AAPL @ 74.84",
+      "at": "2026-11-03T06:12:57+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T06:12:11+00:00"
+      "at": "2026-11-03T06:12:59+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-03T06:12:12+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 19.3 PASS",
+      "at": "2026-11-03T06:13:02+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-03T06:11:09+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-03T06:11:08+00:00"
     }
   },
   "positions": [
@@ -51,21 +55,24 @@
       "avg": 368.404
     }
   ],
-  "pnl": 3476.08,
+  "pnl": 3466.05,
+  "updated_at": "2026-11-03T06:13:03+00:00",
   "realized_pnl": 1361.78,
-  "unrealized_pnl": 2114.3,
+  "unrealized_pnl": 2104.27,
   "last_signal": {
-    "id": "521144eb",
-    "symbol": "QQQ",
+    "id": "e2be5d69",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 408.64,
+    "price": 74.84,
     "qty": 1,
-    "strength": 0.387,
+    "strength": 0.184,
     "source": "paper-sim",
-    "ts": "2026-11-03T06:12:08+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-03T06:12:57+00:00",
+    "verdict": "pass (score 19.3)",
+    "score": 19.3,
+    "recommendation": "PASS"
   },
-  "cycle": 1448,
+  "cycle": 1451,
   "fills": [
     {
       "fill": 75.57,
@@ -227,6 +234,5 @@
       "symbol": "SPY",
       "at": "2026-11-03T05:14:02+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T06:12:12+00:00"
+  ]
 }
