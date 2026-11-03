@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-03T02:15:18+00:00"
+      "note": "SELL 2 BTC-USD @ 138.35",
+      "at": "2026-11-03T02:16:13+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T02:16:16+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 69.5 PASS",
+      "at": "2026-11-03T02:16:18+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,23 +51,23 @@
       "avg": 364.16
     }
   ],
-  "pnl": 745.02,
+  "pnl": 647.35,
   "realized_pnl": 142.7,
-  "unrealized_pnl": 602.32,
+  "unrealized_pnl": 504.65,
   "last_signal": {
-    "id": "14cad5e0",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 82.28,
-    "qty": 10,
-    "strength": 0.325,
+    "id": "2bfbab6c",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 138.35,
+    "qty": 2,
+    "strength": 0.916,
     "source": "paper-sim",
-    "ts": "2026-11-03T02:14:41+00:00",
-    "verdict": "pass (score 44.5)",
-    "score": 44.5,
+    "ts": "2026-11-03T02:16:13+00:00",
+    "verdict": "pass (score 69.5)",
+    "score": 69.5,
     "recommendation": "PASS"
   },
-  "cycle": 727,
+  "cycle": 730,
   "fills": [
     {
       "fill": 350.82,
@@ -226,5 +230,5 @@
       "at": "2026-11-03T01:35:27+00:00"
     }
   ],
-  "updated_at": "2026-11-03T02:15:19+00:00"
+  "updated_at": "2026-11-03T02:16:19+00:00"
 }
