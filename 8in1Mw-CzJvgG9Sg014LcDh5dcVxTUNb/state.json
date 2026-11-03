@@ -5,7 +5,7 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-03T15:08:44+00:00"
+      "at": "2026-11-03T15:09:46+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -33,7 +33,7 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -80,
+      "qty": -70,
       "avg": 71.3365
     },
     {
@@ -47,24 +47,32 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7176.72,
-  "realized_pnl": 7598.88,
-  "unrealized_pnl": -422.16,
+  "pnl": 7228.23,
+  "realized_pnl": 7527.85,
+  "unrealized_pnl": -299.62,
   "last_signal": {
-    "id": "d33b7ec1",
-    "symbol": "MSFT",
+    "id": "cc7927da",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 112.68,
-    "qty": 5,
-    "strength": 0.399,
+    "price": 78.43,
+    "qty": 10,
+    "strength": 0.876,
     "source": "paper-sim",
-    "ts": "2026-11-03T15:08:28+00:00",
-    "verdict": "pass (score 40.6)",
-    "score": 40.6,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T15:09:24+00:00",
+    "verdict": "PAPER filled 10 @ 78.44",
+    "score": 72.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 2995,
+  "cycle": 2998,
   "fills": [
+    {
+      "fill": 78.44,
+      "qty": 10,
+      "realized": -71.03,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-03T15:09:34+00:00"
+    },
     {
       "fill": 426.44,
       "qty": -10,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-03T13:59:56+00:00"
-    },
-    {
-      "fill": 347.27,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-03T13:55:52+00:00"
     }
   ],
-  "updated_at": "2026-11-03T15:08:44+00:00"
+  "updated_at": "2026-11-03T15:09:46+00:00"
 }
