@@ -3,21 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-03T21:42:42+00:00"
+      "status": "idle",
+      "note": "SELL 1 BTC-USD @ 141.91",
+      "at": "2026-11-03T21:43:35+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T21:43:37+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 68.5 PASS",
+      "at": "2026-11-03T21:43:40+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 NVDA @ 631.76",
+      "at": "2026-11-03T21:37:50+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-03T21:37:48+00:00"
     }
   },
   "positions": [
@@ -47,23 +55,24 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 5195.62,
+  "pnl": 5316.32,
+  "updated_at": "2026-11-03T21:43:41+00:00",
   "realized_pnl": 6602.9,
-  "unrealized_pnl": -1407.28,
+  "unrealized_pnl": -1286.58,
   "last_signal": {
-    "id": "13cfe552",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 48.2,
-    "qty": 5,
-    "strength": 0.869,
+    "id": "3e1cfd46",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 141.91,
+    "qty": 1,
+    "strength": 0.646,
     "source": "paper-sim",
-    "ts": "2026-11-03T21:42:26+00:00",
-    "verdict": "pass (score 62.2)",
-    "score": 62.2,
+    "ts": "2026-11-03T21:43:35+00:00",
+    "verdict": "pass (score 68.5)",
+    "score": 68.5,
     "recommendation": "PASS"
   },
-  "cycle": 4099,
+  "cycle": 4102,
   "fills": [
     {
       "fill": 631.76,
@@ -225,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-03T20:34:21+00:00"
     }
-  ],
-  "updated_at": "2026-11-03T21:42:42+00:00"
+  ]
 }
