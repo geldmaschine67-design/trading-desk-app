@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 5 QQQ @ 428.03",
-      "at": "2026-11-03T14:26:35+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-03T14:27:48+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-03T14:26:37+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 55.5 PASS",
-      "at": "2026-11-03T14:26:40+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T14:26:00+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-03T14:25:58+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 353.8164
     }
   ],
-  "pnl": 7632.33,
-  "updated_at": "2026-11-03T14:26:41+00:00",
+  "pnl": 7592.62,
   "realized_pnl": 7742.12,
-  "unrealized_pnl": -109.79,
+  "unrealized_pnl": -149.5,
   "last_signal": {
-    "id": "5826917e",
-    "symbol": "QQQ",
+    "id": "e93e13fe",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 428.03,
-    "qty": 5,
-    "strength": 0.505,
+    "price": 49.92,
+    "qty": 1,
+    "strength": 0.418,
     "source": "paper-sim",
-    "ts": "2026-11-03T14:26:35+00:00",
-    "verdict": "pass (score 55.5)",
-    "score": 55.5,
+    "ts": "2026-11-03T14:27:29+00:00",
+    "verdict": "pass (score 56.9)",
+    "score": 56.9,
     "recommendation": "PASS"
   },
-  "cycle": 2901,
+  "cycle": 2905,
   "fills": [
     {
       "fill": 647.83,
@@ -234,5 +225,6 @@
       "symbol": "AMZN",
       "at": "2026-11-03T13:19:37+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T14:27:48+00:00"
 }
