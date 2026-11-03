@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 BTC-USD @ 156.44",
-      "at": "2026-11-03T12:22:46+00:00"
+      "note": "BUY 5 SPY @ 55.8",
+      "at": "2026-11-03T12:23:52+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T12:22:49+00:00"
+      "at": "2026-11-03T12:23:55+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 57.0 PASS",
-      "at": "2026-11-03T12:22:51+00:00"
+      "note": "score 32.0 PASS",
+      "at": "2026-11-03T12:23:57+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 2 TSLA @ 398.25",
-      "at": "2026-11-03T12:22:13+00:00"
+      "note": "PAPER fill -5 TSLA @ 396.55",
+      "at": "2026-11-03T12:23:35+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T12:22:11+00:00"
+      "at": "2026-11-03T12:23:33+00:00"
     }
   },
   "positions": [
@@ -46,7 +46,7 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 26,
+      "qty": 21,
       "avg": 387.1538
     },
     {
@@ -55,25 +55,33 @@
       "avg": 335.8409
     }
   ],
-  "pnl": 7824.56,
-  "updated_at": "2026-11-03T12:22:52+00:00",
-  "realized_pnl": 5773.87,
-  "unrealized_pnl": 2050.69,
+  "pnl": 7896.28,
+  "updated_at": "2026-11-03T12:23:58+00:00",
+  "realized_pnl": 5820.85,
+  "unrealized_pnl": 2075.43,
   "last_signal": {
-    "id": "78e60569",
-    "symbol": "BTC-USD",
+    "id": "a2748fd8",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 156.44,
-    "qty": 1,
-    "strength": 0.423,
+    "price": 55.8,
+    "qty": 5,
+    "strength": 0.371,
     "source": "paper-sim",
-    "ts": "2026-11-03T12:22:46+00:00",
-    "verdict": "pass (score 57.0)",
-    "score": 57.0,
+    "ts": "2026-11-03T12:23:52+00:00",
+    "verdict": "pass (score 32.0)",
+    "score": 32.0,
     "recommendation": "PASS"
   },
-  "cycle": 2538,
+  "cycle": 2541,
   "fills": [
+    {
+      "fill": 396.55,
+      "qty": -5,
+      "realized": 46.98,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-03T12:23:35+00:00"
+    },
     {
       "fill": 398.25,
       "qty": 2,
@@ -225,14 +233,6 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-03T11:19:56+00:00"
-    },
-    {
-      "fill": 334.64,
-      "qty": -2,
-      "realized": 5.77,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-03T11:18:28+00:00"
     }
   ]
 }
