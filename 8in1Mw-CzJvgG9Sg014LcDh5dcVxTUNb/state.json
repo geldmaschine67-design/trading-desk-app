@@ -4,28 +4,26 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AMZN @ 328.94",
-      "at": "2026-11-03T22:28:44+00:00"
+      "note": "SELL 10 NVDA @ 622.82",
+      "at": "2026-11-03T22:29:01+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T22:28:47+00:00"
+      "at": "2026-11-03T22:29:03+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 38.9 PASS",
-      "at": "2026-11-03T22:28:49+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T22:26:25+00:00"
+      "note": "score 71.9 TAKE",
+      "at": "2026-11-03T22:29:06+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-03T22:26:23+00:00"
+      "status": "blocked",
+      "note": "notional 6228 > 5000",
+      "at": "2026-11-03T22:30:41+00:00"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +53,23 @@
       "avg": 320.4629
     }
   ],
-  "pnl": 5984.16,
-  "updated_at": "2026-11-03T22:28:50+00:00",
+  "pnl": 5965.98,
   "realized_pnl": 6455.37,
-  "unrealized_pnl": -471.21,
+  "unrealized_pnl": -489.39,
   "last_signal": {
-    "id": "76dade66",
-    "symbol": "AMZN",
+    "id": "a1eef533",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 328.94,
-    "qty": 1,
-    "strength": 0.238,
+    "price": 622.82,
+    "qty": 10,
+    "strength": 0.944,
     "source": "paper-sim",
-    "ts": "2026-11-03T22:28:44+00:00",
-    "verdict": "pass (score 38.9)",
-    "score": 38.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-03T22:29:01+00:00",
+    "verdict": "risk blocked: notional 6228 > 5000",
+    "score": 71.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 4221,
+  "cycle": 4222,
   "fills": [
     {
       "fill": 528.07,
@@ -234,5 +231,6 @@
       "symbol": "QQQ",
       "at": "2026-11-03T21:11:02+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T22:30:41+00:00"
 }
