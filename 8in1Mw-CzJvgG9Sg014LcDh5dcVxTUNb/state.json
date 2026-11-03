@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 BTC-USD @ 133.69",
-      "at": "2026-11-03T00:11:27+00:00"
+      "note": "BUY 5 NVDA @ 511.33",
+      "at": "2026-11-03T00:12:40+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-03T00:11:29+00:00"
+      "at": "2026-11-03T00:12:42+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 86.6 TAKE",
-      "at": "2026-11-03T00:11:31+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-03T00:12:43+00:00"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-03T00:11:34+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-03T00:11:36+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,23 +51,21 @@
       "avg": 59.88
     }
   ],
-  "pnl": 431.66,
+  "pnl": 418.87,
   "realized_pnl": 116.33,
-  "unrealized_pnl": 315.33,
+  "unrealized_pnl": 302.54,
   "last_signal": {
-    "id": "c81e2f18",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 133.69,
+    "id": "16c3b40c",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 511.33,
     "qty": 5,
-    "strength": 0.969,
+    "strength": 0.705,
     "source": "paper-sim",
-    "ts": "2026-11-03T00:11:27+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 86.6,
-    "recommendation": "TAKE"
+    "ts": "2026-11-03T00:12:40+00:00",
+    "verdict": "pending"
   },
-  "cycle": 366,
+  "cycle": 370,
   "fills": [
     {
       "fill": 80.81,
@@ -234,5 +228,5 @@
       "at": "2026-11-02T23:37:50+00:00"
     }
   ],
-  "updated_at": "2026-11-03T00:11:37+00:00"
+  "updated_at": "2026-11-03T00:12:43+00:00"
 }
