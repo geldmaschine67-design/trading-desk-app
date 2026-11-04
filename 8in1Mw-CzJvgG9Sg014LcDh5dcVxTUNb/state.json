@@ -4,11 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 BTC-USD @ 123.29",
-      "at": "2026-11-04T08:06:42+00:00"
+      "note": "BUY 5 AMZN @ 270.58",
+      "at": "2026-11-04T08:07:41+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T08:07:43+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,21 +49,21 @@
       "avg": 271.2325
     }
   ],
-  "pnl": 8340.76,
+  "pnl": 8273.64,
   "realized_pnl": 7062.42,
-  "unrealized_pnl": 1278.34,
+  "unrealized_pnl": 1211.22,
   "last_signal": {
-    "id": "ccc267cb",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 123.29,
+    "id": "f54034a9",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 270.58,
     "qty": 5,
-    "strength": 0.486,
+    "strength": 0.422,
     "source": "paper-sim",
-    "ts": "2026-11-04T08:06:42+00:00",
+    "ts": "2026-11-04T08:07:41+00:00",
     "verdict": "pending"
   },
-  "cycle": 5835,
+  "cycle": 5838,
   "fills": [
     {
       "fill": 91.09,
@@ -224,5 +226,5 @@
       "at": "2026-11-04T07:22:18+00:00"
     }
   ],
-  "updated_at": "2026-11-04T08:06:42+00:00"
+  "updated_at": "2026-11-04T08:07:43+00:00"
 }
