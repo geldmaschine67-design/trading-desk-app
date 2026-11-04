@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T10:49:01+00:00"
+      "status": "idle",
+      "note": "SELL 10 AMZN @ 252.79",
+      "at": "2026-11-04T10:52:01+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T10:52:03+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -23,8 +25,8 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": 5,
-      "avg": 464.07
+      "qty": -5,
+      "avg": 464.56
     },
     {
       "symbol": "AAPL",
@@ -47,24 +49,30 @@
       "avg": 263.9579
     }
   ],
-  "pnl": 8343.9,
-  "realized_pnl": 7143.51,
-  "unrealized_pnl": 1200.39,
+  "pnl": 7991.38,
+  "realized_pnl": 7145.96,
+  "unrealized_pnl": 845.42,
   "last_signal": {
-    "id": "560ec987",
-    "symbol": "AAPL",
+    "id": "6685b2a8",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 88.98,
-    "qty": 5,
-    "strength": 0.127,
+    "price": 252.79,
+    "qty": 10,
+    "strength": 0.574,
     "source": "paper-sim",
-    "ts": "2026-11-04T10:48:09+00:00",
-    "verdict": "pass (score 11.7)",
-    "score": 11.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T10:52:01+00:00",
+    "verdict": "pending"
   },
-  "cycle": 6293,
+  "cycle": 6300,
   "fills": [
+    {
+      "fill": 464.56,
+      "qty": -10,
+      "realized": 2.45,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-04T10:49:51+00:00"
+    },
     {
       "fill": 241.89,
       "qty": -2,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-04T09:32:23+00:00"
-    },
-    {
-      "fill": 688.49,
-      "qty": -5,
-      "realized": 65.07,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-04T09:31:58+00:00"
     }
   ],
-  "updated_at": "2026-11-04T10:49:01+00:00"
+  "updated_at": "2026-11-04T10:52:03+00:00"
 }
