@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T11:41:21+00:00"
+      "status": "idle",
+      "note": "BUY 2 NVDA @ 639.03",
+      "at": "2026-11-04T11:42:21+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T11:42:22+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 261.6323
     }
   ],
-  "pnl": 9055.97,
+  "pnl": 8748.28,
   "realized_pnl": 7148.87,
-  "unrealized_pnl": 1907.1,
+  "unrealized_pnl": 1599.41,
   "last_signal": {
-    "id": "8345996a",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 138.93,
+    "id": "d9ea644e",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 639.03,
     "qty": 2,
-    "strength": 0.995,
+    "strength": 0.828,
     "source": "paper-sim",
-    "ts": "2026-11-04T11:39:37+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 72.6,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T11:42:21+00:00",
+    "verdict": "pending"
   },
-  "cycle": 6441,
+  "cycle": 6444,
   "fills": [
     {
       "fill": 632.37,
@@ -226,5 +226,5 @@
       "at": "2026-11-04T10:23:12+00:00"
     }
   ],
-  "updated_at": "2026-11-04T11:41:21+00:00"
+  "updated_at": "2026-11-04T11:42:22+00:00"
 }
