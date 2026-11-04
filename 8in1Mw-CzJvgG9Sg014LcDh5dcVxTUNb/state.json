@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 157.91",
-      "at": "2026-11-04T17:24:13+00:00"
+      "note": "BUY 10 NVDA @ 666.43",
+      "at": "2026-11-04T17:25:24+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T17:24:15+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 65.3 PASS",
-      "at": "2026-11-04T17:24:18+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -1 AMZN @ 233.76",
-      "at": "2026-11-04T17:24:01+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T17:23:58+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,21 @@
       "avg": 163.72
     }
   ],
-  "pnl": 8128.56,
-  "updated_at": "2026-11-04T17:24:19+00:00",
+  "pnl": 8238.88,
   "realized_pnl": 10039.23,
-  "unrealized_pnl": -1910.67,
+  "unrealized_pnl": -1800.35,
   "last_signal": {
-    "id": "6c681dc9",
-    "symbol": "BTC-USD",
+    "id": "370b57a9",
+    "symbol": "NVDA",
     "side": "BUY",
-    "price": 157.91,
-    "qty": 5,
-    "strength": 0.616,
+    "price": 666.43,
+    "qty": 10,
+    "strength": 0.685,
     "source": "paper-sim",
-    "ts": "2026-11-04T17:24:13+00:00",
-    "verdict": "pass (score 65.3)",
-    "score": 65.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T17:25:24+00:00",
+    "verdict": "pending"
   },
-  "cycle": 7400,
+  "cycle": 7404,
   "fills": [
     {
       "fill": 233.76,
@@ -234,5 +223,6 @@
       "symbol": "AMZN",
       "at": "2026-11-04T16:42:17+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T17:25:24+00:00"
 }
