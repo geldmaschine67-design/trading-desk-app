@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 NVDA @ 665.87",
-      "at": "2026-11-04T23:16:31+00:00"
+      "note": "BUY 1 SPY @ 44.82",
+      "at": "2026-11-04T23:17:32+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T23:16:34+00:00"
+      "at": "2026-11-04T23:17:35+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 77.5 TAKE",
-      "at": "2026-11-04T23:16:36+00:00"
+      "note": "score 77.1 TAKE",
+      "at": "2026-11-04T23:17:37+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 1 NVDA @ 665.61",
-      "at": "2026-11-04T23:16:41+00:00"
+      "note": "PAPER fill 1 SPY @ 44.84",
+      "at": "2026-11-04T23:17:42+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T23:16:39+00:00"
+      "at": "2026-11-04T23:17:40+00:00"
     }
   },
   "positions": [
@@ -41,7 +41,7 @@
     },
     {
       "symbol": "SPY",
-      "qty": -9,
+      "qty": -8,
       "avg": 46.9918
     },
     {
@@ -55,25 +55,33 @@
       "avg": 263.5986
     }
   ],
-  "pnl": 8098.78,
-  "updated_at": "2026-11-04T23:16:43+00:00",
-  "realized_pnl": 10441.11,
-  "unrealized_pnl": -2342.33,
+  "pnl": 8031.77,
+  "updated_at": "2026-11-04T23:17:44+00:00",
+  "realized_pnl": 10443.26,
+  "unrealized_pnl": -2411.49,
   "last_signal": {
-    "id": "a5e90288",
-    "symbol": "NVDA",
+    "id": "e24a88a8",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 665.87,
+    "price": 44.82,
     "qty": 1,
-    "strength": 0.878,
+    "strength": 0.779,
     "source": "paper-sim",
-    "ts": "2026-11-04T23:16:31+00:00",
-    "verdict": "PAPER filled 1 @ 665.61",
-    "score": 77.5,
+    "ts": "2026-11-04T23:17:32+00:00",
+    "verdict": "PAPER filled 1 @ 44.84",
+    "score": 77.1,
     "recommendation": "TAKE"
   },
-  "cycle": 8372,
+  "cycle": 8375,
   "fills": [
+    {
+      "fill": 44.84,
+      "qty": 1,
+      "realized": 2.15,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-04T23:17:42+00:00"
+    },
     {
       "fill": 665.61,
       "qty": 1,
@@ -225,14 +233,6 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-04T21:54:55+00:00"
-    },
-    {
-      "fill": 163.96,
-      "qty": 5,
-      "realized": -3.39,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-04T21:48:53+00:00"
     }
   ]
 }
