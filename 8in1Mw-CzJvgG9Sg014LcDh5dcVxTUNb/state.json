@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 5 NVDA @ 680.56",
-      "at": "2026-11-04T17:41:36+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T17:42:50+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T17:41:39+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 16.5 PASS",
-      "at": "2026-11-04T17:41:41+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +43,36 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -5,
+      "qty": -3,
       "avg": 163.72
     }
   ],
-  "pnl": 8572.46,
-  "realized_pnl": 10068.74,
-  "unrealized_pnl": -1496.28,
+  "pnl": 8537.37,
+  "realized_pnl": 10069.2,
+  "unrealized_pnl": -1531.83,
   "last_signal": {
-    "id": "5c010c8d",
-    "symbol": "NVDA",
+    "id": "997128d8",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 680.56,
-    "qty": 5,
-    "strength": 0.113,
+    "price": 112.43,
+    "qty": 10,
+    "strength": 0.559,
     "source": "paper-sim",
-    "ts": "2026-11-04T17:41:36+00:00",
-    "verdict": "pass (score 16.5)",
-    "score": 16.5,
+    "ts": "2026-11-04T17:42:36+00:00",
+    "verdict": "pass (score 47.1)",
+    "score": 47.1,
     "recommendation": "PASS"
   },
-  "cycle": 7456,
+  "cycle": 7460,
   "fills": [
+    {
+      "fill": 163.49,
+      "qty": 2,
+      "realized": 0.46,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-04T17:42:05+00:00"
+    },
     {
       "fill": 45.23,
       "qty": -1,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-04T16:51:55+00:00"
-    },
-    {
-      "fill": 79.22,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-04T16:51:15+00:00"
     }
   ],
-  "updated_at": "2026-11-04T17:41:42+00:00"
+  "updated_at": "2026-11-04T17:42:50+00:00"
 }
