@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 TSLA @ 235.67",
-      "at": "2026-11-04T19:26:05+00:00"
+      "note": "SELL 5 TSLA @ 236.52",
+      "at": "2026-11-04T19:27:03+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T19:26:07+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T19:27:05+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 22.1 PASS",
+      "at": "2026-11-04T19:27:07+00:00"
     },
     "risk": {
       "status": "idle"
@@ -25,7 +27,7 @@
   "positions": [
     {
       "symbol": "AMZN",
-      "qty": -13,
+      "qty": -8,
       "avg": 247.2794
     },
     {
@@ -49,22 +51,32 @@
       "avg": 171.5083
     }
   ],
-  "pnl": 8952.43,
-  "realized_pnl": 9898.14,
-  "unrealized_pnl": -945.71,
+  "pnl": 9057.55,
+  "realized_pnl": 9870.54,
+  "unrealized_pnl": -812.99,
   "last_signal": {
-    "id": "412dea20",
+    "id": "11adf2a7",
     "symbol": "TSLA",
-    "side": "BUY",
-    "price": 235.67,
+    "side": "SELL",
+    "price": 236.52,
     "qty": 5,
-    "strength": 0.191,
+    "strength": 0.177,
     "source": "paper-sim",
-    "ts": "2026-11-04T19:26:05+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T19:27:03+00:00",
+    "verdict": "pass (score 22.1)",
+    "score": 22.1,
+    "recommendation": "PASS"
   },
-  "cycle": 7744,
+  "cycle": 7747,
   "fills": [
+    {
+      "fill": 252.8,
+      "qty": 5,
+      "realized": -27.6,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T19:26:50+00:00"
+    },
     {
       "fill": 168.66,
       "qty": -1,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-04T18:38:45+00:00"
-    },
-    {
-      "fill": 242.63,
-      "qty": -10,
-      "realized": -42.76,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-04T18:34:19+00:00"
     }
   ],
-  "updated_at": "2026-11-04T19:26:07+00:00"
+  "updated_at": "2026-11-04T19:27:09+00:00"
 }
