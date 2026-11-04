@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AMZN @ 332.7",
-      "at": "2026-11-04T01:07:55+00:00"
+      "note": "SELL 1 BTC-USD @ 115.73",
+      "at": "2026-11-04T01:08:56+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T01:07:57+00:00"
+      "at": "2026-11-04T01:08:58+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 26.4 PASS",
-      "at": "2026-11-04T01:07:59+00:00"
+      "note": "score 76.5 TAKE",
+      "at": "2026-11-04T01:09:01+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-04T01:09:03+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T01:09:05+00:00"
     }
   },
   "positions": [
@@ -32,7 +36,7 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -63,
+      "qty": -58,
       "avg": 87.78
     },
     {
@@ -51,24 +55,32 @@
       "avg": 305.91
     }
   ],
-  "pnl": 6354.31,
-  "realized_pnl": 6208.43,
-  "unrealized_pnl": 145.88,
+  "pnl": 6503.02,
+  "realized_pnl": 6184.98,
+  "unrealized_pnl": 318.04,
   "last_signal": {
-    "id": "785bf16a",
-    "symbol": "AMZN",
+    "id": "13d04aa9",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 332.7,
-    "qty": 10,
-    "strength": 0.142,
+    "price": 115.73,
+    "qty": 1,
+    "strength": 0.975,
     "source": "paper-sim",
-    "ts": "2026-11-04T01:07:55+00:00",
-    "verdict": "pass (score 26.4)",
-    "score": 26.4,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T01:08:56+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 76.5,
+    "recommendation": "TAKE"
   },
-  "cycle": 4663,
+  "cycle": 4666,
   "fills": [
+    {
+      "fill": 92.47,
+      "qty": 5,
+      "realized": -23.45,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-04T01:08:42+00:00"
+    },
     {
       "fill": 302.83,
       "qty": 10,
@@ -220,15 +232,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-03T23:42:56+00:00"
-    },
-    {
-      "fill": 332.93,
-      "qty": 10,
-      "realized": 45.34,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-03T23:39:41+00:00"
     }
   ],
-  "updated_at": "2026-11-04T01:08:01+00:00"
+  "updated_at": "2026-11-04T01:09:06+00:00"
 }
