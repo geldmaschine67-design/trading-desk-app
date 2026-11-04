@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 TSLA @ 233.35",
-      "at": "2026-11-04T16:06:30+00:00"
+      "note": "BUY 1 BTC-USD @ 164.82",
+      "at": "2026-11-04T16:07:32+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -28,8 +28,8 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -27,
-      "avg": 245.9855
+      "qty": -29,
+      "avg": 245.7644
     },
     {
       "symbol": "NVDA",
@@ -47,22 +47,30 @@
       "avg": 49.5801
     }
   ],
-  "pnl": 9140.7,
+  "pnl": 8742.68,
   "realized_pnl": 10350.22,
-  "unrealized_pnl": -1209.52,
+  "unrealized_pnl": -1607.54,
   "last_signal": {
-    "id": "4fa73802",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 233.35,
+    "id": "cfbb67dd",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 164.82,
     "qty": 1,
-    "strength": 0.799,
+    "strength": 0.11,
     "source": "paper-sim",
-    "ts": "2026-11-04T16:06:30+00:00",
+    "ts": "2026-11-04T16:07:32+00:00",
     "verdict": "pending"
   },
-  "cycle": 7182,
+  "cycle": 7185,
   "fills": [
+    {
+      "fill": 242.78,
+      "qty": -2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T16:07:15+00:00"
+    },
     {
       "fill": 51.3,
       "qty": 1,
@@ -214,15 +222,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-04T15:08:10+00:00"
-    },
-    {
-      "fill": 237.42,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-04T15:06:10+00:00"
     }
   ],
-  "updated_at": "2026-11-04T16:06:30+00:00"
+  "updated_at": "2026-11-04T16:07:32+00:00"
 }
