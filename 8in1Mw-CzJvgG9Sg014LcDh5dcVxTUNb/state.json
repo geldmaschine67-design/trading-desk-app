@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 1 AMZN @ 254.11",
-      "at": "2026-11-04T18:36:51+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T18:38:34+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T18:36:53+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 30.6 PASS",
-      "at": "2026-11-04T18:36:55+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,9 +47,9 @@
       "avg": 163.09
     }
   ],
-  "pnl": 9733.06,
+  "pnl": 9613.08,
   "realized_pnl": 9937.77,
-  "unrealized_pnl": -204.71,
+  "unrealized_pnl": -324.69,
   "last_signal": {
     "id": "90dad96c",
     "symbol": "AMZN",
@@ -67,7 +63,7 @@
     "score": 30.6,
     "recommendation": "PASS"
   },
-  "cycle": 7597,
+  "cycle": 7598,
   "fills": [
     {
       "fill": 242.63,
@@ -230,5 +226,5 @@
       "at": "2026-11-04T17:32:47+00:00"
     }
   ],
-  "updated_at": "2026-11-04T18:36:57+00:00"
+  "updated_at": "2026-11-04T18:38:34+00:00"
 }
