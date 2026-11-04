@@ -3,29 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T16:20:56+00:00"
+      "status": "idle",
+      "note": "BUY 1 NVDA @ 688.99",
+      "at": "2026-11-04T16:21:48+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T16:19:50+00:00"
+      "at": "2026-11-04T16:21:51+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 5.1 PASS",
-      "at": "2026-11-04T16:19:52+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T16:18:40+00:00"
+      "note": "score 78.8 TAKE",
+      "at": "2026-11-04T16:21:53+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-04T16:18:39+00:00"
+      "note": "ok",
+      "at": "2026-11-04T16:21:56+00:00"
+    },
+    "executor": {
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T16:21:57+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 49.5801
     }
   ],
-  "pnl": 8633.91,
-  "updated_at": "2026-11-04T16:20:56+00:00",
+  "pnl": 8679.47,
   "realized_pnl": 10358.29,
-  "unrealized_pnl": -1724.38,
+  "unrealized_pnl": -1678.82,
   "last_signal": {
-    "id": "29c62595",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 449.52,
-    "qty": 2,
-    "strength": 0.044,
+    "id": "a05f9302",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 688.99,
+    "qty": 1,
+    "strength": 0.752,
     "source": "paper-sim",
-    "ts": "2026-11-04T16:19:47+00:00",
-    "verdict": "pass (score 5.1)",
-    "score": 5.1,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T16:21:48+00:00",
+    "verdict": "pending",
+    "score": 78.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 7216,
+  "cycle": 7219,
   "fills": [
     {
       "fill": 244.15,
@@ -234,5 +233,6 @@
       "symbol": "AMZN",
       "at": "2026-11-04T15:09:43+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T16:21:57+00:00"
 }
