@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 MSFT @ 105.8",
-      "at": "2026-11-04T09:17:24+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T09:18:26+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T09:17:26+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T09:17:27+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +47,23 @@
       "avg": 270.0037
     }
   ],
-  "pnl": 8274.23,
+  "pnl": 8270.67,
   "realized_pnl": 7500.82,
-  "unrealized_pnl": 773.41,
+  "unrealized_pnl": 769.85,
   "last_signal": {
-    "id": "d570d45a",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 105.8,
+    "id": "44db44fe",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 138.76,
     "qty": 1,
-    "strength": 0.63,
+    "strength": 0.853,
     "source": "paper-sim",
-    "ts": "2026-11-04T09:17:24+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T09:17:59+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 86.3,
+    "recommendation": "TAKE"
   },
-  "cycle": 6039,
+  "cycle": 6042,
   "fills": [
     {
       "fill": 270.06,
@@ -228,5 +226,5 @@
       "at": "2026-11-04T08:23:10+00:00"
     }
   ],
-  "updated_at": "2026-11-04T09:17:27+00:00"
+  "updated_at": "2026-11-04T09:18:27+00:00"
 }
