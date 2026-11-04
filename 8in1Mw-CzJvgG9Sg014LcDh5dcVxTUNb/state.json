@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 SPY @ 47.76",
-      "at": "2026-11-04T14:55:34+00:00"
+      "note": "SELL 1 BTC-USD @ 174.73",
+      "at": "2026-11-04T14:56:43+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T14:55:36+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T14:56:45+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 63.0 PASS",
-      "at": "2026-11-04T14:55:39+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -10 SPY @ 48.01",
-      "at": "2026-11-04T14:54:06+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T14:54:03+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -46,8 +40,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 67,
-      "avg": 254.487
+      "qty": 70,
+      "avg": 253.7466
     },
     {
       "symbol": "SPY",
@@ -55,25 +49,38 @@
       "avg": 49.6528
     }
   ],
-  "pnl": 9943.7,
-  "updated_at": "2026-11-04T14:55:40+00:00",
+  "pnl": 9669.65,
   "realized_pnl": 9858.77,
-  "unrealized_pnl": 84.93,
+  "unrealized_pnl": -189.12,
   "last_signal": {
-    "id": "5f90c3e1",
-    "symbol": "SPY",
+    "id": "b8db944a",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 47.76,
-    "qty": 2,
-    "strength": 0.493,
+    "price": 174.73,
+    "qty": 1,
+    "strength": 0.285,
     "source": "paper-sim",
-    "ts": "2026-11-04T14:55:34+00:00",
-    "verdict": "pass (score 63.0)",
-    "score": 63.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T14:56:43+00:00",
+    "verdict": "pending"
   },
-  "cycle": 6986,
+  "cycle": 6989,
   "fills": [
+    {
+      "fill": 236.79,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-04T14:56:28+00:00"
+    },
+    {
+      "fill": 238.05,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-04T14:56:03+00:00"
+    },
     {
       "fill": 48.01,
       "qty": -10,
@@ -217,22 +224,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-04T13:31:15+00:00"
-    },
-    {
-      "fill": 256.21,
-      "qty": -10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T13:29:28+00:00"
-    },
-    {
-      "fill": 609.64,
-      "qty": -2,
-      "realized": -40.48,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-04T13:17:31+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T14:56:45+00:00"
 }
