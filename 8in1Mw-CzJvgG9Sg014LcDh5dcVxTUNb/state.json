@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 TSLA @ 291.29",
-      "at": "2026-11-04T01:45:45+00:00"
+      "note": "SELL 10 NVDA @ 628.5",
+      "at": "2026-11-04T01:46:55+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T01:45:47+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 65.3 PASS",
-      "at": "2026-11-04T01:45:49+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -37,7 +33,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -46,
+      "qty": -41,
       "avg": 332.1991
     },
     {
@@ -51,24 +47,30 @@
       "avg": 302.0739
     }
   ],
-  "pnl": 6402.29,
-  "realized_pnl": 6249.99,
-  "unrealized_pnl": 152.3,
+  "pnl": 6420.06,
+  "realized_pnl": 6334.39,
+  "unrealized_pnl": 85.67,
   "last_signal": {
-    "id": "f3688e39",
-    "symbol": "TSLA",
+    "id": "fe4824de",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 291.29,
-    "qty": 5,
-    "strength": 0.822,
+    "price": 628.5,
+    "qty": 10,
+    "strength": 0.341,
     "source": "paper-sim",
-    "ts": "2026-11-04T01:45:45+00:00",
-    "verdict": "pass (score 65.3)",
-    "score": 65.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T01:46:55+00:00",
+    "verdict": "pending"
   },
-  "cycle": 4773,
+  "cycle": 4777,
   "fills": [
+    {
+      "fill": 315.32,
+      "qty": 5,
+      "realized": 84.4,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T01:46:30+00:00"
+    },
     {
       "fill": 290.97,
       "qty": 5,
@@ -220,15 +222,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-04T00:44:08+00:00"
-    },
-    {
-      "fill": 517.86,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-04T00:42:37+00:00"
     }
   ],
-  "updated_at": "2026-11-04T01:45:51+00:00"
+  "updated_at": "2026-11-04T01:46:55+00:00"
 }
