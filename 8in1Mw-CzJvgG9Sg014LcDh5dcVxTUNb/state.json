@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 MSFT @ 119.41",
-      "at": "2026-11-04T19:07:38+00:00"
+      "note": "BUY 2 MSFT @ 119.85",
+      "at": "2026-11-04T19:08:21+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T19:07:40+00:00"
+      "at": "2026-11-04T19:08:23+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 71.0 TAKE",
+      "at": "2026-11-04T19:08:26+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T19:08:30+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-04T19:08:29+00:00"
     }
   },
   "positions": [
@@ -40,8 +46,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": 3,
-      "avg": 43.48
+      "qty": 8,
+      "avg": 43.1612
     },
     {
       "symbol": "BTC-USD",
@@ -49,22 +55,33 @@
       "avg": 171.5083
     }
   ],
-  "pnl": 10173.89,
+  "pnl": 10045.99,
+  "updated_at": "2026-11-04T19:08:32+00:00",
   "realized_pnl": 9934.05,
-  "unrealized_pnl": 239.84,
+  "unrealized_pnl": 111.94,
   "last_signal": {
-    "id": "e0727ffc",
+    "id": "fff27f27",
     "symbol": "MSFT",
     "side": "BUY",
-    "price": 119.41,
-    "qty": 1,
-    "strength": 0.222,
+    "price": 119.85,
+    "qty": 2,
+    "strength": 0.856,
     "source": "paper-sim",
-    "ts": "2026-11-04T19:07:38+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T19:08:21+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 71.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 7686,
+  "cycle": 7688,
   "fills": [
+    {
+      "fill": 42.97,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-04T19:08:08+00:00"
+    },
     {
       "fill": 251.84,
       "qty": 2,
@@ -216,15 +233,6 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-04T18:11:01+00:00"
-    },
-    {
-      "fill": 242.96,
-      "qty": 5,
-      "realized": -17.66,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T18:10:38+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T19:07:40+00:00"
+  ]
 }
