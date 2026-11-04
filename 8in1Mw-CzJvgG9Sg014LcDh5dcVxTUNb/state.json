@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 MSFT @ 114.31",
-      "at": "2026-11-04T00:23:37+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T00:24:44+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T00:23:39+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 6.2 PASS",
-      "at": "2026-11-04T00:23:41+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -27,7 +23,7 @@
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": -8,
+      "qty": -3,
       "avg": 520.8824
     },
     {
@@ -51,24 +47,32 @@
       "avg": 323.03
     }
   ],
-  "pnl": 5175.09,
-  "realized_pnl": 6090.23,
-  "unrealized_pnl": -915.14,
+  "pnl": 5246.08,
+  "realized_pnl": 6156.74,
+  "unrealized_pnl": -910.66,
   "last_signal": {
-    "id": "cb579233",
-    "symbol": "MSFT",
+    "id": "4bfdb73a",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 114.31,
-    "qty": 1,
-    "strength": 0.059,
+    "price": 507.36,
+    "qty": 5,
+    "strength": 0.916,
     "source": "paper-sim",
-    "ts": "2026-11-04T00:23:37+00:00",
-    "verdict": "pass (score 6.2)",
-    "score": 6.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T00:24:19+00:00",
+    "verdict": "PAPER filled 5 @ 507.58",
+    "score": 78.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 4533,
+  "cycle": 4536,
   "fills": [
+    {
+      "fill": 507.58,
+      "qty": 5,
+      "realized": 66.51,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-04T00:24:29+00:00"
+    },
     {
       "fill": 96.15,
       "qty": 2,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-03T23:15:05+00:00"
-    },
-    {
-      "fill": 311.21,
-      "qty": -5,
-      "realized": -49.8,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-03T23:13:31+00:00"
     }
   ],
-  "updated_at": "2026-11-04T00:23:43+00:00"
+  "updated_at": "2026-11-04T00:24:45+00:00"
 }
