@@ -3,21 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T21:55:52+00:00"
+      "status": "idle",
+      "note": "SELL 5 BTC-USD @ 163.87",
+      "at": "2026-11-04T21:54:45+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T21:54:47+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 86.7 TAKE",
+      "at": "2026-11-04T21:54:50+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T21:54:53+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -5 BTC-USD @ 163.94",
+      "at": "2026-11-04T21:54:55+00:00"
     }
   },
   "positions": [
@@ -47,9 +55,9 @@
       "avg": 252.24
     }
   ],
-  "pnl": 9634.86,
+  "pnl": 9641.76,
   "realized_pnl": 10326.91,
-  "unrealized_pnl": -692.05,
+  "unrealized_pnl": -685.15,
   "last_signal": {
     "id": "a1e49e78",
     "symbol": "BTC-USD",
@@ -63,7 +71,7 @@
     "score": 86.7,
     "recommendation": "TAKE"
   },
-  "cycle": 8168,
+  "cycle": 8167,
   "fills": [
     {
       "fill": 163.94,
@@ -226,5 +234,5 @@
       "at": "2026-11-04T20:43:39+00:00"
     }
   ],
-  "updated_at": "2026-11-04T21:55:52+00:00"
+  "updated_at": "2026-11-04T21:55:36+00:00"
 }
