@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T06:12:14+00:00"
+      "note": "SELL 10 TSLA @ 277.39",
+      "at": "2026-11-04T06:13:11+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T06:13:14+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 39.4 PASS",
+      "at": "2026-11-04T06:13:16+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,23 +51,23 @@
       "avg": 282.9075
     }
   ],
-  "pnl": 8178.21,
+  "pnl": 8281.47,
   "realized_pnl": 6197.46,
-  "unrealized_pnl": 1980.75,
+  "unrealized_pnl": 2084.01,
   "last_signal": {
-    "id": "8335afd1",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 104.48,
-    "qty": 1,
-    "strength": 0.875,
+    "id": "fcd6624a",
+    "symbol": "TSLA",
+    "side": "SELL",
+    "price": 277.39,
+    "qty": 10,
+    "strength": 0.362,
     "source": "paper-sim",
-    "ts": "2026-11-04T06:11:52+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 81.9,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T06:13:11+00:00",
+    "verdict": "pass (score 39.4)",
+    "score": 39.4,
+    "recommendation": "PASS"
   },
-  "cycle": 5526,
+  "cycle": 5530,
   "fills": [
     {
       "fill": 444.71,
@@ -226,5 +230,5 @@
       "at": "2026-11-04T05:02:50+00:00"
     }
   ],
-  "updated_at": "2026-11-04T06:12:15+00:00"
+  "updated_at": "2026-11-04T06:13:17+00:00"
 }
