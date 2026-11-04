@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 BTC-USD @ 132.0",
-      "at": "2026-11-04T08:45:56+00:00"
+      "note": "SELL 1 TSLA @ 266.36",
+      "at": "2026-11-04T08:46:56+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T08:45:58+00:00"
+      "at": "2026-11-04T08:46:59+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T08:46:00+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 71.5 TAKE",
+      "at": "2026-11-04T08:47:01+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T08:46:41+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-04T08:46:39+00:00"
     }
   },
   "positions": [
@@ -51,21 +55,24 @@
       "avg": 270.0037
     }
   ],
-  "pnl": 8015.01,
+  "pnl": 7990.08,
+  "updated_at": "2026-11-04T08:47:01+00:00",
   "realized_pnl": 7236.97,
-  "unrealized_pnl": 778.04,
+  "unrealized_pnl": 753.11,
   "last_signal": {
-    "id": "9c001aa3",
-    "symbol": "BTC-USD",
+    "id": "345456da",
+    "symbol": "TSLA",
     "side": "SELL",
-    "price": 132.0,
-    "qty": 2,
-    "strength": 0.282,
+    "price": 266.36,
+    "qty": 1,
+    "strength": 0.711,
     "source": "paper-sim",
-    "ts": "2026-11-04T08:45:56+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T08:46:56+00:00",
+    "verdict": "pending",
+    "score": 71.5,
+    "recommendation": "TAKE"
   },
-  "cycle": 5950,
+  "cycle": 5953,
   "fills": [
     {
       "fill": 265.58,
@@ -227,6 +234,5 @@
       "symbol": "NVDA",
       "at": "2026-11-04T07:49:47+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T08:46:00+00:00"
+  ]
 }
