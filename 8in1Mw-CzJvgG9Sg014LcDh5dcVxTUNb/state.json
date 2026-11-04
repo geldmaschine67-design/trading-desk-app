@@ -5,19 +5,27 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-04T16:26:04+00:00"
+      "at": "2026-11-04T16:27:05+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T16:26:46+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 87.8 TAKE",
+      "at": "2026-11-04T16:26:49+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T16:26:53+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-04T16:26:51+00:00"
     }
   },
   "positions": [
@@ -47,23 +55,24 @@
       "avg": 49.5801
     }
   ],
-  "pnl": 8595.55,
+  "pnl": 8509.96,
+  "updated_at": "2026-11-04T16:27:05+00:00",
   "realized_pnl": 10365.84,
-  "unrealized_pnl": -1770.29,
+  "unrealized_pnl": -1855.88,
   "last_signal": {
-    "id": "06dfdac3",
+    "id": "f8e95612",
     "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 168.43,
-    "qty": 10,
-    "strength": 0.316,
+    "side": "SELL",
+    "price": 168.37,
+    "qty": 2,
+    "strength": 0.863,
     "source": "paper-sim",
-    "ts": "2026-11-04T16:25:44+00:00",
-    "verdict": "pass (score 39.8)",
-    "score": 39.8,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T16:26:44+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 87.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 7232,
+  "cycle": 7235,
   "fills": [
     {
       "fill": 226.39,
@@ -225,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-04T15:13:39+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T16:26:04+00:00"
+  ]
 }
