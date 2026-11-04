@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 AMZN @ 252.7",
-      "at": "2026-11-04T13:38:28+00:00"
+      "note": "BUY 10 NVDA @ 639.82",
+      "at": "2026-11-04T13:39:27+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T13:38:29+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T13:39:29+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T13:39:30+00:00"
     },
     "risk": {
       "status": "idle"
@@ -49,21 +51,21 @@
       "avg": 50.2747
     }
   ],
-  "pnl": 9197.36,
+  "pnl": 9446.63,
   "realized_pnl": 9575.18,
-  "unrealized_pnl": -377.82,
+  "unrealized_pnl": -128.55,
   "last_signal": {
-    "id": "5f5304a5",
-    "symbol": "AMZN",
+    "id": "955fe6f8",
+    "symbol": "NVDA",
     "side": "BUY",
-    "price": 252.7,
+    "price": 639.82,
     "qty": 10,
-    "strength": 0.758,
+    "strength": 0.599,
     "source": "paper-sim",
-    "ts": "2026-11-04T13:38:28+00:00",
+    "ts": "2026-11-04T13:39:27+00:00",
     "verdict": "pending"
   },
-  "cycle": 6769,
+  "cycle": 6772,
   "fills": [
     {
       "fill": 637.07,
@@ -226,5 +228,5 @@
       "at": "2026-11-04T12:36:37+00:00"
     }
   ],
-  "updated_at": "2026-11-04T13:38:29+00:00"
+  "updated_at": "2026-11-04T13:39:30+00:00"
 }
