@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 BTC-USD @ 165.11",
-      "at": "2026-11-04T21:12:39+00:00"
+      "note": "BUY 2 BTC-USD @ 163.93",
+      "at": "2026-11-04T21:13:31+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T21:12:41+00:00"
+      "at": "2026-11-04T21:13:33+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T21:12:43+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 16.0 PASS",
+      "at": "2026-11-04T21:13:36+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T21:10:40+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-04T21:10:39+00:00"
     }
   },
   "positions": [
@@ -51,21 +55,24 @@
       "avg": 252.24
     }
   ],
-  "pnl": 10218.93,
+  "pnl": 10055.37,
+  "updated_at": "2026-11-04T21:13:37+00:00",
   "realized_pnl": 10281.88,
-  "unrealized_pnl": -62.95,
+  "unrealized_pnl": -226.51,
   "last_signal": {
-    "id": "a3f30188",
+    "id": "05aa9c9e",
     "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 165.11,
-    "qty": 10,
-    "strength": 0.287,
+    "side": "BUY",
+    "price": 163.93,
+    "qty": 2,
+    "strength": 0.148,
     "source": "paper-sim",
-    "ts": "2026-11-04T21:12:39+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T21:13:31+00:00",
+    "verdict": "pass (score 16.0)",
+    "score": 16.0,
+    "recommendation": "PASS"
   },
-  "cycle": 8047,
+  "cycle": 8050,
   "fills": [
     {
       "fill": 252.24,
@@ -227,6 +234,5 @@
       "symbol": "AMZN",
       "at": "2026-11-04T20:03:10+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T21:12:43+00:00"
+  ]
 }
