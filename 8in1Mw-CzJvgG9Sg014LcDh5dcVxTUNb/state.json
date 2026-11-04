@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 163.94",
-      "at": "2026-11-04T21:48:43+00:00"
+      "note": "BUY 1 BTC-USD @ 162.8",
+      "at": "2026-11-04T21:49:51+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T21:48:46+00:00"
+      "at": "2026-11-04T21:49:54+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 72.9 TAKE",
-      "at": "2026-11-04T21:48:48+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T21:50:10+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 252.24
     }
   ],
-  "pnl": 9566.16,
-  "updated_at": "2026-11-04T21:48:55+00:00",
+  "pnl": 9525.88,
+  "updated_at": "2026-11-04T21:50:10+00:00",
   "realized_pnl": 10326.91,
-  "unrealized_pnl": -760.75,
+  "unrealized_pnl": -801.03,
   "last_signal": {
-    "id": "36fb7fb8",
+    "id": "242e1214",
     "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 163.94,
-    "qty": 5,
-    "strength": 0.873,
+    "price": 162.8,
+    "qty": 1,
+    "strength": 0.478,
     "source": "paper-sim",
-    "ts": "2026-11-04T21:48:43+00:00",
-    "verdict": "PAPER filled 5 @ 163.96",
-    "score": 72.9,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T21:49:51+00:00",
+    "verdict": "pending",
+    "score": 40.2,
+    "recommendation": "PASS"
   },
-  "cycle": 8153,
+  "cycle": 8157,
   "fills": [
     {
       "fill": 163.96,
