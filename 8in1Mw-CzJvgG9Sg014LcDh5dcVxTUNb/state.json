@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 AAPL @ 82.95",
-      "at": "2026-11-04T20:18:38+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T20:19:53+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T20:18:41+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 60.4 PASS",
-      "at": "2026-11-04T20:18:43+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T20:17:35+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-04T20:17:34+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -46,7 +38,7 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": 4,
+      "qty": 2,
       "avg": 167.24
     },
     {
@@ -55,25 +47,32 @@
       "avg": 251.84
     }
   ],
-  "pnl": 10946.89,
-  "updated_at": "2026-11-04T20:18:44+00:00",
-  "realized_pnl": 10034.55,
-  "unrealized_pnl": 912.34,
+  "pnl": 11019.25,
+  "realized_pnl": 10050.35,
+  "unrealized_pnl": 968.9,
   "last_signal": {
-    "id": "bd1ecef7",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 82.95,
-    "qty": 2,
-    "strength": 0.58,
+    "id": "991ca0c8",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 48.1,
+    "qty": 1,
+    "strength": 0.024,
     "source": "paper-sim",
-    "ts": "2026-11-04T20:18:38+00:00",
-    "verdict": "pass (score 60.4)",
-    "score": 60.4,
+    "ts": "2026-11-04T20:19:37+00:00",
+    "verdict": "pass (score 7.9)",
+    "score": 7.9,
     "recommendation": "PASS"
   },
-  "cycle": 7891,
+  "cycle": 7895,
   "fills": [
+    {
+      "fill": 175.14,
+      "qty": -2,
+      "realized": 15.8,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-04T20:19:23+00:00"
+    },
     {
       "fill": 256.4,
       "qty": -5,
@@ -225,14 +224,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-04T19:13:16+00:00"
-    },
-    {
-      "fill": 42.97,
-      "qty": 5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-04T19:08:08+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T20:19:54+00:00"
 }
