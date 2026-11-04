@@ -4,35 +4,35 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 TSLA @ 267.23",
-      "at": "2026-11-04T06:26:55+00:00"
+      "note": "BUY 1 AMZN @ 288.89",
+      "at": "2026-11-04T06:27:58+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T06:26:57+00:00"
+      "at": "2026-11-04T06:28:00+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 21.7 PASS",
-      "at": "2026-11-04T06:27:00+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 2 AMZN @ 290.58",
-      "at": "2026-11-04T06:23:54+00:00"
+      "note": "score 74.1 TAKE",
+      "at": "2026-11-04T06:28:03+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T06:23:52+00:00"
+      "at": "2026-11-04T06:28:06+00:00"
+    },
+    "executor": {
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T06:28:07+00:00"
     }
   },
   "positions": [
     {
       "symbol": "QQQ",
-      "qty": -23,
-      "avg": 464.7695
+      "qty": -28,
+      "avg": 460.3089
     },
     {
       "symbol": "AAPL",
@@ -41,7 +41,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -53,
+      "qty": -43,
       "avg": 308.8335
     },
     {
@@ -55,25 +55,40 @@
       "avg": 282.9075
     }
   ],
-  "pnl": 6706.33,
-  "updated_at": "2026-11-04T06:27:01+00:00",
-  "realized_pnl": 6233.97,
-  "unrealized_pnl": 472.36,
+  "pnl": 6832.71,
+  "realized_pnl": 6447.81,
+  "unrealized_pnl": 384.9,
   "last_signal": {
-    "id": "d75faf06",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 267.23,
-    "qty": 2,
-    "strength": 0.209,
+    "id": "e796f1a5",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 288.89,
+    "qty": 1,
+    "strength": 0.921,
     "source": "paper-sim",
-    "ts": "2026-11-04T06:26:55+00:00",
-    "verdict": "pass (score 21.7)",
-    "score": 21.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T06:27:58+00:00",
+    "verdict": "pending",
+    "score": 74.1,
+    "recommendation": "TAKE"
   },
-  "cycle": 5571,
+  "cycle": 5574,
   "fills": [
+    {
+      "fill": 287.45,
+      "qty": 10,
+      "realized": 213.84,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T06:27:46+00:00"
+    },
+    {
+      "fill": 439.79,
+      "qty": -5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "QQQ",
+      "at": "2026-11-04T06:27:25+00:00"
+    },
     {
       "fill": 290.58,
       "qty": 2,
@@ -217,22 +232,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-04T05:05:05+00:00"
-    },
-    {
-      "fill": 462.32,
-      "qty": 5,
-      "realized": 26.67,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-04T05:04:20+00:00"
-    },
-    {
-      "fill": 86.27,
-      "qty": 10,
-      "realized": 14.9,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-04T05:03:35+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T06:28:07+00:00"
 }
