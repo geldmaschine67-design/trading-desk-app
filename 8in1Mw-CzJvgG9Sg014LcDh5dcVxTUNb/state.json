@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 2 SPY @ 53.08",
-      "at": "2026-11-04T10:19:27+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T10:21:12+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T10:19:30+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 29.2 PASS",
-      "at": "2026-11-04T10:19:32+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 1 NVDA @ 648.3",
-      "at": "2026-11-04T10:12:59+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T10:12:56+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,10 +47,9 @@
       "avg": 268.3811
     }
   ],
-  "pnl": 7361.81,
-  "updated_at": "2026-11-04T10:19:33+00:00",
+  "pnl": 7414.9,
   "realized_pnl": 7214.79,
-  "unrealized_pnl": 147.02,
+  "unrealized_pnl": 200.11,
   "last_signal": {
     "id": "4d73e1bf",
     "symbol": "SPY",
@@ -72,7 +63,7 @@
     "score": 29.2,
     "recommendation": "PASS"
   },
-  "cycle": 6212,
+  "cycle": 6213,
   "fills": [
     {
       "fill": 648.3,
@@ -234,5 +225,6 @@
       "symbol": "AAPL",
       "at": "2026-11-04T09:07:12+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T10:21:12+00:00"
 }
