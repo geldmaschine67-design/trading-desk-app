@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T03:19:32+00:00"
+      "status": "idle",
+      "note": "no signal",
+      "at": "2026-11-04T03:21:26+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 300.1508
     }
   ],
-  "pnl": 6478.26,
+  "pnl": 6550.75,
   "realized_pnl": 6081.35,
-  "unrealized_pnl": 396.91,
+  "unrealized_pnl": 469.4,
   "last_signal": {
-    "id": "bde38522",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 116.08,
-    "qty": 10,
-    "strength": 0.554,
+    "id": "b682dabd",
+    "symbol": "QQQ",
+    "side": "SELL",
+    "price": 490.74,
+    "qty": 5,
+    "strength": 0.347,
     "source": "paper-sim",
-    "ts": "2026-11-04T03:19:06+00:00",
-    "verdict": "pass (score 64.2)",
-    "score": 64.2,
+    "ts": "2026-11-04T03:21:06+00:00",
+    "verdict": "pass (score 27.5)",
+    "score": 27.5,
     "recommendation": "PASS"
   },
-  "cycle": 5044,
+  "cycle": 5047,
   "fills": [
     {
       "fill": 298.42,
@@ -226,5 +226,5 @@
       "at": "2026-11-04T02:05:00+00:00"
     }
   ],
-  "updated_at": "2026-11-04T03:19:32+00:00"
+  "updated_at": "2026-11-04T03:21:27+00:00"
 }
