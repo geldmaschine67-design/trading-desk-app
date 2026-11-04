@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 TSLA @ 279.89",
-      "at": "2026-11-04T04:33:46+00:00"
+      "note": "BUY 10 AAPL @ 85.45",
+      "at": "2026-11-04T04:34:47+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T04:33:49+00:00"
+      "at": "2026-11-04T04:34:49+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 84.9 TAKE",
-      "at": "2026-11-04T04:33:51+00:00"
+      "note": "score 24.5 PASS",
+      "at": "2026-11-04T04:34:51+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 287.8765
     }
   ],
-  "pnl": 6587.12,
-  "updated_at": "2026-11-04T04:33:58+00:00",
+  "pnl": 6684.12,
+  "updated_at": "2026-11-04T04:34:53+00:00",
   "realized_pnl": 6166.49,
-  "unrealized_pnl": 420.63,
+  "unrealized_pnl": 517.63,
   "last_signal": {
-    "id": "456e1838",
-    "symbol": "TSLA",
+    "id": "88a69321",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 279.89,
+    "price": 85.45,
     "qty": 10,
-    "strength": 0.849,
+    "strength": 0.076,
     "source": "paper-sim",
-    "ts": "2026-11-04T04:33:46+00:00",
-    "verdict": "PAPER filled 10 @ 279.83",
-    "score": 84.9,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T04:34:47+00:00",
+    "verdict": "pass (score 24.5)",
+    "score": 24.5,
+    "recommendation": "PASS"
   },
-  "cycle": 5259,
+  "cycle": 5262,
   "fills": [
     {
       "fill": 279.83,
