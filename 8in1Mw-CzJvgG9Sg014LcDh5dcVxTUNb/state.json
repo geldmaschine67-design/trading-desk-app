@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T20:11:43+00:00"
+      "status": "idle",
+      "note": "BUY 2 QQQ @ 474.43",
+      "at": "2026-11-04T20:12:42+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T20:12:44+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 251.84
     }
   ],
-  "pnl": 10951.02,
+  "pnl": 10899.34,
   "realized_pnl": 10034.55,
-  "unrealized_pnl": 916.47,
+  "unrealized_pnl": 864.79,
   "last_signal": {
-    "id": "b929a6e9",
-    "symbol": "MSFT",
+    "id": "6b412667",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 117.79,
+    "price": 474.43,
     "qty": 2,
-    "strength": 0.221,
+    "strength": 0.465,
     "source": "paper-sim",
-    "ts": "2026-11-04T20:11:28+00:00",
-    "verdict": "pass (score 33.0)",
-    "score": 33.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T20:12:42+00:00",
+    "verdict": "pending"
   },
-  "cycle": 7869,
+  "cycle": 7872,
   "fills": [
     {
       "fill": 256.4,
@@ -226,5 +226,5 @@
       "at": "2026-11-04T19:08:08+00:00"
     }
   ],
-  "updated_at": "2026-11-04T20:11:43+00:00"
+  "updated_at": "2026-11-04T20:12:44+00:00"
 }
