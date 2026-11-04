@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 BTC-USD @ 142.98",
-      "at": "2026-11-04T10:26:09+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T10:27:19+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T10:26:12+00:00"
+      "at": "2026-11-04T10:27:00+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 19.7 PASS",
-      "at": "2026-11-04T10:26:14+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 66.2 PASS",
+      "at": "2026-11-04T10:27:03+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T10:26:40+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-04T10:26:39+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 268.3811
     }
   ],
-  "pnl": 7817.93,
+  "pnl": 7815.57,
+  "updated_at": "2026-11-04T10:27:20+00:00",
   "realized_pnl": 7234.4,
-  "unrealized_pnl": 583.53,
+  "unrealized_pnl": 581.17,
   "last_signal": {
-    "id": "86d924be",
-    "symbol": "BTC-USD",
+    "id": "f80a11df",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 142.98,
-    "qty": 1,
-    "strength": 0.082,
+    "price": 54.58,
+    "qty": 2,
+    "strength": 0.93,
     "source": "paper-sim",
-    "ts": "2026-11-04T10:26:09+00:00",
-    "verdict": "pass (score 19.7)",
-    "score": 19.7,
+    "ts": "2026-11-04T10:26:58+00:00",
+    "verdict": "pass (score 66.2)",
+    "score": 66.2,
     "recommendation": "PASS"
   },
-  "cycle": 6229,
+  "cycle": 6232,
   "fills": [
     {
       "fill": 657.97,
@@ -229,6 +234,5 @@
       "symbol": "AAPL",
       "at": "2026-11-04T09:14:40+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T10:26:15+00:00"
+  ]
 }
