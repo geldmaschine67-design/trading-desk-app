@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T13:10:19+00:00"
+      "status": "idle",
+      "note": "SELL 2 AMZN @ 248.08",
+      "at": "2026-11-04T13:11:13+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T13:11:16+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 22.3 PASS",
+      "at": "2026-11-04T13:11:18+00:00"
     },
     "risk": {
       "status": "idle"
@@ -43,28 +47,36 @@
     },
     {
       "symbol": "SPY",
-      "qty": 12,
+      "qty": 7,
       "avg": 50.6417
     }
   ],
-  "pnl": 8614.49,
-  "realized_pnl": 9543.22,
-  "unrealized_pnl": -928.73,
+  "pnl": 8460.98,
+  "realized_pnl": 9533.11,
+  "unrealized_pnl": -1072.13,
   "last_signal": {
-    "id": "8cf65d19",
-    "symbol": "NVDA",
-    "side": "BUY",
-    "price": 624.71,
-    "qty": 5,
-    "strength": 0.303,
+    "id": "b661f84d",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 248.08,
+    "qty": 2,
+    "strength": 0.153,
     "source": "paper-sim",
-    "ts": "2026-11-04T13:08:27+00:00",
-    "verdict": "pass (score 39.8)",
-    "score": 39.8,
+    "ts": "2026-11-04T13:11:13+00:00",
+    "verdict": "pass (score 22.3)",
+    "score": 22.3,
     "recommendation": "PASS"
   },
-  "cycle": 6687,
+  "cycle": 6690,
   "fills": [
+    {
+      "fill": 48.62,
+      "qty": -5,
+      "realized": -10.11,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-04T13:11:02+00:00"
+    },
     {
       "fill": 243.63,
       "qty": -10,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-04T12:14:55+00:00"
-    },
-    {
-      "fill": 238.79,
-      "qty": 5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-04T12:13:31+00:00"
     }
   ],
-  "updated_at": "2026-11-04T13:10:19+00:00"
+  "updated_at": "2026-11-04T13:11:19+00:00"
 }
