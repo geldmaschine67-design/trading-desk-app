@@ -5,19 +5,27 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-04T20:04:31+00:00"
+      "at": "2026-11-04T20:05:24+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T20:05:01+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 82.1 TAKE",
+      "at": "2026-11-04T20:05:03+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T20:05:07+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-04T20:05:06+00:00"
     }
   },
   "positions": [
@@ -47,23 +55,24 @@
       "avg": 251.84
     }
   ],
-  "pnl": 10636.58,
+  "pnl": 10524.49,
+  "updated_at": "2026-11-04T20:05:25+00:00",
   "realized_pnl": 9986.65,
-  "unrealized_pnl": 649.93,
+  "unrealized_pnl": 537.84,
   "last_signal": {
-    "id": "783ad4e1",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 48.36,
-    "qty": 5,
-    "strength": 0.324,
+    "id": "d241e035",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 115.6,
+    "qty": 1,
+    "strength": 0.782,
     "source": "paper-sim",
-    "ts": "2026-11-04T20:04:15+00:00",
-    "verdict": "pass (score 43.2)",
-    "score": 43.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T20:04:58+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 82.1,
+    "recommendation": "TAKE"
   },
-  "cycle": 7844,
+  "cycle": 7847,
   "fills": [
     {
       "fill": 251.84,
@@ -225,6 +234,5 @@
       "symbol": "AMZN",
       "at": "2026-11-04T19:05:04+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T20:04:32+00:00"
+  ]
 }
