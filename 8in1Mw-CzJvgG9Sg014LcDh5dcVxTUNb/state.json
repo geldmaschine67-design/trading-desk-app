@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T00:05:21+00:00"
+      "status": "idle",
+      "note": "BUY 1 BTC-USD @ 124.39",
+      "at": "2026-11-04T00:06:21+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T00:06:22+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 323.03
     }
   ],
-  "pnl": 6145.65,
+  "pnl": 6101.75,
   "realized_pnl": 6171.8,
-  "unrealized_pnl": -26.15,
+  "unrealized_pnl": -70.05,
   "last_signal": {
-    "id": "c56d1848",
-    "symbol": "SPY",
+    "id": "f6858db9",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 49.89,
-    "qty": 2,
-    "strength": 0.599,
+    "price": 124.39,
+    "qty": 1,
+    "strength": 0.824,
     "source": "paper-sim",
-    "ts": "2026-11-04T00:03:48+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 71.6,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T00:06:21+00:00",
+    "verdict": "pending"
   },
-  "cycle": 4475,
+  "cycle": 4478,
   "fills": [
     {
       "fill": 325.55,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T23:07:11+00:00"
     }
   ],
-  "updated_at": "2026-11-04T00:05:21+00:00"
+  "updated_at": "2026-11-04T00:06:22+00:00"
 }
