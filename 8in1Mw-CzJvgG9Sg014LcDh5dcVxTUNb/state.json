@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AMZN @ 235.82",
-      "at": "2026-11-04T17:08:58+00:00"
+      "note": "BUY 1 NVDA @ 680.48",
+      "at": "2026-11-04T17:09:46+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T17:09:00+00:00"
+      "at": "2026-11-04T17:09:48+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 44.4 PASS",
+      "at": "2026-11-04T17:09:50+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -5 AAPL @ 77.47",
+      "at": "2026-11-04T17:06:49+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T17:06:46+00:00"
     }
   },
   "positions": [
@@ -49,21 +55,24 @@
       "avg": 50.275
     }
   ],
-  "pnl": 8371.5,
+  "pnl": 8268.14,
+  "updated_at": "2026-11-04T17:09:52+00:00",
   "realized_pnl": 10150.62,
-  "unrealized_pnl": -1779.12,
+  "unrealized_pnl": -1882.48,
   "last_signal": {
-    "id": "c9e35954",
-    "symbol": "AMZN",
-    "side": "SELL",
-    "price": 235.82,
-    "qty": 2,
-    "strength": 0.169,
+    "id": "64f5e49a",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 680.48,
+    "qty": 1,
+    "strength": 0.401,
     "source": "paper-sim",
-    "ts": "2026-11-04T17:08:58+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T17:09:46+00:00",
+    "verdict": "pass (score 44.4)",
+    "score": 44.4,
+    "recommendation": "PASS"
   },
-  "cycle": 7354,
+  "cycle": 7357,
   "fills": [
     {
       "fill": 77.47,
@@ -225,6 +234,5 @@
       "symbol": "NVDA",
       "at": "2026-11-04T16:15:19+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T17:09:00+00:00"
+  ]
 }
