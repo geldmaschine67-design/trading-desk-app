@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AAPL @ 90.14",
-      "at": "2026-11-04T07:56:13+00:00"
+      "note": "BUY 5 AMZN @ 275.48",
+      "at": "2026-11-04T07:57:14+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T07:56:16+00:00"
+      "at": "2026-11-04T07:57:16+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 78.7 TAKE",
-      "at": "2026-11-04T07:56:18+00:00"
+      "note": "score 73.6 TAKE",
+      "at": "2026-11-04T07:57:19+00:00"
     },
     "risk": {
       "status": "idle"
@@ -32,8 +32,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -22,
-      "avg": 87.6719
+      "qty": -23,
+      "avg": 87.7801
     },
     {
       "symbol": "AMZN",
@@ -51,24 +51,32 @@
       "avg": 271.2325
     }
   ],
-  "pnl": 7233.78,
+  "pnl": 7302.97,
   "realized_pnl": 6953.31,
-  "unrealized_pnl": 280.47,
+  "unrealized_pnl": 349.66,
   "last_signal": {
-    "id": "9a72c0d7",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 90.14,
-    "qty": 1,
-    "strength": 0.769,
+    "id": "f383ee15",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 275.48,
+    "qty": 5,
+    "strength": 0.645,
     "source": "paper-sim",
-    "ts": "2026-11-04T07:56:13+00:00",
+    "ts": "2026-11-04T07:57:14+00:00",
     "verdict": "pending",
-    "score": 78.7,
+    "score": 73.6,
     "recommendation": "TAKE"
   },
-  "cycle": 5806,
+  "cycle": 5809,
   "fills": [
+    {
+      "fill": 90.16,
+      "qty": -1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-04T07:56:23+00:00"
+    },
     {
       "fill": 641.54,
       "qty": 5,
@@ -220,15 +228,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-04T07:05:56+00:00"
-    },
-    {
-      "fill": 682.93,
-      "qty": 2,
-      "realized": -40.38,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-04T07:05:12+00:00"
     }
   ],
-  "updated_at": "2026-11-04T07:56:18+00:00"
+  "updated_at": "2026-11-04T07:57:19+00:00"
 }
