@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 5 QQQ @ 461.81",
-      "at": "2026-11-04T10:24:08+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T10:25:19+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T10:24:10+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 32.2 PASS",
-      "at": "2026-11-04T10:24:13+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +47,23 @@
       "avg": 268.3811
     }
   ],
-  "pnl": 7704.28,
+  "pnl": 7757.01,
   "realized_pnl": 7234.4,
-  "unrealized_pnl": 469.88,
+  "unrealized_pnl": 522.61,
   "last_signal": {
-    "id": "103dff42",
-    "symbol": "QQQ",
+    "id": "72843226",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 461.81,
-    "qty": 5,
-    "strength": 0.274,
+    "price": 142.5,
+    "qty": 2,
+    "strength": 0.99,
     "source": "paper-sim",
-    "ts": "2026-11-04T10:24:08+00:00",
-    "verdict": "pass (score 32.2)",
-    "score": 32.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T10:24:58+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 79.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 6222,
+  "cycle": 6226,
   "fills": [
     {
       "fill": 657.97,
@@ -230,5 +226,5 @@
       "at": "2026-11-04T09:14:40+00:00"
     }
   ],
-  "updated_at": "2026-11-04T10:24:14+00:00"
+  "updated_at": "2026-11-04T10:25:19+00:00"
 }
