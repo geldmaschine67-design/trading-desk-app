@@ -3,29 +3,23 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T16:27:05+00:00"
+      "status": "idle",
+      "note": "SELL 1 NVDA @ 687.15",
+      "at": "2026-11-04T16:28:06+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T16:26:46+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T16:28:07+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 87.8 TAKE",
-      "at": "2026-11-04T16:26:49+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T16:26:53+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-04T16:26:51+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +49,21 @@
       "avg": 49.5801
     }
   ],
-  "pnl": 8509.96,
-  "updated_at": "2026-11-04T16:27:05+00:00",
+  "pnl": 8320.36,
   "realized_pnl": 10365.84,
-  "unrealized_pnl": -1855.88,
+  "unrealized_pnl": -2045.48,
   "last_signal": {
-    "id": "f8e95612",
-    "symbol": "BTC-USD",
+    "id": "ced46939",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 168.37,
-    "qty": 2,
-    "strength": 0.863,
+    "price": 687.15,
+    "qty": 1,
+    "strength": 0.519,
     "source": "paper-sim",
-    "ts": "2026-11-04T16:26:44+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 87.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T16:28:06+00:00",
+    "verdict": "pending"
   },
-  "cycle": 7235,
+  "cycle": 7238,
   "fills": [
     {
       "fill": 226.39,
@@ -234,5 +225,6 @@
       "symbol": "TSLA",
       "at": "2026-11-04T15:13:39+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T16:28:07+00:00"
 }
