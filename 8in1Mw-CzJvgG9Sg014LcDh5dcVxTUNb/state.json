@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 QQQ @ 454.39",
-      "at": "2026-11-04T08:03:31+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T08:04:29+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T08:03:34+00:00"
+      "at": "2026-11-04T08:04:10+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 24.4 PASS",
-      "at": "2026-11-04T08:03:36+00:00"
+      "note": "score 19.7 PASS",
+      "at": "2026-11-04T08:04:12+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 271.2325
     }
   ],
-  "pnl": 8388.33,
-  "updated_at": "2026-11-04T08:03:37+00:00",
+  "pnl": 8564.43,
+  "updated_at": "2026-11-04T08:04:30+00:00",
   "realized_pnl": 7078.67,
-  "unrealized_pnl": 1309.66,
+  "unrealized_pnl": 1485.76,
   "last_signal": {
-    "id": "deb914a5",
+    "id": "cb6ba0b8",
     "symbol": "QQQ",
-    "side": "BUY",
-    "price": 454.39,
-    "qty": 1,
-    "strength": 0.208,
+    "side": "SELL",
+    "price": 455.07,
+    "qty": 2,
+    "strength": 0.112,
     "source": "paper-sim",
-    "ts": "2026-11-04T08:03:31+00:00",
-    "verdict": "pass (score 24.4)",
-    "score": 24.4,
+    "ts": "2026-11-04T08:04:08+00:00",
+    "verdict": "pass (score 19.7)",
+    "score": 19.7,
     "recommendation": "PASS"
   },
-  "cycle": 5825,
+  "cycle": 5828,
   "fills": [
     {
       "fill": 91.03,
