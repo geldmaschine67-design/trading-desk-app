@@ -4,21 +4,23 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 NVDA @ 667.44",
-      "at": "2026-11-04T06:04:43+00:00"
+      "note": "SELL 10 BTC-USD @ 121.83",
+      "at": "2026-11-04T06:05:41+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T06:04:45+00:00"
+      "at": "2026-11-04T06:05:44+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T06:04:46+00:00"
+      "status": "idle",
+      "note": "score 88.6 TAKE",
+      "at": "2026-11-04T06:05:46+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T06:05:48+00:00"
     },
     "executor": {
       "status": "idle"
@@ -37,7 +39,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -65,
+      "qty": -55,
       "avg": 308.8335
     },
     {
@@ -51,22 +53,32 @@
       "avg": 282.9075
     }
   ],
-  "pnl": 7726.17,
-  "realized_pnl": 5896.51,
-  "unrealized_pnl": 1829.66,
+  "pnl": 8004.39,
+  "realized_pnl": 6141.15,
+  "unrealized_pnl": 1863.24,
   "last_signal": {
-    "id": "ce7c6805",
-    "symbol": "NVDA",
+    "id": "01ab227f",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 667.44,
-    "qty": 1,
-    "strength": 0.278,
+    "price": 121.83,
+    "qty": 10,
+    "strength": 0.844,
     "source": "paper-sim",
-    "ts": "2026-11-04T06:04:43+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T06:05:41+00:00",
+    "verdict": "pending",
+    "score": 88.6,
+    "recommendation": "TAKE"
   },
-  "cycle": 5502,
+  "cycle": 5505,
   "fills": [
+    {
+      "fill": 284.37,
+      "qty": 10,
+      "realized": 244.64,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T06:05:09+00:00"
+    },
     {
       "fill": 83.59,
       "qty": -5,
@@ -218,15 +230,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-04T04:59:32+00:00"
-    },
-    {
-      "fill": 277.75,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-04T04:56:08+00:00"
     }
   ],
-  "updated_at": "2026-11-04T06:04:46+00:00"
+  "updated_at": "2026-11-04T06:05:48+00:00"
 }
