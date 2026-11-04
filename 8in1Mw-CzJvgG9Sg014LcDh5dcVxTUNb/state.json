@@ -3,21 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T10:59:41+00:00"
+      "status": "idle",
+      "note": "SELL 5 MSFT @ 115.93",
+      "at": "2026-11-04T11:02:13+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T11:02:16+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 79.4 TAKE",
+      "at": "2026-11-04T11:02:18+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T11:02:22+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-04T11:02:21+00:00"
     }
   },
   "positions": [
@@ -47,23 +55,24 @@
       "avg": 263.9579
     }
   ],
-  "pnl": 8048.01,
+  "pnl": 8048.04,
+  "updated_at": "2026-11-04T11:02:24+00:00",
   "realized_pnl": 7176.65,
-  "unrealized_pnl": 871.36,
+  "unrealized_pnl": 871.39,
   "last_signal": {
-    "id": "d6b333b5",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 136.99,
-    "qty": 2,
-    "strength": 0.555,
+    "id": "d3f65a92",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 115.93,
+    "qty": 5,
+    "strength": 0.967,
     "source": "paper-sim",
-    "ts": "2026-11-04T10:58:29+00:00",
-    "verdict": "pass (score 66.1)",
-    "score": 66.1,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T11:02:13+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 79.4,
+    "recommendation": "TAKE"
   },
-  "cycle": 6321,
+  "cycle": 6324,
   "fills": [
     {
       "fill": 89.04,
@@ -225,6 +234,5 @@
       "symbol": "AAPL",
       "at": "2026-11-04T09:41:19+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T10:59:41+00:00"
+  ]
 }
