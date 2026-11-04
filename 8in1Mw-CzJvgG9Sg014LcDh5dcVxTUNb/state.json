@@ -5,7 +5,7 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-04T10:01:33+00:00"
+      "at": "2026-11-04T10:02:34+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -43,28 +43,36 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 43,
+      "qty": 38,
       "avg": 268.3811
     }
   ],
-  "pnl": 7199.86,
-  "realized_pnl": 7292.09,
-  "unrealized_pnl": -92.23,
+  "pnl": 7267.1,
+  "realized_pnl": 7200.48,
+  "unrealized_pnl": 66.62,
   "last_signal": {
-    "id": "a17a9243",
-    "symbol": "BTC-USD",
+    "id": "6d3fc354",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 145.36,
+    "price": 50.98,
     "qty": 1,
-    "strength": 0.889,
+    "strength": 0.613,
     "source": "paper-sim",
-    "ts": "2026-11-04T10:01:12+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 79.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T10:02:16+00:00",
+    "verdict": "pass (score 55.8)",
+    "score": 55.8,
+    "recommendation": "PASS"
   },
-  "cycle": 6165,
+  "cycle": 6168,
   "fills": [
+    {
+      "fill": 250.06,
+      "qty": -5,
+      "realized": -91.61,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-04T10:01:44+00:00"
+    },
     {
       "fill": 251.69,
       "qty": -2,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-04T08:53:11+00:00"
-    },
-    {
-      "fill": 271.27,
-      "qty": 1,
-      "realized": 23.86,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T08:52:11+00:00"
     }
   ],
-  "updated_at": "2026-11-04T10:01:33+00:00"
+  "updated_at": "2026-11-04T10:02:34+00:00"
 }
