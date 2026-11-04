@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 MSFT @ 108.52",
-      "at": "2026-11-04T02:35:07+00:00"
+      "note": "SELL 1 AAPL @ 94.39",
+      "at": "2026-11-04T02:36:24+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T02:35:09+00:00"
+      "at": "2026-11-04T02:36:26+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 35.4 PASS",
-      "at": "2026-11-04T02:35:11+00:00"
+      "note": "score 31.0 PASS",
+      "at": "2026-11-04T02:36:29+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +51,23 @@
       "avg": 302.0739
     }
   ],
-  "pnl": 7638.39,
+  "pnl": 7685.13,
   "realized_pnl": 6245.58,
-  "unrealized_pnl": 1392.81,
+  "unrealized_pnl": 1439.55,
   "last_signal": {
-    "id": "1f57639b",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 108.52,
-    "qty": 2,
-    "strength": 0.313,
+    "id": "72412ae4",
+    "symbol": "AAPL",
+    "side": "SELL",
+    "price": 94.39,
+    "qty": 1,
+    "strength": 0.273,
     "source": "paper-sim",
-    "ts": "2026-11-04T02:35:07+00:00",
-    "verdict": "pass (score 35.4)",
-    "score": 35.4,
+    "ts": "2026-11-04T02:36:24+00:00",
+    "verdict": "pass (score 31.0)",
+    "score": 31.0,
     "recommendation": "PASS"
   },
-  "cycle": 4917,
+  "cycle": 4921,
   "fills": [
     {
       "fill": 94.93,
@@ -230,5 +230,5 @@
       "at": "2026-11-04T01:28:23+00:00"
     }
   ],
-  "updated_at": "2026-11-04T02:35:13+00:00"
+  "updated_at": "2026-11-04T02:36:30+00:00"
 }
