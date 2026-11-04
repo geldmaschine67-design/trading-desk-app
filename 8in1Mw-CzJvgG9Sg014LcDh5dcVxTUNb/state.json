@@ -4,21 +4,23 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 TSLA @ 250.53",
-      "at": "2026-11-04T14:14:36+00:00"
+      "note": "SELL 2 QQQ @ 478.26",
+      "at": "2026-11-04T14:15:33+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T14:14:38+00:00"
+      "at": "2026-11-04T14:15:36+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T14:14:39+00:00"
+      "status": "idle",
+      "note": "score 79.9 TAKE",
+      "at": "2026-11-04T14:15:38+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T14:15:40+00:00"
     },
     "executor": {
       "status": "idle"
@@ -51,21 +53,23 @@
       "avg": 50.3933
     }
   ],
-  "pnl": 9408.02,
+  "pnl": 9544.93,
   "realized_pnl": 9572.29,
-  "unrealized_pnl": -164.27,
+  "unrealized_pnl": -27.36,
   "last_signal": {
-    "id": "4ee4fa1b",
-    "symbol": "TSLA",
-    "side": "BUY",
-    "price": 250.53,
-    "qty": 1,
-    "strength": 0.735,
+    "id": "5508db36",
+    "symbol": "QQQ",
+    "side": "SELL",
+    "price": 478.26,
+    "qty": 2,
+    "strength": 0.802,
     "source": "paper-sim",
-    "ts": "2026-11-04T14:14:36+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T14:15:33+00:00",
+    "verdict": "pending",
+    "score": 79.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 6853,
+  "cycle": 6856,
   "fills": [
     {
       "fill": 50.5,
@@ -228,5 +232,5 @@
       "at": "2026-11-04T12:56:00+00:00"
     }
   ],
-  "updated_at": "2026-11-04T14:14:39+00:00"
+  "updated_at": "2026-11-04T14:15:40+00:00"
 }
