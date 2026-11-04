@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 BTC-USD @ 140.97",
-      "at": "2026-11-04T11:53:53+00:00"
+      "note": "SELL 2 MSFT @ 115.67",
+      "at": "2026-11-04T11:54:49+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T11:53:55+00:00"
+      "at": "2026-11-04T11:54:52+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 62.2 PASS",
+      "at": "2026-11-04T11:54:54+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 NVDA @ 633.71",
+      "at": "2026-11-04T11:51:46+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T11:51:43+00:00"
     }
   },
   "positions": [
@@ -49,21 +55,24 @@
       "avg": 261.6323
     }
   ],
-  "pnl": 9215.61,
+  "pnl": 9261.41,
+  "updated_at": "2026-11-04T11:54:55+00:00",
   "realized_pnl": 7148.87,
-  "unrealized_pnl": 2066.74,
+  "unrealized_pnl": 2112.54,
   "last_signal": {
-    "id": "8283d702",
-    "symbol": "BTC-USD",
+    "id": "f2882757",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 140.97,
+    "price": 115.67,
     "qty": 2,
-    "strength": 0.451,
+    "strength": 0.506,
     "source": "paper-sim",
-    "ts": "2026-11-04T11:53:53+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T11:54:49+00:00",
+    "verdict": "pass (score 62.2)",
+    "score": 62.2,
+    "recommendation": "PASS"
   },
-  "cycle": 6470,
+  "cycle": 6473,
   "fills": [
     {
       "fill": 633.71,
@@ -225,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-04T10:40:12+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T11:53:55+00:00"
+  ]
 }
