@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T08:49:57+00:00"
+      "note": "BUY 2 MSFT @ 104.62",
+      "at": "2026-11-04T08:50:52+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T08:49:44+00:00"
+      "at": "2026-11-04T08:50:54+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 7.9 PASS",
-      "at": "2026-11-04T08:49:46+00:00"
+      "note": "score 87.9 TAKE",
+      "at": "2026-11-04T08:50:56+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-04T08:50:59+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -5 TSLA @ 263.47",
-      "at": "2026-11-04T08:48:32+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T08:48:30+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-04T08:51:00+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 270.0037
     }
   ],
-  "pnl": 8042.84,
-  "updated_at": "2026-11-04T08:49:58+00:00",
+  "pnl": 8171.77,
   "realized_pnl": 7200.72,
-  "unrealized_pnl": 842.12,
+  "unrealized_pnl": 971.05,
   "last_signal": {
-    "id": "9bbb01cd",
-    "symbol": "TSLA",
+    "id": "7c527122",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 265.64,
-    "qty": 5,
-    "strength": 0.108,
+    "price": 104.62,
+    "qty": 2,
+    "strength": 0.906,
     "source": "paper-sim",
-    "ts": "2026-11-04T08:49:41+00:00",
-    "verdict": "pass (score 7.9)",
-    "score": 7.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T08:50:52+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 87.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 5962,
+  "cycle": 5965,
   "fills": [
     {
       "fill": 263.47,
@@ -234,5 +233,6 @@
       "symbol": "NVDA",
       "at": "2026-11-04T07:54:10+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T08:51:02+00:00"
 }
