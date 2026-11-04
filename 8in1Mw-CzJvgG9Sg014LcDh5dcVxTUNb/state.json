@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 NVDA @ 638.53",
-      "at": "2026-11-04T08:15:50+00:00"
+      "note": "SELL 10 BTC-USD @ 126.09",
+      "at": "2026-11-04T08:16:51+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T08:15:52+00:00"
+      "at": "2026-11-04T08:16:53+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 69.7 PASS",
-      "at": "2026-11-04T08:15:55+00:00"
+      "note": "score 40.1 PASS",
+      "at": "2026-11-04T08:16:55+00:00"
     },
     "risk": {
       "status": "idle"
@@ -37,7 +37,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -48,
+      "qty": -46,
       "avg": 299.108
     },
     {
@@ -51,24 +51,32 @@
       "avg": 271.2325
     }
   ],
-  "pnl": 8298.88,
-  "realized_pnl": 7023.23,
-  "unrealized_pnl": 1275.65,
+  "pnl": 8414.09,
+  "realized_pnl": 7063.55,
+  "unrealized_pnl": 1350.54,
   "last_signal": {
-    "id": "efe1dd8f",
-    "symbol": "NVDA",
-    "side": "BUY",
-    "price": 638.53,
-    "qty": 2,
-    "strength": 0.894,
+    "id": "4d1d6183",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 126.09,
+    "qty": 10,
+    "strength": 0.564,
     "source": "paper-sim",
-    "ts": "2026-11-04T08:15:50+00:00",
-    "verdict": "pass (score 69.7)",
-    "score": 69.7,
+    "ts": "2026-11-04T08:16:51+00:00",
+    "verdict": "pass (score 40.1)",
+    "score": 40.1,
     "recommendation": "PASS"
   },
-  "cycle": 5864,
+  "cycle": 5867,
   "fills": [
+    {
+      "fill": 278.95,
+      "qty": 2,
+      "realized": 40.32,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T08:16:38+00:00"
+    },
     {
       "fill": 91.76,
       "qty": 10,
@@ -220,15 +228,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-04T07:30:22+00:00"
-    },
-    {
-      "fill": 657.63,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-04T07:25:44+00:00"
     }
   ],
-  "updated_at": "2026-11-04T08:15:55+00:00"
+  "updated_at": "2026-11-04T08:16:55+00:00"
 }
