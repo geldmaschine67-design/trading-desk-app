@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 QQQ @ 474.43",
-      "at": "2026-11-04T20:12:42+00:00"
+      "note": "BUY 2 TSLA @ 257.94",
+      "at": "2026-11-04T20:13:43+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T20:12:44+00:00"
+      "at": "2026-11-04T20:13:46+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +49,21 @@
       "avg": 251.84
     }
   ],
-  "pnl": 10899.34,
+  "pnl": 10831.53,
   "realized_pnl": 10034.55,
-  "unrealized_pnl": 864.79,
+  "unrealized_pnl": 796.98,
   "last_signal": {
-    "id": "6b412667",
-    "symbol": "QQQ",
+    "id": "98ae3e87",
+    "symbol": "TSLA",
     "side": "BUY",
-    "price": 474.43,
+    "price": 257.94,
     "qty": 2,
-    "strength": 0.465,
+    "strength": 0.333,
     "source": "paper-sim",
-    "ts": "2026-11-04T20:12:42+00:00",
+    "ts": "2026-11-04T20:13:43+00:00",
     "verdict": "pending"
   },
-  "cycle": 7872,
+  "cycle": 7875,
   "fills": [
     {
       "fill": 256.4,
@@ -226,5 +226,5 @@
       "at": "2026-11-04T19:08:08+00:00"
     }
   ],
-  "updated_at": "2026-11-04T20:12:44+00:00"
+  "updated_at": "2026-11-04T20:13:46+00:00"
 }
