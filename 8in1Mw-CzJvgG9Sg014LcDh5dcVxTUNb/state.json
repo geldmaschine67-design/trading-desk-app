@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 QQQ @ 455.13",
-      "at": "2026-11-04T13:24:52+00:00"
+      "note": "SELL 10 BTC-USD @ 154.54",
+      "at": "2026-11-04T13:25:52+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T13:24:54+00:00"
+      "at": "2026-11-04T13:25:55+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 55.1 PASS",
-      "at": "2026-11-04T13:24:57+00:00"
+      "note": "score 22.0 PASS",
+      "at": "2026-11-04T13:25:57+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +51,23 @@
       "avg": 50.2747
     }
   ],
-  "pnl": 9072.45,
+  "pnl": 9005.94,
   "realized_pnl": 9550.3,
-  "unrealized_pnl": -477.85,
+  "unrealized_pnl": -544.36,
   "last_signal": {
-    "id": "9f224d5b",
-    "symbol": "QQQ",
+    "id": "915f2639",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 455.13,
-    "qty": 5,
-    "strength": 0.781,
+    "price": 154.54,
+    "qty": 10,
+    "strength": 0.063,
     "source": "paper-sim",
-    "ts": "2026-11-04T13:24:52+00:00",
-    "verdict": "pass (score 55.1)",
-    "score": 55.1,
+    "ts": "2026-11-04T13:25:52+00:00",
+    "verdict": "pass (score 22.0)",
+    "score": 22.0,
     "recommendation": "PASS"
   },
-  "cycle": 6726,
+  "cycle": 6729,
   "fills": [
     {
       "fill": 609.64,
@@ -230,5 +230,5 @@
       "at": "2026-11-04T12:18:13+00:00"
     }
   ],
-  "updated_at": "2026-11-04T13:24:58+00:00"
+  "updated_at": "2026-11-04T13:25:58+00:00"
 }
