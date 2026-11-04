@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AAPL @ 86.35",
-      "at": "2026-11-04T07:30:12+00:00"
+      "note": "SELL 5 AMZN @ 276.41",
+      "at": "2026-11-04T07:31:08+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T07:31:10+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 49.1 PASS",
+      "at": "2026-11-04T07:31:13+00:00"
     },
     "risk": {
       "status": "idle"
@@ -28,8 +32,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -18,
-      "avg": 87.3346
+      "qty": -20,
+      "avg": 87.2401
     },
     {
       "symbol": "AMZN",
@@ -47,22 +51,32 @@
       "avg": 277.3665
     }
   ],
-  "pnl": 7409.43,
+  "pnl": 7554.09,
   "realized_pnl": 6735.2,
-  "unrealized_pnl": 674.23,
+  "unrealized_pnl": 818.89,
   "last_signal": {
-    "id": "49be798e",
-    "symbol": "AAPL",
+    "id": "8b99d22e",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 86.35,
-    "qty": 2,
-    "strength": 0.75,
+    "price": 276.41,
+    "qty": 5,
+    "strength": 0.355,
     "source": "paper-sim",
-    "ts": "2026-11-04T07:30:12+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T07:31:08+00:00",
+    "verdict": "pass (score 49.1)",
+    "score": 49.1,
+    "recommendation": "PASS"
   },
-  "cycle": 5739,
+  "cycle": 5742,
   "fills": [
+    {
+      "fill": 86.39,
+      "qty": -2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-04T07:30:22+00:00"
+    },
     {
       "fill": 657.63,
       "qty": -1,
@@ -214,15 +228,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-04T06:30:10+00:00"
-    },
-    {
-      "fill": 289.0,
-      "qty": 1,
-      "realized": 19.83,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T06:28:08+00:00"
     }
   ],
-  "updated_at": "2026-11-04T07:30:12+00:00"
+  "updated_at": "2026-11-04T07:31:13+00:00"
 }
