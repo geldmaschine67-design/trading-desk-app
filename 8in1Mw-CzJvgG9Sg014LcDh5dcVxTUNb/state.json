@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 SPY @ 49.52",
-      "at": "2026-11-04T13:56:57+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T13:57:51+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T13:57:00+00:00"
+      "at": "2026-11-04T13:57:36+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T13:57:01+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 52.4 PASS",
+      "at": "2026-11-04T13:57:39+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -1 NVDA @ 635.11",
+      "at": "2026-11-04T13:51:14+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T13:51:11+00:00"
     }
   },
   "positions": [
@@ -51,21 +55,24 @@
       "avg": 50.2747
     }
   ],
-  "pnl": 9249.65,
+  "pnl": 9238.64,
+  "updated_at": "2026-11-04T13:57:52+00:00",
   "realized_pnl": 9582.89,
-  "unrealized_pnl": -333.24,
+  "unrealized_pnl": -344.25,
   "last_signal": {
-    "id": "929379e5",
-    "symbol": "SPY",
-    "side": "SELL",
-    "price": 49.52,
+    "id": "e02e7866",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 249.83,
     "qty": 2,
-    "strength": 0.318,
+    "strength": 0.57,
     "source": "paper-sim",
-    "ts": "2026-11-04T13:56:57+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T13:57:34+00:00",
+    "verdict": "pass (score 52.4)",
+    "score": 52.4,
+    "recommendation": "PASS"
   },
-  "cycle": 6812,
+  "cycle": 6815,
   "fills": [
     {
       "fill": 635.11,
@@ -227,6 +234,5 @@
       "symbol": "AMZN",
       "at": "2026-11-04T12:42:31+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T13:57:01+00:00"
+  ]
 }
