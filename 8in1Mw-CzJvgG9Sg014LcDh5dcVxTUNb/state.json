@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T23:40:26+00:00"
+      "status": "idle",
+      "note": "BUY 1 MSFT @ 116.25",
+      "at": "2026-11-04T23:41:28+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 267.4228
     }
   ],
-  "pnl": 8004.47,
+  "pnl": 7873.03,
   "realized_pnl": 10448.79,
-  "unrealized_pnl": -2444.32,
+  "unrealized_pnl": -2575.76,
   "last_signal": {
-    "id": "b036afe2",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 163.3,
-    "qty": 5,
-    "strength": 0.547,
+    "id": "d23ff1ab",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 116.25,
+    "qty": 1,
+    "strength": 0.818,
     "source": "paper-sim",
-    "ts": "2026-11-04T23:40:11+00:00",
-    "verdict": "pass (score 54.5)",
-    "score": 54.5,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T23:41:28+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8442,
+  "cycle": 8446,
   "fills": [
     {
       "fill": 45.5,
@@ -226,5 +224,5 @@
       "at": "2026-11-04T22:12:18+00:00"
     }
   ],
-  "updated_at": "2026-11-04T23:40:26+00:00"
+  "updated_at": "2026-11-04T23:41:28+00:00"
 }
