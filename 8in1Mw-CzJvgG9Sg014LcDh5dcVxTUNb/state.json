@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 BTC-USD @ 159.98",
-      "at": "2026-11-04T21:22:53+00:00"
+      "note": "BUY 5 SPY @ 47.86",
+      "at": "2026-11-04T21:23:53+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T21:22:55+00:00"
+      "at": "2026-11-04T21:23:55+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 70.7 TAKE",
-      "at": "2026-11-04T21:22:58+00:00"
+      "note": "score 9.3 PASS",
+      "at": "2026-11-04T21:23:57+00:00"
     },
     "risk": {
       "status": "idle"
@@ -42,8 +42,8 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -5,
-      "avg": 174.4
+      "qty": -7,
+      "avg": 170.2714
     },
     {
       "symbol": "AMZN",
@@ -51,24 +51,32 @@
       "avg": 252.24
     }
   ],
-  "pnl": 10284.53,
+  "pnl": 10228.58,
   "realized_pnl": 10330.88,
-  "unrealized_pnl": -46.35,
+  "unrealized_pnl": -102.3,
   "last_signal": {
-    "id": "cacf48c3",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 159.98,
-    "qty": 2,
-    "strength": 0.901,
+    "id": "6bcd951c",
+    "symbol": "SPY",
+    "side": "BUY",
+    "price": 47.86,
+    "qty": 5,
+    "strength": 0.104,
     "source": "paper-sim",
-    "ts": "2026-11-04T21:22:53+00:00",
-    "verdict": "pending",
-    "score": 70.7,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T21:23:53+00:00",
+    "verdict": "pass (score 9.3)",
+    "score": 9.3,
+    "recommendation": "PASS"
   },
-  "cycle": 8079,
+  "cycle": 8082,
   "fills": [
+    {
+      "fill": 159.95,
+      "qty": -2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-04T21:23:03+00:00"
+    },
     {
       "fill": 48.49,
       "qty": -2,
@@ -220,15 +228,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-04T20:23:16+00:00"
-    },
-    {
-      "fill": 47.94,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-04T20:21:36+00:00"
     }
   ],
-  "updated_at": "2026-11-04T21:22:58+00:00"
+  "updated_at": "2026-11-04T21:23:59+00:00"
 }
