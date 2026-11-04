@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 TSLA @ 250.7",
-      "at": "2026-11-04T21:00:03+00:00"
+      "note": "BUY 10 QQQ @ 473.93",
+      "at": "2026-11-04T21:01:09+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T21:00:06+00:00"
+      "at": "2026-11-04T21:01:12+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 58.0 PASS",
-      "at": "2026-11-04T21:00:08+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +45,34 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -7,
-      "avg": 251.84
+      "qty": -12,
+      "avg": 251.1233
     }
   ],
-  "pnl": 10633.47,
+  "pnl": 10682.07,
   "realized_pnl": 10277.42,
-  "unrealized_pnl": 356.05,
+  "unrealized_pnl": 404.65,
   "last_signal": {
-    "id": "aad6431e",
-    "symbol": "TSLA",
+    "id": "0c3c8fc3",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 250.7,
-    "qty": 1,
-    "strength": 0.552,
+    "price": 473.93,
+    "qty": 10,
+    "strength": 0.861,
     "source": "paper-sim",
-    "ts": "2026-11-04T21:00:03+00:00",
-    "verdict": "pass (score 58.0)",
-    "score": 58.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T21:01:09+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8010,
+  "cycle": 8013,
   "fills": [
+    {
+      "fill": 250.12,
+      "qty": -5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T21:00:33+00:00"
+    },
     {
       "fill": 714.59,
       "qty": -5,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-04T19:44:59+00:00"
-    },
-    {
-      "fill": 249.51,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T19:44:13+00:00"
     }
   ],
-  "updated_at": "2026-11-04T21:00:09+00:00"
+  "updated_at": "2026-11-04T21:01:12+00:00"
 }
