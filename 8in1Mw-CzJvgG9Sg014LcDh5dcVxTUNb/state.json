@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 NVDA @ 697.8",
-      "at": "2026-11-04T22:20:37+00:00"
+      "note": "SELL 10 TSLA @ 235.53",
+      "at": "2026-11-04T22:21:41+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T22:20:39+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T22:20:40+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +47,21 @@
       "avg": 263.9015
     }
   ],
-  "pnl": 9759.52,
+  "pnl": 9724.2,
   "realized_pnl": 10377.94,
-  "unrealized_pnl": -618.42,
+  "unrealized_pnl": -653.74,
   "last_signal": {
-    "id": "fcb74cf8",
-    "symbol": "NVDA",
+    "id": "0891f192",
+    "symbol": "TSLA",
     "side": "SELL",
-    "price": 697.8,
-    "qty": 1,
-    "strength": 0.528,
+    "price": 235.53,
+    "qty": 10,
+    "strength": 0.852,
     "source": "paper-sim",
-    "ts": "2026-11-04T22:20:37+00:00",
+    "ts": "2026-11-04T22:21:41+00:00",
     "verdict": "pending"
   },
-  "cycle": 8215,
+  "cycle": 8218,
   "fills": [
     {
       "fill": 696.05,
@@ -228,5 +224,5 @@
       "at": "2026-11-04T21:05:18+00:00"
     }
   ],
-  "updated_at": "2026-11-04T22:20:40+00:00"
+  "updated_at": "2026-11-04T22:21:41+00:00"
 }
