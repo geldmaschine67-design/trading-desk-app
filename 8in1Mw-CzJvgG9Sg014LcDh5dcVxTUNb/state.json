@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 SPY @ 45.25",
-      "at": "2026-11-04T17:39:42+00:00"
+      "note": "BUY 10 BTC-USD @ 161.33",
+      "at": "2026-11-04T17:40:41+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T17:39:44+00:00"
+      "at": "2026-11-04T17:40:43+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T17:39:45+00:00"
+      "status": "idle",
+      "note": "score 56.6 PASS",
+      "at": "2026-11-04T17:40:46+00:00"
     },
     "risk": {
       "status": "idle"
@@ -42,8 +42,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": -12,
-      "avg": 46.0921
+      "qty": -13,
+      "avg": 46.0258
     },
     {
       "symbol": "BTC-USD",
@@ -51,22 +51,32 @@
       "avg": 163.72
     }
   ],
-  "pnl": 8922.99,
+  "pnl": 8802.73,
   "realized_pnl": 10068.74,
-  "unrealized_pnl": -1145.75,
+  "unrealized_pnl": -1266.01,
   "last_signal": {
-    "id": "6f4108c4",
-    "symbol": "SPY",
-    "side": "SELL",
-    "price": 45.25,
-    "qty": 1,
-    "strength": 0.785,
+    "id": "9656cdf6",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 161.33,
+    "qty": 10,
+    "strength": 0.48,
     "source": "paper-sim",
-    "ts": "2026-11-04T17:39:42+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T17:40:41+00:00",
+    "verdict": "pass (score 56.6)",
+    "score": 56.6,
+    "recommendation": "PASS"
   },
-  "cycle": 7450,
+  "cycle": 7453,
   "fills": [
+    {
+      "fill": 45.23,
+      "qty": -1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-04T17:39:52+00:00"
+    },
     {
       "fill": 232.04,
       "qty": 10,
@@ -218,15 +228,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-04T16:51:15+00:00"
-    },
-    {
-      "fill": 233.53,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T16:48:20+00:00"
     }
   ],
-  "updated_at": "2026-11-04T17:39:45+00:00"
+  "updated_at": "2026-11-04T17:40:46+00:00"
 }
