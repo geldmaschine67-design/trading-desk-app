@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 QQQ @ 457.97",
-      "at": "2026-11-04T10:21:57+00:00"
+      "note": "BUY 1 AMZN @ 270.62",
+      "at": "2026-11-04T10:23:02+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T10:21:59+00:00"
+      "at": "2026-11-04T10:23:05+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 48.2 PASS",
-      "at": "2026-11-04T10:22:01+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 1 NVDA @ 648.3",
-      "at": "2026-11-04T10:12:59+00:00"
+      "note": "score 73.2 TAKE",
+      "at": "2026-11-04T10:23:07+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T10:12:56+00:00"
+      "at": "2026-11-04T10:23:10+00:00"
+    },
+    "executor": {
+      "status": "idle",
+      "note": "PAPER fill 1 AMZN @ 270.57",
+      "at": "2026-11-04T10:23:12+00:00"
     }
   },
   "positions": [
@@ -42,7 +42,7 @@
     {
       "symbol": "AMZN",
       "qty": -42,
-      "avg": 290.7128
+      "avg": 290.1806
     },
     {
       "symbol": "NVDA",
@@ -55,25 +55,40 @@
       "avg": 268.3811
     }
   ],
-  "pnl": 7517.81,
-  "updated_at": "2026-11-04T10:22:03+00:00",
-  "realized_pnl": 7214.79,
-  "unrealized_pnl": 303.02,
+  "pnl": 7479.07,
+  "realized_pnl": 7234.4,
+  "unrealized_pnl": 244.67,
   "last_signal": {
-    "id": "9a46970f",
-    "symbol": "QQQ",
+    "id": "97872c7e",
+    "symbol": "AMZN",
     "side": "BUY",
-    "price": 457.97,
-    "qty": 10,
-    "strength": 0.338,
+    "price": 270.62,
+    "qty": 1,
+    "strength": 0.861,
     "source": "paper-sim",
-    "ts": "2026-11-04T10:21:57+00:00",
-    "verdict": "pass (score 48.2)",
-    "score": 48.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T10:23:02+00:00",
+    "verdict": "PAPER filled 1 @ 270.57",
+    "score": 73.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 6216,
+  "cycle": 6219,
   "fills": [
+    {
+      "fill": 270.57,
+      "qty": 1,
+      "realized": 19.61,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T10:23:12+00:00"
+    },
+    {
+      "fill": 267.83,
+      "qty": -1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T10:22:26+00:00"
+    },
     {
       "fill": 648.3,
       "qty": 1,
@@ -217,22 +232,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-04T09:11:06+00:00"
-    },
-    {
-      "fill": 669.45,
-      "qty": -2,
-      "realized": 26.99,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-04T09:07:57+00:00"
-    },
-    {
-      "fill": 93.31,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-04T09:07:12+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T10:23:14+00:00"
 }
