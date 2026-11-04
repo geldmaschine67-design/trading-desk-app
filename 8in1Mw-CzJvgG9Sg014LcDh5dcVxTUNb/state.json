@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T20:22:51+00:00"
+      "note": "BUY 5 QQQ @ 479.09",
+      "at": "2026-11-04T20:23:46+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T20:23:49+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 3.7 PASS",
+      "at": "2026-11-04T20:23:51+00:00"
     },
     "risk": {
       "status": "idle"
@@ -33,7 +37,7 @@
     },
     {
       "symbol": "SPY",
-      "qty": -4,
+      "qty": -3,
       "avg": 45.615
     },
     {
@@ -47,24 +51,32 @@
       "avg": 251.84
     }
   ],
-  "pnl": 11083.14,
-  "realized_pnl": 10050.35,
-  "unrealized_pnl": 1032.79,
+  "pnl": 10922.5,
+  "realized_pnl": 10048.28,
+  "unrealized_pnl": 874.22,
   "last_signal": {
-    "id": "6f8004fd",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 176.03,
-    "qty": 1,
-    "strength": 0.008,
+    "id": "ff9ba996",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 479.09,
+    "qty": 5,
+    "strength": 0.01,
     "source": "paper-sim",
-    "ts": "2026-11-04T20:22:30+00:00",
-    "verdict": "pass (score 8.9)",
-    "score": 8.9,
+    "ts": "2026-11-04T20:23:46+00:00",
+    "verdict": "pass (score 3.7)",
+    "score": 3.7,
     "recommendation": "PASS"
   },
-  "cycle": 7904,
+  "cycle": 7907,
   "fills": [
+    {
+      "fill": 47.69,
+      "qty": 1,
+      "realized": -2.07,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-04T20:23:16+00:00"
+    },
     {
       "fill": 47.94,
       "qty": -1,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-04T19:19:23+00:00"
-    },
-    {
-      "fill": 254.2,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T19:16:17+00:00"
     }
   ],
-  "updated_at": "2026-11-04T20:22:52+00:00"
+  "updated_at": "2026-11-04T20:23:52+00:00"
 }
