@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T17:42:50+00:00"
+      "status": "idle",
+      "note": "BUY 2 BTC-USD @ 162.4",
+      "at": "2026-11-04T17:43:46+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T17:43:48+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 62.5 PASS",
+      "at": "2026-11-04T17:43:51+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,23 +51,23 @@
       "avg": 163.72
     }
   ],
-  "pnl": 8537.37,
+  "pnl": 8576.07,
   "realized_pnl": 10069.2,
-  "unrealized_pnl": -1531.83,
+  "unrealized_pnl": -1493.13,
   "last_signal": {
-    "id": "997128d8",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 112.43,
-    "qty": 10,
-    "strength": 0.559,
+    "id": "c3ebffc2",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 162.4,
+    "qty": 2,
+    "strength": 0.762,
     "source": "paper-sim",
-    "ts": "2026-11-04T17:42:36+00:00",
-    "verdict": "pass (score 47.1)",
-    "score": 47.1,
+    "ts": "2026-11-04T17:43:46+00:00",
+    "verdict": "pass (score 62.5)",
+    "score": 62.5,
     "recommendation": "PASS"
   },
-  "cycle": 7460,
+  "cycle": 7463,
   "fills": [
     {
       "fill": 163.49,
@@ -226,5 +230,5 @@
       "at": "2026-11-04T16:51:55+00:00"
     }
   ],
-  "updated_at": "2026-11-04T17:42:50+00:00"
+  "updated_at": "2026-11-04T17:43:52+00:00"
 }
