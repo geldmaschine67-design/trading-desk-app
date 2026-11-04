@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 2 AAPL @ 80.14",
-      "at": "2026-11-04T15:01:52+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T15:05:37+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,23 @@
       "avg": 49.6528
     }
   ],
-  "pnl": 9880.89,
+  "pnl": 9942.39,
   "realized_pnl": 9969.81,
-  "unrealized_pnl": -88.92,
+  "unrealized_pnl": -27.42,
   "last_signal": {
-    "id": "3206719b",
-    "symbol": "AAPL",
+    "id": "0d7e4685",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 80.14,
-    "qty": 2,
-    "strength": 0.053,
+    "price": 448.78,
+    "qty": 10,
+    "strength": 0.2,
     "source": "paper-sim",
-    "ts": "2026-11-04T15:01:52+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T15:02:29+00:00",
+    "verdict": "pass (score 25.0)",
+    "score": 25.0,
+    "recommendation": "PASS"
   },
-  "cycle": 7006,
+  "cycle": 7009,
   "fills": [
     {
       "fill": 234.81,
@@ -224,5 +226,5 @@
       "at": "2026-11-04T13:32:32+00:00"
     }
   ],
-  "updated_at": "2026-11-04T15:01:52+00:00"
+  "updated_at": "2026-11-04T15:05:37+00:00"
 }
