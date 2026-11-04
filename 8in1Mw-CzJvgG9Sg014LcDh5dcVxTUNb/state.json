@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AAPL @ 85.97",
-      "at": "2026-11-04T20:41:39+00:00"
+      "note": "BUY 1 TSLA @ 254.55",
+      "at": "2026-11-04T20:42:30+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T20:41:41+00:00"
+      "at": "2026-11-04T20:42:32+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 5.0 PASS",
-      "at": "2026-11-04T20:41:43+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 67.7 PASS",
+      "at": "2026-11-04T20:42:35+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -10 BTC-USD @ 176.82",
+      "at": "2026-11-04T20:40:48+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T20:40:46+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 251.84
     }
   ],
-  "pnl": 10913.17,
+  "pnl": 10795.13,
+  "updated_at": "2026-11-04T20:42:36+00:00",
   "realized_pnl": 10090.29,
-  "unrealized_pnl": 822.88,
+  "unrealized_pnl": 704.84,
   "last_signal": {
-    "id": "b95fa430",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 85.97,
+    "id": "5cba81de",
+    "symbol": "TSLA",
+    "side": "BUY",
+    "price": 254.55,
     "qty": 1,
-    "strength": 0.01,
+    "strength": 0.739,
     "source": "paper-sim",
-    "ts": "2026-11-04T20:41:39+00:00",
-    "verdict": "pass (score 5.0)",
-    "score": 5.0,
+    "ts": "2026-11-04T20:42:30+00:00",
+    "verdict": "pass (score 67.7)",
+    "score": 67.7,
     "recommendation": "PASS"
   },
-  "cycle": 7952,
+  "cycle": 7955,
   "fills": [
     {
       "fill": 176.82,
@@ -229,6 +234,5 @@
       "symbol": "BTC-USD",
       "at": "2026-11-04T19:23:13+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T20:41:43+00:00"
+  ]
 }
