@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 NVDA @ 680.02",
-      "at": "2026-11-04T18:56:44+00:00"
+      "note": "BUY 1 QQQ @ 445.21",
+      "at": "2026-11-04T18:57:46+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T18:56:47+00:00"
+      "at": "2026-11-04T18:57:49+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 26.2 PASS",
-      "at": "2026-11-04T18:56:49+00:00"
+      "note": "score 94.7 TAKE",
+      "at": "2026-11-04T18:57:51+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-04T18:57:54+00:00"
     },
     "executor": {
       "status": "idle",
       "note": "skipped (risk)",
-      "at": "2026-11-04T18:55:28+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-04T18:55:26+00:00"
+      "at": "2026-11-04T18:57:55+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 172.25
     }
   ],
-  "pnl": 9774.16,
-  "updated_at": "2026-11-04T18:56:50+00:00",
+  "pnl": 9672.44,
   "realized_pnl": 9946.8,
-  "unrealized_pnl": -172.64,
+  "unrealized_pnl": -274.36,
   "last_signal": {
-    "id": "1f5dd250",
-    "symbol": "NVDA",
-    "side": "SELL",
-    "price": 680.02,
-    "qty": 2,
-    "strength": 0.327,
+    "id": "5fd9d600",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 445.21,
+    "qty": 1,
+    "strength": 0.925,
     "source": "paper-sim",
-    "ts": "2026-11-04T18:56:44+00:00",
-    "verdict": "pass (score 26.2)",
-    "score": 26.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T18:57:46+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 94.7,
+    "recommendation": "TAKE"
   },
-  "cycle": 7656,
+  "cycle": 7659,
   "fills": [
     {
       "fill": 172.25,
@@ -234,5 +233,6 @@
       "symbol": "NVDA",
       "at": "2026-11-04T17:53:55+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T18:57:57+00:00"
 }
