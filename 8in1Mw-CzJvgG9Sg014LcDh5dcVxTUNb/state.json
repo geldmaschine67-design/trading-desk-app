@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 QQQ @ 461.31",
-      "at": "2026-11-04T04:27:48+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T04:28:49+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T04:27:50+00:00"
+      "at": "2026-11-04T04:28:30+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 47.5 PASS",
-      "at": "2026-11-04T04:27:53+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 21.9 PASS",
+      "at": "2026-11-04T04:28:32+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T04:25:05+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-04T04:25:04+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 297.9346
     }
   ],
-  "pnl": 6737.19,
+  "pnl": 6889.85,
+  "updated_at": "2026-11-04T04:28:50+00:00",
   "realized_pnl": 6152.79,
-  "unrealized_pnl": 584.4,
+  "unrealized_pnl": 737.06,
   "last_signal": {
-    "id": "1987b01c",
-    "symbol": "QQQ",
+    "id": "e38e1f36",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 461.31,
-    "qty": 10,
-    "strength": 0.597,
+    "price": 122.04,
+    "qty": 5,
+    "strength": 0.19,
     "source": "paper-sim",
-    "ts": "2026-11-04T04:27:48+00:00",
-    "verdict": "pass (score 47.5)",
-    "score": 47.5,
+    "ts": "2026-11-04T04:28:27+00:00",
+    "verdict": "pass (score 21.9)",
+    "score": 21.9,
     "recommendation": "PASS"
   },
-  "cycle": 5241,
+  "cycle": 5244,
   "fills": [
     {
       "fill": 292.22,
@@ -229,6 +234,5 @@
       "symbol": "AMZN",
       "at": "2026-11-04T03:30:01+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T04:27:54+00:00"
+  ]
 }
