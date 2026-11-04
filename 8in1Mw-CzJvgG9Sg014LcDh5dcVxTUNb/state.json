@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T19:54:22+00:00"
+      "status": "idle",
+      "note": "SELL 5 QQQ @ 460.93",
+      "at": "2026-11-04T19:55:21+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T19:55:23+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T19:55:24+00:00"
     },
     "risk": {
       "status": "idle"
@@ -42,23 +46,21 @@
       "avg": 167.24
     }
   ],
-  "pnl": 10268.72,
+  "pnl": 10352.36,
   "realized_pnl": 9986.65,
-  "unrealized_pnl": 282.07,
+  "unrealized_pnl": 365.71,
   "last_signal": {
-    "id": "86431357",
+    "id": "25d9005c",
     "symbol": "QQQ",
     "side": "SELL",
-    "price": 458.15,
+    "price": 460.93,
     "qty": 5,
-    "strength": 0.463,
+    "strength": 0.744,
     "source": "paper-sim",
-    "ts": "2026-11-04T19:54:08+00:00",
-    "verdict": "pass (score 33.2)",
-    "score": 33.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T19:55:21+00:00",
+    "verdict": "pending"
   },
-  "cycle": 7818,
+  "cycle": 7821,
   "fills": [
     {
       "fill": 171.16,
@@ -221,5 +223,5 @@
       "at": "2026-11-04T19:03:16+00:00"
     }
   ],
-  "updated_at": "2026-11-04T19:54:22+00:00"
+  "updated_at": "2026-11-04T19:55:24+00:00"
 }
