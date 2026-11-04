@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T00:04:12+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T00:05:21+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,9 +47,9 @@
       "avg": 323.03
     }
   ],
-  "pnl": 6148.54,
+  "pnl": 6145.65,
   "realized_pnl": 6171.8,
-  "unrealized_pnl": -23.26,
+  "unrealized_pnl": -26.15,
   "last_signal": {
     "id": "c56d1848",
     "symbol": "SPY",
@@ -63,7 +63,7 @@
     "score": 71.6,
     "recommendation": "TAKE"
   },
-  "cycle": 4474,
+  "cycle": 4475,
   "fills": [
     {
       "fill": 325.55,
@@ -226,5 +226,5 @@
       "at": "2026-11-03T23:07:11+00:00"
     }
   ],
-  "updated_at": "2026-11-04T00:04:13+00:00"
+  "updated_at": "2026-11-04T00:05:21+00:00"
 }
