@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 MSFT @ 122.18",
-      "at": "2026-11-04T23:09:27+00:00"
+      "note": "BUY 5 TSLA @ 208.4",
+      "at": "2026-11-04T23:10:43+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T23:09:30+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 71.8 TAKE",
-      "at": "2026-11-04T23:09:32+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-04T23:09:35+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T23:09:36+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -36,8 +28,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 78,
-      "avg": 243.0287
+      "qty": 88,
+      "avg": 239.0629
     },
     {
       "symbol": "SPY",
@@ -55,24 +47,30 @@
       "avg": 263.5986
     }
   ],
-  "pnl": 8135.05,
+  "pnl": 8081.74,
   "realized_pnl": 10398.69,
-  "unrealized_pnl": -2263.64,
+  "unrealized_pnl": -2316.95,
   "last_signal": {
-    "id": "539cd448",
-    "symbol": "MSFT",
+    "id": "4db44ba8",
+    "symbol": "TSLA",
     "side": "BUY",
-    "price": 122.18,
-    "qty": 2,
-    "strength": 0.618,
+    "price": 208.4,
+    "qty": 5,
+    "strength": 0.68,
     "source": "paper-sim",
-    "ts": "2026-11-04T23:09:27+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 71.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T23:10:43+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8349,
+  "cycle": 8353,
   "fills": [
+    {
+      "fill": 208.13,
+      "qty": 10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-04T23:10:30+00:00"
+    },
     {
       "fill": 151.89,
       "qty": 2,
@@ -224,15 +222,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-04T21:39:51+00:00"
-    },
-    {
-      "fill": 159.95,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-04T21:23:03+00:00"
     }
   ],
-  "updated_at": "2026-11-04T23:09:38+00:00"
+  "updated_at": "2026-11-04T23:10:43+00:00"
 }
