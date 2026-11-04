@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 TSLA @ 243.46",
-      "at": "2026-11-04T15:13:29+00:00"
+      "note": "SELL 10 SPY @ 47.89",
+      "at": "2026-11-04T15:15:02+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T15:13:32+00:00"
+      "at": "2026-11-04T15:14:08+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 73.5 TAKE",
-      "at": "2026-11-04T15:13:34+00:00"
+      "note": "score 12.9 PASS",
+      "at": "2026-11-04T15:14:10+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 49.6528
     }
   ],
-  "pnl": 10371.17,
-  "updated_at": "2026-11-04T15:13:41+00:00",
+  "pnl": 10244.65,
+  "updated_at": "2026-11-04T15:15:02+00:00",
   "realized_pnl": 10146.38,
-  "unrealized_pnl": 224.79,
+  "unrealized_pnl": 98.27,
   "last_signal": {
-    "id": "bd70fcf8",
-    "symbol": "TSLA",
-    "side": "BUY",
-    "price": 243.46,
+    "id": "9c8d9b73",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 47.89,
     "qty": 10,
-    "strength": 0.724,
+    "strength": 0.09,
     "source": "paper-sim",
-    "ts": "2026-11-04T15:13:29+00:00",
-    "verdict": "PAPER filled 10 @ 243.53",
-    "score": 73.5,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T15:15:02+00:00",
+    "verdict": "pending",
+    "score": 12.9,
+    "recommendation": "PASS"
   },
-  "cycle": 7031,
+  "cycle": 7034,
   "fills": [
     {
       "fill": 243.53,
