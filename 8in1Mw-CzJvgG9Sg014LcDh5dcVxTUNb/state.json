@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T14:12:34+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T14:13:37+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 50.2747
     }
   ],
-  "pnl": 9566.39,
+  "pnl": 9537.16,
   "realized_pnl": 9572.29,
-  "unrealized_pnl": -5.9,
+  "unrealized_pnl": -35.13,
   "last_signal": {
-    "id": "2b6ae6c9",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 482.16,
-    "qty": 5,
-    "strength": 0.914,
+    "id": "592335f3",
+    "symbol": "SPY",
+    "side": "BUY",
+    "price": 50.49,
+    "qty": 1,
+    "strength": 0.323,
     "source": "paper-sim",
-    "ts": "2026-11-04T14:12:14+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 74.2,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T14:13:18+00:00",
+    "verdict": "pass (score 48.6)",
+    "score": 48.6,
+    "recommendation": "PASS"
   },
-  "cycle": 6846,
+  "cycle": 6850,
   "fills": [
     {
       "fill": 252.84,
@@ -226,5 +226,5 @@
       "at": "2026-11-04T12:54:18+00:00"
     }
   ],
-  "updated_at": "2026-11-04T14:12:36+00:00"
+  "updated_at": "2026-11-04T14:13:37+00:00"
 }
