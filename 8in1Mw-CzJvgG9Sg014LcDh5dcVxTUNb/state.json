@@ -5,7 +5,7 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-04T09:19:29+00:00"
+      "at": "2026-11-04T09:20:32+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 270.0037
     }
   ],
-  "pnl": 8353.31,
+  "pnl": 8447.29,
   "realized_pnl": 7500.82,
-  "unrealized_pnl": 852.49,
+  "unrealized_pnl": 946.47,
   "last_signal": {
-    "id": "6c253d79",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 438.41,
-    "qty": 2,
-    "strength": 0.32,
+    "id": "a9ba33ea",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 138.67,
+    "qty": 5,
+    "strength": 0.519,
     "source": "paper-sim",
-    "ts": "2026-11-04T09:19:10+00:00",
-    "verdict": "pass (score 37.3)",
-    "score": 37.3,
+    "ts": "2026-11-04T09:19:46+00:00",
+    "verdict": "pass (score 56.7)",
+    "score": 56.7,
     "recommendation": "PASS"
   },
-  "cycle": 6046,
+  "cycle": 6050,
   "fills": [
     {
       "fill": 270.06,
@@ -226,5 +226,5 @@
       "at": "2026-11-04T08:23:10+00:00"
     }
   ],
-  "updated_at": "2026-11-04T09:19:29+00:00"
+  "updated_at": "2026-11-04T09:20:32+00:00"
 }
