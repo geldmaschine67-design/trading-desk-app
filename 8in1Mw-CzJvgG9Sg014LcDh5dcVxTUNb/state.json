@@ -4,13 +4,11 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 MSFT @ 105.37",
-      "at": "2026-11-04T08:48:02+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T08:49:05+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T08:48:03+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -45,26 +43,36 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 45,
+      "qty": 40,
       "avg": 270.0037
     }
   ],
-  "pnl": 8134.53,
-  "realized_pnl": 7233.39,
-  "unrealized_pnl": 901.14,
+  "pnl": 7986.26,
+  "realized_pnl": 7200.72,
+  "unrealized_pnl": 785.54,
   "last_signal": {
-    "id": "eb1edd99",
-    "symbol": "MSFT",
+    "id": "eadefbbe",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 105.37,
+    "price": 440.41,
     "qty": 2,
-    "strength": 0.286,
+    "strength": 0.019,
     "source": "paper-sim",
-    "ts": "2026-11-04T08:48:02+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T08:48:46+00:00",
+    "verdict": "pass (score 31.1)",
+    "score": 31.1,
+    "recommendation": "PASS"
   },
-  "cycle": 5956,
+  "cycle": 5959,
   "fills": [
+    {
+      "fill": 263.47,
+      "qty": -5,
+      "realized": -32.67,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-04T08:48:32+00:00"
+    },
     {
       "fill": 266.42,
       "qty": -1,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-04T07:54:10+00:00"
-    },
-    {
-      "fill": 273.89,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T07:53:20+00:00"
     }
   ],
-  "updated_at": "2026-11-04T08:48:03+00:00"
+  "updated_at": "2026-11-04T08:49:05+00:00"
 }
