@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T17:51:35+00:00"
+      "note": "SELL 5 NVDA @ 675.37",
+      "at": "2026-11-04T17:52:29+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T17:52:31+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 35.0 PASS",
+      "at": "2026-11-04T17:52:33+00:00"
     },
     "risk": {
       "status": "idle"
@@ -38,7 +42,7 @@
     },
     {
       "symbol": "SPY",
-      "qty": -13,
+      "qty": -8,
       "avg": 46.0258
     },
     {
@@ -47,24 +51,32 @@
       "avg": 163.72
     }
   ],
-  "pnl": 7974.68,
-  "realized_pnl": 10069.2,
-  "unrealized_pnl": -2094.52,
+  "pnl": 8248.86,
+  "realized_pnl": 10074.78,
+  "unrealized_pnl": -1825.92,
   "last_signal": {
-    "id": "7cd8440f",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 45.28,
+    "id": "857a60a7",
+    "symbol": "NVDA",
+    "side": "SELL",
+    "price": 675.37,
     "qty": 5,
-    "strength": 0.207,
+    "strength": 0.406,
     "source": "paper-sim",
-    "ts": "2026-11-04T17:51:14+00:00",
-    "verdict": "pass (score 19.7)",
-    "score": 19.7,
+    "ts": "2026-11-04T17:52:29+00:00",
+    "verdict": "pass (score 35.0)",
+    "score": 35.0,
     "recommendation": "PASS"
   },
-  "cycle": 7477,
+  "cycle": 7480,
   "fills": [
+    {
+      "fill": 44.91,
+      "qty": 5,
+      "realized": 5.58,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-04T17:52:17+00:00"
+    },
     {
       "fill": 678.63,
       "qty": 5,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-04T17:01:26+00:00"
-    },
-    {
-      "fill": 50.17,
-      "qty": -10,
-      "realized": 5.31,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-04T16:54:52+00:00"
     }
   ],
-  "updated_at": "2026-11-04T17:51:36+00:00"
+  "updated_at": "2026-11-04T17:52:35+00:00"
 }
