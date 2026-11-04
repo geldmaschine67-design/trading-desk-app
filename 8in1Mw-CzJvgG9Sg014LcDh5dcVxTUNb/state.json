@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 AAPL @ 79.24",
-      "at": "2026-11-04T14:54:38+00:00"
+      "note": "SELL 2 SPY @ 47.76",
+      "at": "2026-11-04T14:55:34+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T14:54:39+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T14:55:36+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 63.0 PASS",
+      "at": "2026-11-04T14:55:39+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -10 SPY @ 48.01",
+      "at": "2026-11-04T14:54:06+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T14:54:03+00:00"
     }
   },
   "positions": [
@@ -49,21 +55,24 @@
       "avg": 49.6528
     }
   ],
-  "pnl": 10034.51,
+  "pnl": 9943.7,
+  "updated_at": "2026-11-04T14:55:40+00:00",
   "realized_pnl": 9858.77,
-  "unrealized_pnl": 175.74,
+  "unrealized_pnl": 84.93,
   "last_signal": {
-    "id": "2cd2eadc",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 79.24,
+    "id": "5f90c3e1",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 47.76,
     "qty": 2,
-    "strength": 0.216,
+    "strength": 0.493,
     "source": "paper-sim",
-    "ts": "2026-11-04T14:54:38+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T14:55:34+00:00",
+    "verdict": "pass (score 63.0)",
+    "score": 63.0,
+    "recommendation": "PASS"
   },
-  "cycle": 6983,
+  "cycle": 6986,
   "fills": [
     {
       "fill": 48.01,
@@ -225,6 +234,5 @@
       "symbol": "NVDA",
       "at": "2026-11-04T13:17:31+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T14:54:39+00:00"
+  ]
 }
