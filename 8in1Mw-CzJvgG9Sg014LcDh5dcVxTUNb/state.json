@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 2 AMZN @ 268.16",
-      "at": "2026-11-04T23:33:03+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T23:34:17+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T23:33:06+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 27.2 PASS",
-      "at": "2026-11-04T23:33:08+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +47,23 @@
       "avg": 263.5986
     }
   ],
-  "pnl": 8287.61,
+  "pnl": 8198.28,
   "realized_pnl": 10448.79,
-  "unrealized_pnl": -2161.18,
+  "unrealized_pnl": -2250.51,
   "last_signal": {
-    "id": "ed15255e",
-    "symbol": "AMZN",
+    "id": "c4627efc",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 268.16,
-    "qty": 2,
-    "strength": 0.145,
+    "price": 667.49,
+    "qty": 10,
+    "strength": 0.864,
     "source": "paper-sim",
-    "ts": "2026-11-04T23:33:03+00:00",
-    "verdict": "pass (score 27.2)",
-    "score": 27.2,
+    "ts": "2026-11-04T23:33:24+00:00",
+    "verdict": "pass (score 60.6)",
+    "score": 60.6,
     "recommendation": "PASS"
   },
-  "cycle": 8424,
+  "cycle": 8426,
   "fills": [
     {
       "fill": 269.13,
@@ -230,5 +226,5 @@
       "at": "2026-11-04T22:02:54+00:00"
     }
   ],
-  "updated_at": "2026-11-04T23:33:09+00:00"
+  "updated_at": "2026-11-04T23:34:17+00:00"
 }
