@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 174.37",
-      "at": "2026-11-04T20:30:36+00:00"
+      "note": "SELL 10 BTC-USD @ 173.23",
+      "at": "2026-11-04T20:31:34+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T20:31:36+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T20:31:37+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,21 +51,21 @@
       "avg": 251.84
     }
   ],
-  "pnl": 10897.1,
+  "pnl": 10978.88,
   "realized_pnl": 10071.13,
-  "unrealized_pnl": 825.97,
+  "unrealized_pnl": 907.75,
   "last_signal": {
-    "id": "5de540cc",
+    "id": "d0fccc6c",
     "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 174.37,
-    "qty": 5,
-    "strength": 0.503,
+    "side": "SELL",
+    "price": 173.23,
+    "qty": 10,
+    "strength": 0.425,
     "source": "paper-sim",
-    "ts": "2026-11-04T20:30:36+00:00",
+    "ts": "2026-11-04T20:31:34+00:00",
     "verdict": "pending"
   },
-  "cycle": 7922,
+  "cycle": 7925,
   "fills": [
     {
       "fill": 238.5,
@@ -224,5 +228,5 @@
       "at": "2026-11-04T19:21:22+00:00"
     }
   ],
-  "updated_at": "2026-11-04T20:30:36+00:00"
+  "updated_at": "2026-11-04T20:31:37+00:00"
 }
