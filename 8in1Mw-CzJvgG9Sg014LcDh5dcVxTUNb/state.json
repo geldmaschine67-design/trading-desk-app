@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 AMZN @ 292.36",
-      "at": "2026-11-04T04:24:34+00:00"
+      "note": "BUY 5 BTC-USD @ 123.61",
+      "at": "2026-11-04T04:25:41+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T04:24:36+00:00"
+      "at": "2026-11-04T04:25:43+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 94.5 TAKE",
-      "at": "2026-11-04T04:24:39+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T04:24:41+00:00"
+      "note": "score 51.5 PASS",
+      "at": "2026-11-04T04:25:46+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 10 AMZN @ 292.22",
-      "at": "2026-11-04T04:24:44+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-04T04:25:05+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-04T04:25:04+00:00"
     }
   },
   "positions": [
@@ -55,23 +55,24 @@
       "avg": 297.9346
     }
   ],
-  "pnl": 6324.76,
+  "pnl": 6500.6,
+  "updated_at": "2026-11-04T04:25:47+00:00",
   "realized_pnl": 6152.79,
-  "unrealized_pnl": 171.97,
+  "unrealized_pnl": 347.81,
   "last_signal": {
-    "id": "4f81be22",
-    "symbol": "AMZN",
+    "id": "3eba6b63",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 292.36,
-    "qty": 10,
-    "strength": 0.968,
+    "price": 123.61,
+    "qty": 5,
+    "strength": 0.497,
     "source": "paper-sim",
-    "ts": "2026-11-04T04:24:34+00:00",
-    "verdict": "PAPER filled 10 @ 292.22",
-    "score": 94.5,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T04:25:41+00:00",
+    "verdict": "pass (score 51.5)",
+    "score": 51.5,
+    "recommendation": "PASS"
   },
-  "cycle": 5231,
+  "cycle": 5234,
   "fills": [
     {
       "fill": 292.22,
@@ -233,6 +234,5 @@
       "symbol": "AMZN",
       "at": "2026-11-04T03:30:01+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T04:24:45+00:00"
+  ]
 }
