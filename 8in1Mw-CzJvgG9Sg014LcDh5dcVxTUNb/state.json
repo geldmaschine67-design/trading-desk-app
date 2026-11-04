@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 SPY @ 56.63",
-      "at": "2026-11-04T10:54:06+00:00"
+      "note": "BUY 10 BTC-USD @ 139.82",
+      "at": "2026-11-04T10:55:08+00:00"
     },
     "auditor": {
       "status": "running",
       "note": null,
-      "at": "2026-11-04T10:54:08+00:00"
+      "at": "2026-11-04T10:55:09+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -30,8 +30,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -7,
-      "avg": 93.4245
+      "qty": 3,
+      "avg": 89.04
     },
     {
       "symbol": "AMZN",
@@ -49,22 +49,30 @@
       "avg": 263.9579
     }
   ],
-  "pnl": 7812.97,
-  "realized_pnl": 7145.96,
-  "unrealized_pnl": 667.01,
+  "pnl": 7803.72,
+  "realized_pnl": 7176.65,
+  "unrealized_pnl": 627.07,
   "last_signal": {
-    "id": "8dd6253b",
-    "symbol": "SPY",
+    "id": "d3b28cdf",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 56.63,
-    "qty": 2,
-    "strength": 0.341,
+    "price": 139.82,
+    "qty": 10,
+    "strength": 0.059,
     "source": "paper-sim",
-    "ts": "2026-11-04T10:54:06+00:00",
+    "ts": "2026-11-04T10:55:08+00:00",
     "verdict": "pending"
   },
-  "cycle": 6307,
+  "cycle": 6310,
   "fills": [
+    {
+      "fill": 89.04,
+      "qty": 10,
+      "realized": 30.69,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-04T10:54:32+00:00"
+    },
     {
       "fill": 464.56,
       "qty": -10,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-04T09:41:19+00:00"
-    },
-    {
-      "fill": 453.64,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-04T09:32:23+00:00"
     }
   ],
-  "updated_at": "2026-11-04T10:54:08+00:00"
+  "updated_at": "2026-11-04T10:55:09+00:00"
 }
