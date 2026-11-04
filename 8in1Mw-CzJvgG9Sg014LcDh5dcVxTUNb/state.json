@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T08:31:40+00:00"
+      "note": "BUY 5 MSFT @ 104.83",
+      "at": "2026-11-04T08:32:40+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T08:31:24+00:00"
+      "at": "2026-11-04T08:32:42+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 48.0 PASS",
-      "at": "2026-11-04T08:31:26+00:00"
+      "note": "score 72.7 TAKE",
+      "at": "2026-11-04T08:32:44+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-04T08:32:47+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 5 AAPL @ 91.64",
-      "at": "2026-11-04T08:29:40+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T08:29:38+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-04T08:32:48+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 271.2325
     }
   ],
-  "pnl": 8319.55,
-  "updated_at": "2026-11-04T08:31:41+00:00",
+  "pnl": 8487.75,
   "realized_pnl": 7127.44,
-  "unrealized_pnl": 1192.11,
+  "unrealized_pnl": 1360.31,
   "last_signal": {
-    "id": "4173dadf",
-    "symbol": "AMZN",
+    "id": "ff739f7c",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 275.77,
+    "price": 104.83,
     "qty": 5,
-    "strength": 0.488,
+    "strength": 0.945,
     "source": "paper-sim",
-    "ts": "2026-11-04T08:31:21+00:00",
-    "verdict": "pass (score 48.0)",
-    "score": 48.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T08:32:40+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 72.7,
+    "recommendation": "TAKE"
   },
-  "cycle": 5905,
+  "cycle": 5909,
   "fills": [
     {
       "fill": 91.64,
@@ -234,5 +233,6 @@
       "symbol": "NVDA",
       "at": "2026-11-04T07:46:18+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T08:32:50+00:00"
 }
