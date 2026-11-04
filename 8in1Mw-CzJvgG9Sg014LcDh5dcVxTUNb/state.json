@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 2 BTC-USD @ 162.65",
-      "at": "2026-11-04T15:33:22+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T15:34:32+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T15:33:24+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 54.6 PASS",
-      "at": "2026-11-04T15:33:27+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T15:32:18+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "notional 7149 > 5000",
-      "at": "2026-11-04T15:32:17+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 49.6528
     }
   ],
-  "pnl": 10200.41,
-  "updated_at": "2026-11-04T15:33:28+00:00",
+  "pnl": 10083.04,
   "realized_pnl": 10284.15,
-  "unrealized_pnl": -83.74,
+  "unrealized_pnl": -201.11,
   "last_signal": {
-    "id": "a4684ce4",
-    "symbol": "BTC-USD",
+    "id": "2c0ddbc2",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 162.65,
+    "price": 46.89,
     "qty": 2,
-    "strength": 0.46,
+    "strength": 0.535,
     "source": "paper-sim",
-    "ts": "2026-11-04T15:33:22+00:00",
-    "verdict": "pass (score 54.6)",
-    "score": 54.6,
+    "ts": "2026-11-04T15:34:15+00:00",
+    "verdict": "pass (score 56.7)",
+    "score": 56.7,
     "recommendation": "PASS"
   },
-  "cycle": 7082,
+  "cycle": 7086,
   "fills": [
     {
       "fill": 77.5,
@@ -234,5 +225,6 @@
       "symbol": "NVDA",
       "at": "2026-11-04T14:44:22+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T15:34:32+00:00"
 }
