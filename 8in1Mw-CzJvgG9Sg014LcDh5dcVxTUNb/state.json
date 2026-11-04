@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 TSLA @ 288.84",
-      "at": "2026-11-04T04:07:01+00:00"
+      "note": "BUY 10 NVDA @ 676.66",
+      "at": "2026-11-04T04:10:30+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T04:07:03+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T04:10:31+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 60.8 PASS",
-      "at": "2026-11-04T04:07:06+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +45,34 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 8,
-      "avg": 300.1508
+      "qty": 10,
+      "avg": 297.9346
     }
   ],
-  "pnl": 7146.2,
+  "pnl": 7111.29,
   "realized_pnl": 5923.95,
-  "unrealized_pnl": 1222.25,
+  "unrealized_pnl": 1187.34,
   "last_signal": {
-    "id": "03c26727",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 288.84,
-    "qty": 2,
-    "strength": 0.803,
+    "id": "230cadd0",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 676.66,
+    "qty": 10,
+    "strength": 0.319,
     "source": "paper-sim",
-    "ts": "2026-11-04T04:07:01+00:00",
-    "verdict": "pass (score 60.8)",
-    "score": 60.8,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T04:10:30+00:00",
+    "verdict": "pending"
   },
-  "cycle": 5182,
+  "cycle": 5186,
   "fills": [
+    {
+      "fill": 289.07,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-04T04:09:54+00:00"
+    },
     {
       "fill": 288.32,
       "qty": -5,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-04T03:00:47+00:00"
-    },
-    {
-      "fill": 490.53,
-      "qty": -5,
-      "realized": -85.77,
-      "paper": true,
-      "symbol": "QQQ",
-      "at": "2026-11-04T02:57:44+00:00"
     }
   ],
-  "updated_at": "2026-11-04T04:07:27+00:00"
+  "updated_at": "2026-11-04T04:10:31+00:00"
 }
