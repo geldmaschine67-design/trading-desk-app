@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 QQQ @ 456.49",
-      "at": "2026-11-04T05:35:17+00:00"
+      "note": "BUY 2 MSFT @ 100.9",
+      "at": "2026-11-04T05:36:14+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T05:35:20+00:00"
+      "at": "2026-11-04T05:36:17+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 50.9 PASS",
-      "at": "2026-11-04T05:35:22+00:00"
+      "note": "score 81.3 TAKE",
+      "at": "2026-11-04T05:36:19+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-04T05:36:22+00:00"
     },
     "executor": {
       "status": "idle",
       "note": "skipped (risk)",
-      "at": "2026-11-04T05:34:46+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-04T05:34:45+00:00"
+      "at": "2026-11-04T05:36:23+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 282.9075
     }
   ],
-  "pnl": 7336.64,
-  "updated_at": "2026-11-04T05:35:23+00:00",
+  "pnl": 7254.2,
   "realized_pnl": 5993.6,
-  "unrealized_pnl": 1343.04,
+  "unrealized_pnl": 1260.6,
   "last_signal": {
-    "id": "4adcdc1e",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 456.49,
-    "qty": 1,
-    "strength": 0.701,
+    "id": "c9f728cc",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 100.9,
+    "qty": 2,
+    "strength": 0.963,
     "source": "paper-sim",
-    "ts": "2026-11-04T05:35:17+00:00",
-    "verdict": "pass (score 50.9)",
-    "score": 50.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T05:36:14+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 81.3,
+    "recommendation": "TAKE"
   },
-  "cycle": 5433,
+  "cycle": 5436,
   "fills": [
     {
       "fill": 463.78,
@@ -234,5 +233,6 @@
       "symbol": "AAPL",
       "at": "2026-11-04T04:38:52+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T05:36:25+00:00"
 }
