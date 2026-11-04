@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 SPY @ 47.81",
-      "at": "2026-11-04T20:54:50+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T20:56:03+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T20:54:52+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 63.3 PASS",
-      "at": "2026-11-04T20:54:55+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 NVDA @ 714.59",
-      "at": "2026-11-04T20:53:55+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T20:53:53+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 251.84
     }
   ],
-  "pnl": 10490.96,
-  "updated_at": "2026-11-04T20:54:56+00:00",
+  "pnl": 10768.58,
   "realized_pnl": 10277.42,
-  "unrealized_pnl": 213.54,
+  "unrealized_pnl": 491.16,
   "last_signal": {
-    "id": "461b0204",
+    "id": "83fdfed2",
     "symbol": "SPY",
-    "side": "BUY",
-    "price": 47.81,
+    "side": "SELL",
+    "price": 47.02,
     "qty": 1,
-    "strength": 0.757,
+    "strength": 0.095,
     "source": "paper-sim",
-    "ts": "2026-11-04T20:54:50+00:00",
-    "verdict": "pass (score 63.3)",
-    "score": 63.3,
+    "ts": "2026-11-04T20:55:44+00:00",
+    "verdict": "pass (score 26.6)",
+    "score": 26.6,
     "recommendation": "PASS"
   },
-  "cycle": 7993,
+  "cycle": 7997,
   "fills": [
     {
       "fill": 714.59,
@@ -234,5 +225,6 @@
       "symbol": "AMZN",
       "at": "2026-11-04T19:44:13+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T20:56:04+00:00"
 }
