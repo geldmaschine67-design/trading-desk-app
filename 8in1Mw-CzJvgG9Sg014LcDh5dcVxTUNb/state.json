@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T16:11:50+00:00"
+      "status": "idle",
+      "note": "SELL 5 AMZN @ 245.29",
+      "at": "2026-11-04T16:12:51+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 49.5801
     }
   ],
-  "pnl": 8821.18,
+  "pnl": 8394.33,
   "realized_pnl": 10350.22,
-  "unrealized_pnl": -1529.04,
+  "unrealized_pnl": -1955.89,
   "last_signal": {
-    "id": "7b4c7adb",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 81.06,
+    "id": "4478bfbc",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 245.29,
     "qty": 5,
-    "strength": 0.365,
+    "strength": 0.291,
     "source": "paper-sim",
-    "ts": "2026-11-04T16:08:21+00:00",
-    "verdict": "pass (score 54.2)",
-    "score": 54.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T16:12:51+00:00",
+    "verdict": "pending"
   },
-  "cycle": 7189,
+  "cycle": 7193,
   "fills": [
     {
       "fill": 242.78,
@@ -226,5 +224,5 @@
       "at": "2026-11-04T15:08:10+00:00"
     }
   ],
-  "updated_at": "2026-11-04T16:11:50+00:00"
+  "updated_at": "2026-11-04T16:12:51+00:00"
 }
