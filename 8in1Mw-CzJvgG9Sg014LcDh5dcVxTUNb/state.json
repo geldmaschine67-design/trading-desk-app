@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T16:41:10+00:00"
+      "status": "idle",
+      "note": "BUY 1 AMZN @ 232.7",
+      "at": "2026-11-04T16:42:07+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T16:42:09+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T16:42:10+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,23 +51,21 @@
       "avg": 49.5801
     }
   ],
-  "pnl": 8186.15,
+  "pnl": 8279.6,
   "realized_pnl": 10103.14,
-  "unrealized_pnl": -1916.99,
+  "unrealized_pnl": -1823.54,
   "last_signal": {
-    "id": "647d6789",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 168.6,
-    "qty": 10,
-    "strength": 0.808,
+    "id": "dcb35bd0",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 232.7,
+    "qty": 1,
+    "strength": 0.702,
     "source": "paper-sim",
-    "ts": "2026-11-04T16:39:16+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 80.5,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T16:42:07+00:00",
+    "verdict": "pending"
   },
-  "cycle": 7266,
+  "cycle": 7269,
   "fills": [
     {
       "fill": 224.22,
@@ -226,5 +228,5 @@
       "at": "2026-11-04T15:21:50+00:00"
     }
   ],
-  "updated_at": "2026-11-04T16:41:10+00:00"
+  "updated_at": "2026-11-04T16:42:10+00:00"
 }
