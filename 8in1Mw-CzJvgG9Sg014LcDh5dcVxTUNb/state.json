@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AAPL @ 93.56",
-      "at": "2026-11-04T09:51:05+00:00"
+      "note": "BUY 10 QQQ @ 466.15",
+      "at": "2026-11-04T09:52:01+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T09:51:07+00:00"
+      "at": "2026-11-04T09:52:04+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 51.9 PASS",
-      "at": "2026-11-04T09:50:33+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T09:49:20+00:00"
+      "note": "score 86.1 TAKE",
+      "at": "2026-11-04T09:52:06+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-04T09:49:19+00:00"
+      "note": "ok",
+      "at": "2026-11-04T09:52:09+00:00"
+    },
+    "executor": {
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T09:52:10+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 268.3811
     }
   ],
-  "pnl": 7609.42,
-  "updated_at": "2026-11-04T09:51:07+00:00",
+  "pnl": 7505.69,
   "realized_pnl": 7462.19,
-  "unrealized_pnl": 147.23,
+  "unrealized_pnl": 43.5,
   "last_signal": {
-    "id": "8de6553a",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 93.56,
-    "qty": 1,
-    "strength": 0.776,
+    "id": "fd462172",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 466.15,
+    "qty": 10,
+    "strength": 0.972,
     "source": "paper-sim",
-    "ts": "2026-11-04T09:51:05+00:00",
+    "ts": "2026-11-04T09:52:01+00:00",
     "verdict": "pending",
-    "score": 51.9,
-    "recommendation": "PASS"
+    "score": 86.1,
+    "recommendation": "TAKE"
   },
-  "cycle": 6135,
+  "cycle": 6138,
   "fills": [
     {
       "fill": 469.92,
@@ -234,5 +233,6 @@
       "symbol": "TSLA",
       "at": "2026-11-04T08:47:06+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T09:52:10+00:00"
 }
