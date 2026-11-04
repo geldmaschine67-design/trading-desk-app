@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 10 BTC-USD @ 137.33",
-      "at": "2026-11-04T11:35:17+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T11:36:39+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T11:35:19+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 75.3 TAKE",
-      "at": "2026-11-04T11:35:22+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T11:35:26+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-04T11:35:25+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 261.6323
     }
   ],
-  "pnl": 8927.16,
-  "updated_at": "2026-11-04T11:35:27+00:00",
+  "pnl": 9034.48,
   "realized_pnl": 7099.75,
-  "unrealized_pnl": 1827.41,
+  "unrealized_pnl": 1934.73,
   "last_signal": {
-    "id": "a9f5f7b7",
-    "symbol": "BTC-USD",
+    "id": "502cdc00",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 137.33,
-    "qty": 10,
-    "strength": 0.664,
+    "price": 52.38,
+    "qty": 2,
+    "strength": 0.413,
     "source": "paper-sim",
-    "ts": "2026-11-04T11:35:17+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 75.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T11:36:25+00:00",
+    "verdict": "pass (score 41.3)",
+    "score": 41.3,
+    "recommendation": "PASS"
   },
-  "cycle": 6426,
+  "cycle": 6431,
   "fills": [
     {
       "fill": 253.26,
@@ -234,5 +225,6 @@
       "symbol": "NVDA",
       "at": "2026-11-04T10:12:59+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T11:36:39+00:00"
 }
