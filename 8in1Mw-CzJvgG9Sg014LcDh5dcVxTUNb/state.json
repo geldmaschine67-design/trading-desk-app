@@ -4,8 +4,8 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 SPY @ 44.51",
-      "at": "2026-11-04T23:25:03+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T23:26:02+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,23 @@
       "avg": 263.5986
     }
   ],
-  "pnl": 7876.66,
+  "pnl": 7838.5,
   "realized_pnl": 10443.26,
-  "unrealized_pnl": -2566.6,
+  "unrealized_pnl": -2604.76,
   "last_signal": {
-    "id": "4c69fd3e",
-    "symbol": "SPY",
-    "side": "SELL",
-    "price": 44.51,
+    "id": "db7477ae",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 158.43,
     "qty": 10,
-    "strength": 0.504,
+    "strength": 0.148,
     "source": "paper-sim",
-    "ts": "2026-11-04T23:25:03+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T23:25:46+00:00",
+    "verdict": "pass (score 16.8)",
+    "score": 16.8,
+    "recommendation": "PASS"
   },
-  "cycle": 8399,
+  "cycle": 8402,
   "fills": [
     {
       "fill": 44.66,
@@ -224,5 +226,5 @@
       "at": "2026-11-04T22:01:44+00:00"
     }
   ],
-  "updated_at": "2026-11-04T23:25:03+00:00"
+  "updated_at": "2026-11-04T23:26:03+00:00"
 }
