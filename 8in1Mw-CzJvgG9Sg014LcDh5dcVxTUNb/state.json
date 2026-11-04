@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T06:41:47+00:00"
+      "note": "BUY 10 QQQ @ 426.38",
+      "at": "2026-11-04T06:42:38+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T06:42:40+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 31.3 PASS",
+      "at": "2026-11-04T06:42:43+00:00"
     },
     "risk": {
       "status": "idle"
@@ -33,7 +37,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -57,
+      "qty": -55,
       "avg": 303.3019
     },
     {
@@ -47,24 +51,32 @@
       "avg": 281.7262
     }
   ],
-  "pnl": 7596.65,
-  "realized_pnl": 6692.85,
-  "unrealized_pnl": 903.8,
+  "pnl": 7466.6,
+  "realized_pnl": 6719.63,
+  "unrealized_pnl": 746.97,
   "last_signal": {
-    "id": "5c1b7e41",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 87.89,
+    "id": "b9cb8cd6",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 426.38,
     "qty": 10,
-    "strength": 0.396,
+    "strength": 0.134,
     "source": "paper-sim",
-    "ts": "2026-11-04T06:41:32+00:00",
-    "verdict": "pass (score 34.9)",
-    "score": 34.9,
+    "ts": "2026-11-04T06:42:38+00:00",
+    "verdict": "pass (score 31.3)",
+    "score": 31.3,
     "recommendation": "PASS"
   },
-  "cycle": 5609,
+  "cycle": 5612,
   "fills": [
+    {
+      "fill": 289.91,
+      "qty": 2,
+      "realized": 26.78,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T06:42:27+00:00"
+    },
     {
       "fill": 286.88,
       "qty": -10,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-04T05:46:10+00:00"
-    },
-    {
-      "fill": 682.08,
-      "qty": 2,
-      "realized": -87.12,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-04T05:41:38+00:00"
     }
   ],
-  "updated_at": "2026-11-04T06:41:48+00:00"
+  "updated_at": "2026-11-04T06:42:44+00:00"
 }
