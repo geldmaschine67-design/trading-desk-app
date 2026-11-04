@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 2 BTC-USD @ 138.93",
-      "at": "2026-11-04T11:39:37+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T11:41:21+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T11:39:39+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 72.6 TAKE",
-      "at": "2026-11-04T11:39:41+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 5 NVDA @ 632.37",
-      "at": "2026-11-04T11:37:49+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T11:39:43+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,10 +47,9 @@
       "avg": 261.6323
     }
   ],
-  "pnl": 9051.0,
-  "updated_at": "2026-11-04T11:39:43+00:00",
+  "pnl": 9055.97,
   "realized_pnl": 7148.87,
-  "unrealized_pnl": 1902.13,
+  "unrealized_pnl": 1907.1,
   "last_signal": {
     "id": "8345996a",
     "symbol": "BTC-USD",
@@ -68,11 +59,11 @@
     "strength": 0.995,
     "source": "paper-sim",
     "ts": "2026-11-04T11:39:37+00:00",
-    "verdict": "pending",
+    "verdict": "risk blocked: max positions",
     "score": 72.6,
     "recommendation": "TAKE"
   },
-  "cycle": 6440,
+  "cycle": 6441,
   "fills": [
     {
       "fill": 632.37,
@@ -234,5 +225,6 @@
       "symbol": "AMZN",
       "at": "2026-11-04T10:23:12+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T11:41:21+00:00"
 }
