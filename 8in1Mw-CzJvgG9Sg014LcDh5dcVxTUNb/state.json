@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T17:58:42+00:00"
+      "note": "BUY 10 SPY @ 43.77",
+      "at": "2026-11-04T17:59:40+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T17:58:13+00:00"
+      "at": "2026-11-04T17:59:43+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 25.4 PASS",
-      "at": "2026-11-04T17:58:15+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 10 BTC-USD @ 163.09",
-      "at": "2026-11-04T17:57:39+00:00"
+      "note": "score 59.3 PASS",
+      "at": "2026-11-04T17:59:45+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T17:57:37+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 163.09
     }
   ],
-  "pnl": 9507.14,
-  "updated_at": "2026-11-04T17:58:43+00:00",
+  "pnl": 9602.38,
   "realized_pnl": 10076.67,
-  "unrealized_pnl": -569.53,
+  "unrealized_pnl": -474.29,
   "last_signal": {
-    "id": "6cf62bc7",
-    "symbol": "NVDA",
+    "id": "5f45be17",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 704.02,
-    "qty": 2,
-    "strength": 0.008,
+    "price": 43.77,
+    "qty": 10,
+    "strength": 0.72,
     "source": "paper-sim",
-    "ts": "2026-11-04T17:58:11+00:00",
-    "verdict": "pass (score 25.4)",
-    "score": 25.4,
+    "ts": "2026-11-04T17:59:40+00:00",
+    "verdict": "pass (score 59.3)",
+    "score": 59.3,
     "recommendation": "PASS"
   },
-  "cycle": 7500,
+  "cycle": 7503,
   "fills": [
     {
       "fill": 163.09,
@@ -234,5 +229,6 @@
       "symbol": "AAPL",
       "at": "2026-11-04T17:06:49+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T17:59:46+00:00"
 }
