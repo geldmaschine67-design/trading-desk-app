@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T21:19:53+00:00"
+      "status": "idle",
+      "note": "BUY 5 AAPL @ 79.5",
+      "at": "2026-11-04T21:20:52+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T21:20:55+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -33,8 +35,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": -3,
-      "avg": 46.36
+      "qty": -5,
+      "avg": 47.212
     },
     {
       "symbol": "BTC-USD",
@@ -47,24 +49,30 @@
       "avg": 252.24
     }
   ],
-  "pnl": 10128.54,
+  "pnl": 9988.95,
   "realized_pnl": 10330.88,
-  "unrealized_pnl": -202.34,
+  "unrealized_pnl": -341.93,
   "last_signal": {
-    "id": "7ba2f492",
-    "symbol": "NVDA",
+    "id": "a5027c53",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 689.47,
+    "price": 79.5,
     "qty": 5,
-    "strength": 0.248,
+    "strength": 0.505,
     "source": "paper-sim",
-    "ts": "2026-11-04T21:19:35+00:00",
-    "verdict": "pass (score 33.1)",
-    "score": 33.1,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T21:20:52+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8070,
+  "cycle": 8073,
   "fills": [
+    {
+      "fill": 48.49,
+      "qty": -2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-04T21:20:17+00:00"
+    },
     {
       "fill": 164.6,
       "qty": 5,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-04T20:21:36+00:00"
-    },
-    {
-      "fill": 175.14,
-      "qty": -2,
-      "realized": 15.8,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-04T20:19:23+00:00"
     }
   ],
-  "updated_at": "2026-11-04T21:19:53+00:00"
+  "updated_at": "2026-11-04T21:20:55+00:00"
 }
