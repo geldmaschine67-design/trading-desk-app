@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-04T08:04:29+00:00"
+      "note": "SELL 10 SPY @ 51.03",
+      "at": "2026-11-04T08:05:35+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T08:04:10+00:00"
+      "at": "2026-11-04T08:05:37+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 19.7 PASS",
-      "at": "2026-11-04T08:04:12+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 5 AAPL @ 91.03",
-      "at": "2026-11-04T08:03:16+00:00"
+      "note": "score 38.0 PASS",
+      "at": "2026-11-04T08:05:40+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T08:03:14+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 271.2325
     }
   ],
-  "pnl": 8564.43,
-  "updated_at": "2026-11-04T08:04:30+00:00",
+  "pnl": 8291.36,
   "realized_pnl": 7078.67,
-  "unrealized_pnl": 1485.76,
+  "unrealized_pnl": 1212.69,
   "last_signal": {
-    "id": "cb6ba0b8",
-    "symbol": "QQQ",
+    "id": "e531b2f4",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 455.07,
-    "qty": 2,
-    "strength": 0.112,
+    "price": 51.03,
+    "qty": 10,
+    "strength": 0.393,
     "source": "paper-sim",
-    "ts": "2026-11-04T08:04:08+00:00",
-    "verdict": "pass (score 19.7)",
-    "score": 19.7,
+    "ts": "2026-11-04T08:05:35+00:00",
+    "verdict": "pass (score 38.0)",
+    "score": 38.0,
     "recommendation": "PASS"
   },
-  "cycle": 5828,
+  "cycle": 5832,
   "fills": [
     {
       "fill": 91.03,
@@ -234,5 +229,6 @@
       "symbol": "QQQ",
       "at": "2026-11-04T07:14:23+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T08:05:41+00:00"
 }
