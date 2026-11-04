@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T13:49:06+00:00"
+      "status": "idle",
+      "note": "BUY 1 BTC-USD @ 160.62",
+      "at": "2026-11-04T13:50:07+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 50.2747
     }
   ],
-  "pnl": 9295.95,
+  "pnl": 9100.38,
   "realized_pnl": 9575.18,
-  "unrealized_pnl": -279.23,
+  "unrealized_pnl": -474.8,
   "last_signal": {
-    "id": "3db63141",
-    "symbol": "QQQ",
+    "id": "d344eb10",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 488.42,
-    "qty": 10,
-    "strength": 0.801,
+    "price": 160.62,
+    "qty": 1,
+    "strength": 0.427,
     "source": "paper-sim",
-    "ts": "2026-11-04T13:48:45+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 78.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T13:50:07+00:00",
+    "verdict": "pending"
   },
-  "cycle": 6799,
+  "cycle": 6802,
   "fills": [
     {
       "fill": 82.91,
@@ -226,5 +224,5 @@
       "at": "2026-11-04T12:38:15+00:00"
     }
   ],
-  "updated_at": "2026-11-04T13:49:06+00:00"
+  "updated_at": "2026-11-04T13:50:07+00:00"
 }
