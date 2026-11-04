@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 5 SPY @ 50.94",
-      "at": "2026-11-04T00:11:06+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T00:12:30+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T00:11:08+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 82.3 TAKE",
-      "at": "2026-11-04T00:11:11+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T00:11:15+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-04T00:11:13+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 323.03
     }
   ],
-  "pnl": 6270.51,
-  "updated_at": "2026-11-04T00:11:16+00:00",
+  "pnl": 6211.52,
   "realized_pnl": 6171.8,
-  "unrealized_pnl": 98.71,
+  "unrealized_pnl": 39.72,
   "last_signal": {
-    "id": "bd26a8a3",
-    "symbol": "SPY",
+    "id": "e8c57fbb",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 50.94,
-    "qty": 5,
-    "strength": 0.811,
+    "price": 322.62,
+    "qty": 10,
+    "strength": 0.579,
     "source": "paper-sim",
-    "ts": "2026-11-04T00:11:06+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 82.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T00:12:16+00:00",
+    "verdict": "pass (score 45.7)",
+    "score": 45.7,
+    "recommendation": "PASS"
   },
-  "cycle": 4493,
+  "cycle": 4497,
   "fills": [
     {
       "fill": 325.55,
@@ -234,5 +225,6 @@
       "symbol": "AAPL",
       "at": "2026-11-03T23:07:11+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T00:12:30+00:00"
 }
