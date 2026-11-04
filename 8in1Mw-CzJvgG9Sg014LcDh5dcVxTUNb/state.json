@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 NVDA @ 636.63",
-      "at": "2026-11-04T00:08:22+00:00"
+      "note": "BUY 1 MSFT @ 111.47",
+      "at": "2026-11-04T00:09:23+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T00:08:25+00:00"
+      "at": "2026-11-04T00:09:26+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T00:09:27+00:00"
     },
     "risk": {
       "status": "idle"
@@ -49,21 +51,21 @@
       "avg": 323.03
     }
   ],
-  "pnl": 6007.12,
+  "pnl": 6139.99,
   "realized_pnl": 6171.8,
-  "unrealized_pnl": -164.68,
+  "unrealized_pnl": -31.81,
   "last_signal": {
-    "id": "0b669a27",
-    "symbol": "NVDA",
+    "id": "2e6aff6b",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 636.63,
-    "qty": 5,
-    "strength": 0.316,
+    "price": 111.47,
+    "qty": 1,
+    "strength": 0.858,
     "source": "paper-sim",
-    "ts": "2026-11-04T00:08:22+00:00",
+    "ts": "2026-11-04T00:09:23+00:00",
     "verdict": "pending"
   },
-  "cycle": 4484,
+  "cycle": 4487,
   "fills": [
     {
       "fill": 325.55,
@@ -226,5 +228,5 @@
       "at": "2026-11-03T23:07:11+00:00"
     }
   ],
-  "updated_at": "2026-11-04T00:08:25+00:00"
+  "updated_at": "2026-11-04T00:09:27+00:00"
 }
