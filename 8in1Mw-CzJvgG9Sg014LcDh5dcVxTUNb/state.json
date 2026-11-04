@@ -4,20 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 BTC-USD @ 168.67",
-      "at": "2026-11-04T19:23:03+00:00"
+      "note": "BUY 2 BTC-USD @ 170.14",
+      "at": "2026-11-04T19:23:51+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T19:23:54+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 24.3 PASS",
+      "at": "2026-11-04T19:23:56+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -1 BTC-USD @ 168.66",
+      "at": "2026-11-04T19:23:13+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T19:23:11+00:00"
     }
   },
   "positions": [
@@ -43,26 +51,37 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": 5,
+      "qty": 4,
       "avg": 171.5083
     }
   ],
-  "pnl": 9147.17,
-  "realized_pnl": 9900.99,
-  "unrealized_pnl": -753.82,
+  "pnl": 9162.78,
+  "updated_at": "2026-11-04T19:23:58+00:00",
+  "realized_pnl": 9898.14,
+  "unrealized_pnl": -735.36,
   "last_signal": {
-    "id": "86d62d94",
+    "id": "53336c81",
     "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 168.67,
-    "qty": 1,
-    "strength": 0.921,
+    "side": "BUY",
+    "price": 170.14,
+    "qty": 2,
+    "strength": 0.231,
     "source": "paper-sim",
-    "ts": "2026-11-04T19:23:03+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T19:23:51+00:00",
+    "verdict": "pass (score 24.3)",
+    "score": 24.3,
+    "recommendation": "PASS"
   },
-  "cycle": 7735,
+  "cycle": 7737,
   "fills": [
+    {
+      "fill": 168.66,
+      "qty": -1,
+      "realized": -2.85,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-04T19:23:13+00:00"
+    },
     {
       "fill": 252.52,
       "qty": 10,
@@ -214,15 +233,6 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-04T18:34:19+00:00"
-    },
-    {
-      "fill": 43.06,
-      "qty": 10,
-      "realized": 23.19,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-04T18:32:09+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T19:23:03+00:00"
+  ]
 }
