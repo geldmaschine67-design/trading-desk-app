@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 10 QQQ @ 473.93",
-      "at": "2026-11-04T21:01:09+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T21:02:28+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T21:01:12+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +47,23 @@
       "avg": 251.1233
     }
   ],
-  "pnl": 10682.07,
+  "pnl": 10595.19,
   "realized_pnl": 10277.42,
-  "unrealized_pnl": 404.65,
+  "unrealized_pnl": 317.77,
   "last_signal": {
-    "id": "0c3c8fc3",
-    "symbol": "QQQ",
-    "side": "BUY",
-    "price": 473.93,
+    "id": "60d56ef8",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 250.95,
     "qty": 10,
-    "strength": 0.861,
+    "strength": 0.035,
     "source": "paper-sim",
-    "ts": "2026-11-04T21:01:09+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T21:01:34+00:00",
+    "verdict": "pass (score 15.3)",
+    "score": 15.3,
+    "recommendation": "PASS"
   },
-  "cycle": 8013,
+  "cycle": 8015,
   "fills": [
     {
       "fill": 250.12,
@@ -226,5 +226,5 @@
       "at": "2026-11-04T19:44:59+00:00"
     }
   ],
-  "updated_at": "2026-11-04T21:01:12+00:00"
+  "updated_at": "2026-11-04T21:02:28+00:00"
 }
