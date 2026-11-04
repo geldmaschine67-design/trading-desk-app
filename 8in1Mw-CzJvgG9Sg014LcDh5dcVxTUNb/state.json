@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 5 AAPL @ 81.54",
-      "at": "2026-11-04T22:09:01+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T22:11:28+00:00"
     },
     "auditor": {
       "status": "idle",
@@ -55,10 +55,10 @@
       "avg": 263.9015
     }
   ],
-  "pnl": 9838.46,
-  "updated_at": "2026-11-04T22:09:07+00:00",
+  "pnl": 9691.36,
+  "updated_at": "2026-11-04T22:11:28+00:00",
   "realized_pnl": 10363.14,
-  "unrealized_pnl": -524.68,
+  "unrealized_pnl": -671.78,
   "last_signal": {
     "id": "1a239335",
     "symbol": "AAPL",
@@ -72,7 +72,7 @@
     "score": 26.0,
     "recommendation": "PASS"
   },
-  "cycle": 8185,
+  "cycle": 8187,
   "fills": [
     {
       "fill": 264.66,
