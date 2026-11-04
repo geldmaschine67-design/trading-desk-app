@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AAPL @ 89.24",
-      "at": "2026-11-04T07:59:21+00:00"
+      "note": "BUY 2 SPY @ 51.03",
+      "at": "2026-11-04T08:00:18+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T07:59:22+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T08:00:21+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 52.3 PASS",
+      "at": "2026-11-04T08:00:23+00:00"
     },
     "risk": {
       "status": "idle"
@@ -30,8 +32,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -23,
-      "avg": 87.7801
+      "qty": -24,
+      "avg": 87.8409
     },
     {
       "symbol": "AMZN",
@@ -49,22 +51,32 @@
       "avg": 271.2325
     }
   ],
-  "pnl": 7455.45,
+  "pnl": 7781.66,
   "realized_pnl": 7071.65,
-  "unrealized_pnl": 383.8,
+  "unrealized_pnl": 710.01,
   "last_signal": {
-    "id": "0c4da2b4",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 89.24,
-    "qty": 1,
-    "strength": 0.795,
+    "id": "7697ed22",
+    "symbol": "SPY",
+    "side": "BUY",
+    "price": 51.03,
+    "qty": 2,
+    "strength": 0.561,
     "source": "paper-sim",
-    "ts": "2026-11-04T07:59:21+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T08:00:18+00:00",
+    "verdict": "pass (score 52.3)",
+    "score": 52.3,
+    "recommendation": "PASS"
   },
-  "cycle": 5816,
+  "cycle": 5819,
   "fills": [
+    {
+      "fill": 89.24,
+      "qty": -1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-04T07:59:31+00:00"
+    },
     {
       "fill": 275.44,
       "qty": 5,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "AAPL",
       "at": "2026-11-04T07:11:09+00:00"
-    },
-    {
-      "fill": 263.77,
-      "qty": 5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-04T07:09:32+00:00"
     }
   ],
-  "updated_at": "2026-11-04T07:59:22+00:00"
+  "updated_at": "2026-11-04T08:00:23+00:00"
 }
