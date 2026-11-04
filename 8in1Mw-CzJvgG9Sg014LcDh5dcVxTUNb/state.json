@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 BTC-USD @ 167.96",
-      "at": "2026-11-04T14:48:27+00:00"
+      "note": "BUY 10 SPY @ 48.3",
+      "at": "2026-11-04T14:49:23+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T14:48:30+00:00"
+      "at": "2026-11-04T14:49:25+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T14:48:31+00:00"
+      "status": "idle",
+      "note": "score 78.5 TAKE",
+      "at": "2026-11-04T14:49:28+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T14:49:30+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T14:49:32+00:00"
     }
   },
   "positions": [
@@ -51,21 +55,23 @@
       "avg": 50.3933
     }
   ],
-  "pnl": 9892.68,
+  "pnl": 9921.51,
   "realized_pnl": 9892.73,
-  "unrealized_pnl": -0.05,
+  "unrealized_pnl": 28.78,
   "last_signal": {
-    "id": "764fe04a",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 167.96,
-    "qty": 1,
-    "strength": 0.568,
+    "id": "77b88af4",
+    "symbol": "SPY",
+    "side": "BUY",
+    "price": 48.3,
+    "qty": 10,
+    "strength": 0.765,
     "source": "paper-sim",
-    "ts": "2026-11-04T14:48:27+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T14:49:23+00:00",
+    "verdict": "pending",
+    "score": 78.5,
+    "recommendation": "TAKE"
   },
-  "cycle": 6963,
+  "cycle": 6966,
   "fills": [
     {
       "fill": 691.29,
@@ -228,5 +234,5 @@
       "at": "2026-11-04T13:11:02+00:00"
     }
   ],
-  "updated_at": "2026-11-04T14:48:31+00:00"
+  "updated_at": "2026-11-04T14:49:32+00:00"
 }
