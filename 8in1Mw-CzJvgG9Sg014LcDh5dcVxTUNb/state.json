@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T15:41:43+00:00"
+      "status": "idle",
+      "note": "BUY 1 AAPL @ 79.83",
+      "at": "2026-11-04T15:43:58+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T15:44:01+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T15:44:02+00:00"
     },
     "risk": {
       "status": "idle"
@@ -28,8 +32,8 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -26,
-      "avg": 246.3096
+      "qty": -27,
+      "avg": 245.9855
     },
     {
       "symbol": "NVDA",
@@ -47,24 +51,30 @@
       "avg": 49.6528
     }
   ],
-  "pnl": 9713.33,
+  "pnl": 9407.52,
   "realized_pnl": 10420.33,
-  "unrealized_pnl": -707.0,
+  "unrealized_pnl": -1012.81,
   "last_signal": {
-    "id": "4ac07012",
+    "id": "9bed2793",
     "symbol": "AAPL",
     "side": "BUY",
-    "price": 79.07,
+    "price": 79.83,
     "qty": 1,
-    "strength": 0.952,
+    "strength": 0.391,
     "source": "paper-sim",
-    "ts": "2026-11-04T15:41:17+00:00",
-    "verdict": "PAPER filled 1 @ 79.11",
-    "score": 83.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T15:43:58+00:00",
+    "verdict": "pending"
   },
-  "cycle": 7109,
+  "cycle": 7116,
   "fills": [
+    {
+      "fill": 237.56,
+      "qty": -1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T15:42:37+00:00"
+    },
     {
       "fill": 79.11,
       "qty": 1,
@@ -216,15 +226,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-04T14:54:06+00:00"
-    },
-    {
-      "fill": 47.9,
-      "qty": -10,
-      "realized": -17.53,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-04T14:52:46+00:00"
     }
   ],
-  "updated_at": "2026-11-04T15:41:43+00:00"
+  "updated_at": "2026-11-04T15:44:02+00:00"
 }
