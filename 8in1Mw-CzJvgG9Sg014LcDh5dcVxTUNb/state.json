@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 1 QQQ @ 445.21",
-      "at": "2026-11-04T18:57:46+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T18:59:04+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T18:57:49+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 94.7 TAKE",
-      "at": "2026-11-04T18:57:51+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-04T18:57:54+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T18:57:55+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,23 +47,23 @@
       "avg": 172.25
     }
   ],
-  "pnl": 9672.44,
+  "pnl": 9558.85,
   "realized_pnl": 9946.8,
-  "unrealized_pnl": -274.36,
+  "unrealized_pnl": -387.95,
   "last_signal": {
-    "id": "5fd9d600",
-    "symbol": "QQQ",
+    "id": "a28daf94",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 445.21,
-    "qty": 1,
-    "strength": 0.925,
+    "price": 119.05,
+    "qty": 10,
+    "strength": 0.668,
     "source": "paper-sim",
-    "ts": "2026-11-04T18:57:46+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 94.7,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T18:58:48+00:00",
+    "verdict": "pass (score 57.2)",
+    "score": 57.2,
+    "recommendation": "PASS"
   },
-  "cycle": 7659,
+  "cycle": 7663,
   "fills": [
     {
       "fill": 172.25,
@@ -234,5 +226,5 @@
       "at": "2026-11-04T17:53:55+00:00"
     }
   ],
-  "updated_at": "2026-11-04T18:57:57+00:00"
+  "updated_at": "2026-11-04T18:59:04+00:00"
 }
