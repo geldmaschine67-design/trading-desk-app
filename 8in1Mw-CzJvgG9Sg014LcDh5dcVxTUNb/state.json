@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 1 BTC-USD @ 164.82",
-      "at": "2026-11-04T16:07:32+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T16:11:50+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,21 +47,23 @@
       "avg": 49.5801
     }
   ],
-  "pnl": 8742.68,
+  "pnl": 8821.18,
   "realized_pnl": 10350.22,
-  "unrealized_pnl": -1607.54,
+  "unrealized_pnl": -1529.04,
   "last_signal": {
-    "id": "cfbb67dd",
-    "symbol": "BTC-USD",
+    "id": "7b4c7adb",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 164.82,
-    "qty": 1,
-    "strength": 0.11,
+    "price": 81.06,
+    "qty": 5,
+    "strength": 0.365,
     "source": "paper-sim",
-    "ts": "2026-11-04T16:07:32+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T16:08:21+00:00",
+    "verdict": "pass (score 54.2)",
+    "score": 54.2,
+    "recommendation": "PASS"
   },
-  "cycle": 7185,
+  "cycle": 7189,
   "fills": [
     {
       "fill": 242.78,
@@ -224,5 +226,5 @@
       "at": "2026-11-04T15:08:10+00:00"
     }
   ],
-  "updated_at": "2026-11-04T16:07:32+00:00"
+  "updated_at": "2026-11-04T16:11:50+00:00"
 }
