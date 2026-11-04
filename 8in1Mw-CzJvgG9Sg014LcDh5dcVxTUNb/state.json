@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 QQQ @ 435.8",
-      "at": "2026-11-04T12:47:16+00:00"
+      "note": "no signal",
+      "at": "2026-11-04T12:48:13+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T12:47:18+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T12:47:54+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 69.2 PASS",
+      "at": "2026-11-04T12:47:56+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -10 AAPL @ 90.11",
+      "at": "2026-11-04T12:46:59+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T12:46:57+00:00"
     }
   },
   "positions": [
@@ -49,21 +55,24 @@
       "avg": 259.0332
     }
   ],
-  "pnl": 9120.54,
+  "pnl": 9219.45,
+  "updated_at": "2026-11-04T12:48:14+00:00",
   "realized_pnl": 9106.45,
-  "unrealized_pnl": 14.09,
+  "unrealized_pnl": 113.0,
   "last_signal": {
-    "id": "e2f9a3d8",
+    "id": "d6dcd4ca",
     "symbol": "QQQ",
     "side": "BUY",
-    "price": 435.8,
-    "qty": 2,
-    "strength": 0.52,
+    "price": 438.99,
+    "qty": 5,
+    "strength": 0.691,
     "source": "paper-sim",
-    "ts": "2026-11-04T12:47:16+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T12:47:52+00:00",
+    "verdict": "pass (score 69.2)",
+    "score": 69.2,
+    "recommendation": "PASS"
   },
-  "cycle": 6623,
+  "cycle": 6626,
   "fills": [
     {
       "fill": 90.11,
@@ -225,6 +234,5 @@
       "symbol": "NVDA",
       "at": "2026-11-04T11:48:04+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T12:47:18+00:00"
+  ]
 }
