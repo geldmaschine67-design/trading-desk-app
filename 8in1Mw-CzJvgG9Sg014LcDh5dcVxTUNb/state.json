@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 BTC-USD @ 160.17",
-      "at": "2026-11-04T15:53:54+00:00"
+      "note": "SELL 10 QQQ @ 470.43",
+      "at": "2026-11-04T15:54:52+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-04T15:54:55+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T15:54:56+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,21 +51,21 @@
       "avg": 49.4846
     }
   ],
-  "pnl": 9912.86,
+  "pnl": 9812.0,
   "realized_pnl": 10350.22,
-  "unrealized_pnl": -437.36,
+  "unrealized_pnl": -538.22,
   "last_signal": {
-    "id": "d6e6d174",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 160.17,
-    "qty": 5,
-    "strength": 0.684,
+    "id": "03807811",
+    "symbol": "QQQ",
+    "side": "SELL",
+    "price": 470.43,
+    "qty": 10,
+    "strength": 0.148,
     "source": "paper-sim",
-    "ts": "2026-11-04T15:53:54+00:00",
+    "ts": "2026-11-04T15:54:52+00:00",
     "verdict": "pending"
   },
-  "cycle": 7146,
+  "cycle": 7149,
   "fills": [
     {
       "fill": 49.35,
@@ -224,5 +228,5 @@
       "at": "2026-11-04T14:56:28+00:00"
     }
   ],
-  "updated_at": "2026-11-04T15:53:54+00:00"
+  "updated_at": "2026-11-04T15:54:56+00:00"
 }
