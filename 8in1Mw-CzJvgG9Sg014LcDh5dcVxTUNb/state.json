@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 SPY @ 49.52",
-      "at": "2026-11-04T04:21:40+00:00"
+      "note": "SELL 1 MSFT @ 106.04",
+      "at": "2026-11-04T04:22:28+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T04:21:42+00:00"
+      "at": "2026-11-04T04:22:31+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 35.5 PASS",
-      "at": "2026-11-04T04:21:44+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 75.8 TAKE",
+      "at": "2026-11-04T04:22:33+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-04T04:22:37+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-04T04:22:36+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 297.9346
     }
   ],
-  "pnl": 6142.68,
+  "pnl": 6434.95,
+  "updated_at": "2026-11-04T04:22:39+00:00",
   "realized_pnl": 5899.98,
-  "unrealized_pnl": 242.7,
+  "unrealized_pnl": 534.97,
   "last_signal": {
-    "id": "252c5053",
-    "symbol": "SPY",
+    "id": "e3c8e13d",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 49.52,
-    "qty": 10,
-    "strength": 0.288,
+    "price": 106.04,
+    "qty": 1,
+    "strength": 0.956,
     "source": "paper-sim",
-    "ts": "2026-11-04T04:21:40+00:00",
-    "verdict": "pass (score 35.5)",
-    "score": 35.5,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T04:22:28+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 75.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 5222,
+  "cycle": 5225,
   "fills": [
     {
       "fill": 82.95,
@@ -229,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-04T03:14:44+00:00"
     }
-  ],
-  "updated_at": "2026-11-04T04:21:46+00:00"
+  ]
 }
