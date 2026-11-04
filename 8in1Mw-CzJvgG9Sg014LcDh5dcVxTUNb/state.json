@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 1 BTC-USD @ 140.22",
-      "at": "2026-11-04T09:10:16+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-04T09:11:18+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T09:10:17+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -35,7 +33,7 @@
     },
     {
       "symbol": "AMZN",
-      "qty": -55,
+      "qty": -53,
       "avg": 290.7128
     },
     {
@@ -49,22 +47,32 @@
       "avg": 270.0037
     }
   ],
-  "pnl": 8532.78,
-  "realized_pnl": 7253.31,
-  "unrealized_pnl": 1279.47,
+  "pnl": 8417.26,
+  "realized_pnl": 7298.74,
+  "unrealized_pnl": 1118.52,
   "last_signal": {
-    "id": "9e99fc53",
-    "symbol": "BTC-USD",
+    "id": "3c79783f",
+    "symbol": "AMZN",
     "side": "BUY",
-    "price": 140.22,
-    "qty": 1,
-    "strength": 0.215,
+    "price": 267.96,
+    "qty": 2,
+    "strength": 0.808,
     "source": "paper-sim",
-    "ts": "2026-11-04T09:10:16+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-04T09:10:56+00:00",
+    "verdict": "PAPER filled 2 @ 268.0",
+    "score": 86.3,
+    "recommendation": "TAKE"
   },
-  "cycle": 6018,
+  "cycle": 6021,
   "fills": [
+    {
+      "fill": 268.0,
+      "qty": 2,
+      "realized": 45.43,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-04T09:11:06+00:00"
+    },
     {
       "fill": 669.45,
       "qty": -2,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "QQQ",
       "at": "2026-11-04T08:20:19+00:00"
-    },
-    {
-      "fill": 278.95,
-      "qty": 2,
-      "realized": 40.32,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T08:16:38+00:00"
     }
   ],
-  "updated_at": "2026-11-04T09:10:17+00:00"
+  "updated_at": "2026-11-04T09:11:18+00:00"
 }
