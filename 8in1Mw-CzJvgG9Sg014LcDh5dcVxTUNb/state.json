@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T23:24:01+00:00"
+      "status": "idle",
+      "note": "SELL 10 SPY @ 44.51",
+      "at": "2026-11-04T23:25:03+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 263.5986
     }
   ],
-  "pnl": 8006.44,
+  "pnl": 7876.66,
   "realized_pnl": 10443.26,
-  "unrealized_pnl": -2436.82,
+  "unrealized_pnl": -2566.6,
   "last_signal": {
-    "id": "76ab9c8e",
+    "id": "4c69fd3e",
     "symbol": "SPY",
     "side": "SELL",
-    "price": 44.66,
-    "qty": 5,
-    "strength": 0.825,
+    "price": 44.51,
+    "qty": 10,
+    "strength": 0.504,
     "source": "paper-sim",
-    "ts": "2026-11-04T23:23:39+00:00",
-    "verdict": "PAPER filled -5 @ 44.66",
-    "score": 84.2,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T23:25:03+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8396,
+  "cycle": 8399,
   "fills": [
     {
       "fill": 44.66,
@@ -226,5 +224,5 @@
       "at": "2026-11-04T22:01:44+00:00"
     }
   ],
-  "updated_at": "2026-11-04T23:24:01+00:00"
+  "updated_at": "2026-11-04T23:25:03+00:00"
 }
