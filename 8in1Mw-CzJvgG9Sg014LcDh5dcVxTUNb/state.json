@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 MSFT @ 107.75",
-      "at": "2026-11-04T02:07:05+00:00"
+      "note": "SELL 5 NVDA @ 618.5",
+      "at": "2026-11-04T02:08:25+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T02:07:08+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 70.6 TAKE",
-      "at": "2026-11-04T02:07:10+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T02:07:15+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-04T02:07:14+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,21 @@
       "avg": 302.0739
     }
   ],
-  "pnl": 6778.71,
-  "updated_at": "2026-11-04T02:07:17+00:00",
+  "pnl": 6806.23,
   "realized_pnl": 6322.41,
-  "unrealized_pnl": 456.3,
+  "unrealized_pnl": 483.82,
   "last_signal": {
-    "id": "1f2efade",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 107.75,
+    "id": "e1ff1ebd",
+    "symbol": "NVDA",
+    "side": "SELL",
+    "price": 618.5,
     "qty": 5,
-    "strength": 0.622,
+    "strength": 0.149,
     "source": "paper-sim",
-    "ts": "2026-11-04T02:07:05+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 70.6,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T02:08:25+00:00",
+    "verdict": "pending"
   },
-  "cycle": 4841,
+  "cycle": 4845,
   "fills": [
     {
       "fill": 310.79,
@@ -234,5 +223,6 @@
       "symbol": "TSLA",
       "at": "2026-11-04T01:06:43+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T02:08:25+00:00"
 }
