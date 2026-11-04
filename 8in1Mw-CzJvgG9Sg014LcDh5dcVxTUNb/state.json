@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 QQQ @ 452.34",
-      "at": "2026-11-04T15:29:15+00:00"
+      "note": "SELL 2 QQQ @ 459.22",
+      "at": "2026-11-04T15:30:17+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T15:29:18+00:00"
+      "at": "2026-11-04T15:30:20+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 72.8 TAKE",
-      "at": "2026-11-04T15:29:20+00:00"
+      "note": "score 7.0 PASS",
+      "at": "2026-11-04T15:30:22+00:00"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-04T15:29:23+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T15:29:24+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,23 +51,23 @@
       "avg": 49.6528
     }
   ],
-  "pnl": 10429.48,
+  "pnl": 10536.09,
   "realized_pnl": 10229.13,
-  "unrealized_pnl": 200.35,
+  "unrealized_pnl": 306.96,
   "last_signal": {
-    "id": "dce956b8",
+    "id": "44194b7a",
     "symbol": "QQQ",
     "side": "SELL",
-    "price": 452.34,
+    "price": 459.22,
     "qty": 2,
-    "strength": 0.877,
+    "strength": 0.083,
     "source": "paper-sim",
-    "ts": "2026-11-04T15:29:15+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 72.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T15:30:17+00:00",
+    "verdict": "pass (score 7.0)",
+    "score": 7.0,
+    "recommendation": "PASS"
   },
-  "cycle": 7069,
+  "cycle": 7072,
   "fills": [
     {
       "fill": 231.37,
@@ -234,5 +230,5 @@
       "at": "2026-11-04T14:34:42+00:00"
     }
   ],
-  "updated_at": "2026-11-04T15:29:24+00:00"
+  "updated_at": "2026-11-04T15:30:23+00:00"
 }
