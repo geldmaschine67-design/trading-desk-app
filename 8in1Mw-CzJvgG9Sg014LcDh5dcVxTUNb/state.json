@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 TSLA @ 286.06",
-      "at": "2026-11-04T04:17:37+00:00"
+      "note": "SELL 2 AAPL @ 82.96",
+      "at": "2026-11-04T04:18:26+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-04T04:17:40+00:00"
+      "at": "2026-11-04T04:18:28+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-04T04:17:41+00:00"
+      "status": "idle",
+      "note": "score 78.4 TAKE",
+      "at": "2026-11-04T04:18:31+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T04:16:46+00:00"
+      "note": "PAPER fill -2 AAPL @ 82.95",
+      "at": "2026-11-04T04:18:36+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-04T04:16:44+00:00"
+      "note": "ok",
+      "at": "2026-11-04T04:18:34+00:00"
     }
   },
   "positions": [
@@ -36,8 +36,8 @@
     },
     {
       "symbol": "AAPL",
-      "qty": -43,
-      "avg": 88.5982
+      "qty": -45,
+      "avg": 88.3472
     },
     {
       "symbol": "AMZN",
@@ -46,34 +46,58 @@
     },
     {
       "symbol": "NVDA",
-      "qty": -16,
-      "avg": 622.2622
+      "qty": -21,
+      "avg": 638.5188
     },
     {
       "symbol": "TSLA",
-      "qty": 10,
+      "qty": 8,
       "avg": 297.9346
     }
   ],
-  "pnl": 6427.77,
-  "updated_at": "2026-11-04T04:17:41+00:00",
-  "realized_pnl": 5923.95,
-  "unrealized_pnl": 503.82,
+  "pnl": 6412.04,
+  "updated_at": "2026-11-04T04:18:38+00:00",
+  "realized_pnl": 5899.98,
+  "unrealized_pnl": 512.06,
   "last_signal": {
-    "id": "27a2b209",
-    "symbol": "TSLA",
+    "id": "eabb235f",
+    "symbol": "AAPL",
     "side": "SELL",
-    "price": 286.06,
+    "price": 82.96,
     "qty": 2,
-    "strength": 0.844,
+    "strength": 0.79,
     "source": "paper-sim",
-    "ts": "2026-11-04T04:17:37+00:00",
-    "verdict": "pending",
-    "score": 43.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T04:18:26+00:00",
+    "verdict": "PAPER filled -2 @ 82.95",
+    "score": 78.4,
+    "recommendation": "TAKE"
   },
-  "cycle": 5210,
+  "cycle": 5212,
   "fills": [
+    {
+      "fill": 82.95,
+      "qty": -2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AAPL",
+      "at": "2026-11-04T04:18:36+00:00"
+    },
+    {
+      "fill": 690.54,
+      "qty": -5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-04T04:18:09+00:00"
+    },
+    {
+      "fill": 285.95,
+      "qty": -2,
+      "realized": -23.97,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-04T04:17:47+00:00"
+    },
     {
       "fill": 293.35,
       "qty": -5,
@@ -209,30 +233,6 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-04T03:14:44+00:00"
-    },
-    {
-      "fill": 95.49,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AAPL",
-      "at": "2026-11-04T03:07:42+00:00"
-    },
-    {
-      "fill": 301.66,
-      "qty": -10,
-      "realized": -4.14,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-04T03:07:02+00:00"
-    },
-    {
-      "fill": 657.01,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-04T03:02:50+00:00"
     }
   ]
 }
