@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-04T22:12:29+00:00"
+      "status": "idle",
+      "note": "SELL 2 AAPL @ 82.19",
+      "at": "2026-11-04T22:13:30+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -23,7 +23,7 @@
   "positions": [
     {
       "symbol": "NVDA",
-      "qty": -7,
+      "qty": -6,
       "avg": 710.9043
     },
     {
@@ -47,24 +47,30 @@
       "avg": 263.9015
     }
   ],
-  "pnl": 9911.39,
-  "realized_pnl": 10347.13,
-  "unrealized_pnl": -435.74,
+  "pnl": 9966.29,
+  "realized_pnl": 10363.09,
+  "unrealized_pnl": -396.8,
   "last_signal": {
-    "id": "3ed28d9c",
-    "symbol": "NVDA",
+    "id": "c43dc544",
+    "symbol": "AAPL",
     "side": "SELL",
-    "price": 699.25,
+    "price": 82.19,
     "qty": 2,
-    "strength": 0.893,
+    "strength": 0.434,
     "source": "paper-sim",
-    "ts": "2026-11-04T22:12:08+00:00",
-    "verdict": "PAPER filled -2 @ 698.99",
-    "score": 85.1,
-    "recommendation": "TAKE"
+    "ts": "2026-11-04T22:13:30+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8190,
+  "cycle": 8193,
   "fills": [
+    {
+      "fill": 694.94,
+      "qty": 1,
+      "realized": 15.96,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-04T22:12:40+00:00"
+    },
     {
       "fill": 698.99,
       "qty": -2,
@@ -216,15 +222,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-04T21:03:53+00:00"
-    },
-    {
-      "fill": 250.12,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-04T21:00:33+00:00"
     }
   ],
-  "updated_at": "2026-11-04T22:12:29+00:00"
+  "updated_at": "2026-11-04T22:13:30+00:00"
 }
