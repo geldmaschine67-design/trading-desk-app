@@ -4,11 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 AAPL @ 81.08",
-      "at": "2026-11-04T21:15:46+00:00"
+      "note": "BUY 1 MSFT @ 112.03",
+      "at": "2026-11-04T21:16:47+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T21:16:49+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,21 +49,21 @@
       "avg": 252.24
     }
   ],
-  "pnl": 9762.74,
+  "pnl": 9759.79,
   "realized_pnl": 10330.88,
-  "unrealized_pnl": -568.14,
+  "unrealized_pnl": -571.09,
   "last_signal": {
-    "id": "f28cab95",
-    "symbol": "AAPL",
+    "id": "0ba4c1be",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 81.08,
-    "qty": 5,
-    "strength": 0.127,
+    "price": 112.03,
+    "qty": 1,
+    "strength": 0.276,
     "source": "paper-sim",
-    "ts": "2026-11-04T21:15:46+00:00",
+    "ts": "2026-11-04T21:16:47+00:00",
     "verdict": "pending"
   },
-  "cycle": 8057,
+  "cycle": 8060,
   "fills": [
     {
       "fill": 164.6,
@@ -224,5 +226,5 @@
       "at": "2026-11-04T20:19:23+00:00"
     }
   ],
-  "updated_at": "2026-11-04T21:15:46+00:00"
+  "updated_at": "2026-11-04T21:16:49+00:00"
 }
