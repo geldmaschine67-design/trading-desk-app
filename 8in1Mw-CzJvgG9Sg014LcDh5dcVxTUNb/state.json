@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 BTC-USD @ 122.82",
-      "at": "2026-11-04T03:56:52+00:00"
+      "note": "SELL 2 AMZN @ 289.45",
+      "at": "2026-11-04T03:58:11+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-04T03:56:54+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-04T03:58:12+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 45.3 PASS",
-      "at": "2026-11-04T03:56:57+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-04T03:55:40+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-04T03:55:38+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +49,21 @@
       "avg": 300.1508
     }
   ],
-  "pnl": 7057.88,
-  "updated_at": "2026-11-04T03:56:58+00:00",
+  "pnl": 6938.34,
   "realized_pnl": 5983.1,
-  "unrealized_pnl": 1074.78,
+  "unrealized_pnl": 955.24,
   "last_signal": {
-    "id": "663d1c66",
-    "symbol": "BTC-USD",
+    "id": "2cbe0f78",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 122.82,
-    "qty": 1,
-    "strength": 0.244,
+    "price": 289.45,
+    "qty": 2,
+    "strength": 0.503,
     "source": "paper-sim",
-    "ts": "2026-11-04T03:56:52+00:00",
-    "verdict": "pass (score 45.3)",
-    "score": 45.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-04T03:58:11+00:00",
+    "verdict": "pending"
   },
-  "cycle": 5149,
+  "cycle": 5154,
   "fills": [
     {
       "fill": 87.13,
@@ -234,5 +225,6 @@
       "symbol": "AAPL",
       "at": "2026-11-04T02:23:58+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-04T03:58:12+00:00"
 }
