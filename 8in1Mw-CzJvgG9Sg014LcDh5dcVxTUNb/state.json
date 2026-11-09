@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 SPY @ 47.96",
-      "at": "2026-11-09T23:07:56+00:00"
+      "note": "no signal",
+      "at": "2026-11-09T23:08:17+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T23:07:58+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 42.0 PASS",
-      "at": "2026-11-09T23:08:00+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,9 +47,9 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 3949.13,
+  "pnl": 3830.58,
   "realized_pnl": 8754.85,
-  "unrealized_pnl": -4805.72,
+  "unrealized_pnl": -4924.27,
   "last_signal": {
     "id": "210fd5a0",
     "symbol": "SPY",
@@ -67,7 +63,7 @@
     "score": 42.0,
     "recommendation": "PASS"
   },
-  "cycle": 10278,
+  "cycle": 10279,
   "fills": [
     {
       "fill": 190.28,
@@ -230,5 +226,5 @@
       "at": "2026-11-09T22:00:03+00:00"
     }
   ],
-  "updated_at": "2026-11-09T23:08:02+00:00"
+  "updated_at": "2026-11-09T23:09:09+00:00"
 }
