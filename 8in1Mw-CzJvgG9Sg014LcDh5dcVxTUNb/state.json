@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 2 TSLA @ 212.72",
-      "at": "2026-11-09T13:24:22+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-09T13:25:28+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T13:24:25+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 71.0 TAKE",
-      "at": "2026-11-09T13:24:27+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -32,8 +28,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 102,
-      "avg": 233.8696
+      "qty": 104,
+      "avg": 233.4646
     },
     {
       "symbol": "SPY",
@@ -51,24 +47,32 @@
       "avg": 267.5612
     }
   ],
-  "pnl": 8806.4,
+  "pnl": 8784.9,
   "realized_pnl": 10427.47,
-  "unrealized_pnl": -1621.07,
+  "unrealized_pnl": -1642.57,
   "last_signal": {
-    "id": "531c45e4",
-    "symbol": "TSLA",
+    "id": "2c0d0ee5",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 212.72,
-    "qty": 2,
-    "strength": 0.685,
+    "price": 480.39,
+    "qty": 10,
+    "strength": 0.819,
     "source": "paper-sim",
-    "ts": "2026-11-09T13:24:22+00:00",
-    "verdict": "pending",
-    "score": 71.0,
+    "ts": "2026-11-09T13:25:05+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 86.1,
     "recommendation": "TAKE"
   },
-  "cycle": 8652,
+  "cycle": 8655,
   "fills": [
+    {
+      "fill": 212.81,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T13:24:33+00:00"
+    },
     {
       "fill": 46.56,
       "qty": 1,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-04T23:16:41+00:00"
-    },
-    {
-      "fill": 208.3,
-      "qty": 5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-04T23:10:53+00:00"
     }
   ],
-  "updated_at": "2026-11-09T13:24:27+00:00"
+  "updated_at": "2026-11-09T13:25:28+00:00"
 }
