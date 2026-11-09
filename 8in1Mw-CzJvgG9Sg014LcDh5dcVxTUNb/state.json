@@ -4,30 +4,34 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 TSLA @ 183.97",
-      "at": "2026-11-09T15:00:44+00:00"
+      "note": "SELL 10 TSLA @ 184.9",
+      "at": "2026-11-09T15:01:35+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T15:00:47+00:00"
+      "at": "2026-11-09T15:01:37+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T15:00:48+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 61.1 PASS",
+      "at": "2026-11-09T15:01:39+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 NVDA @ 645.99",
+      "at": "2026-11-09T15:01:23+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T15:01:21+00:00"
     }
   },
   "positions": [
     {
       "symbol": "NVDA",
-      "qty": -10,
+      "qty": -9,
       "avg": 681.1728
     },
     {
@@ -51,22 +55,33 @@
       "avg": 272.2985
     }
   ],
-  "pnl": 5640.3,
-  "realized_pnl": 10845.17,
-  "unrealized_pnl": -5204.87,
+  "pnl": 5751.36,
+  "updated_at": "2026-11-09T15:01:41+00:00",
+  "realized_pnl": 10880.35,
+  "unrealized_pnl": -5128.99,
   "last_signal": {
-    "id": "00704301",
+    "id": "a426e808",
     "symbol": "TSLA",
     "side": "SELL",
-    "price": 183.97,
+    "price": 184.9,
     "qty": 10,
-    "strength": 0.003,
+    "strength": 0.813,
     "source": "paper-sim",
-    "ts": "2026-11-09T15:00:44+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T15:01:35+00:00",
+    "verdict": "pass (score 61.1)",
+    "score": 61.1,
+    "recommendation": "PASS"
   },
-  "cycle": 8918,
+  "cycle": 8921,
   "fills": [
+    {
+      "fill": 645.99,
+      "qty": 1,
+      "realized": 35.18,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-09T15:01:23+00:00"
+    },
     {
       "fill": 621.94,
       "qty": 2,
@@ -218,15 +233,6 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T13:58:39+00:00"
-    },
-    {
-      "fill": 50.14,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-09T13:57:38+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T15:00:48+00:00"
+  ]
 }
