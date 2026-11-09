@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-09T15:59:31+00:00"
+      "status": "idle",
+      "note": "SELL 2 SPY @ 51.06",
+      "at": "2026-11-09T16:00:32+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T16:00:33+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 275.1399
     }
   ],
-  "pnl": 4845.71,
+  "pnl": 4865.3,
   "realized_pnl": 10468.46,
-  "unrealized_pnl": -5622.75,
+  "unrealized_pnl": -5603.16,
   "last_signal": {
-    "id": "3b419890",
-    "symbol": "QQQ",
-    "side": "BUY",
-    "price": 453.55,
-    "qty": 5,
-    "strength": 0.825,
+    "id": "ef41c470",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 51.06,
+    "qty": 2,
+    "strength": 0.22,
     "source": "paper-sim",
-    "ts": "2026-11-09T15:59:07+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 75.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T16:00:32+00:00",
+    "verdict": "pending"
   },
-  "cycle": 9077,
+  "cycle": 9080,
   "fills": [
     {
       "fill": 178.96,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T14:50:31+00:00"
     }
   ],
-  "updated_at": "2026-11-09T15:59:31+00:00"
+  "updated_at": "2026-11-09T16:00:33+00:00"
 }
