@@ -5,27 +5,19 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-09T17:26:11+00:00"
+      "at": "2026-11-09T17:27:13+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T17:25:55+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 40.3 PASS",
-      "at": "2026-11-09T17:25:57+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -2 BTC-USD @ 157.39",
-      "at": "2026-11-09T17:24:34+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T17:24:32+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -46,7 +38,7 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -29,
+      "qty": -24,
       "avg": 166.7809
     },
     {
@@ -55,25 +47,32 @@
       "avg": 297.8
     }
   ],
-  "pnl": 6248.75,
-  "updated_at": "2026-11-09T17:26:12+00:00",
-  "realized_pnl": 9300.77,
-  "unrealized_pnl": -3052.02,
+  "pnl": 6282.32,
+  "realized_pnl": 9345.77,
+  "unrealized_pnl": -3063.45,
   "last_signal": {
-    "id": "e5cef869",
-    "symbol": "AMZN",
-    "side": "BUY",
-    "price": 308.67,
-    "qty": 10,
-    "strength": 0.384,
+    "id": "2d3be301",
+    "symbol": "QQQ",
+    "side": "SELL",
+    "price": 482.85,
+    "qty": 1,
+    "strength": 0.089,
     "source": "paper-sim",
-    "ts": "2026-11-09T17:25:52+00:00",
-    "verdict": "pass (score 40.3)",
-    "score": 40.3,
+    "ts": "2026-11-09T17:26:51+00:00",
+    "verdict": "pass (score 20.0)",
+    "score": 20.0,
     "recommendation": "PASS"
   },
-  "cycle": 9344,
+  "cycle": 9347,
   "fills": [
+    {
+      "fill": 157.78,
+      "qty": 5,
+      "realized": 45.0,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-09T17:26:35+00:00"
+    },
     {
       "fill": 157.39,
       "qty": -2,
@@ -225,14 +224,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-09T16:27:22+00:00"
-    },
-    {
-      "fill": 305.93,
-      "qty": 1,
-      "realized": -16.12,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-09T16:24:48+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T17:27:14+00:00"
 }
