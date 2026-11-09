@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 TSLA @ 181.68",
-      "at": "2026-11-09T15:11:34+00:00"
+      "note": "SELL 10 NVDA @ 660.63",
+      "at": "2026-11-09T15:12:40+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T15:11:36+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 57.6 PASS",
-      "at": "2026-11-09T15:11:39+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -32,7 +28,7 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 124,
+      "qty": 123,
       "avg": 226.4171
     },
     {
@@ -51,24 +47,30 @@
       "avg": 272.2985
     }
   ],
-  "pnl": 5331.43,
-  "realized_pnl": 10880.35,
-  "unrealized_pnl": -5548.92,
+  "pnl": 5116.68,
+  "realized_pnl": 10833.93,
+  "unrealized_pnl": -5717.25,
   "last_signal": {
-    "id": "90a48002",
-    "symbol": "TSLA",
+    "id": "83b83fda",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 181.68,
-    "qty": 1,
-    "strength": 0.735,
+    "price": 660.63,
+    "qty": 10,
+    "strength": 0.702,
     "source": "paper-sim",
-    "ts": "2026-11-09T15:11:34+00:00",
-    "verdict": "pass (score 57.6)",
-    "score": 57.6,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T15:12:40+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8946,
+  "cycle": 8949,
   "fills": [
+    {
+      "fill": 180.0,
+      "qty": -1,
+      "realized": -46.42,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T15:12:24+00:00"
+    },
     {
       "fill": 173.97,
       "qty": -5,
@@ -220,15 +222,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-09T14:14:56+00:00"
-    },
-    {
-      "fill": 600.54,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-09T14:13:06+00:00"
     }
   ],
-  "updated_at": "2026-11-09T15:11:39+00:00"
+  "updated_at": "2026-11-09T15:12:40+00:00"
 }
