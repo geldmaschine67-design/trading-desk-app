@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 5 SPY @ 46.46",
-      "at": "2026-11-09T21:38:45+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-09T21:40:07+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T21:38:47+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 80.5 TAKE",
-      "at": "2026-11-09T21:38:50+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 SPY @ 46.44",
-      "at": "2026-11-09T21:38:55+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T21:38:53+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 308.8035
     }
   ],
-  "pnl": 3852.1,
-  "updated_at": "2026-11-09T21:38:57+00:00",
+  "pnl": 3839.99,
   "realized_pnl": 9289.06,
-  "unrealized_pnl": -5436.96,
+  "unrealized_pnl": -5449.07,
   "last_signal": {
-    "id": "a687cd0f",
-    "symbol": "SPY",
+    "id": "fdea0a21",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 46.46,
-    "qty": 5,
-    "strength": 0.729,
+    "price": 102.54,
+    "qty": 1,
+    "strength": 0.474,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:38:45+00:00",
-    "verdict": "PAPER filled -5 @ 46.44",
-    "score": 80.5,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T21:39:51+00:00",
+    "verdict": "pass (score 56.4)",
+    "score": 56.4,
+    "recommendation": "PASS"
   },
-  "cycle": 10032,
+  "cycle": 10036,
   "fills": [
     {
       "fill": 46.44,
@@ -234,5 +225,6 @@
       "symbol": "NVDA",
       "at": "2026-11-09T20:45:03+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T21:40:07+00:00"
 }
