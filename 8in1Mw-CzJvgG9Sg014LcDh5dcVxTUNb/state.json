@@ -4,20 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-09T23:37:06+00:00"
+      "note": "SELL 10 TSLA @ 171.7",
+      "at": "2026-11-09T23:37:46+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T23:37:48+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 79.1 TAKE",
+      "at": "2026-11-09T23:37:51+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -10 TSLA @ 171.73",
+      "at": "2026-11-09T23:37:56+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T23:37:54+00:00"
     }
   },
   "positions": [
@@ -28,7 +36,7 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 174,
+      "qty": 164,
       "avg": 195.8476
     },
     {
@@ -38,7 +46,7 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -70,
+      "qty": -60,
       "avg": 175.6113
     },
     {
@@ -47,24 +55,41 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5189.96,
-  "realized_pnl": 8810.59,
-  "unrealized_pnl": -3620.63,
+  "pnl": 5207.85,
+  "updated_at": "2026-11-09T23:37:58+00:00",
+  "realized_pnl": 8546.62,
+  "unrealized_pnl": -3338.77,
   "last_signal": {
-    "id": "840deccf",
-    "symbol": "QQQ",
-    "side": "BUY",
-    "price": 409.47,
+    "id": "d8cd2c28",
+    "symbol": "TSLA",
+    "side": "SELL",
+    "price": 171.7,
     "qty": 10,
-    "strength": 0.835,
+    "strength": 0.773,
     "source": "paper-sim",
-    "ts": "2026-11-09T23:36:50+00:00",
-    "verdict": "pass (score 66.3)",
-    "score": 66.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T23:37:46+00:00",
+    "verdict": "PAPER filled -10 @ 171.73",
+    "score": 79.1,
+    "recommendation": "TAKE"
   },
-  "cycle": 10361,
+  "cycle": 10363,
   "fills": [
+    {
+      "fill": 171.73,
+      "qty": -10,
+      "realized": -241.18,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T23:37:56+00:00"
+    },
+    {
+      "fill": 177.89,
+      "qty": 10,
+      "realized": -22.79,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-09T23:37:32+00:00"
+    },
     {
       "fill": 729.49,
       "qty": 5,
@@ -208,23 +233,6 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-09T22:25:18+00:00"
-    },
-    {
-      "fill": 44.36,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-09T22:23:14+00:00"
-    },
-    {
-      "fill": 163.35,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T22:17:53+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T23:37:08+00:00"
+  ]
 }
