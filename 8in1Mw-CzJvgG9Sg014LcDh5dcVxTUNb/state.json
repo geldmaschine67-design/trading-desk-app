@@ -4,22 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 SPY @ 47.86",
-      "at": "2026-11-09T23:42:13+00:00"
+      "note": "no signal",
+      "at": "2026-11-09T23:43:07+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T23:42:15+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T23:42:54+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 16.4 PASS",
+      "at": "2026-11-09T23:42:56+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 SPY @ 47.57",
+      "at": "2026-11-09T23:42:00+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T23:41:57+00:00"
     }
   },
   "positions": [
@@ -49,21 +55,24 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5666.15,
+  "pnl": 5450.55,
+  "updated_at": "2026-11-09T23:43:08+00:00",
   "realized_pnl": 8547.74,
-  "unrealized_pnl": -2881.59,
+  "unrealized_pnl": -3097.19,
   "last_signal": {
-    "id": "fa56b1aa",
-    "symbol": "SPY",
+    "id": "a9d7c580",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 47.86,
-    "qty": 5,
-    "strength": 0.523,
+    "price": 184.04,
+    "qty": 2,
+    "strength": 0.222,
     "source": "paper-sim",
-    "ts": "2026-11-09T23:42:13+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T23:42:51+00:00",
+    "verdict": "pass (score 16.4)",
+    "score": 16.4,
+    "recommendation": "PASS"
   },
-  "cycle": 10377,
+  "cycle": 10380,
   "fills": [
     {
       "fill": 47.57,
@@ -225,6 +234,5 @@
       "symbol": "SPY",
       "at": "2026-11-09T22:27:44+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T23:42:15+00:00"
+  ]
 }
