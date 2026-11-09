@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 QQQ @ 438.1",
-      "at": "2026-11-09T23:17:22+00:00"
+      "note": "BUY 10 BTC-USD @ 189.29",
+      "at": "2026-11-09T23:18:23+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T23:17:24+00:00"
+      "at": "2026-11-09T23:18:25+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 75.2 TAKE",
-      "at": "2026-11-09T23:17:27+00:00"
+      "note": "score 67.2 PASS",
+      "at": "2026-11-09T23:18:28+00:00"
     },
     "risk": {
       "status": "idle"
@@ -42,8 +42,8 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -61,
-      "avg": 174.4529
+      "qty": -63,
+      "avg": 174.9322
     },
     {
       "symbol": "AMZN",
@@ -51,24 +51,32 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 4286.37,
+  "pnl": 4263.45,
   "realized_pnl": 8754.85,
-  "unrealized_pnl": -4468.48,
+  "unrealized_pnl": -4491.4,
   "last_signal": {
-    "id": "f5b9e904",
-    "symbol": "QQQ",
+    "id": "d85773cf",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 438.1,
-    "qty": 2,
-    "strength": 0.866,
+    "price": 189.29,
+    "qty": 10,
+    "strength": 0.605,
     "source": "paper-sim",
-    "ts": "2026-11-09T23:17:22+00:00",
-    "verdict": "pending",
-    "score": 75.2,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T23:18:23+00:00",
+    "verdict": "pass (score 67.2)",
+    "score": 67.2,
+    "recommendation": "PASS"
   },
-  "cycle": 10299,
+  "cycle": 10302,
   "fills": [
+    {
+      "fill": 189.55,
+      "qty": -2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-09T23:18:12+00:00"
+    },
     {
       "fill": 190.28,
       "qty": -10,
@@ -220,15 +228,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-09T22:01:50+00:00"
-    },
-    {
-      "fill": 182.15,
-      "qty": 10,
-      "realized": -168.66,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T22:00:03+00:00"
     }
   ],
-  "updated_at": "2026-11-09T23:17:27+00:00"
+  "updated_at": "2026-11-09T23:18:28+00:00"
 }
