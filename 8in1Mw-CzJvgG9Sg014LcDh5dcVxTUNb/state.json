@@ -3,15 +3,19 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-09T22:37:41+00:00"
+      "status": "idle",
+      "note": "SELL 1 AMZN @ 325.69",
+      "at": "2026-11-09T22:38:36+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T22:38:39+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 25.6 PASS",
+      "at": "2026-11-09T22:38:41+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,23 +51,23 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 2347.71,
+  "pnl": 2450.43,
   "realized_pnl": 8833.11,
-  "unrealized_pnl": -6485.4,
+  "unrealized_pnl": -6382.68,
   "last_signal": {
-    "id": "8db761d1",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 196.16,
+    "id": "8ee63141",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 325.69,
     "qty": 1,
-    "strength": 0.185,
+    "strength": 0.201,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:37:22+00:00",
-    "verdict": "pass (score 31.2)",
-    "score": 31.2,
+    "ts": "2026-11-09T22:38:36+00:00",
+    "verdict": "pass (score 25.6)",
+    "score": 25.6,
     "recommendation": "PASS"
   },
-  "cycle": 10193,
+  "cycle": 10196,
   "fills": [
     {
       "fill": 161.65,
@@ -226,5 +230,5 @@
       "at": "2026-11-09T21:27:15+00:00"
     }
   ],
-  "updated_at": "2026-11-09T22:37:41+00:00"
+  "updated_at": "2026-11-09T22:38:42+00:00"
 }
