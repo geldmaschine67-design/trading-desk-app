@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 AMZN @ 267.88",
-      "at": "2026-11-09T12:21:55+00:00"
+      "note": "BUY 5 AMZN @ 268.91",
+      "at": "2026-11-09T12:25:00+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T12:21:57+00:00"
+      "at": "2026-11-09T12:25:02+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 46.6 PASS",
-      "at": "2026-11-09T12:22:00+00:00"
+      "note": "score 25.2 PASS",
+      "at": "2026-11-09T12:25:05+00:00"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +51,23 @@
       "avg": 267.5612
     }
   ],
-  "pnl": 8445.31,
+  "pnl": 8357.36,
   "realized_pnl": 10448.79,
-  "unrealized_pnl": -2003.48,
+  "unrealized_pnl": -2091.43,
   "last_signal": {
-    "id": "d5769962",
+    "id": "90a20229",
     "symbol": "AMZN",
     "side": "BUY",
-    "price": 267.88,
-    "qty": 2,
-    "strength": 0.292,
+    "price": 268.91,
+    "qty": 5,
+    "strength": 0.255,
     "source": "paper-sim",
-    "ts": "2026-11-09T12:21:55+00:00",
-    "verdict": "pass (score 46.6)",
-    "score": 46.6,
+    "ts": "2026-11-09T12:25:00+00:00",
+    "verdict": "pass (score 25.2)",
+    "score": 25.2,
     "recommendation": "PASS"
   },
-  "cycle": 8472,
+  "cycle": 8475,
   "fills": [
     {
       "fill": 684.74,
@@ -230,5 +230,5 @@
       "at": "2026-11-04T22:15:18+00:00"
     }
   ],
-  "updated_at": "2026-11-09T12:22:01+00:00"
+  "updated_at": "2026-11-09T12:25:06+00:00"
 }
