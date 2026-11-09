@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 MSFT @ 106.81",
-      "at": "2026-11-09T22:30:32+00:00"
+      "note": "SELL 5 QQQ @ 419.48",
+      "at": "2026-11-09T22:31:36+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T22:30:34+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T22:31:38+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 85.7 TAKE",
-      "at": "2026-11-09T22:30:36+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +49,21 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 2543.8,
+  "pnl": 2391.59,
   "realized_pnl": 8833.11,
-  "unrealized_pnl": -6289.31,
+  "unrealized_pnl": -6441.52,
   "last_signal": {
-    "id": "906bea85",
-    "symbol": "MSFT",
+    "id": "ecaca05e",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 106.81,
-    "qty": 10,
-    "strength": 0.807,
+    "price": 419.48,
+    "qty": 5,
+    "strength": 0.663,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:30:32+00:00",
-    "verdict": "pending",
-    "score": 85.7,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T22:31:36+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10180,
+  "cycle": 10183,
   "fills": [
     {
       "fill": 161.65,
@@ -230,5 +226,5 @@
       "at": "2026-11-09T21:27:15+00:00"
     }
   ],
-  "updated_at": "2026-11-09T22:30:36+00:00"
+  "updated_at": "2026-11-09T22:31:38+00:00"
 }
