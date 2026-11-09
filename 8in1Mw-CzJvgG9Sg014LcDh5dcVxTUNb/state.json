@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 MSFT @ 113.49",
-      "at": "2026-11-09T12:54:18+00:00"
+      "note": "SELL 5 BTC-USD @ 167.11",
+      "at": "2026-11-09T12:55:13+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T12:54:21+00:00"
+      "at": "2026-11-09T12:55:15+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 20.8 PASS",
-      "at": "2026-11-09T12:54:23+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 45.3 PASS",
+      "at": "2026-11-09T12:55:18+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 10 TSLA @ 203.73",
+      "at": "2026-11-09T12:53:51+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T12:53:49+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 267.5612
     }
   ],
-  "pnl": 7635.19,
+  "pnl": 7451.6,
+  "updated_at": "2026-11-09T12:55:19+00:00",
   "realized_pnl": 10467.38,
-  "unrealized_pnl": -2832.19,
+  "unrealized_pnl": -3015.78,
   "last_signal": {
-    "id": "105812ff",
-    "symbol": "MSFT",
+    "id": "58aaffa5",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 113.49,
+    "price": 167.11,
     "qty": 5,
-    "strength": 0.262,
+    "strength": 0.576,
     "source": "paper-sim",
-    "ts": "2026-11-09T12:54:18+00:00",
-    "verdict": "pass (score 20.8)",
-    "score": 20.8,
+    "ts": "2026-11-09T12:55:13+00:00",
+    "verdict": "pass (score 45.3)",
+    "score": 45.3,
     "recommendation": "PASS"
   },
-  "cycle": 8555,
+  "cycle": 8558,
   "fills": [
     {
       "fill": 203.73,
@@ -229,6 +234,5 @@
       "symbol": "BTC-USD",
       "at": "2026-11-04T23:08:54+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T12:54:24+00:00"
+  ]
 }
