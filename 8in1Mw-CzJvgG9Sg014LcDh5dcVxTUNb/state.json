@@ -3,12 +3,14 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-09T14:14:25+00:00"
+      "status": "idle",
+      "note": "BUY 1 BTC-USD @ 159.89",
+      "at": "2026-11-09T14:15:26+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T14:15:27+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -43,28 +45,34 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 6,
-      "avg": 263.3582
+      "qty": -4,
+      "avg": 271.79
     }
   ],
-  "pnl": 8372.61,
-  "realized_pnl": 10257.05,
-  "unrealized_pnl": -1884.44,
+  "pnl": 7789.49,
+  "realized_pnl": 10307.64,
+  "unrealized_pnl": -2518.15,
   "last_signal": {
-    "id": "8330c0a1",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 83.45,
-    "qty": 2,
-    "strength": 0.337,
+    "id": "b908cddf",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 159.89,
+    "qty": 1,
+    "strength": 0.13,
     "source": "paper-sim",
-    "ts": "2026-11-09T14:14:08+00:00",
-    "verdict": "pass (score 27.6)",
-    "score": 27.6,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T14:15:26+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8789,
+  "cycle": 8792,
   "fills": [
+    {
+      "fill": 271.79,
+      "qty": -10,
+      "realized": 50.59,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-09T14:14:56+00:00"
+    },
     {
       "fill": 600.54,
       "qty": -2,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T12:46:09+00:00"
-    },
-    {
-      "fill": 43.24,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-09T12:43:55+00:00"
     }
   ],
-  "updated_at": "2026-11-09T14:14:25+00:00"
+  "updated_at": "2026-11-09T14:15:27+00:00"
 }
