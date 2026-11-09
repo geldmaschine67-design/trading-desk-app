@@ -5,7 +5,7 @@
     "scanner": {
       "status": "idle",
       "note": "BUY 2 AMZN @ 311.06",
-      "at": "2026-11-09T19:26:55+00:00"
+      "at": "2026-11-09T19:28:49+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -51,14 +51,14 @@
   "realized_pnl": 9403.44,
   "unrealized_pnl": -6551.77,
   "last_signal": {
-    "id": "87795ee3",
+    "id": "111a5423",
     "symbol": "AMZN",
     "side": "BUY",
     "price": 311.06,
     "qty": 2,
     "strength": 0.619,
     "source": "paper-sim",
-    "ts": "2026-11-09T19:26:55+00:00",
+    "ts": "2026-11-09T19:28:49+00:00",
     "verdict": "pending"
   },
   "cycle": 9680,
@@ -224,5 +224,5 @@
       "at": "2026-11-09T18:12:34+00:00"
     }
   ],
-  "updated_at": "2026-11-09T19:26:55+00:00"
+  "updated_at": "2026-11-09T19:28:49+00:00"
 }
