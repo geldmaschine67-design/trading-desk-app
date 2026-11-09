@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 NVDA @ 617.25",
-      "at": "2026-11-09T18:42:01+00:00"
+      "note": "SELL 5 AAPL @ 96.39",
+      "at": "2026-11-09T18:42:53+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T18:42:02+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T18:42:55+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 10.9 PASS",
-      "at": "2026-11-09T18:41:50+00:00"
+      "note": "score 31.7 PASS",
+      "at": "2026-11-09T18:42:57+00:00"
     },
     "executor": {
       "status": "idle",
       "note": "skipped (risk)",
-      "at": "2026-11-09T18:38:26+00:00"
+      "at": "2026-11-09T18:42:09+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "notional 6086 > 5000",
-      "at": "2026-11-09T18:38:25+00:00"
+      "note": "notional 6172 > 5000",
+      "at": "2026-11-09T18:42:08+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,24 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 5023.42,
-  "updated_at": "2026-11-09T18:42:02+00:00",
+  "pnl": 5105.48,
+  "updated_at": "2026-11-09T18:42:59+00:00",
   "realized_pnl": 9309.71,
-  "unrealized_pnl": -4286.29,
+  "unrealized_pnl": -4204.23,
   "last_signal": {
-    "id": "bfa4aced",
-    "symbol": "NVDA",
-    "side": "BUY",
-    "price": 617.25,
-    "qty": 10,
-    "strength": 0.965,
+    "id": "bd51deb1",
+    "symbol": "AAPL",
+    "side": "SELL",
+    "price": 96.39,
+    "qty": 5,
+    "strength": 0.333,
     "source": "paper-sim",
-    "ts": "2026-11-09T18:42:01+00:00",
-    "verdict": "pending",
-    "score": 10.9,
+    "ts": "2026-11-09T18:42:53+00:00",
+    "verdict": "pass (score 31.7)",
+    "score": 31.7,
     "recommendation": "PASS"
   },
-  "cycle": 9564,
+  "cycle": 9567,
   "fills": [
     {
       "fill": 55.09,
