@@ -3,14 +3,12 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 1 BTC-USD @ 159.89",
-      "at": "2026-11-09T14:15:26+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-09T14:17:56+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T14:15:27+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +47,23 @@
       "avg": 271.79
     }
   ],
-  "pnl": 7789.49,
+  "pnl": 7664.11,
   "realized_pnl": 10307.64,
-  "unrealized_pnl": -2518.15,
+  "unrealized_pnl": -2643.53,
   "last_signal": {
-    "id": "b908cddf",
-    "symbol": "BTC-USD",
+    "id": "6d68d9b2",
+    "symbol": "NVDA",
     "side": "BUY",
-    "price": 159.89,
-    "qty": 1,
-    "strength": 0.13,
+    "price": 602.87,
+    "qty": 10,
+    "strength": 0.521,
     "source": "paper-sim",
-    "ts": "2026-11-09T14:15:26+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T14:16:09+00:00",
+    "verdict": "pass (score 53.9)",
+    "score": 53.9,
+    "recommendation": "PASS"
   },
-  "cycle": 8792,
+  "cycle": 8795,
   "fills": [
     {
       "fill": 271.79,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T12:46:09+00:00"
     }
   ],
-  "updated_at": "2026-11-09T14:15:27+00:00"
+  "updated_at": "2026-11-09T14:17:56+00:00"
 }
