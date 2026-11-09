@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 10 SPY @ 50.71",
-      "at": "2026-11-09T19:07:21+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-09T19:08:37+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T19:07:24+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 41.1 PASS",
-      "at": "2026-11-09T19:07:26+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-09T19:05:41+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-09T19:05:40+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 4034.97,
-  "updated_at": "2026-11-09T19:07:27+00:00",
+  "pnl": 3989.52,
   "realized_pnl": 9403.44,
-  "unrealized_pnl": -5368.47,
+  "unrealized_pnl": -5413.92,
   "last_signal": {
-    "id": "c510cb16",
-    "symbol": "SPY",
+    "id": "56a2758e",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 50.71,
+    "price": 98.79,
     "qty": 10,
-    "strength": 0.524,
+    "strength": 0.742,
     "source": "paper-sim",
-    "ts": "2026-11-09T19:07:21+00:00",
-    "verdict": "pass (score 41.1)",
-    "score": 41.1,
+    "ts": "2026-11-09T19:08:03+00:00",
+    "verdict": "pass (score 67.2)",
+    "score": 67.2,
     "recommendation": "PASS"
   },
-  "cycle": 9631,
+  "cycle": 9635,
   "fills": [
     {
       "fill": 617.93,
@@ -234,5 +225,6 @@
       "symbol": "TSLA",
       "at": "2026-11-09T17:47:53+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T19:08:37+00:00"
 }
