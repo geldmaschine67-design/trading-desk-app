@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-09T22:29:34+00:00"
+      "note": "SELL 10 MSFT @ 106.81",
+      "at": "2026-11-09T22:30:32+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T22:30:34+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 85.7 TAKE",
+      "at": "2026-11-09T22:30:36+00:00"
     },
     "risk": {
       "status": "idle"
@@ -28,8 +32,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 163,
-      "avg": 197.5566
+      "qty": 164,
+      "avg": 197.3377
     },
     {
       "symbol": "SPY",
@@ -47,24 +51,32 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 2391.23,
+  "pnl": 2543.8,
   "realized_pnl": 8833.11,
-  "unrealized_pnl": -6441.88,
+  "unrealized_pnl": -6289.31,
   "last_signal": {
-    "id": "46e49c7e",
-    "symbol": "AMZN",
+    "id": "906bea85",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 325.62,
-    "qty": 1,
-    "strength": 0.66,
+    "price": 106.81,
+    "qty": 10,
+    "strength": 0.807,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:29:15+00:00",
-    "verdict": "pass (score 61.9)",
-    "score": 61.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T22:30:32+00:00",
+    "verdict": "pending",
+    "score": 85.7,
+    "recommendation": "TAKE"
   },
-  "cycle": 10177,
+  "cycle": 10180,
   "fills": [
+    {
+      "fill": 161.65,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T22:29:59+00:00"
+    },
     {
       "fill": 190.11,
       "qty": -10,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-09T21:27:15+00:00"
-    },
-    {
-      "fill": 161.37,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T21:25:53+00:00"
     }
   ],
-  "updated_at": "2026-11-09T22:29:35+00:00"
+  "updated_at": "2026-11-09T22:30:36+00:00"
 }
