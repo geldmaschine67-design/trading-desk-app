@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 QQQ @ 493.17",
-      "at": "2026-11-09T13:11:54+00:00"
+      "note": "BUY 1 AAPL @ 82.43",
+      "at": "2026-11-09T13:13:00+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T13:11:56+00:00"
+      "at": "2026-11-09T13:13:03+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 27.0 PASS",
-      "at": "2026-11-09T13:11:59+00:00"
+      "note": "score 82.8 TAKE",
+      "at": "2026-11-09T13:13:05+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-09T13:13:08+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 1 SPY @ 46.56",
-      "at": "2026-11-09T13:11:01+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T13:10:59+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-09T13:13:09+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 267.5612
     }
   ],
-  "pnl": 9228.75,
-  "updated_at": "2026-11-09T13:12:00+00:00",
+  "pnl": 9299.94,
   "realized_pnl": 10427.47,
-  "unrealized_pnl": -1198.72,
+  "unrealized_pnl": -1127.53,
   "last_signal": {
-    "id": "2d9d60db",
-    "symbol": "QQQ",
+    "id": "d1bf6cab",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 493.17,
-    "qty": 2,
-    "strength": 0.324,
+    "price": 82.43,
+    "qty": 1,
+    "strength": 0.853,
     "source": "paper-sim",
-    "ts": "2026-11-09T13:11:54+00:00",
-    "verdict": "pass (score 27.0)",
-    "score": 27.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T13:13:00+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 82.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 8609,
+  "cycle": 8612,
   "fills": [
     {
       "fill": 46.56,
@@ -234,5 +233,6 @@
       "symbol": "TSLA",
       "at": "2026-11-04T23:10:53+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T13:13:11+00:00"
 }
