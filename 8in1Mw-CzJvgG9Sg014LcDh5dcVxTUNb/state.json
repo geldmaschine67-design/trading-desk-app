@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 BTC-USD @ 158.48",
-      "at": "2026-11-09T14:00:07+00:00"
+      "note": "no signal",
+      "at": "2026-11-09T14:01:10+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T14:00:09+00:00"
+      "at": "2026-11-09T14:00:46+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T14:00:11+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 83.8 TAKE",
+      "at": "2026-11-09T14:00:48+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-09T14:00:52+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-09T14:00:51+00:00"
     }
   },
   "positions": [
@@ -51,21 +55,24 @@
       "avg": 263.3582
     }
   ],
-  "pnl": 7890.37,
+  "pnl": 7815.89,
+  "updated_at": "2026-11-09T14:01:11+00:00",
   "realized_pnl": 10257.05,
-  "unrealized_pnl": -2366.68,
+  "unrealized_pnl": -2441.16,
   "last_signal": {
-    "id": "22a3f07e",
-    "symbol": "BTC-USD",
+    "id": "6a90f246",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 158.48,
-    "qty": 1,
-    "strength": 0.178,
+    "price": 472.55,
+    "qty": 2,
+    "strength": 0.795,
     "source": "paper-sim",
-    "ts": "2026-11-09T14:00:07+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T14:00:43+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 83.8,
+    "recommendation": "TAKE"
   },
-  "cycle": 8762,
+  "cycle": 8765,
   "fills": [
     {
       "fill": 49.64,
@@ -227,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-09T12:40:23+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T14:00:11+00:00"
+  ]
 }
