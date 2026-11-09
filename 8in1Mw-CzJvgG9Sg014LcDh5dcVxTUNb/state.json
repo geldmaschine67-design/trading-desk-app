@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 BTC-USD @ 180.33",
-      "at": "2026-11-09T21:30:09+00:00"
+      "note": "SELL 1 BTC-USD @ 181.18",
+      "at": "2026-11-09T21:31:12+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T21:30:12+00:00"
+      "at": "2026-11-09T21:31:14+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T21:30:13+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +49,21 @@
       "avg": 308.8035
     }
   ],
-  "pnl": 3427.45,
+  "pnl": 3131.72,
   "realized_pnl": 9289.06,
-  "unrealized_pnl": -5861.61,
+  "unrealized_pnl": -6157.34,
   "last_signal": {
-    "id": "48b1466a",
+    "id": "57e2e1e6",
     "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 180.33,
-    "qty": 2,
-    "strength": 0.456,
+    "price": 181.18,
+    "qty": 1,
+    "strength": 0.801,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:30:09+00:00",
+    "ts": "2026-11-09T21:31:12+00:00",
     "verdict": "pending"
   },
-  "cycle": 10010,
+  "cycle": 10013,
   "fills": [
     {
       "fill": 164.0,
@@ -228,5 +226,5 @@
       "at": "2026-11-09T20:36:15+00:00"
     }
   ],
-  "updated_at": "2026-11-09T21:30:13+00:00"
+  "updated_at": "2026-11-09T21:31:14+00:00"
 }
