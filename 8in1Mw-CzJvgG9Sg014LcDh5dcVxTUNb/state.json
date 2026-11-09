@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AMZN @ 311.8",
-      "at": "2026-11-09T16:19:05+00:00"
+      "note": "SELL 10 AMZN @ 308.42",
+      "at": "2026-11-09T16:20:13+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T16:19:08+00:00"
+      "at": "2026-11-09T16:20:15+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 83.3 TAKE",
-      "at": "2026-11-09T16:19:10+00:00"
+      "note": "score 25.9 PASS",
+      "at": "2026-11-09T16:20:18+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T16:19:13+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "PAPER fill -2 AMZN @ 311.84",
-      "at": "2026-11-09T16:19:15+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,23 +51,23 @@
       "avg": 283.2955
     }
   ],
-  "pnl": 5285.63,
+  "pnl": 5020.36,
   "realized_pnl": 10016.45,
-  "unrealized_pnl": -4730.82,
+  "unrealized_pnl": -4996.09,
   "last_signal": {
-    "id": "ca537bbd",
+    "id": "dfb0e5d8",
     "symbol": "AMZN",
     "side": "SELL",
-    "price": 311.8,
-    "qty": 2,
-    "strength": 0.861,
+    "price": 308.42,
+    "qty": 10,
+    "strength": 0.095,
     "source": "paper-sim",
-    "ts": "2026-11-09T16:19:05+00:00",
-    "verdict": "PAPER filled -2 @ 311.84",
-    "score": 83.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T16:20:13+00:00",
+    "verdict": "pass (score 25.9)",
+    "score": 25.9,
+    "recommendation": "PASS"
   },
-  "cycle": 9141,
+  "cycle": 9144,
   "fills": [
     {
       "fill": 311.84,
@@ -234,5 +230,5 @@
       "at": "2026-11-09T15:01:23+00:00"
     }
   ],
-  "updated_at": "2026-11-09T16:19:17+00:00"
+  "updated_at": "2026-11-09T16:20:19+00:00"
 }
