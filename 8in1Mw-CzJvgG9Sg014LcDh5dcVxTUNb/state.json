@@ -4,13 +4,11 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 TSLA @ 171.16",
-      "at": "2026-11-09T16:30:39+00:00"
+      "note": "SELL 1 AMZN @ 306.05",
+      "at": "2026-11-09T16:31:41+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T16:30:40+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -30,8 +28,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 108,
-      "avg": 225.6411
+      "qty": 100,
+      "avg": 224.6507
     },
     {
       "symbol": "SPY",
@@ -49,22 +47,38 @@
       "avg": 289.815
     }
   ],
-  "pnl": 4576.0,
-  "realized_pnl": 9843.58,
-  "unrealized_pnl": -5267.58,
+  "pnl": 4580.53,
+  "realized_pnl": 9314.77,
+  "unrealized_pnl": -4734.24,
   "last_signal": {
-    "id": "dddbc2eb",
-    "symbol": "TSLA",
-    "side": "BUY",
-    "price": 171.16,
-    "qty": 2,
-    "strength": 0.746,
+    "id": "0dd71f6f",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 306.05,
+    "qty": 1,
+    "strength": 0.068,
     "source": "paper-sim",
-    "ts": "2026-11-09T16:30:39+00:00",
+    "ts": "2026-11-09T16:31:41+00:00",
     "verdict": "pending"
   },
-  "cycle": 9177,
+  "cycle": 9180,
   "fills": [
+    {
+      "fill": 171.77,
+      "qty": -10,
+      "realized": -528.81,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T16:31:14+00:00"
+    },
+    {
+      "fill": 171.17,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T16:30:49+00:00"
+    },
     {
       "fill": 305.49,
       "qty": 10,
@@ -208,23 +222,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-09T15:23:23+00:00"
-    },
-    {
-      "fill": 179.67,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T15:13:43+00:00"
-    },
-    {
-      "fill": 180.0,
-      "qty": -1,
-      "realized": -46.42,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T15:12:24+00:00"
     }
   ],
-  "updated_at": "2026-11-09T16:30:40+00:00"
+  "updated_at": "2026-11-09T16:31:41+00:00"
 }
