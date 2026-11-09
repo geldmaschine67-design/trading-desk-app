@@ -5,7 +5,7 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-09T21:40:07+00:00"
+      "at": "2026-11-09T21:41:08+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 308.8035
     }
   ],
-  "pnl": 3839.99,
+  "pnl": 3556.23,
   "realized_pnl": 9289.06,
-  "unrealized_pnl": -5449.07,
+  "unrealized_pnl": -5732.83,
   "last_signal": {
-    "id": "fdea0a21",
-    "symbol": "MSFT",
-    "side": "SELL",
-    "price": 102.54,
-    "qty": 1,
-    "strength": 0.474,
+    "id": "208f7fe4",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 179.53,
+    "qty": 5,
+    "strength": 0.492,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:39:51+00:00",
-    "verdict": "pass (score 56.4)",
-    "score": 56.4,
+    "ts": "2026-11-09T21:40:49+00:00",
+    "verdict": "pass (score 52.8)",
+    "score": 52.8,
     "recommendation": "PASS"
   },
-  "cycle": 10036,
+  "cycle": 10039,
   "fills": [
     {
       "fill": 46.44,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T20:45:03+00:00"
     }
   ],
-  "updated_at": "2026-11-09T21:40:07+00:00"
+  "updated_at": "2026-11-09T21:41:08+00:00"
 }
