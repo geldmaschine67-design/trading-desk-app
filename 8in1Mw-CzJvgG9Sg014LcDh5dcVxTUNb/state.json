@@ -4,11 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AMZN @ 316.77",
-      "at": "2026-11-09T20:29:50+00:00"
+      "note": "SELL 2 SPY @ 50.43",
+      "at": "2026-11-09T20:30:49+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T20:30:50+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,21 +49,21 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 1591.41,
+  "pnl": 1467.93,
   "realized_pnl": 9567.87,
-  "unrealized_pnl": -7976.46,
+  "unrealized_pnl": -8099.94,
   "last_signal": {
-    "id": "2d259732",
-    "symbol": "AMZN",
+    "id": "906fce0c",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 316.77,
-    "qty": 10,
-    "strength": 0.077,
+    "price": 50.43,
+    "qty": 2,
+    "strength": 0.224,
     "source": "paper-sim",
-    "ts": "2026-11-09T20:29:50+00:00",
+    "ts": "2026-11-09T20:30:49+00:00",
     "verdict": "pending"
   },
-  "cycle": 9855,
+  "cycle": 9858,
   "fills": [
     {
       "fill": 148.5,
@@ -224,5 +226,5 @@
       "at": "2026-11-09T19:11:58+00:00"
     }
   ],
-  "updated_at": "2026-11-09T20:29:50+00:00"
+  "updated_at": "2026-11-09T20:30:50+00:00"
 }
