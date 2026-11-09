@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 2 BTC-USD @ 160.52",
-      "at": "2026-11-09T18:23:55+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-09T18:25:03+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T18:23:58+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 58.8 PASS",
-      "at": "2026-11-09T18:24:00+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +47,23 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 5723.36,
+  "pnl": 5739.06,
   "realized_pnl": 9344.56,
-  "unrealized_pnl": -3621.2,
+  "unrealized_pnl": -3605.5,
   "last_signal": {
-    "id": "7e3db81c",
-    "symbol": "BTC-USD",
+    "id": "b2c3c7db",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 160.52,
-    "qty": 2,
-    "strength": 0.624,
+    "price": 478.87,
+    "qty": 5,
+    "strength": 0.242,
     "source": "paper-sim",
-    "ts": "2026-11-09T18:23:55+00:00",
-    "verdict": "pass (score 58.8)",
-    "score": 58.8,
+    "ts": "2026-11-09T18:24:45+00:00",
+    "verdict": "pass (score 39.3)",
+    "score": 39.3,
     "recommendation": "PASS"
   },
-  "cycle": 9509,
+  "cycle": 9513,
   "fills": [
     {
       "fill": 635.99,
@@ -230,5 +226,5 @@
       "at": "2026-11-09T17:24:34+00:00"
     }
   ],
-  "updated_at": "2026-11-09T18:24:01+00:00"
+  "updated_at": "2026-11-09T18:25:03+00:00"
 }
