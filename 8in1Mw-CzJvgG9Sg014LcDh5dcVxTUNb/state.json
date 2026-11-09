@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-09T18:34:48+00:00"
+      "note": "SELL 10 SPY @ 55.11",
+      "at": "2026-11-09T18:35:38+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T18:33:22+00:00"
+      "at": "2026-11-09T18:35:40+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 71.3 TAKE",
-      "at": "2026-11-09T18:33:25+00:00"
+      "note": "score 91.1 TAKE",
+      "at": "2026-11-09T18:35:43+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-09T18:33:29+00:00"
+      "note": "PAPER fill -10 SPY @ 55.09",
+      "at": "2026-11-09T18:35:48+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-09T18:33:28+00:00"
+      "note": "ok",
+      "at": "2026-11-09T18:35:46+00:00"
     }
   },
   "positions": [
@@ -41,12 +41,12 @@
     },
     {
       "symbol": "SPY",
-      "qty": -8,
-      "avg": 50.945
+      "qty": -18,
+      "avg": 53.2478
     },
     {
       "symbol": "BTC-USD",
-      "qty": -62,
+      "qty": -57,
       "avg": 164.1893
     },
     {
@@ -55,25 +55,41 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 5039.87,
-  "updated_at": "2026-11-09T18:34:50+00:00",
-  "realized_pnl": 9344.56,
-  "unrealized_pnl": -4304.69,
+  "pnl": 4786.71,
+  "updated_at": "2026-11-09T18:35:50+00:00",
+  "realized_pnl": 9309.71,
+  "unrealized_pnl": -4523.0,
   "last_signal": {
-    "id": "a02f799b",
-    "symbol": "AAPL",
-    "side": "BUY",
-    "price": 97.25,
-    "qty": 5,
-    "strength": 0.903,
+    "id": "7ab9a614",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 55.11,
+    "qty": 10,
+    "strength": 0.898,
     "source": "paper-sim",
-    "ts": "2026-11-09T18:33:20+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 71.3,
+    "ts": "2026-11-09T18:35:38+00:00",
+    "verdict": "PAPER filled -10 @ 55.09",
+    "score": 91.1,
     "recommendation": "TAKE"
   },
-  "cycle": 9541,
+  "cycle": 9544,
   "fills": [
+    {
+      "fill": 55.09,
+      "qty": -10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-09T18:35:48+00:00"
+    },
+    {
+      "fill": 171.16,
+      "qty": 5,
+      "realized": -34.85,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-09T18:35:27+00:00"
+    },
     {
       "fill": 177.42,
       "qty": 1,
@@ -217,22 +233,6 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-09T17:31:27+00:00"
-    },
-    {
-      "fill": 159.97,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T17:27:51+00:00"
-    },
-    {
-      "fill": 157.78,
-      "qty": 5,
-      "realized": 45.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T17:26:35+00:00"
     }
   ]
 }
