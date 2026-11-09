@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-09T20:26:40+00:00"
+      "note": "SELL 2 TSLA @ 148.51",
+      "at": "2026-11-09T20:27:43+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T20:27:45+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T20:27:47+00:00"
     },
     "risk": {
       "status": "idle"
@@ -33,8 +37,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": -24,
-      "avg": 52.7123
+      "qty": -34,
+      "avg": 52.0234
     },
     {
       "symbol": "BTC-USD",
@@ -47,24 +51,30 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 1353.12,
+  "pnl": 1527.31,
   "realized_pnl": 9682.21,
-  "unrealized_pnl": -8329.09,
+  "unrealized_pnl": -8154.9,
   "last_signal": {
-    "id": "fbf95894",
-    "symbol": "NVDA",
-    "side": "BUY",
-    "price": 599.75,
-    "qty": 1,
-    "strength": 0.29,
+    "id": "2a195939",
+    "symbol": "TSLA",
+    "side": "SELL",
+    "price": 148.51,
+    "qty": 2,
+    "strength": 0.961,
     "source": "paper-sim",
-    "ts": "2026-11-09T20:26:20+00:00",
-    "verdict": "pass (score 21.1)",
-    "score": 21.1,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T20:27:43+00:00",
+    "verdict": "pending"
   },
-  "cycle": 9845,
+  "cycle": 9848,
   "fills": [
+    {
+      "fill": 50.37,
+      "qty": -10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-09T20:27:30+00:00"
+    },
     {
       "fill": 50.35,
       "qty": -2,
@@ -216,15 +226,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-09T19:10:31+00:00"
-    },
-    {
-      "fill": 617.93,
-      "qty": 2,
-      "realized": 32.04,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-09T19:02:38+00:00"
     }
   ],
-  "updated_at": "2026-11-09T20:26:42+00:00"
+  "updated_at": "2026-11-09T20:27:47+00:00"
 }
