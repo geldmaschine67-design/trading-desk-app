@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 MSFT @ 100.7",
-      "at": "2026-11-09T20:14:41+00:00"
+      "note": "SELL 2 QQQ @ 482.5",
+      "at": "2026-11-09T20:15:57+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T20:14:43+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T20:15:58+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 27.0 PASS",
-      "at": "2026-11-09T20:14:46+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 5 NVDA @ 606.23",
-      "at": "2026-11-09T20:10:38+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T20:10:35+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -46,7 +40,7 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -66,
+      "qty": -65,
       "avg": 165.3166
     },
     {
@@ -55,25 +49,30 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 1466.48,
-  "updated_at": "2026-11-09T20:14:47+00:00",
-  "realized_pnl": 9685.8,
-  "unrealized_pnl": -8219.32,
+  "pnl": 1491.81,
+  "realized_pnl": 9682.21,
+  "unrealized_pnl": -8190.4,
   "last_signal": {
-    "id": "271795a0",
-    "symbol": "MSFT",
+    "id": "3a78e4df",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 100.7,
-    "qty": 10,
-    "strength": 0.231,
+    "price": 482.5,
+    "qty": 2,
+    "strength": 0.659,
     "source": "paper-sim",
-    "ts": "2026-11-09T20:14:41+00:00",
-    "verdict": "pass (score 27.0)",
-    "score": 27.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T20:15:57+00:00",
+    "verdict": "pending"
   },
-  "cycle": 9811,
+  "cycle": 9815,
   "fills": [
+    {
+      "fill": 168.91,
+      "qty": 1,
+      "realized": -3.59,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-09T20:15:10+00:00"
+    },
     {
       "fill": 606.23,
       "qty": 5,
@@ -225,14 +224,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-09T18:56:37+00:00"
-    },
-    {
-      "fill": 173.59,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T18:54:48+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T20:15:58+00:00"
 }
