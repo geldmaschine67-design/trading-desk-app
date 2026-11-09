@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 MSFT @ 88.97",
-      "at": "2026-11-09T18:08:27+00:00"
+      "note": "SELL 10 QQQ @ 471.61",
+      "at": "2026-11-09T18:09:38+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T18:08:29+00:00"
+      "at": "2026-11-09T18:09:40+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 56.8 PASS",
-      "at": "2026-11-09T18:08:31+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-09T18:04:05+00:00"
+      "note": "score 41.6 PASS",
+      "at": "2026-11-09T18:09:43+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-09T18:04:03+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 299.63
     }
   ],
-  "pnl": 5984.47,
-  "updated_at": "2026-11-09T18:08:33+00:00",
+  "pnl": 5945.5,
   "realized_pnl": 9344.56,
-  "unrealized_pnl": -3360.09,
+  "unrealized_pnl": -3399.06,
   "last_signal": {
-    "id": "05c2cea6",
-    "symbol": "MSFT",
+    "id": "4fcbe96a",
+    "symbol": "QQQ",
     "side": "SELL",
-    "price": 88.97,
-    "qty": 5,
-    "strength": 0.646,
+    "price": 471.61,
+    "qty": 10,
+    "strength": 0.394,
     "source": "paper-sim",
-    "ts": "2026-11-09T18:08:27+00:00",
-    "verdict": "pass (score 56.8)",
-    "score": 56.8,
+    "ts": "2026-11-09T18:09:38+00:00",
+    "verdict": "pass (score 41.6)",
+    "score": 41.6,
     "recommendation": "PASS"
   },
-  "cycle": 9463,
+  "cycle": 9467,
   "fills": [
     {
       "fill": 163.35,
@@ -234,5 +229,6 @@
       "symbol": "BTC-USD",
       "at": "2026-11-09T17:02:13+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T18:09:43+00:00"
 }
