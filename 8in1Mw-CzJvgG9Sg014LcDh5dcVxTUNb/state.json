@@ -5,7 +5,7 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-09T12:29:24+00:00"
+      "at": "2026-11-09T12:30:29+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 267.5612
     }
   ],
-  "pnl": 8099.63,
+  "pnl": 8108.12,
   "realized_pnl": 10448.79,
-  "unrealized_pnl": -2349.16,
+  "unrealized_pnl": -2340.67,
   "last_signal": {
-    "id": "46dab0b0",
+    "id": "9f97fe31",
     "symbol": "AMZN",
     "side": "SELL",
-    "price": 271.4,
-    "qty": 2,
-    "strength": 0.191,
+    "price": 269.82,
+    "qty": 10,
+    "strength": 0.635,
     "source": "paper-sim",
-    "ts": "2026-11-09T12:28:54+00:00",
-    "verdict": "pass (score 20.1)",
-    "score": 20.1,
+    "ts": "2026-11-09T12:30:07+00:00",
+    "verdict": "pass (score 55.0)",
+    "score": 55.0,
     "recommendation": "PASS"
   },
-  "cycle": 8485,
+  "cycle": 8489,
   "fills": [
     {
       "fill": 683.83,
@@ -226,5 +226,5 @@
       "at": "2026-11-04T22:16:54+00:00"
     }
   ],
-  "updated_at": "2026-11-09T12:29:26+00:00"
+  "updated_at": "2026-11-09T12:30:30+00:00"
 }
