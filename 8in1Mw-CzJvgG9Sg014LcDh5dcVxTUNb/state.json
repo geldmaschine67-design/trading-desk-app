@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 NVDA @ 629.94",
-      "at": "2026-11-09T22:14:15+00:00"
+      "note": "SELL 5 SPY @ 45.37",
+      "at": "2026-11-09T22:15:11+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T22:14:18+00:00"
+      "at": "2026-11-09T22:15:13+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 87.4 TAKE",
-      "at": "2026-11-09T22:14:20+00:00"
-    },
-    "risk": {
-      "status": "blocked",
-      "note": "notional 6299 > 5000",
-      "at": "2026-11-09T22:14:23+00:00"
+      "note": "score 31.7 PASS",
+      "at": "2026-11-09T22:15:16+00:00"
     },
     "executor": {
       "status": "idle",
       "note": "skipped (risk)",
       "at": "2026-11-09T22:14:24+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "notional 6299 > 5000",
+      "at": "2026-11-09T22:14:23+00:00"
     }
   },
   "positions": [
@@ -55,23 +55,24 @@
       "avg": 325.2826
     }
   ],
-  "pnl": 2520.88,
+  "pnl": 2408.73,
+  "updated_at": "2026-11-09T22:15:17+00:00",
   "realized_pnl": 8779.89,
-  "unrealized_pnl": -6259.01,
+  "unrealized_pnl": -6371.16,
   "last_signal": {
-    "id": "31f6dbb8",
-    "symbol": "NVDA",
+    "id": "e4a58efa",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 629.94,
-    "qty": 10,
-    "strength": 0.841,
+    "price": 45.37,
+    "qty": 5,
+    "strength": 0.356,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:14:15+00:00",
-    "verdict": "risk blocked: notional 6299 > 5000",
-    "score": 87.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T22:15:11+00:00",
+    "verdict": "pass (score 31.7)",
+    "score": 31.7,
+    "recommendation": "PASS"
   },
-  "cycle": 10132,
+  "cycle": 10135,
   "fills": [
     {
       "fill": 328.63,
@@ -233,6 +234,5 @@
       "symbol": "TSLA",
       "at": "2026-11-09T21:04:31+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T22:14:24+00:00"
+  ]
 }
