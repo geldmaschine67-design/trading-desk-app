@@ -3,21 +3,29 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-09T18:41:01+00:00"
+      "status": "idle",
+      "note": "BUY 10 NVDA @ 617.25",
+      "at": "2026-11-09T18:42:01+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T18:42:02+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 10.9 PASS",
+      "at": "2026-11-09T18:41:50+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-09T18:38:26+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "notional 6086 > 5000",
+      "at": "2026-11-09T18:38:25+00:00"
     }
   },
   "positions": [
@@ -47,23 +55,24 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 4998.82,
+  "pnl": 5023.42,
+  "updated_at": "2026-11-09T18:42:02+00:00",
   "realized_pnl": 9309.71,
-  "unrealized_pnl": -4310.89,
+  "unrealized_pnl": -4286.29,
   "last_signal": {
-    "id": "bb8409d3",
-    "symbol": "AAPL",
-    "side": "SELL",
-    "price": 95.48,
-    "qty": 2,
-    "strength": 0.518,
+    "id": "bfa4aced",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 617.25,
+    "qty": 10,
+    "strength": 0.965,
     "source": "paper-sim",
-    "ts": "2026-11-09T18:40:40+00:00",
-    "verdict": "pass (score 57.4)",
-    "score": 57.4,
+    "ts": "2026-11-09T18:42:01+00:00",
+    "verdict": "pending",
+    "score": 10.9,
     "recommendation": "PASS"
   },
-  "cycle": 9561,
+  "cycle": 9564,
   "fills": [
     {
       "fill": 55.09,
@@ -225,6 +234,5 @@
       "symbol": "BTC-USD",
       "at": "2026-11-09T17:31:27+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T18:41:01+00:00"
+  ]
 }
