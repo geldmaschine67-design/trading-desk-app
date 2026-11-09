@@ -4,13 +4,11 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 NVDA @ 666.08",
-      "at": "2026-11-09T13:03:38+00:00"
+      "note": "BUY 10 QQQ @ 488.75",
+      "at": "2026-11-09T13:04:41+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T13:03:40+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -30,7 +28,7 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 104,
+      "qty": 102,
       "avg": 233.8696
     },
     {
@@ -49,22 +47,30 @@
       "avg": 267.5612
     }
   ],
-  "pnl": 8653.75,
-  "realized_pnl": 10467.38,
-  "unrealized_pnl": -1813.63,
+  "pnl": 8922.37,
+  "realized_pnl": 10429.28,
+  "unrealized_pnl": -1506.91,
   "last_signal": {
-    "id": "2388c73c",
-    "symbol": "NVDA",
+    "id": "75332fc5",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 666.08,
-    "qty": 5,
-    "strength": 0.912,
+    "price": 488.75,
+    "qty": 10,
+    "strength": 0.829,
     "source": "paper-sim",
-    "ts": "2026-11-09T13:03:38+00:00",
+    "ts": "2026-11-09T13:04:41+00:00",
     "verdict": "pending"
   },
-  "cycle": 8585,
+  "cycle": 8588,
   "fills": [
+    {
+      "fill": 214.82,
+      "qty": -2,
+      "realized": -38.1,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T13:04:06+00:00"
+    },
     {
       "fill": 203.73,
       "qty": 10,
@@ -216,15 +222,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-04T23:10:30+00:00"
-    },
-    {
-      "fill": 151.89,
-      "qty": 2,
-      "realized": 21.55,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-04T23:08:54+00:00"
     }
   ],
-  "updated_at": "2026-11-09T13:03:40+00:00"
+  "updated_at": "2026-11-09T13:04:41+00:00"
 }
