@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 QQQ @ 419.48",
-      "at": "2026-11-09T22:31:36+00:00"
+      "note": "BUY 10 BTC-USD @ 194.27",
+      "at": "2026-11-09T22:32:33+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T22:31:38+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T22:32:36+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 61.8 PASS",
+      "at": "2026-11-09T22:32:38+00:00"
     },
     "risk": {
       "status": "idle"
@@ -49,21 +51,23 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 2391.59,
+  "pnl": 2348.37,
   "realized_pnl": 8833.11,
-  "unrealized_pnl": -6441.52,
+  "unrealized_pnl": -6484.74,
   "last_signal": {
-    "id": "ecaca05e",
-    "symbol": "QQQ",
-    "side": "SELL",
-    "price": 419.48,
-    "qty": 5,
-    "strength": 0.663,
+    "id": "6a3ea687",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 194.27,
+    "qty": 10,
+    "strength": 0.542,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:31:36+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T22:32:33+00:00",
+    "verdict": "pass (score 61.8)",
+    "score": 61.8,
+    "recommendation": "PASS"
   },
-  "cycle": 10183,
+  "cycle": 10186,
   "fills": [
     {
       "fill": 161.65,
@@ -226,5 +230,5 @@
       "at": "2026-11-09T21:27:15+00:00"
     }
   ],
-  "updated_at": "2026-11-09T22:31:38+00:00"
+  "updated_at": "2026-11-09T22:32:39+00:00"
 }
