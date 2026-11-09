@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 AAPL @ 98.58",
-      "at": "2026-11-09T15:57:17+00:00"
+      "note": "BUY 1 TSLA @ 179.02",
+      "at": "2026-11-09T15:58:13+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T15:57:19+00:00"
+      "at": "2026-11-09T15:58:15+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 19.0 PASS",
-      "at": "2026-11-09T15:57:22+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-09T15:57:01+00:00"
+      "note": "score 92.9 TAKE",
+      "at": "2026-11-09T15:58:18+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-09T15:57:00+00:00"
+      "note": "ok",
+      "at": "2026-11-09T15:58:20+00:00"
+    },
+    "executor": {
+      "status": "idle",
+      "note": "PAPER fill 1 TSLA @ 178.96",
+      "at": "2026-11-09T15:58:23+00:00"
     }
   },
   "positions": [
@@ -36,12 +36,12 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 117,
-      "avg": 226.0401
+      "qty": 118,
+      "avg": 225.6411
     },
     {
       "symbol": "SPY",
-      "qty": -5,
+      "qty": -3,
       "avg": 46.6705
     },
     {
@@ -55,25 +55,40 @@
       "avg": 275.1399
     }
   ],
-  "pnl": 4925.9,
-  "updated_at": "2026-11-09T15:57:23+00:00",
-  "realized_pnl": 10476.1,
-  "unrealized_pnl": -5550.2,
+  "pnl": 4784.23,
+  "realized_pnl": 10468.46,
+  "unrealized_pnl": -5684.23,
   "last_signal": {
-    "id": "80a31f57",
-    "symbol": "AAPL",
+    "id": "5397e7dd",
+    "symbol": "TSLA",
     "side": "BUY",
-    "price": 98.58,
-    "qty": 10,
-    "strength": 0.245,
+    "price": 179.02,
+    "qty": 1,
+    "strength": 0.932,
     "source": "paper-sim",
-    "ts": "2026-11-09T15:57:17+00:00",
-    "verdict": "pass (score 19.0)",
-    "score": 19.0,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T15:58:13+00:00",
+    "verdict": "PAPER filled 1 @ 178.96",
+    "score": 92.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 9070,
+  "cycle": 9073,
   "fills": [
+    {
+      "fill": 178.96,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T15:58:23+00:00"
+    },
+    {
+      "fill": 50.49,
+      "qty": 2,
+      "realized": -7.64,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-09T15:58:02+00:00"
+    },
     {
       "fill": 300.46,
       "qty": 1,
@@ -217,22 +232,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-09T14:50:31+00:00"
-    },
-    {
-      "fill": 167.55,
-      "qty": -1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T14:46:00+00:00"
-    },
-    {
-      "fill": 615.27,
-      "qty": 1,
-      "realized": 65.9,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-09T14:44:01+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T15:58:25+00:00"
 }
