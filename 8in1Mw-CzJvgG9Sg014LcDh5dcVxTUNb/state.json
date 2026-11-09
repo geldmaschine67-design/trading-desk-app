@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 TSLA @ 161.89",
-      "at": "2026-11-09T21:12:21+00:00"
+      "note": "BUY 1 BTC-USD @ 171.03",
+      "at": "2026-11-09T21:13:17+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T21:12:23+00:00"
+      "at": "2026-11-09T21:13:19+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 22.7 PASS",
-      "at": "2026-11-09T21:12:26+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 43.4 PASS",
+      "at": "2026-11-09T21:13:22+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-09T21:11:51+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "max positions",
+      "at": "2026-11-09T21:11:49+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 306.8542
     }
   ],
-  "pnl": 3324.73,
+  "pnl": 3071.39,
+  "updated_at": "2026-11-09T21:13:23+00:00",
   "realized_pnl": 9223.74,
-  "unrealized_pnl": -5899.01,
+  "unrealized_pnl": -6152.35,
   "last_signal": {
-    "id": "8e47030f",
-    "symbol": "TSLA",
+    "id": "37de917d",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 161.89,
+    "price": 171.03,
     "qty": 1,
-    "strength": 0.039,
+    "strength": 0.233,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:12:21+00:00",
-    "verdict": "pass (score 22.7)",
-    "score": 22.7,
+    "ts": "2026-11-09T21:13:17+00:00",
+    "verdict": "pass (score 43.4)",
+    "score": 43.4,
     "recommendation": "PASS"
   },
-  "cycle": 9977,
+  "cycle": 9980,
   "fills": [
     {
       "fill": 169.6,
@@ -229,6 +234,5 @@
       "symbol": "SPY",
       "at": "2026-11-09T20:10:12+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T21:12:27+00:00"
+  ]
 }
