@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-09T21:04:19+00:00"
+      "status": "idle",
+      "note": "no signal",
+      "at": "2026-11-09T21:05:21+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -28,7 +28,7 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 146,
+      "qty": 141,
       "avg": 205.6683
     },
     {
@@ -47,24 +47,32 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 2612.63,
-  "realized_pnl": 9512.49,
-  "unrealized_pnl": -6899.86,
+  "pnl": 2524.16,
+  "realized_pnl": 9266.9,
+  "unrealized_pnl": -6742.74,
   "last_signal": {
-    "id": "525c6fa5",
-    "symbol": "TSLA",
+    "id": "f211443b",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 156.34,
+    "price": 168.81,
     "qty": 2,
-    "strength": 0.49,
+    "strength": 0.694,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:04:01+00:00",
-    "verdict": "pass (score 53.6)",
-    "score": 53.6,
+    "ts": "2026-11-09T21:05:04+00:00",
+    "verdict": "pass (score 52.8)",
+    "score": 52.8,
     "recommendation": "PASS"
   },
-  "cycle": 9952,
+  "cycle": 9955,
   "fills": [
+    {
+      "fill": 156.55,
+      "qty": -5,
+      "realized": -245.59,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T21:04:31+00:00"
+    },
     {
       "fill": 48.68,
       "qty": 5,
@@ -216,15 +224,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-09T20:00:22+00:00"
-    },
-    {
-      "fill": 164.9,
-      "qty": 1,
-      "realized": 0.42,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T19:59:53+00:00"
     }
   ],
-  "updated_at": "2026-11-09T21:04:19+00:00"
+  "updated_at": "2026-11-09T21:05:21+00:00"
 }
