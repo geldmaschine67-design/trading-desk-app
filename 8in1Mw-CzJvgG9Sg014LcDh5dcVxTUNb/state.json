@@ -8,15 +8,19 @@
       "at": "2026-11-09T21:14:33+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T21:14:34+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T21:14:35+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 78.8 TAKE",
+      "at": "2026-11-09T21:14:38+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T21:15:37+00:00"
     },
     "executor": {
       "status": "idle"
@@ -61,7 +65,9 @@
     "strength": 0.736,
     "source": "paper-sim",
     "ts": "2026-11-09T21:14:33+00:00",
-    "verdict": "pending"
+    "verdict": "pending",
+    "score": 78.8,
+    "recommendation": "TAKE"
   },
   "cycle": 9984,
   "fills": [
@@ -226,5 +232,5 @@
       "at": "2026-11-09T20:10:12+00:00"
     }
   ],
-  "updated_at": "2026-11-09T21:14:34+00:00"
+  "updated_at": "2026-11-09T21:15:37+00:00"
 }
