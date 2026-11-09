@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 SPY @ 47.16",
-      "at": "2026-11-09T16:38:04+00:00"
+      "note": "SELL 10 NVDA @ 588.31",
+      "at": "2026-11-09T16:39:07+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T16:38:06+00:00"
+      "at": "2026-11-09T16:39:10+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 48.9 PASS",
-      "at": "2026-11-09T16:38:09+00:00"
+      "note": "score 90.0 TAKE",
+      "at": "2026-11-09T16:39:12+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "notional 5883 > 5000",
+      "at": "2026-11-09T16:39:15+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 1 BTC-USD @ 172.94",
-      "at": "2026-11-09T16:33:36+00:00"
-    },
-    "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T16:33:33+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-09T16:39:16+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,23 @@
       "avg": 289.815
     }
   ],
-  "pnl": 4626.85,
-  "updated_at": "2026-11-09T16:38:10+00:00",
+  "pnl": 4664.56,
   "realized_pnl": 9308.51,
-  "unrealized_pnl": -4681.66,
+  "unrealized_pnl": -4643.95,
   "last_signal": {
-    "id": "a85930b0",
-    "symbol": "SPY",
+    "id": "54d5357f",
+    "symbol": "NVDA",
     "side": "SELL",
-    "price": 47.16,
+    "price": 588.31,
     "qty": 10,
-    "strength": 0.657,
+    "strength": 0.908,
     "source": "paper-sim",
-    "ts": "2026-11-09T16:38:04+00:00",
-    "verdict": "pass (score 48.9)",
-    "score": 48.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T16:39:07+00:00",
+    "verdict": "risk blocked: notional 5883 > 5000",
+    "score": 90.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 9199,
+  "cycle": 9203,
   "fills": [
     {
       "fill": 172.94,
@@ -234,5 +233,6 @@
       "symbol": "BTC-USD",
       "at": "2026-11-09T15:33:15+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T16:39:16+00:00"
 }
