@@ -4,27 +4,35 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 BTC-USD @ 180.04",
-      "at": "2026-11-09T23:32:49+00:00"
+      "note": "SELL 1 MSFT @ 106.75",
+      "at": "2026-11-09T23:33:33+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T23:33:35+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 25.6 PASS",
+      "at": "2026-11-09T23:33:37+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 1 NVDA @ 728.74",
+      "at": "2026-11-09T23:33:15+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T23:33:13+00:00"
     }
   },
   "positions": [
     {
       "symbol": "NVDA",
-      "qty": 9,
-      "avg": 629.6378
+      "qty": 10,
+      "avg": 639.548
     },
     {
       "symbol": "TSLA",
@@ -47,22 +55,33 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5421.31,
+  "pnl": 5099.29,
+  "updated_at": "2026-11-09T23:33:39+00:00",
   "realized_pnl": 8810.59,
-  "unrealized_pnl": -3389.28,
+  "unrealized_pnl": -3711.3,
   "last_signal": {
-    "id": "ba64614c",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 180.04,
+    "id": "ddb99741",
+    "symbol": "MSFT",
+    "side": "SELL",
+    "price": 106.75,
     "qty": 1,
-    "strength": 0.423,
+    "strength": 0.082,
     "source": "paper-sim",
-    "ts": "2026-11-09T23:32:49+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T23:33:33+00:00",
+    "verdict": "pass (score 25.6)",
+    "score": 25.6,
+    "recommendation": "PASS"
   },
-  "cycle": 10349,
+  "cycle": 10351,
   "fills": [
+    {
+      "fill": 728.74,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-09T23:33:15+00:00"
+    },
     {
       "fill": 332.98,
       "qty": -5,
@@ -214,15 +233,6 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-09T22:16:59+00:00"
-    },
-    {
-      "fill": 634.82,
-      "qty": 1,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-09T22:15:42+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T23:32:49+00:00"
+  ]
 }
