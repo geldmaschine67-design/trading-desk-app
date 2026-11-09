@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 BTC-USD @ 163.06",
-      "at": "2026-11-09T20:48:38+00:00"
+      "note": "BUY 10 AMZN @ 314.92",
+      "at": "2026-11-09T20:49:45+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T20:48:40+00:00"
+      "at": "2026-11-09T20:49:47+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 41.6 PASS",
-      "at": "2026-11-09T20:48:43+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -42,8 +40,8 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -65,
-      "avg": 165.3166
+      "qty": -66,
+      "avg": 165.2842
     },
     {
       "symbol": "AMZN",
@@ -51,24 +49,30 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 1836.07,
+  "pnl": 2077.98,
   "realized_pnl": 9475.88,
-  "unrealized_pnl": -7639.81,
+  "unrealized_pnl": -7397.9,
   "last_signal": {
-    "id": "6d863e23",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 163.06,
-    "qty": 5,
-    "strength": 0.229,
+    "id": "c3cd6fde",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 314.92,
+    "qty": 10,
+    "strength": 0.369,
     "source": "paper-sim",
-    "ts": "2026-11-09T20:48:38+00:00",
-    "verdict": "pass (score 41.6)",
-    "score": 41.6,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T20:49:45+00:00",
+    "verdict": "pending"
   },
-  "cycle": 9911,
+  "cycle": 9914,
   "fills": [
+    {
+      "fill": 163.18,
+      "qty": -1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-09T20:49:08+00:00"
+    },
     {
       "fill": 619.47,
       "qty": 5,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-09T19:41:43+00:00"
-    },
-    {
-      "fill": 160.25,
-      "qty": 5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T19:41:19+00:00"
     }
   ],
-  "updated_at": "2026-11-09T20:48:44+00:00"
+  "updated_at": "2026-11-09T20:49:47+00:00"
 }
