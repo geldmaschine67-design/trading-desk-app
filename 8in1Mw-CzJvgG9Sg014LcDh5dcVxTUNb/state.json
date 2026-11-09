@@ -5,7 +5,7 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-09T22:04:04+00:00"
+      "at": "2026-11-09T22:05:11+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 323.761
     }
   ],
-  "pnl": 2482.16,
+  "pnl": 2626.87,
   "realized_pnl": 9158.91,
-  "unrealized_pnl": -6676.75,
+  "unrealized_pnl": -6532.04,
   "last_signal": {
-    "id": "f8f12f5f",
-    "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 179.5,
-    "qty": 1,
-    "strength": 0.658,
+    "id": "99010410",
+    "symbol": "NVDA",
+    "side": "SELL",
+    "price": 645.0,
+    "qty": 5,
+    "strength": 0.437,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:03:42+00:00",
-    "verdict": "PAPER filled 1 @ 179.45",
-    "score": 72.3,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T22:04:54+00:00",
+    "verdict": "pass (score 47.7)",
+    "score": 47.7,
+    "recommendation": "PASS"
   },
-  "cycle": 10104,
+  "cycle": 10108,
   "fills": [
     {
       "fill": 179.45,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T20:56:50+00:00"
     }
   ],
-  "updated_at": "2026-11-09T22:04:05+00:00"
+  "updated_at": "2026-11-09T22:05:12+00:00"
 }
