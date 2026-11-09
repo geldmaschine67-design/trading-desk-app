@@ -4,34 +4,34 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 NVDA @ 614.23",
-      "at": "2026-11-09T14:43:12+00:00"
+      "note": "BUY 10 NVDA @ 615.63",
+      "at": "2026-11-09T14:44:13+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T14:43:15+00:00"
+      "at": "2026-11-09T14:44:15+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 53.8 PASS",
-      "at": "2026-11-09T14:43:17+00:00"
+      "note": "score 31.8 PASS",
+      "at": "2026-11-09T14:44:18+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -1 TSLA @ 196.11",
-      "at": "2026-11-09T14:42:00+00:00"
+      "note": "PAPER fill 1 NVDA @ 615.27",
+      "at": "2026-11-09T14:44:01+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T14:41:58+00:00"
+      "at": "2026-11-09T14:43:59+00:00"
     }
   },
   "positions": [
     {
       "symbol": "NVDA",
-      "qty": -13,
+      "qty": -12,
       "avg": 681.1728
     },
     {
@@ -55,25 +55,33 @@
       "avg": 272.2985
     }
   ],
-  "pnl": 7613.4,
-  "updated_at": "2026-11-09T14:43:18+00:00",
-  "realized_pnl": 10741.38,
-  "unrealized_pnl": -3127.98,
+  "pnl": 7325.37,
+  "updated_at": "2026-11-09T14:44:19+00:00",
+  "realized_pnl": 10807.28,
+  "unrealized_pnl": -3481.91,
   "last_signal": {
-    "id": "8fb3356c",
+    "id": "8bdd789c",
     "symbol": "NVDA",
     "side": "BUY",
-    "price": 614.23,
-    "qty": 2,
-    "strength": 0.722,
+    "price": 615.63,
+    "qty": 10,
+    "strength": 0.093,
     "source": "paper-sim",
-    "ts": "2026-11-09T14:43:12+00:00",
-    "verdict": "pass (score 53.8)",
-    "score": 53.8,
+    "ts": "2026-11-09T14:44:13+00:00",
+    "verdict": "pass (score 31.8)",
+    "score": 31.8,
     "recommendation": "PASS"
   },
-  "cycle": 8862,
+  "cycle": 8865,
   "fills": [
+    {
+      "fill": 615.27,
+      "qty": 1,
+      "realized": 65.9,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-09T14:44:01+00:00"
+    },
     {
       "fill": 196.11,
       "qty": -1,
@@ -225,14 +233,6 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T13:36:43+00:00"
-    },
-    {
-      "fill": 210.5,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T13:34:10+00:00"
     }
   ]
 }
