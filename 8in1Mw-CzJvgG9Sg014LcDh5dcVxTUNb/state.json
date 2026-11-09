@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AAPL @ 90.49",
-      "at": "2026-11-09T21:32:05+00:00"
+      "note": "SELL 1 SPY @ 46.43",
+      "at": "2026-11-09T21:33:06+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T21:32:07+00:00"
+      "at": "2026-11-09T21:33:09+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 80.8 TAKE",
-      "at": "2026-11-09T21:32:10+00:00"
+      "note": "score 37.1 PASS",
+      "at": "2026-11-09T21:33:11+00:00"
     },
     "risk": {
-      "status": "blocked",
-      "note": "max positions",
-      "at": "2026-11-09T21:32:12+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-09T21:32:14+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,23 +51,23 @@
       "avg": 308.8035
     }
   ],
-  "pnl": 3012.81,
+  "pnl": 3230.87,
   "realized_pnl": 9289.06,
-  "unrealized_pnl": -6276.25,
+  "unrealized_pnl": -6058.19,
   "last_signal": {
-    "id": "b0561a3b",
-    "symbol": "AAPL",
+    "id": "da2fc833",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 90.49,
-    "qty": 2,
-    "strength": 0.934,
+    "price": 46.43,
+    "qty": 1,
+    "strength": 0.155,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:32:05+00:00",
-    "verdict": "risk blocked: max positions",
-    "score": 80.8,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T21:33:06+00:00",
+    "verdict": "pass (score 37.1)",
+    "score": 37.1,
+    "recommendation": "PASS"
   },
-  "cycle": 10016,
+  "cycle": 10020,
   "fills": [
     {
       "fill": 164.0,
@@ -234,5 +230,5 @@
       "at": "2026-11-09T20:36:15+00:00"
     }
   ],
-  "updated_at": "2026-11-09T21:32:16+00:00"
+  "updated_at": "2026-11-09T21:33:12+00:00"
 }
