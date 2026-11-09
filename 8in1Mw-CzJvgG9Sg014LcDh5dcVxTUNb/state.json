@@ -5,7 +5,7 @@
     "scanner": {
       "status": "idle",
       "note": "no signal",
-      "at": "2026-11-09T19:57:14+00:00"
+      "at": "2026-11-09T19:58:13+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 2166.3,
+  "pnl": 2189.35,
   "realized_pnl": 9477.59,
-  "unrealized_pnl": -7311.29,
+  "unrealized_pnl": -7288.24,
   "last_signal": {
-    "id": "4d6e4d65",
-    "symbol": "TSLA",
+    "id": "dce3f24b",
+    "symbol": "SPY",
     "side": "BUY",
-    "price": 157.35,
-    "qty": 10,
-    "strength": 0.156,
+    "price": 54.54,
+    "qty": 2,
+    "strength": 0.086,
     "source": "paper-sim",
-    "ts": "2026-11-09T19:56:58+00:00",
-    "verdict": "pass (score 16.7)",
-    "score": 16.7,
+    "ts": "2026-11-09T19:57:53+00:00",
+    "verdict": "pass (score 11.3)",
+    "score": 11.3,
     "recommendation": "PASS"
   },
-  "cycle": 9766,
+  "cycle": 9769,
   "fills": [
     {
       "fill": 53.57,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T18:35:48+00:00"
     }
   ],
-  "updated_at": "2026-11-09T19:57:15+00:00"
+  "updated_at": "2026-11-09T19:58:14+00:00"
 }
