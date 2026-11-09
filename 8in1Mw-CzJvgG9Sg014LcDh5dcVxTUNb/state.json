@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 2 QQQ @ 473.46",
-      "at": "2026-11-09T14:25:39+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-09T14:26:54+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T14:25:41+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 42.9 PASS",
-      "at": "2026-11-09T14:25:44+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,9 +47,9 @@
       "avg": 272.5733
     }
   ],
-  "pnl": 7623.88,
+  "pnl": 7532.44,
   "realized_pnl": 10384.72,
-  "unrealized_pnl": -2760.84,
+  "unrealized_pnl": -2852.28,
   "last_signal": {
     "id": "5549de8c",
     "symbol": "QQQ",
@@ -67,7 +63,7 @@
     "score": 42.9,
     "recommendation": "PASS"
   },
-  "cycle": 8818,
+  "cycle": 8819,
   "fills": [
     {
       "fill": 160.37,
@@ -230,5 +226,5 @@
       "at": "2026-11-09T13:11:01+00:00"
     }
   ],
-  "updated_at": "2026-11-09T14:25:45+00:00"
+  "updated_at": "2026-11-09T14:26:54+00:00"
 }
