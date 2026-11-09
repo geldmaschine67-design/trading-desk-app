@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 SPY @ 50.41",
-      "at": "2026-11-09T15:26:49+00:00"
+      "note": "BUY 1 MSFT @ 105.82",
+      "at": "2026-11-09T15:28:03+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T15:26:51+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T15:28:04+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 33.2 PASS",
-      "at": "2026-11-09T15:26:53+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -10 BTC-USD @ 171.03",
-      "at": "2026-11-09T15:23:23+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T15:23:21+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +49,21 @@
       "avg": 272.2985
     }
   ],
-  "pnl": 5155.93,
-  "updated_at": "2026-11-09T15:26:55+00:00",
+  "pnl": 4994.84,
   "realized_pnl": 10833.93,
-  "unrealized_pnl": -5678.0,
+  "unrealized_pnl": -5839.09,
   "last_signal": {
-    "id": "d8ced343",
-    "symbol": "SPY",
+    "id": "48fb5254",
+    "symbol": "MSFT",
     "side": "BUY",
-    "price": 50.41,
-    "qty": 5,
-    "strength": 0.323,
+    "price": 105.82,
+    "qty": 1,
+    "strength": 0.119,
     "source": "paper-sim",
-    "ts": "2026-11-09T15:26:49+00:00",
-    "verdict": "pass (score 33.2)",
-    "score": 33.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T15:28:03+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8993,
+  "cycle": 8997,
   "fills": [
     {
       "fill": 171.03,
@@ -234,5 +225,6 @@
       "symbol": "AMZN",
       "at": "2026-11-09T14:19:47+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T15:28:04+00:00"
 }
