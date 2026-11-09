@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 5 AAPL @ 96.69",
-      "at": "2026-11-09T22:12:16+00:00"
+      "note": "BUY 1 QQQ @ 447.95",
+      "at": "2026-11-09T22:13:20+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T22:12:19+00:00"
+      "at": "2026-11-09T22:13:22+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 49.7 PASS",
-      "at": "2026-11-09T22:12:21+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T22:13:23+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,28 +47,34 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 22,
-      "avg": 323.761
+      "qty": 32,
+      "avg": 325.2826
     }
   ],
-  "pnl": 2785.44,
+  "pnl": 2711.44,
   "realized_pnl": 8779.89,
-  "unrealized_pnl": -5994.45,
+  "unrealized_pnl": -6068.45,
   "last_signal": {
-    "id": "4783893b",
-    "symbol": "AAPL",
+    "id": "d7087481",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 96.69,
-    "qty": 5,
-    "strength": 0.635,
+    "price": 447.95,
+    "qty": 1,
+    "strength": 0.837,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:12:16+00:00",
-    "verdict": "pass (score 49.7)",
-    "score": 49.7,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T22:13:20+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10126,
+  "cycle": 10129,
   "fills": [
+    {
+      "fill": 328.63,
+      "qty": 10,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-09T22:13:03+00:00"
+    },
     {
       "fill": 161.89,
       "qty": -10,
@@ -220,15 +226,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-09T21:04:31+00:00"
-    },
-    {
-      "fill": 48.68,
-      "qty": 5,
-      "realized": 16.72,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-09T21:01:43+00:00"
     }
   ],
-  "updated_at": "2026-11-09T22:12:21+00:00"
+  "updated_at": "2026-11-09T22:13:23+00:00"
 }
