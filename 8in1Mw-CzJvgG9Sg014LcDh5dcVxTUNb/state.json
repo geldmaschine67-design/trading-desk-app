@@ -4,14 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 SPY @ 48.59",
-      "at": "2026-11-09T14:23:43+00:00"
+      "note": "SELL 10 BTC-USD @ 160.3",
+      "at": "2026-11-09T14:24:38+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T14:24:40+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 88.2 TAKE",
+      "at": "2026-11-09T14:24:43+00:00"
     },
     "risk": {
       "status": "idle"
@@ -33,7 +37,7 @@
     },
     {
       "symbol": "SPY",
-      "qty": -7,
+      "qty": -6,
       "avg": 46.7556
     },
     {
@@ -47,22 +51,32 @@
       "avg": 272.5733
     }
   ],
-  "pnl": 7707.92,
-  "realized_pnl": 10386.56,
-  "unrealized_pnl": -2678.64,
+  "pnl": 7888.69,
+  "realized_pnl": 10384.72,
+  "unrealized_pnl": -2496.03,
   "last_signal": {
-    "id": "421f1c99",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 48.59,
-    "qty": 1,
-    "strength": 0.91,
+    "id": "053eacd1",
+    "symbol": "BTC-USD",
+    "side": "SELL",
+    "price": 160.3,
+    "qty": 10,
+    "strength": 0.915,
     "source": "paper-sim",
-    "ts": "2026-11-09T14:23:43+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T14:24:38+00:00",
+    "verdict": "pending",
+    "score": 88.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 8812,
+  "cycle": 8815,
   "fills": [
+    {
+      "fill": 48.6,
+      "qty": 1,
+      "realized": -1.84,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-09T14:23:53+00:00"
+    },
     {
       "fill": 274.14,
       "qty": -2,
@@ -214,15 +228,7 @@
       "paper": true,
       "symbol": "TSLA",
       "at": "2026-11-09T13:04:06+00:00"
-    },
-    {
-      "fill": 203.73,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T12:53:51+00:00"
     }
   ],
-  "updated_at": "2026-11-09T14:23:43+00:00"
+  "updated_at": "2026-11-09T14:24:43+00:00"
 }
