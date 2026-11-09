@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 MSFT @ 111.81",
-      "at": "2026-11-09T14:10:17+00:00"
+      "note": "SELL 2 MSFT @ 110.16",
+      "at": "2026-11-09T14:11:14+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T14:10:19+00:00"
+      "at": "2026-11-09T14:11:17+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 24.2 PASS",
+      "at": "2026-11-09T14:11:19+00:00"
     },
     "risk": {
       "status": "idle"
@@ -49,21 +51,23 @@
       "avg": 263.3582
     }
   ],
-  "pnl": 8045.95,
+  "pnl": 8224.1,
   "realized_pnl": 10257.05,
-  "unrealized_pnl": -2211.1,
+  "unrealized_pnl": -2032.95,
   "last_signal": {
-    "id": "96ba9ba3",
+    "id": "13843423",
     "symbol": "MSFT",
-    "side": "BUY",
-    "price": 111.81,
+    "side": "SELL",
+    "price": 110.16,
     "qty": 2,
-    "strength": 0.006,
+    "strength": 0.169,
     "source": "paper-sim",
-    "ts": "2026-11-09T14:10:17+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T14:11:14+00:00",
+    "verdict": "pass (score 24.2)",
+    "score": 24.2,
+    "recommendation": "PASS"
   },
-  "cycle": 8775,
+  "cycle": 8778,
   "fills": [
     {
       "fill": 196.3,
@@ -226,5 +230,5 @@
       "at": "2026-11-09T12:42:35+00:00"
     }
   ],
-  "updated_at": "2026-11-09T14:10:19+00:00"
+  "updated_at": "2026-11-09T14:11:20+00:00"
 }
