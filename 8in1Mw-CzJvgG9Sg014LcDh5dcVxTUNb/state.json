@@ -4,20 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-09T12:58:25+00:00"
+      "note": "SELL 1 QQQ @ 482.17",
+      "at": "2026-11-09T12:59:14+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T12:59:17+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 83.4 TAKE",
+      "at": "2026-11-09T12:59:19+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-09T12:59:31+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-09T12:59:30+00:00"
     }
   },
   "positions": [
@@ -47,23 +55,24 @@
       "avg": 267.5612
     }
   ],
-  "pnl": 8057.82,
+  "pnl": 7958.45,
+  "updated_at": "2026-11-09T12:59:31+00:00",
   "realized_pnl": 10467.38,
-  "unrealized_pnl": -2409.56,
+  "unrealized_pnl": -2508.93,
   "last_signal": {
-    "id": "178ff994",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 44.52,
-    "qty": 10,
-    "strength": 0.373,
+    "id": "525f2979",
+    "symbol": "QQQ",
+    "side": "SELL",
+    "price": 482.17,
+    "qty": 1,
+    "strength": 0.847,
     "source": "paper-sim",
-    "ts": "2026-11-09T12:58:03+00:00",
-    "verdict": "pass (score 51.2)",
-    "score": 51.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T12:59:14+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 83.4,
+    "recommendation": "TAKE"
   },
-  "cycle": 8568,
+  "cycle": 8571,
   "fills": [
     {
       "fill": 203.73,
@@ -225,6 +234,5 @@
       "symbol": "BTC-USD",
       "at": "2026-11-04T23:08:54+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T12:58:26+00:00"
+  ]
 }
