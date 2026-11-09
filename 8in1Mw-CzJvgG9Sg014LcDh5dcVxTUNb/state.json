@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 SPY @ 51.82",
-      "at": "2026-11-09T20:08:41+00:00"
+      "note": "SELL 5 AAPL @ 96.03",
+      "at": "2026-11-09T20:09:41+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T20:08:43+00:00"
+      "at": "2026-11-09T20:09:43+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 71.4 TAKE",
-      "at": "2026-11-09T20:08:46+00:00"
+      "note": "score 52.9 PASS",
+      "at": "2026-11-09T20:09:46+00:00"
     },
     "risk": {
       "status": "idle"
@@ -37,8 +37,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": -21,
-      "avg": 53.0305
+      "qty": -23,
+      "avg": 52.927
     },
     {
       "symbol": "BTC-USD",
@@ -51,24 +51,32 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 1693.68,
+  "pnl": 1524.69,
   "realized_pnl": 9584.11,
-  "unrealized_pnl": -7890.43,
+  "unrealized_pnl": -8059.42,
   "last_signal": {
-    "id": "87e78ca8",
-    "symbol": "SPY",
+    "id": "f105abce",
+    "symbol": "AAPL",
     "side": "SELL",
-    "price": 51.82,
-    "qty": 2,
-    "strength": 0.946,
+    "price": 96.03,
+    "qty": 5,
+    "strength": 0.628,
     "source": "paper-sim",
-    "ts": "2026-11-09T20:08:41+00:00",
-    "verdict": "pending",
-    "score": 71.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T20:09:41+00:00",
+    "verdict": "pass (score 52.9)",
+    "score": 52.9,
+    "recommendation": "PASS"
   },
-  "cycle": 9792,
+  "cycle": 9795,
   "fills": [
+    {
+      "fill": 51.84,
+      "qty": -2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-09T20:08:51+00:00"
+    },
     {
       "fill": 155.47,
       "qty": 2,
@@ -220,15 +228,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T18:44:54+00:00"
-    },
-    {
-      "fill": 51.48,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-09T18:44:30+00:00"
     }
   ],
-  "updated_at": "2026-11-09T20:08:46+00:00"
+  "updated_at": "2026-11-09T20:09:47+00:00"
 }
