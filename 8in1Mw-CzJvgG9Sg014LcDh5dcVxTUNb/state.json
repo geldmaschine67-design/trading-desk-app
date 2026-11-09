@@ -5,7 +5,7 @@
     "scanner": {
       "status": "scanning",
       "note": null,
-      "at": "2026-11-09T17:54:17+00:00"
+      "at": "2026-11-09T17:55:19+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,23 @@
       "avg": 299.63
     }
   ],
-  "pnl": 5873.42,
+  "pnl": 5802.2,
   "realized_pnl": 9344.56,
-  "unrealized_pnl": -3471.14,
+  "unrealized_pnl": -3542.36,
   "last_signal": {
-    "id": "73b83a98",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 185.66,
+    "id": "60aedb7a",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 478.3,
     "qty": 2,
-    "strength": 0.914,
+    "strength": 0.802,
     "source": "paper-sim",
-    "ts": "2026-11-09T17:54:01+00:00",
-    "verdict": "pass (score 68.0)",
-    "score": 68.0,
+    "ts": "2026-11-09T17:54:51+00:00",
+    "verdict": "pass (score 59.8)",
+    "score": 59.8,
     "recommendation": "PASS"
   },
-  "cycle": 9424,
+  "cycle": 9428,
   "fills": [
     {
       "fill": 299.63,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T16:54:18+00:00"
     }
   ],
-  "updated_at": "2026-11-09T17:54:17+00:00"
+  "updated_at": "2026-11-09T17:55:19+00:00"
 }
