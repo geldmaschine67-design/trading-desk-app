@@ -4,20 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-09T21:05:21+00:00"
+      "note": "BUY 2 AMZN @ 331.58",
+      "at": "2026-11-09T21:06:11+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T21:06:13+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 76.9 TAKE",
+      "at": "2026-11-09T21:06:16+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 2 AMZN @ 331.46",
+      "at": "2026-11-09T21:06:21+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T21:06:19+00:00"
     }
   },
   "positions": [
@@ -43,28 +51,37 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 8,
-      "avg": 300.7027
+      "qty": 10,
+      "avg": 306.8542
     }
   ],
-  "pnl": 2524.16,
+  "pnl": 2467.34,
+  "updated_at": "2026-11-09T21:06:21+00:00",
   "realized_pnl": 9266.9,
-  "unrealized_pnl": -6742.74,
+  "unrealized_pnl": -6799.56,
   "last_signal": {
-    "id": "f211443b",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 168.81,
+    "id": "a72f3ae2",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 331.58,
     "qty": 2,
-    "strength": 0.694,
+    "strength": 0.937,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:05:04+00:00",
-    "verdict": "pass (score 52.8)",
-    "score": 52.8,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T21:06:11+00:00",
+    "verdict": "PAPER filled 2 @ 331.46",
+    "score": 76.9,
+    "recommendation": "TAKE"
   },
-  "cycle": 9955,
+  "cycle": 9958,
   "fills": [
+    {
+      "fill": 331.46,
+      "qty": 2,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-09T21:06:21+00:00"
+    },
     {
       "fill": 156.55,
       "qty": -5,
@@ -216,15 +233,6 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T20:08:51+00:00"
-    },
-    {
-      "fill": 155.47,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T20:00:22+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T21:05:21+00:00"
+  ]
 }
