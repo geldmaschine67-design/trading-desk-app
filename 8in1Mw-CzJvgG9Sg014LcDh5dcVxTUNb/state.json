@@ -4,29 +4,35 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 MSFT @ 96.38",
-      "at": "2026-11-09T19:21:41+00:00"
+      "note": "no signal",
+      "at": "2026-11-09T19:22:39+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T19:21:42+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T19:22:20+00:00"
     },
     "analyst": {
-      "status": "idle"
-    },
-    "risk": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 80.3 TAKE",
+      "at": "2026-11-09T19:22:22+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill -5 NVDA @ 614.01",
+      "at": "2026-11-09T19:22:27+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T19:22:25+00:00"
     }
   },
   "positions": [
     {
       "symbol": "NVDA",
-      "qty": -8,
-      "avg": 633.9479
+      "qty": -13,
+      "avg": 626.2795
     },
     {
       "symbol": "TSLA",
@@ -49,22 +55,33 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 3153.87,
+  "pnl": 2760.74,
+  "updated_at": "2026-11-09T19:22:40+00:00",
   "realized_pnl": 9403.44,
-  "unrealized_pnl": -6249.57,
+  "unrealized_pnl": -6642.7,
   "last_signal": {
-    "id": "97cc1ded",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 96.38,
-    "qty": 10,
-    "strength": 0.908,
+    "id": "2c859647",
+    "symbol": "NVDA",
+    "side": "SELL",
+    "price": 614.24,
+    "qty": 5,
+    "strength": 0.722,
     "source": "paper-sim",
-    "ts": "2026-11-09T19:21:41+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T19:22:17+00:00",
+    "verdict": "PAPER filled -5 @ 614.01",
+    "score": 80.3,
+    "recommendation": "TAKE"
   },
-  "cycle": 9664,
+  "cycle": 9667,
   "fills": [
+    {
+      "fill": 614.01,
+      "qty": -5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "NVDA",
+      "at": "2026-11-09T19:22:27+00:00"
+    },
     {
       "fill": 170.73,
       "qty": -5,
@@ -216,15 +233,6 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T18:11:33+00:00"
-    },
-    {
-      "fill": 163.35,
-      "qty": -10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T18:01:20+00:00"
     }
-  ],
-  "updated_at": "2026-11-09T19:21:42+00:00"
+  ]
 }
