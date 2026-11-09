@@ -4,23 +4,19 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 NVDA @ 688.5",
-      "at": "2026-11-09T23:05:53+00:00"
+      "note": "SELL 1 AMZN @ 335.24",
+      "at": "2026-11-09T23:06:59+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T23:05:55+00:00"
+      "at": "2026-11-09T23:07:01+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 76.1 TAKE",
-      "at": "2026-11-09T23:05:57+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "blocked",
-      "note": "notional 6885 > 5000",
-      "at": "2026-11-09T23:06:00+00:00"
+      "status": "idle"
     },
     "executor": {
       "status": "idle"
@@ -53,23 +49,21 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 3772.06,
+  "pnl": 3859.58,
   "realized_pnl": 8754.85,
-  "unrealized_pnl": -4982.79,
+  "unrealized_pnl": -4895.27,
   "last_signal": {
-    "id": "4a10b1e8",
-    "symbol": "NVDA",
-    "side": "BUY",
-    "price": 688.5,
-    "qty": 10,
-    "strength": 0.851,
+    "id": "b0855899",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 335.24,
+    "qty": 1,
+    "strength": 0.17,
     "source": "paper-sim",
-    "ts": "2026-11-09T23:05:53+00:00",
-    "verdict": "risk blocked: notional 6885 > 5000",
-    "score": 76.1,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T23:06:59+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10272,
+  "cycle": 10275,
   "fills": [
     {
       "fill": 47.4,
@@ -232,5 +226,5 @@
       "at": "2026-11-09T21:58:00+00:00"
     }
   ],
-  "updated_at": "2026-11-09T23:06:00+00:00"
+  "updated_at": "2026-11-09T23:07:01+00:00"
 }
