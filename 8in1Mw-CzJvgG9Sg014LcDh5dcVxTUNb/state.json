@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 AMZN @ 322.78",
-      "at": "2026-11-09T23:54:23+00:00"
+      "note": "BUY 2 AAPL @ 104.57",
+      "at": "2026-11-09T23:55:14+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T23:54:26+00:00"
+      "at": "2026-11-09T23:55:16+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 44.2 PASS",
-      "at": "2026-11-09T23:54:28+00:00"
+      "note": "score 93.5 TAKE",
+      "at": "2026-11-09T23:55:19+00:00"
     },
     "executor": {
       "status": "idle",
       "note": "skipped (risk)",
-      "at": "2026-11-09T23:52:31+00:00"
+      "at": "2026-11-09T23:55:23+00:00"
     },
     "risk": {
-      "status": "idle",
+      "status": "blocked",
       "note": "max positions",
-      "at": "2026-11-09T23:52:30+00:00"
+      "at": "2026-11-09T23:55:22+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,24 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 4906.57,
-  "updated_at": "2026-11-09T23:54:29+00:00",
+  "pnl": 5188.83,
+  "updated_at": "2026-11-09T23:55:46+00:00",
   "realized_pnl": 8640.49,
-  "unrealized_pnl": -3733.92,
+  "unrealized_pnl": -3451.66,
   "last_signal": {
-    "id": "b7b80bce",
-    "symbol": "AMZN",
-    "side": "SELL",
-    "price": 322.78,
-    "qty": 5,
-    "strength": 0.343,
+    "id": "a391602d",
+    "symbol": "AAPL",
+    "side": "BUY",
+    "price": 104.57,
+    "qty": 2,
+    "strength": 0.915,
     "source": "paper-sim",
-    "ts": "2026-11-09T23:54:23+00:00",
-    "verdict": "pass (score 44.2)",
-    "score": 44.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T23:55:14+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 93.5,
+    "recommendation": "TAKE"
   },
-  "cycle": 10413,
+  "cycle": 10416,
   "fills": [
     {
       "fill": 171.74,
