@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AAPL @ 95.74",
-      "at": "2026-11-09T22:54:30+00:00"
+      "note": "SELL 10 AMZN @ 341.72",
+      "at": "2026-11-09T22:55:43+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T22:54:33+00:00"
+      "at": "2026-11-09T22:55:46+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 37.8 PASS",
-      "at": "2026-11-09T22:54:35+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-09T22:50:17+00:00"
+      "note": "score 46.4 PASS",
+      "at": "2026-11-09T22:55:48+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-09T22:50:16+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -41,7 +37,7 @@
     },
     {
       "symbol": "SPY",
-      "qty": -5,
+      "qty": -4,
       "avg": 50.2916
     },
     {
@@ -55,25 +51,32 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 3190.75,
-  "updated_at": "2026-11-09T22:54:36+00:00",
-  "realized_pnl": 8847.31,
-  "unrealized_pnl": -5656.56,
+  "pnl": 2891.84,
+  "realized_pnl": 8850.3,
+  "unrealized_pnl": -5958.46,
   "last_signal": {
-    "id": "73f21f06",
-    "symbol": "AAPL",
+    "id": "d0115a80",
+    "symbol": "AMZN",
     "side": "SELL",
-    "price": 95.74,
-    "qty": 2,
-    "strength": 0.502,
+    "price": 341.72,
+    "qty": 10,
+    "strength": 0.614,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:54:30+00:00",
-    "verdict": "pass (score 37.8)",
-    "score": 37.8,
+    "ts": "2026-11-09T22:55:43+00:00",
+    "verdict": "pass (score 46.4)",
+    "score": 46.4,
     "recommendation": "PASS"
   },
-  "cycle": 10238,
+  "cycle": 10242,
   "fills": [
+    {
+      "fill": 47.3,
+      "qty": 1,
+      "realized": 2.99,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-09T22:55:28+00:00"
+    },
     {
       "fill": 46.68,
       "qty": 2,
@@ -225,14 +228,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T21:51:47+00:00"
-    },
-    {
-      "fill": 46.44,
-      "qty": -5,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-09T21:38:55+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T22:55:49+00:00"
 }
