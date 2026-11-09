@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 TSLA @ 164.0",
-      "at": "2026-11-09T21:27:05+00:00"
+      "note": "BUY 1 AAPL @ 91.67",
+      "at": "2026-11-09T21:27:58+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T21:27:08+00:00"
+      "at": "2026-11-09T21:28:00+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 47.5 PASS",
+      "at": "2026-11-09T21:28:02+00:00"
     },
     "risk": {
       "status": "idle"
@@ -30,8 +32,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 152,
-      "avg": 202.1917
+      "qty": 153,
+      "avg": 201.9421
     },
     {
       "symbol": "SPY",
@@ -49,22 +51,32 @@
       "avg": 308.8035
     }
   ],
-  "pnl": 3022.06,
+  "pnl": 3361.75,
   "realized_pnl": 9289.06,
-  "unrealized_pnl": -6267.0,
+  "unrealized_pnl": -5927.31,
   "last_signal": {
-    "id": "8519374c",
-    "symbol": "TSLA",
+    "id": "6ac70ff0",
+    "symbol": "AAPL",
     "side": "BUY",
-    "price": 164.0,
+    "price": 91.67,
     "qty": 1,
-    "strength": 0.877,
+    "strength": 0.256,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:27:05+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-09T21:27:58+00:00",
+    "verdict": "pass (score 47.5)",
+    "score": 47.5,
+    "recommendation": "PASS"
   },
-  "cycle": 10000,
+  "cycle": 10003,
   "fills": [
+    {
+      "fill": 164.0,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T21:27:15+00:00"
+    },
     {
       "fill": 161.37,
       "qty": 10,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-09T20:36:15+00:00"
-    },
-    {
-      "fill": 148.5,
-      "qty": -2,
-      "realized": -114.34,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-09T20:27:53+00:00"
     }
   ],
-  "updated_at": "2026-11-09T21:27:08+00:00"
+  "updated_at": "2026-11-09T21:28:04+00:00"
 }
