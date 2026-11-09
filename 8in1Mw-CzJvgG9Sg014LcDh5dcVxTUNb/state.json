@@ -4,28 +4,22 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 BTC-USD @ 169.53",
-      "at": "2026-11-09T21:10:15+00:00"
+      "note": "BUY 1 QQQ @ 475.9",
+      "at": "2026-11-09T21:11:26+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T21:10:17+00:00"
+      "at": "2026-11-09T21:11:29+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 71.4 TAKE",
-      "at": "2026-11-09T21:10:19+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T21:10:22+00:00"
+      "status": "idle"
     },
     "executor": {
-      "status": "idle",
-      "note": "PAPER fill 10 BTC-USD @ 169.6",
-      "at": "2026-11-09T21:10:25+00:00"
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,23 +49,21 @@
       "avg": 306.8542
     }
   ],
-  "pnl": 3140.41,
+  "pnl": 3348.98,
   "realized_pnl": 9223.74,
-  "unrealized_pnl": -6083.33,
+  "unrealized_pnl": -5874.76,
   "last_signal": {
-    "id": "12e27bbf",
-    "symbol": "BTC-USD",
+    "id": "5cce937f",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 169.53,
-    "qty": 10,
-    "strength": 0.628,
+    "price": 475.9,
+    "qty": 1,
+    "strength": 0.269,
     "source": "paper-sim",
-    "ts": "2026-11-09T21:10:15+00:00",
-    "verdict": "PAPER filled 10 @ 169.6",
-    "score": 71.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T21:11:26+00:00",
+    "verdict": "pending"
   },
-  "cycle": 9971,
+  "cycle": 9974,
   "fills": [
     {
       "fill": 169.6,
@@ -234,5 +226,5 @@
       "at": "2026-11-09T20:10:12+00:00"
     }
   ],
-  "updated_at": "2026-11-09T21:10:26+00:00"
+  "updated_at": "2026-11-09T21:11:29+00:00"
 }
