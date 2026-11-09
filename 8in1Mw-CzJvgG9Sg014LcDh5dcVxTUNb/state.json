@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AMZN @ 339.96",
-      "at": "2026-11-09T23:01:52+00:00"
+      "note": "BUY 2 QQQ @ 432.93",
+      "at": "2026-11-09T23:02:52+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T23:01:53+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T23:02:54+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 74.4 TAKE",
-      "at": "2026-11-09T23:01:15+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-09T23:01:19+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T23:02:55+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-09T23:01:18+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -41,8 +37,8 @@
     },
     {
       "symbol": "SPY",
-      "qty": -4,
-      "avg": 50.2916
+      "qty": -9,
+      "avg": 48.6852
     },
     {
       "symbol": "BTC-USD",
@@ -55,25 +51,30 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 3338.62,
-  "updated_at": "2026-11-09T23:01:53+00:00",
+  "pnl": 3406.72,
   "realized_pnl": 8754.85,
-  "unrealized_pnl": -5416.23,
+  "unrealized_pnl": -5348.13,
   "last_signal": {
-    "id": "23416ba8",
-    "symbol": "AMZN",
-    "side": "SELL",
-    "price": 339.96,
-    "qty": 10,
-    "strength": 0.647,
+    "id": "9157a7b2",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 432.93,
+    "qty": 2,
+    "strength": 0.385,
     "source": "paper-sim",
-    "ts": "2026-11-09T23:01:52+00:00",
-    "verdict": "pending",
-    "score": 74.4,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T23:02:52+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10259,
+  "cycle": 10262,
   "fills": [
+    {
+      "fill": 47.4,
+      "qty": -5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-09T23:02:36+00:00"
+    },
     {
       "fill": 190.44,
       "qty": 5,
@@ -225,14 +226,7 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-09T21:58:00+00:00"
-    },
-    {
-      "fill": 341.71,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-09T21:53:27+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T23:02:55+00:00"
 }
