@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 BTC-USD @ 173.88",
-      "at": "2026-11-09T19:32:54+00:00"
+      "note": "SELL 10 AAPL @ 94.82",
+      "at": "2026-11-09T19:33:42+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-09T19:32:55+00:00"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-09T19:33:44+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 30.4 PASS",
-      "at": "2026-11-09T19:32:39+00:00"
+      "note": "score 51.2 PASS",
+      "at": "2026-11-09T19:33:47+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill -2 BTC-USD @ 172.63",
-      "at": "2026-11-09T19:25:47+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-09T19:33:25+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T19:25:45+00:00"
+      "note": "max positions",
+      "at": "2026-11-09T19:33:24+00:00"
     }
   },
   "positions": [
@@ -46,8 +46,8 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -66,
-      "avg": 165.187
+      "qty": -67,
+      "avg": 165.3166
     },
     {
       "symbol": "AMZN",
@@ -55,25 +55,33 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 2862.46,
-  "updated_at": "2026-11-09T19:32:55+00:00",
+  "pnl": 3171.8,
+  "updated_at": "2026-11-09T19:33:48+00:00",
   "realized_pnl": 9403.44,
-  "unrealized_pnl": -6540.98,
+  "unrealized_pnl": -6231.64,
   "last_signal": {
-    "id": "908fd26a",
-    "symbol": "BTC-USD",
+    "id": "9ee3023f",
+    "symbol": "AAPL",
     "side": "SELL",
-    "price": 173.88,
-    "qty": 1,
-    "strength": 0.763,
+    "price": 94.82,
+    "qty": 10,
+    "strength": 0.681,
     "source": "paper-sim",
-    "ts": "2026-11-09T19:32:54+00:00",
-    "verdict": "pending",
-    "score": 30.4,
+    "ts": "2026-11-09T19:33:42+00:00",
+    "verdict": "pass (score 51.2)",
+    "score": 51.2,
     "recommendation": "PASS"
   },
-  "cycle": 9693,
+  "cycle": 9695,
   "fills": [
+    {
+      "fill": 173.87,
+      "qty": -1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-09T19:33:04+00:00"
+    },
     {
       "fill": 172.63,
       "qty": -2,
@@ -225,14 +233,6 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-09T18:15:01+00:00"
-    },
-    {
-      "fill": 300.81,
-      "qty": 10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-09T18:12:34+00:00"
     }
   ]
 }
