@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-09T15:17:48+00:00"
+      "status": "idle",
+      "note": "SELL 2 TSLA @ 179.87",
+      "at": "2026-11-09T15:18:49+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 272.2985
     }
   ],
-  "pnl": 5158.7,
+  "pnl": 4994.05,
   "realized_pnl": 10833.93,
-  "unrealized_pnl": -5675.23,
+  "unrealized_pnl": -5839.88,
   "last_signal": {
-    "id": "2dd6e83a",
-    "symbol": "QQQ",
+    "id": "68f2c14a",
+    "symbol": "TSLA",
     "side": "SELL",
-    "price": 472.45,
-    "qty": 5,
-    "strength": 0.371,
+    "price": 179.87,
+    "qty": 2,
+    "strength": 0.425,
     "source": "paper-sim",
-    "ts": "2026-11-09T15:17:29+00:00",
-    "verdict": "pass (score 43.3)",
-    "score": 43.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T15:18:49+00:00",
+    "verdict": "pending"
   },
-  "cycle": 8965,
+  "cycle": 8968,
   "fills": [
     {
       "fill": 179.67,
@@ -226,5 +224,5 @@
       "at": "2026-11-09T14:18:30+00:00"
     }
   ],
-  "updated_at": "2026-11-09T15:17:48+00:00"
+  "updated_at": "2026-11-09T15:18:49+00:00"
 }
