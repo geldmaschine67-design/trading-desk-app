@@ -4,18 +4,14 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 NVDA @ 626.85",
-      "at": "2026-11-09T15:45:15+00:00"
+      "note": "no signal",
+      "at": "2026-11-09T15:46:19+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T15:45:18+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 20.9 PASS",
-      "at": "2026-11-09T15:45:20+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -42,7 +38,7 @@
     },
     {
       "symbol": "BTC-USD",
-      "qty": -30,
+      "qty": -28,
       "avg": 166.6789
     },
     {
@@ -51,24 +47,32 @@
       "avg": 275.1399
     }
   ],
-  "pnl": 5082.64,
-  "realized_pnl": 10466.59,
-  "unrealized_pnl": -5383.95,
+  "pnl": 4889.31,
+  "realized_pnl": 10448.01,
+  "unrealized_pnl": -5558.7,
   "last_signal": {
-    "id": "fb964e6b",
-    "symbol": "NVDA",
+    "id": "2dab8f96",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 626.85,
-    "qty": 10,
-    "strength": 0.176,
+    "price": 175.9,
+    "qty": 2,
+    "strength": 0.873,
     "source": "paper-sim",
-    "ts": "2026-11-09T15:45:15+00:00",
-    "verdict": "pass (score 20.9)",
-    "score": 20.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T15:45:52+00:00",
+    "verdict": "PAPER filled 2 @ 175.97",
+    "score": 87.3,
+    "recommendation": "TAKE"
   },
-  "cycle": 9047,
+  "cycle": 9050,
   "fills": [
+    {
+      "fill": 175.97,
+      "qty": 2,
+      "realized": -18.58,
+      "paper": true,
+      "symbol": "BTC-USD",
+      "at": "2026-11-09T15:46:02+00:00"
+    },
     {
       "fill": 173.62,
       "qty": 5,
@@ -220,15 +224,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T14:40:12+00:00"
-    },
-    {
-      "fill": 47.47,
-      "qty": 2,
-      "realized": -1.43,
-      "paper": true,
-      "symbol": "SPY",
-      "at": "2026-11-09T14:36:16+00:00"
     }
   ],
-  "updated_at": "2026-11-09T15:45:20+00:00"
+  "updated_at": "2026-11-09T15:46:21+00:00"
 }
