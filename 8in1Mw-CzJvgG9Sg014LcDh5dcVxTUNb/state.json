@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 NVDA @ 684.69",
-      "at": "2026-11-09T12:20:39+00:00"
+      "note": "BUY 2 AMZN @ 267.88",
+      "at": "2026-11-09T12:21:55+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T12:20:41+00:00"
+      "at": "2026-11-09T12:21:57+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 82.0 TAKE",
-      "at": "2026-11-09T12:20:44+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -5 NVDA @ 684.74",
-      "at": "2026-11-09T12:20:49+00:00"
+      "note": "score 46.6 PASS",
+      "at": "2026-11-09T12:22:00+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T12:20:47+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 267.5612
     }
   ],
-  "pnl": 8551.42,
-  "updated_at": "2026-11-09T12:20:51+00:00",
+  "pnl": 8445.31,
   "realized_pnl": 10448.79,
-  "unrealized_pnl": -1897.37,
+  "unrealized_pnl": -2003.48,
   "last_signal": {
-    "id": "56584437",
-    "symbol": "NVDA",
-    "side": "SELL",
-    "price": 684.69,
-    "qty": 5,
-    "strength": 0.791,
+    "id": "d5769962",
+    "symbol": "AMZN",
+    "side": "BUY",
+    "price": 267.88,
+    "qty": 2,
+    "strength": 0.292,
     "source": "paper-sim",
-    "ts": "2026-11-09T12:20:39+00:00",
-    "verdict": "PAPER filled -5 @ 684.74",
-    "score": 82.0,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T12:21:55+00:00",
+    "verdict": "pass (score 46.6)",
+    "score": 46.6,
+    "recommendation": "PASS"
   },
-  "cycle": 8468,
+  "cycle": 8472,
   "fills": [
     {
       "fill": 684.74,
@@ -234,5 +229,6 @@
       "symbol": "BTC-USD",
       "at": "2026-11-04T22:15:18+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T12:22:01+00:00"
 }
