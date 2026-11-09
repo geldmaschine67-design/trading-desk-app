@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 NVDA @ 612.77",
-      "at": "2026-11-09T20:44:53+00:00"
+      "note": "SELL 10 NVDA @ 613.5",
+      "at": "2026-11-09T20:46:32+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T20:44:56+00:00"
+      "at": "2026-11-09T20:46:34+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 72.9 TAKE",
-      "at": "2026-11-09T20:44:58+00:00"
+      "note": "score 64.0 PASS",
+      "at": "2026-11-09T20:46:36+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 1 NVDA @ 612.53",
-      "at": "2026-11-09T20:45:03+00:00"
+      "note": "PAPER fill -2 TSLA @ 152.63",
+      "at": "2026-11-09T20:46:14+00:00"
     },
     "risk": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T20:45:01+00:00"
+      "at": "2026-11-09T20:46:12+00:00"
     }
   },
   "positions": [
@@ -36,7 +36,7 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 149,
+      "qty": 147,
       "avg": 205.6683
     },
     {
@@ -55,25 +55,33 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 2050.79,
-  "updated_at": "2026-11-09T20:45:05+00:00",
-  "realized_pnl": 9581.96,
-  "unrealized_pnl": -7531.17,
+  "pnl": 2079.79,
+  "updated_at": "2026-11-09T20:46:38+00:00",
+  "realized_pnl": 9475.88,
+  "unrealized_pnl": -7396.09,
   "last_signal": {
-    "id": "7ff25463",
+    "id": "e7b0a7da",
     "symbol": "NVDA",
-    "side": "BUY",
-    "price": 612.77,
-    "qty": 1,
-    "strength": 0.722,
+    "side": "SELL",
+    "price": 613.5,
+    "qty": 10,
+    "strength": 0.714,
     "source": "paper-sim",
-    "ts": "2026-11-09T20:44:53+00:00",
-    "verdict": "PAPER filled 1 @ 612.53",
-    "score": 72.9,
-    "recommendation": "TAKE"
+    "ts": "2026-11-09T20:46:32+00:00",
+    "verdict": "pass (score 64.0)",
+    "score": 64.0,
+    "recommendation": "PASS"
   },
-  "cycle": 9902,
+  "cycle": 9905,
   "fills": [
+    {
+      "fill": 152.63,
+      "qty": -2,
+      "realized": -106.08,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-09T20:46:14+00:00"
+    },
     {
       "fill": 612.53,
       "qty": 1,
@@ -225,14 +233,6 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-09T19:33:04+00:00"
-    },
-    {
-      "fill": 172.63,
-      "qty": -2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T19:25:47+00:00"
     }
   ]
 }
