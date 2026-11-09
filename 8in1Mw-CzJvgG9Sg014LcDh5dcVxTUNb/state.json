@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 SPY @ 54.04",
-      "at": "2026-11-09T18:25:53+00:00"
+      "note": "BUY 1 BTC-USD @ 161.36",
+      "at": "2026-11-09T18:26:51+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T18:25:56+00:00"
+      "at": "2026-11-09T18:26:53+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 34.3 PASS",
-      "at": "2026-11-09T18:25:58+00:00"
+      "note": "score 20.1 PASS",
+      "at": "2026-11-09T18:26:56+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 5696.22,
-  "updated_at": "2026-11-09T18:25:59+00:00",
+  "pnl": 5548.93,
+  "updated_at": "2026-11-09T18:26:57+00:00",
   "realized_pnl": 9344.56,
-  "unrealized_pnl": -3648.34,
+  "unrealized_pnl": -3795.63,
   "last_signal": {
-    "id": "6c1a9e71",
-    "symbol": "SPY",
+    "id": "b00de051",
+    "symbol": "BTC-USD",
     "side": "BUY",
-    "price": 54.04,
+    "price": 161.36,
     "qty": 1,
-    "strength": 0.139,
+    "strength": 0.13,
     "source": "paper-sim",
-    "ts": "2026-11-09T18:25:53+00:00",
-    "verdict": "pass (score 34.3)",
-    "score": 34.3,
+    "ts": "2026-11-09T18:26:51+00:00",
+    "verdict": "pass (score 20.1)",
+    "score": 20.1,
     "recommendation": "PASS"
   },
-  "cycle": 9516,
+  "cycle": 9519,
   "fills": [
     {
       "fill": 635.99,
