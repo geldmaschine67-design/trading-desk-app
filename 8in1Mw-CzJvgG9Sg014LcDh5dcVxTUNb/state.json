@@ -3,9 +3,9 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "scanning",
-      "note": null,
-      "at": "2026-11-09T20:43:09+00:00"
+      "status": "idle",
+      "note": "SELL 5 MSFT @ 98.51",
+      "at": "2026-11-09T20:44:10+00:00"
     },
     "auditor": {
       "status": "idle"
@@ -47,23 +47,21 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 1968.82,
+  "pnl": 2173.0,
   "realized_pnl": 9581.96,
-  "unrealized_pnl": -7613.14,
+  "unrealized_pnl": -7408.96,
   "last_signal": {
-    "id": "5e5574ad",
-    "symbol": "NVDA",
+    "id": "6d097a01",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 609.59,
-    "qty": 10,
-    "strength": 0.46,
+    "price": 98.51,
+    "qty": 5,
+    "strength": 0.667,
     "source": "paper-sim",
-    "ts": "2026-11-09T20:42:36+00:00",
-    "verdict": "pass (score 41.9)",
-    "score": 41.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T20:44:10+00:00",
+    "verdict": "pending"
   },
-  "cycle": 9896,
+  "cycle": 9899,
   "fills": [
     {
       "fill": 50.19,
@@ -226,5 +224,5 @@
       "at": "2026-11-09T19:22:27+00:00"
     }
   ],
-  "updated_at": "2026-11-09T20:43:09+00:00"
+  "updated_at": "2026-11-09T20:44:10+00:00"
 }
