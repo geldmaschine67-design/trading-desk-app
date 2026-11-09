@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 10 TSLA @ 179.0",
-      "at": "2026-11-09T18:39:48+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-09T18:41:01+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T18:39:51+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 31.7 PASS",
-      "at": "2026-11-09T18:39:53+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +47,23 @@
       "avg": 300.7027
     }
   ],
-  "pnl": 4741.16,
+  "pnl": 4998.82,
   "realized_pnl": 9309.71,
-  "unrealized_pnl": -4568.55,
+  "unrealized_pnl": -4310.89,
   "last_signal": {
-    "id": "5d986435",
-    "symbol": "TSLA",
+    "id": "bb8409d3",
+    "symbol": "AAPL",
     "side": "SELL",
-    "price": 179.0,
-    "qty": 10,
-    "strength": 0.274,
+    "price": 95.48,
+    "qty": 2,
+    "strength": 0.518,
     "source": "paper-sim",
-    "ts": "2026-11-09T18:39:48+00:00",
-    "verdict": "pass (score 31.7)",
-    "score": 31.7,
+    "ts": "2026-11-09T18:40:40+00:00",
+    "verdict": "pass (score 57.4)",
+    "score": 57.4,
     "recommendation": "PASS"
   },
-  "cycle": 9557,
+  "cycle": 9561,
   "fills": [
     {
       "fill": 55.09,
@@ -230,5 +226,5 @@
       "at": "2026-11-09T17:31:27+00:00"
     }
   ],
-  "updated_at": "2026-11-09T18:39:54+00:00"
+  "updated_at": "2026-11-09T18:41:01+00:00"
 }
