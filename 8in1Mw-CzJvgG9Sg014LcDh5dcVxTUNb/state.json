@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 MSFT @ 89.06",
-      "at": "2026-11-09T18:04:17+00:00"
+      "note": "BUY 10 TSLA @ 185.14",
+      "at": "2026-11-09T18:07:34+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T18:04:20+00:00"
+      "at": "2026-11-09T18:07:37+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 34.8 PASS",
-      "at": "2026-11-09T18:04:22+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-09T18:04:05+00:00"
+      "note": "score 20.0 PASS",
+      "at": "2026-11-09T18:07:39+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-09T18:04:03+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 299.63
     }
   ],
-  "pnl": 5662.89,
-  "updated_at": "2026-11-09T18:04:23+00:00",
+  "pnl": 5945.34,
   "realized_pnl": 9344.56,
-  "unrealized_pnl": -3681.67,
+  "unrealized_pnl": -3399.22,
   "last_signal": {
-    "id": "4bf2f88a",
-    "symbol": "MSFT",
+    "id": "6b5f715f",
+    "symbol": "TSLA",
     "side": "BUY",
-    "price": 89.06,
+    "price": 185.14,
     "qty": 10,
-    "strength": 0.189,
+    "strength": 0.029,
     "source": "paper-sim",
-    "ts": "2026-11-09T18:04:17+00:00",
-    "verdict": "pass (score 34.8)",
-    "score": 34.8,
+    "ts": "2026-11-09T18:07:34+00:00",
+    "verdict": "pass (score 20.0)",
+    "score": 20.0,
     "recommendation": "PASS"
   },
-  "cycle": 9456,
+  "cycle": 9460,
   "fills": [
     {
       "fill": 163.35,
@@ -234,5 +229,6 @@
       "symbol": "BTC-USD",
       "at": "2026-11-09T17:02:13+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T18:07:39+00:00"
 }
