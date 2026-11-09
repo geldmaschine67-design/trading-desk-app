@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 SPY @ 45.4",
-      "at": "2026-11-09T22:16:14+00:00"
+      "note": "BUY 10 SPY @ 45.31",
+      "at": "2026-11-09T22:17:26+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-09T22:16:16+00:00"
+      "at": "2026-11-09T22:17:28+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 55.6 PASS",
-      "at": "2026-11-09T22:16:19+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 1 NVDA @ 634.82",
-      "at": "2026-11-09T22:15:42+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-09T22:17:29+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-09T22:15:39+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -51,29 +47,34 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 32,
-      "avg": 325.2826
+      "qty": 33,
+      "avg": 325.1592
     }
   ],
-  "pnl": 2357.97,
-  "updated_at": "2026-11-09T22:16:20+00:00",
+  "pnl": 2295.27,
   "realized_pnl": 8779.89,
-  "unrealized_pnl": -6421.92,
+  "unrealized_pnl": -6484.62,
   "last_signal": {
-    "id": "3c3079b8",
+    "id": "0e4f481c",
     "symbol": "SPY",
     "side": "BUY",
-    "price": 45.4,
-    "qty": 2,
-    "strength": 0.432,
+    "price": 45.31,
+    "qty": 10,
+    "strength": 0.232,
     "source": "paper-sim",
-    "ts": "2026-11-09T22:16:14+00:00",
-    "verdict": "pass (score 55.6)",
-    "score": 55.6,
-    "recommendation": "PASS"
+    "ts": "2026-11-09T22:17:26+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10138,
+  "cycle": 10142,
   "fills": [
+    {
+      "fill": 321.21,
+      "qty": 1,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-09T22:16:59+00:00"
+    },
     {
       "fill": 634.82,
       "qty": 1,
@@ -225,14 +226,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-09T21:10:25+00:00"
-    },
-    {
-      "fill": 331.46,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "AMZN",
-      "at": "2026-11-09T21:06:21+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-09T22:17:29+00:00"
 }
