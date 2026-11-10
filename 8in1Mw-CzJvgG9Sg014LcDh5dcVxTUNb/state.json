@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 2 TSLA @ 182.99",
-      "at": "2026-11-10T02:49:47+00:00"
+      "note": "BUY 10 TSLA @ 182.11",
+      "at": "2026-11-10T02:51:00+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T02:49:49+00:00"
+      "at": "2026-11-10T02:51:02+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 26.4 PASS",
-      "at": "2026-11-10T02:49:52+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill -10 BTC-USD @ 160.81",
-      "at": "2026-11-10T02:49:32+00:00"
+      "note": "score 46.8 PASS",
+      "at": "2026-11-10T02:51:05+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T02:49:29+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 324.5901
     }
   ],
-  "pnl": 7269.53,
-  "updated_at": "2026-11-10T02:49:53+00:00",
+  "pnl": 7155.47,
   "realized_pnl": 8638.77,
-  "unrealized_pnl": -1369.24,
+  "unrealized_pnl": -1483.3,
   "last_signal": {
-    "id": "4ac3d118",
+    "id": "1dc15a65",
     "symbol": "TSLA",
     "side": "BUY",
-    "price": 182.99,
-    "qty": 2,
-    "strength": 0.119,
+    "price": 182.11,
+    "qty": 10,
+    "strength": 0.324,
     "source": "paper-sim",
-    "ts": "2026-11-10T02:49:47+00:00",
-    "verdict": "pass (score 26.4)",
-    "score": 26.4,
+    "ts": "2026-11-10T02:51:00+00:00",
+    "verdict": "pass (score 46.8)",
+    "score": 46.8,
     "recommendation": "PASS"
   },
-  "cycle": 10905,
+  "cycle": 10909,
   "fills": [
     {
       "fill": 160.81,
@@ -234,5 +229,6 @@
       "symbol": "BTC-USD",
       "at": "2026-11-10T01:35:11+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-10T02:51:05+00:00"
 }
