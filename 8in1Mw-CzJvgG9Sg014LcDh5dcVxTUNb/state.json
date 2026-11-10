@@ -4,28 +4,20 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 BTC-USD @ 169.74",
-      "at": "2026-11-10T00:52:03+00:00"
+      "note": "BUY 2 QQQ @ 414.53",
+      "at": "2026-11-10T00:53:24+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T00:52:05+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 16.2 PASS",
-      "at": "2026-11-10T00:52:08+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-10T00:51:10+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-10T00:51:09+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,21 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 6251.28,
-  "updated_at": "2026-11-10T00:52:09+00:00",
+  "pnl": 6025.53,
   "realized_pnl": 8331.94,
-  "unrealized_pnl": -2080.66,
+  "unrealized_pnl": -2306.41,
   "last_signal": {
-    "id": "02130b5c",
-    "symbol": "BTC-USD",
-    "side": "SELL",
-    "price": 169.74,
-    "qty": 5,
-    "strength": 0.037,
+    "id": "c1c203cd",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 414.53,
+    "qty": 2,
+    "strength": 0.99,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:52:03+00:00",
-    "verdict": "pass (score 16.2)",
-    "score": 16.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-10T00:53:24+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10581,
+  "cycle": 10585,
   "fills": [
     {
       "fill": 45.87,
@@ -234,5 +223,6 @@
       "symbol": "NVDA",
       "at": "2026-11-09T23:33:15+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-10T00:53:24+00:00"
 }
