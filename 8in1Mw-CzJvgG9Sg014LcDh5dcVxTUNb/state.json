@@ -4,16 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 TSLA @ 173.67",
-      "at": "2026-11-10T00:08:13+00:00"
+      "note": "BUY 5 TSLA @ 171.33",
+      "at": "2026-11-10T00:09:06+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T00:08:15+00:00"
+      "at": "2026-11-10T00:09:08+00:00"
     },
     "analyst": {
-      "status": "idle"
+      "status": "idle",
+      "note": "score 60.1 PASS",
+      "at": "2026-11-10T00:09:11+00:00"
     },
     "risk": {
       "status": "idle"
@@ -30,7 +32,7 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 165,
+      "qty": 155,
       "avg": 195.5344
     },
     {
@@ -49,22 +51,32 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5914.32,
-  "realized_pnl": 8636.36,
-  "unrealized_pnl": -2722.04,
+  "pnl": 5399.43,
+  "realized_pnl": 8416.92,
+  "unrealized_pnl": -3017.49,
   "last_signal": {
-    "id": "af41321a",
+    "id": "2c708aca",
     "symbol": "TSLA",
-    "side": "SELL",
-    "price": 173.67,
-    "qty": 10,
-    "strength": 0.934,
+    "side": "BUY",
+    "price": 171.33,
+    "qty": 5,
+    "strength": 0.62,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:08:13+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-10T00:09:06+00:00",
+    "verdict": "pass (score 60.1)",
+    "score": 60.1,
+    "recommendation": "PASS"
   },
-  "cycle": 10455,
+  "cycle": 10458,
   "fills": [
+    {
+      "fill": 173.59,
+      "qty": -10,
+      "realized": -219.44,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-10T00:08:23+00:00"
+    },
     {
       "fill": 47.55,
       "qty": -1,
@@ -216,15 +228,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-09T23:02:36+00:00"
-    },
-    {
-      "fill": 190.44,
-      "qty": 5,
-      "realized": -95.45,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T22:58:49+00:00"
     }
   ],
-  "updated_at": "2026-11-10T00:08:15+00:00"
+  "updated_at": "2026-11-10T00:09:12+00:00"
 }
