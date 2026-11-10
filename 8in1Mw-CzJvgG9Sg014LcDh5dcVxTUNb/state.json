@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AMZN @ 309.86",
-      "at": "2026-11-10T00:19:21+00:00"
+      "note": "BUY 10 NVDA @ 722.98",
+      "at": "2026-11-10T00:23:06+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T00:19:23+00:00"
+      "at": "2026-11-10T00:23:09+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 32.9 PASS",
-      "at": "2026-11-10T00:19:37+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-10T00:23:10+00:00"
     },
     "risk": {
       "status": "idle"
@@ -32,8 +32,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 153,
-      "avg": 195.5344
+      "qty": 158,
+      "avg": 194.8482
     },
     {
       "symbol": "SPY",
@@ -51,24 +51,30 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5234.49,
+  "pnl": 5876.13,
   "realized_pnl": 8371.35,
-  "unrealized_pnl": -3136.86,
+  "unrealized_pnl": -2495.22,
   "last_signal": {
-    "id": "a38482cc",
-    "symbol": "AMZN",
-    "side": "SELL",
-    "price": 309.86,
-    "qty": 2,
-    "strength": 0.356,
+    "id": "613973ee",
+    "symbol": "NVDA",
+    "side": "BUY",
+    "price": 722.98,
+    "qty": 10,
+    "strength": 0.005,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:19:21+00:00",
-    "verdict": "pass (score 32.9)",
-    "score": 32.9,
-    "recommendation": "PASS"
+    "ts": "2026-11-10T00:23:06+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10491,
+  "cycle": 10495,
   "fills": [
+    {
+      "fill": 173.85,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-10T00:22:36+00:00"
+    },
     {
       "fill": 172.75,
       "qty": -2,
@@ -220,15 +226,7 @@
       "paper": true,
       "symbol": "BTC-USD",
       "at": "2026-11-09T23:18:12+00:00"
-    },
-    {
-      "fill": 190.28,
-      "qty": -10,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-09T23:07:27+00:00"
     }
   ],
-  "updated_at": "2026-11-10T00:19:37+00:00"
+  "updated_at": "2026-11-10T00:23:10+00:00"
 }
