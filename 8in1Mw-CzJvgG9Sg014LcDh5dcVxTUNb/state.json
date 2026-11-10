@@ -4,18 +4,16 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AAPL @ 110.49",
-      "at": "2026-11-10T01:16:57+00:00"
+      "note": "SELL 1 BTC-USD @ 159.21",
+      "at": "2026-11-10T01:17:59+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T01:16:59+00:00"
+      "at": "2026-11-10T01:18:01+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-10T01:17:00+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,21 +49,21 @@
       "avg": 324.5901
     }
   ],
-  "pnl": 5367.35,
+  "pnl": 5147.46,
   "realized_pnl": 8392.14,
-  "unrealized_pnl": -3024.79,
+  "unrealized_pnl": -3244.68,
   "last_signal": {
-    "id": "b91048ec",
-    "symbol": "AAPL",
+    "id": "a4e6b709",
+    "symbol": "BTC-USD",
     "side": "SELL",
-    "price": 110.49,
+    "price": 159.21,
     "qty": 1,
-    "strength": 0.064,
+    "strength": 0.938,
     "source": "paper-sim",
-    "ts": "2026-11-10T01:16:57+00:00",
+    "ts": "2026-11-10T01:17:59+00:00",
     "verdict": "pending"
   },
-  "cycle": 10651,
+  "cycle": 10654,
   "fills": [
     {
       "fill": 45.73,
@@ -228,5 +226,5 @@
       "at": "2026-11-10T00:00:50+00:00"
     }
   ],
-  "updated_at": "2026-11-10T01:17:00+00:00"
+  "updated_at": "2026-11-10T01:18:01+00:00"
 }
