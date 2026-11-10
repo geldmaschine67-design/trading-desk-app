@@ -4,13 +4,11 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 QQQ @ 413.81",
-      "at": "2026-11-10T00:42:17+00:00"
+      "note": "no signal",
+      "at": "2026-11-10T00:43:15+00:00"
     },
     "auditor": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-10T00:42:18+00:00"
+      "status": "idle"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +47,23 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 6165.48,
+  "pnl": 6018.12,
   "realized_pnl": 8326.88,
-  "unrealized_pnl": -2161.4,
+  "unrealized_pnl": -2308.76,
   "last_signal": {
-    "id": "262f7659",
-    "symbol": "QQQ",
+    "id": "44c6cc9b",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 413.81,
-    "qty": 5,
-    "strength": 0.993,
+    "price": 103.84,
+    "qty": 10,
+    "strength": 0.625,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:42:17+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-10T00:42:43+00:00",
+    "verdict": "pass (score 63.0)",
+    "score": 63.0,
+    "recommendation": "PASS"
   },
-  "cycle": 10556,
+  "cycle": 10559,
   "fills": [
     {
       "fill": 311.83,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T23:31:32+00:00"
     }
   ],
-  "updated_at": "2026-11-10T00:42:18+00:00"
+  "updated_at": "2026-11-10T00:43:16+00:00"
 }
