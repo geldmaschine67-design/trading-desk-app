@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 TSLA @ 175.85",
-      "at": "2026-11-10T00:57:20+00:00"
+      "note": "BUY 2 QQQ @ 424.99",
+      "at": "2026-11-10T00:58:16+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T00:57:22+00:00"
+      "at": "2026-11-10T00:58:18+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 24.3 PASS",
-      "at": "2026-11-10T00:57:24+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 72.0 TAKE",
+      "at": "2026-11-10T00:58:21+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-10T00:58:25+00:00"
+    },
+    "risk": {
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-10T00:58:24+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,24 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5639.85,
+  "pnl": 5863.98,
+  "updated_at": "2026-11-10T00:58:27+00:00",
   "realized_pnl": 8331.94,
-  "unrealized_pnl": -2692.09,
+  "unrealized_pnl": -2467.96,
   "last_signal": {
-    "id": "a5f58c6d",
-    "symbol": "TSLA",
-    "side": "SELL",
-    "price": 175.85,
-    "qty": 1,
-    "strength": 0.252,
+    "id": "5908d3a1",
+    "symbol": "QQQ",
+    "side": "BUY",
+    "price": 424.99,
+    "qty": 2,
+    "strength": 0.686,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:57:20+00:00",
-    "verdict": "pass (score 24.3)",
-    "score": 24.3,
-    "recommendation": "PASS"
+    "ts": "2026-11-10T00:58:16+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 72.0,
+    "recommendation": "TAKE"
   },
-  "cycle": 10590,
+  "cycle": 10593,
   "fills": [
     {
       "fill": 45.87,
@@ -229,6 +234,5 @@
       "symbol": "NVDA",
       "at": "2026-11-09T23:33:15+00:00"
     }
-  ],
-  "updated_at": "2026-11-10T00:57:26+00:00"
+  ]
 }
