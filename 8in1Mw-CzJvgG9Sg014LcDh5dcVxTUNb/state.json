@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 AMZN @ 326.28",
-      "at": "2026-11-10T02:02:52+00:00"
+      "note": "BUY 5 AMZN @ 324.49",
+      "at": "2026-11-10T02:03:50+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T02:02:55+00:00"
+      "at": "2026-11-10T02:03:52+00:00"
     },
     "analyst": {
-      "status": "running",
-      "note": null,
-      "at": "2026-11-10T02:02:56+00:00"
+      "status": "idle",
+      "note": "score 41.0 PASS",
+      "at": "2026-11-10T02:03:55+00:00"
     },
     "risk": {
       "status": "idle"
@@ -47,26 +47,36 @@
     },
     {
       "symbol": "AMZN",
-      "qty": 19,
+      "qty": 14,
       "avg": 324.5901
     }
   ],
-  "pnl": 5571.66,
-  "realized_pnl": 8645.29,
-  "unrealized_pnl": -3073.63,
+  "pnl": 5500.91,
+  "realized_pnl": 8653.09,
+  "unrealized_pnl": -3152.18,
   "last_signal": {
-    "id": "d55d0fa2",
+    "id": "01e7d0f0",
     "symbol": "AMZN",
-    "side": "SELL",
-    "price": 326.28,
+    "side": "BUY",
+    "price": 324.49,
     "qty": 5,
-    "strength": 0.887,
+    "strength": 0.552,
     "source": "paper-sim",
-    "ts": "2026-11-10T02:02:52+00:00",
-    "verdict": "pending"
+    "ts": "2026-11-10T02:03:50+00:00",
+    "verdict": "pass (score 41.0)",
+    "score": 41.0,
+    "recommendation": "PASS"
   },
-  "cycle": 10757,
+  "cycle": 10760,
   "fills": [
+    {
+      "fill": 326.15,
+      "qty": -5,
+      "realized": 7.8,
+      "paper": true,
+      "symbol": "AMZN",
+      "at": "2026-11-10T02:03:02+00:00"
+    },
     {
       "fill": 168.61,
       "qty": 10,
@@ -218,15 +228,7 @@
       "paper": true,
       "symbol": "AMZN",
       "at": "2026-11-10T00:41:52+00:00"
-    },
-    {
-      "fill": 174.18,
-      "qty": 2,
-      "realized": 0.0,
-      "paper": true,
-      "symbol": "TSLA",
-      "at": "2026-11-10T00:40:35+00:00"
     }
   ],
-  "updated_at": "2026-11-10T02:02:56+00:00"
+  "updated_at": "2026-11-10T02:03:56+00:00"
 }
