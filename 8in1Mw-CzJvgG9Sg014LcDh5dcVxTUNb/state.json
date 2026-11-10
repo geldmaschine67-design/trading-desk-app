@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 10 SPY @ 46.8",
-      "at": "2026-11-10T00:05:06+00:00"
+      "note": "BUY 10 QQQ @ 414.58",
+      "at": "2026-11-10T00:06:01+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T00:05:08+00:00"
+      "at": "2026-11-10T00:06:03+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 16.2 PASS",
-      "at": "2026-11-10T00:05:11+00:00"
+      "note": "score 72.2 TAKE",
+      "at": "2026-11-10T00:06:05+00:00"
     },
     "risk": {
-      "status": "idle"
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-10T00:06:08+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "skipped (risk)",
+      "at": "2026-11-10T00:06:09+00:00"
     }
   },
   "positions": [
@@ -51,23 +55,23 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5757.95,
+  "pnl": 5731.92,
   "realized_pnl": 8636.36,
-  "unrealized_pnl": -2878.41,
+  "unrealized_pnl": -2904.44,
   "last_signal": {
-    "id": "797ae88f",
-    "symbol": "SPY",
+    "id": "f5d0400f",
+    "symbol": "QQQ",
     "side": "BUY",
-    "price": 46.8,
+    "price": 414.58,
     "qty": 10,
-    "strength": 0.217,
+    "strength": 0.668,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:05:06+00:00",
-    "verdict": "pass (score 16.2)",
-    "score": 16.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-10T00:06:01+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 72.2,
+    "recommendation": "TAKE"
   },
-  "cycle": 10445,
+  "cycle": 10448,
   "fills": [
     {
       "fill": 46.66,
@@ -230,5 +234,5 @@
       "at": "2026-11-09T22:55:28+00:00"
     }
   ],
-  "updated_at": "2026-11-10T00:05:12+00:00"
+  "updated_at": "2026-11-10T00:06:11+00:00"
 }
