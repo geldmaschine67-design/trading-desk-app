@@ -3,19 +3,15 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "BUY 5 TSLA @ 171.33",
-      "at": "2026-11-10T00:09:06+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-10T00:10:19+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T00:09:08+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 60.1 PASS",
-      "at": "2026-11-10T00:09:11+00:00"
+      "status": "idle"
     },
     "risk": {
       "status": "idle"
@@ -51,23 +47,23 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5399.43,
+  "pnl": 5657.1,
   "realized_pnl": 8416.92,
-  "unrealized_pnl": -3017.49,
+  "unrealized_pnl": -2759.82,
   "last_signal": {
-    "id": "2c708aca",
-    "symbol": "TSLA",
-    "side": "BUY",
-    "price": 171.33,
-    "qty": 5,
-    "strength": 0.62,
+    "id": "2d6dd6ce",
+    "symbol": "AMZN",
+    "side": "SELL",
+    "price": 324.41,
+    "qty": 10,
+    "strength": 0.488,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:09:06+00:00",
-    "verdict": "pass (score 60.1)",
-    "score": 60.1,
+    "ts": "2026-11-10T00:10:03+00:00",
+    "verdict": "pass (score 42.2)",
+    "score": 42.2,
     "recommendation": "PASS"
   },
-  "cycle": 10458,
+  "cycle": 10462,
   "fills": [
     {
       "fill": 173.59,
@@ -230,5 +226,5 @@
       "at": "2026-11-09T23:02:36+00:00"
     }
   ],
-  "updated_at": "2026-11-10T00:09:12+00:00"
+  "updated_at": "2026-11-10T00:10:19+00:00"
 }
