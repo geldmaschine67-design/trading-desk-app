@@ -4,13 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 10 AMZN @ 302.19",
-      "at": "2026-11-10T00:47:13+00:00"
+      "note": "BUY 2 BTC-USD @ 167.32",
+      "at": "2026-11-10T00:48:15+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T00:47:15+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-10T00:48:17+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -49,21 +49,21 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5952.41,
+  "pnl": 5898.22,
   "realized_pnl": 8326.88,
-  "unrealized_pnl": -2374.47,
+  "unrealized_pnl": -2428.66,
   "last_signal": {
-    "id": "39eb830e",
-    "symbol": "AMZN",
-    "side": "SELL",
-    "price": 302.19,
-    "qty": 10,
-    "strength": 0.439,
+    "id": "4caafe9b",
+    "symbol": "BTC-USD",
+    "side": "BUY",
+    "price": 167.32,
+    "qty": 2,
+    "strength": 0.147,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:47:13+00:00",
+    "ts": "2026-11-10T00:48:15+00:00",
     "verdict": "pending"
   },
-  "cycle": 10566,
+  "cycle": 10569,
   "fills": [
     {
       "fill": 311.83,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T23:31:32+00:00"
     }
   ],
-  "updated_at": "2026-11-10T00:47:15+00:00"
+  "updated_at": "2026-11-10T00:48:17+00:00"
 }
