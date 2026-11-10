@@ -4,11 +4,13 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "no signal",
-      "at": "2026-11-10T01:08:42+00:00"
+      "note": "SELL 1 TSLA @ 168.62",
+      "at": "2026-11-10T01:09:47+00:00"
     },
     "auditor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-10T01:09:49+00:00"
     },
     "analyst": {
       "status": "idle"
@@ -47,23 +49,21 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 4439.07,
+  "pnl": 4591.32,
   "realized_pnl": 8389.77,
-  "unrealized_pnl": -3950.7,
+  "unrealized_pnl": -3798.45,
   "last_signal": {
-    "id": "c68bf7d1",
-    "symbol": "SPY",
-    "side": "BUY",
-    "price": 45.59,
-    "qty": 10,
-    "strength": 0.016,
+    "id": "d082efaa",
+    "symbol": "TSLA",
+    "side": "SELL",
+    "price": 168.62,
+    "qty": 1,
+    "strength": 0.267,
     "source": "paper-sim",
-    "ts": "2026-11-10T01:08:23+00:00",
-    "verdict": "pass (score 5.2)",
-    "score": 5.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-10T01:09:47+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10625,
+  "cycle": 10629,
   "fills": [
     {
       "fill": 682.78,
@@ -226,5 +226,5 @@
       "at": "2026-11-09T23:51:29+00:00"
     }
   ],
-  "updated_at": "2026-11-10T01:08:43+00:00"
+  "updated_at": "2026-11-10T01:09:49+00:00"
 }
