@@ -4,24 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 BTC-USD @ 160.0",
-      "at": "2026-11-10T03:00:10+00:00"
+      "note": "SELL 10 BTC-USD @ 159.57",
+      "at": "2026-11-10T03:01:05+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T03:00:13+00:00"
+      "at": "2026-11-10T03:01:08+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 50.6 PASS",
-      "at": "2026-11-10T03:00:15+00:00"
-    },
-    "risk": {
-      "status": "idle"
+      "note": "score 36.4 PASS",
+      "at": "2026-11-10T03:01:10+00:00"
     },
     "executor": {
-      "status": "idle"
+      "status": "idle",
+      "note": "PAPER fill 5 TSLA @ 176.95",
+      "at": "2026-11-10T03:00:37+00:00"
+    },
+    "risk": {
+      "status": "idle",
+      "note": "ok",
+      "at": "2026-11-10T03:00:35+00:00"
     }
   },
   "positions": [
@@ -32,8 +36,8 @@
     },
     {
       "symbol": "TSLA",
-      "qty": 158,
-      "avg": 194.125
+      "qty": 163,
+      "avg": 193.5982
     },
     {
       "symbol": "SPY",
@@ -51,24 +55,33 @@
       "avg": 324.5901
     }
   ],
-  "pnl": 6075.6,
+  "pnl": 5869.76,
+  "updated_at": "2026-11-10T03:01:11+00:00",
   "realized_pnl": 8661.17,
-  "unrealized_pnl": -2585.57,
+  "unrealized_pnl": -2791.41,
   "last_signal": {
-    "id": "d406e7eb",
+    "id": "d2fcd5fd",
     "symbol": "BTC-USD",
-    "side": "BUY",
-    "price": 160.0,
-    "qty": 1,
-    "strength": 0.412,
+    "side": "SELL",
+    "price": 159.57,
+    "qty": 10,
+    "strength": 0.149,
     "source": "paper-sim",
-    "ts": "2026-11-10T03:00:10+00:00",
-    "verdict": "pass (score 50.6)",
-    "score": 50.6,
+    "ts": "2026-11-10T03:01:05+00:00",
+    "verdict": "pass (score 36.4)",
+    "score": 36.4,
     "recommendation": "PASS"
   },
-  "cycle": 10938,
+  "cycle": 10941,
   "fills": [
+    {
+      "fill": 176.95,
+      "qty": 5,
+      "realized": 0.0,
+      "paper": true,
+      "symbol": "TSLA",
+      "at": "2026-11-10T03:00:37+00:00"
+    },
     {
       "fill": 157.13,
       "qty": -2,
@@ -220,15 +233,6 @@
       "paper": true,
       "symbol": "NVDA",
       "at": "2026-11-10T01:52:06+00:00"
-    },
-    {
-      "fill": 705.76,
-      "qty": -2,
-      "realized": 62.09,
-      "paper": true,
-      "symbol": "NVDA",
-      "at": "2026-11-10T01:46:43+00:00"
     }
-  ],
-  "updated_at": "2026-11-10T03:00:16+00:00"
+  ]
 }
