@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 2 AAPL @ 102.67",
-      "at": "2026-11-10T02:31:23+00:00"
+      "note": "SELL 1 MSFT @ 94.21",
+      "at": "2026-11-10T02:32:30+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T02:31:25+00:00"
+      "at": "2026-11-10T02:32:33+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 59.7 PASS",
-      "at": "2026-11-10T02:31:27+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 5 BTC-USD @ 166.01",
-      "at": "2026-11-10T02:28:20+00:00"
+      "note": "score 48.6 PASS",
+      "at": "2026-11-10T02:32:35+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T02:28:17+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,23 @@
       "avg": 324.5901
     }
   ],
-  "pnl": 7112.12,
-  "updated_at": "2026-11-10T02:31:29+00:00",
+  "pnl": 6886.58,
   "realized_pnl": 8642.88,
-  "unrealized_pnl": -1530.76,
+  "unrealized_pnl": -1756.3,
   "last_signal": {
-    "id": "73835a7c",
-    "symbol": "AAPL",
+    "id": "7f364fce",
+    "symbol": "MSFT",
     "side": "SELL",
-    "price": 102.67,
-    "qty": 2,
-    "strength": 0.756,
+    "price": 94.21,
+    "qty": 1,
+    "strength": 0.47,
     "source": "paper-sim",
-    "ts": "2026-11-10T02:31:23+00:00",
-    "verdict": "pass (score 59.7)",
-    "score": 59.7,
+    "ts": "2026-11-10T02:32:30+00:00",
+    "verdict": "pass (score 48.6)",
+    "score": 48.6,
     "recommendation": "PASS"
   },
-  "cycle": 10846,
+  "cycle": 10850,
   "fills": [
     {
       "fill": 166.01,
@@ -234,5 +229,6 @@
       "symbol": "AMZN",
       "at": "2026-11-10T01:11:10+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-10T02:32:36+00:00"
 }
