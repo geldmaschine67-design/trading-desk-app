@@ -4,28 +4,24 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 AMZN @ 347.54",
-      "at": "2026-11-10T02:39:36+00:00"
+      "note": "SELL 1 AAPL @ 99.21",
+      "at": "2026-11-10T02:40:45+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T02:39:39+00:00"
+      "at": "2026-11-10T02:40:47+00:00"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 65.4 PASS",
-      "at": "2026-11-10T02:39:41+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 1 BTC-USD @ 164.28",
-      "at": "2026-11-10T02:39:19+00:00"
+      "status": "running",
+      "note": null,
+      "at": "2026-11-10T02:40:48+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T02:39:17+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +51,21 @@
       "avg": 324.5901
     }
   ],
-  "pnl": 5965.03,
-  "updated_at": "2026-11-10T02:39:42+00:00",
+  "pnl": 6341.43,
   "realized_pnl": 8652.92,
-  "unrealized_pnl": -2687.89,
+  "unrealized_pnl": -2311.49,
   "last_signal": {
-    "id": "bc1b1424",
-    "symbol": "AMZN",
-    "side": "BUY",
-    "price": 347.54,
+    "id": "1983cad2",
+    "symbol": "AAPL",
+    "side": "SELL",
+    "price": 99.21,
     "qty": 1,
-    "strength": 0.816,
+    "strength": 0.343,
     "source": "paper-sim",
-    "ts": "2026-11-10T02:39:36+00:00",
-    "verdict": "pass (score 65.4)",
-    "score": 65.4,
-    "recommendation": "PASS"
+    "ts": "2026-11-10T02:40:45+00:00",
+    "verdict": "pending"
   },
-  "cycle": 10872,
+  "cycle": 10876,
   "fills": [
     {
       "fill": 164.28,
@@ -234,5 +227,6 @@
       "symbol": "NVDA",
       "at": "2026-11-10T01:27:16+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-10T02:40:48+00:00"
 }
