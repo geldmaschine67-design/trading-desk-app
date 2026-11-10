@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "BUY 1 MSFT @ 105.35",
-      "at": "2026-11-10T01:23:42+00:00"
+      "note": "SELL 1 SPY @ 45.87",
+      "at": "2026-11-10T01:24:42+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T01:23:44+00:00"
+      "at": "2026-11-10T01:24:44+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 67.2 PASS",
-      "at": "2026-11-10T01:23:47+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "skipped (risk)",
-      "at": "2026-11-10T01:21:36+00:00"
+      "note": "score 73.6 TAKE",
+      "at": "2026-11-10T01:24:46+00:00"
     },
     "risk": {
       "status": "idle",
-      "note": "max positions",
-      "at": "2026-11-10T01:21:35+00:00"
+      "note": "ok",
+      "at": "2026-11-10T01:24:49+00:00"
+    },
+    "executor": {
+      "status": "idle",
+      "note": "PAPER fill -1 SPY @ 45.88",
+      "at": "2026-11-10T01:24:52+00:00"
     }
   },
   "positions": [
@@ -41,7 +41,7 @@
     },
     {
       "symbol": "SPY",
-      "qty": 7,
+      "qty": 6,
       "avg": 45.73
     },
     {
@@ -55,25 +55,32 @@
       "avg": 324.5901
     }
   ],
-  "pnl": 4842.64,
-  "updated_at": "2026-11-10T01:23:48+00:00",
-  "realized_pnl": 8392.14,
-  "unrealized_pnl": -3549.5,
+  "pnl": 5140.36,
+  "realized_pnl": 8392.29,
+  "unrealized_pnl": -3251.93,
   "last_signal": {
-    "id": "94746da9",
-    "symbol": "MSFT",
-    "side": "BUY",
-    "price": 105.35,
+    "id": "4ae10f9f",
+    "symbol": "SPY",
+    "side": "SELL",
+    "price": 45.87,
     "qty": 1,
-    "strength": 0.63,
+    "strength": 0.983,
     "source": "paper-sim",
-    "ts": "2026-11-10T01:23:42+00:00",
-    "verdict": "pass (score 67.2)",
-    "score": 67.2,
-    "recommendation": "PASS"
+    "ts": "2026-11-10T01:24:42+00:00",
+    "verdict": "PAPER filled -1 @ 45.88",
+    "score": 73.6,
+    "recommendation": "TAKE"
   },
-  "cycle": 10670,
+  "cycle": 10673,
   "fills": [
+    {
+      "fill": 45.88,
+      "qty": -1,
+      "realized": 0.15,
+      "paper": true,
+      "symbol": "SPY",
+      "at": "2026-11-10T01:24:52+00:00"
+    },
     {
       "fill": 45.73,
       "qty": 10,
@@ -225,14 +232,7 @@
       "paper": true,
       "symbol": "SPY",
       "at": "2026-11-10T00:04:21+00:00"
-    },
-    {
-      "fill": 182.74,
-      "qty": 2,
-      "realized": -14.26,
-      "paper": true,
-      "symbol": "BTC-USD",
-      "at": "2026-11-10T00:00:50+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-10T01:24:53+00:00"
 }
