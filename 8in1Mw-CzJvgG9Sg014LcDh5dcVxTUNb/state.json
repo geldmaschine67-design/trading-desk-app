@@ -4,28 +4,28 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 5 SPY @ 46.33",
-      "at": "2026-11-10T00:50:09+00:00"
+      "note": "BUY 2 MSFT @ 105.7",
+      "at": "2026-11-10T00:51:02+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T00:50:11+00:00"
+      "at": "2026-11-10T00:51:04+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 69.4 PASS",
-      "at": "2026-11-10T00:50:13+00:00"
+      "note": "score 77.4 TAKE",
+      "at": "2026-11-10T00:51:06+00:00"
     },
     "executor": {
       "status": "idle",
-      "note": "PAPER fill 2 SPY @ 45.87",
-      "at": "2026-11-10T00:49:55+00:00"
+      "note": "skipped (risk)",
+      "at": "2026-11-10T00:51:10+00:00"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T00:49:52+00:00"
+      "status": "blocked",
+      "note": "max positions",
+      "at": "2026-11-10T00:51:09+00:00"
     }
   },
   "positions": [
@@ -55,24 +55,24 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 5850.69,
-  "updated_at": "2026-11-10T00:50:15+00:00",
+  "pnl": 6278.99,
+  "updated_at": "2026-11-10T00:51:12+00:00",
   "realized_pnl": 8331.94,
-  "unrealized_pnl": -2481.25,
+  "unrealized_pnl": -2052.95,
   "last_signal": {
-    "id": "dd0d9ef6",
-    "symbol": "SPY",
-    "side": "SELL",
-    "price": 46.33,
-    "qty": 5,
-    "strength": 0.763,
+    "id": "edfb98fd",
+    "symbol": "MSFT",
+    "side": "BUY",
+    "price": 105.7,
+    "qty": 2,
+    "strength": 0.855,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:50:09+00:00",
-    "verdict": "pass (score 69.4)",
-    "score": 69.4,
-    "recommendation": "PASS"
+    "ts": "2026-11-10T00:51:02+00:00",
+    "verdict": "risk blocked: max positions",
+    "score": 77.4,
+    "recommendation": "TAKE"
   },
-  "cycle": 10575,
+  "cycle": 10578,
   "fills": [
     {
       "fill": 45.87,
