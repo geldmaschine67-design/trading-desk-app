@@ -4,18 +4,18 @@
   "agents": {
     "scanner": {
       "status": "idle",
-      "note": "SELL 1 AMZN @ 323.49",
-      "at": "2026-11-10T02:18:03+00:00"
+      "note": "no signal",
+      "at": "2026-11-10T02:19:14+00:00"
     },
     "auditor": {
       "status": "idle",
       "note": "ok",
-      "at": "2026-11-10T02:18:06+00:00"
+      "at": "2026-11-10T02:19:01+00:00"
     },
     "analyst": {
       "status": "idle",
-      "note": "score 14.3 PASS",
-      "at": "2026-11-10T02:18:08+00:00"
+      "note": "score 61.5 PASS",
+      "at": "2026-11-10T02:19:03+00:00"
     },
     "executor": {
       "status": "idle",
@@ -55,24 +55,24 @@
       "avg": 324.5901
     }
   ],
-  "pnl": 6347.33,
-  "updated_at": "2026-11-10T02:18:09+00:00",
+  "pnl": 5767.23,
+  "updated_at": "2026-11-10T02:19:15+00:00",
   "realized_pnl": 8595.31,
-  "unrealized_pnl": -2247.98,
+  "unrealized_pnl": -2828.08,
   "last_signal": {
-    "id": "0346e6b1",
-    "symbol": "AMZN",
+    "id": "b3672842",
+    "symbol": "SPY",
     "side": "SELL",
-    "price": 323.49,
-    "qty": 1,
-    "strength": 0.036,
+    "price": 47.08,
+    "qty": 5,
+    "strength": 0.766,
     "source": "paper-sim",
-    "ts": "2026-11-10T02:18:03+00:00",
-    "verdict": "pass (score 14.3)",
-    "score": 14.3,
+    "ts": "2026-11-10T02:18:58+00:00",
+    "verdict": "pass (score 61.5)",
+    "score": 61.5,
     "recommendation": "PASS"
   },
-  "cycle": 10804,
+  "cycle": 10808,
   "fills": [
     {
       "fill": 47.0,
