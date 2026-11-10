@@ -3,29 +3,21 @@
   "status": "online",
   "agents": {
     "scanner": {
-      "status": "idle",
-      "note": "SELL 1 BTC-USD @ 169.4",
-      "at": "2026-11-10T00:28:03+00:00"
+      "status": "scanning",
+      "note": null,
+      "at": "2026-11-10T00:29:39+00:00"
     },
     "auditor": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T00:28:06+00:00"
+      "status": "idle"
     },
     "analyst": {
-      "status": "idle",
-      "note": "score 51.5 PASS",
-      "at": "2026-11-10T00:28:08+00:00"
-    },
-    "executor": {
-      "status": "idle",
-      "note": "PAPER fill 5 TSLA @ 173.85",
-      "at": "2026-11-10T00:22:36+00:00"
+      "status": "idle"
     },
     "risk": {
-      "status": "idle",
-      "note": "ok",
-      "at": "2026-11-10T00:22:33+00:00"
+      "status": "idle"
+    },
+    "executor": {
+      "status": "idle"
     }
   },
   "positions": [
@@ -55,24 +47,23 @@
       "avg": 325.1592
     }
   ],
-  "pnl": 6134.33,
-  "updated_at": "2026-11-10T00:28:09+00:00",
+  "pnl": 5812.35,
   "realized_pnl": 8371.35,
-  "unrealized_pnl": -2237.02,
+  "unrealized_pnl": -2559.0,
   "last_signal": {
-    "id": "77d58288",
-    "symbol": "BTC-USD",
+    "id": "6fe07d8f",
+    "symbol": "TSLA",
     "side": "SELL",
-    "price": 169.4,
-    "qty": 1,
-    "strength": 0.438,
+    "price": 174.76,
+    "qty": 10,
+    "strength": 0.534,
     "source": "paper-sim",
-    "ts": "2026-11-10T00:28:03+00:00",
-    "verdict": "pass (score 51.5)",
-    "score": 51.5,
+    "ts": "2026-11-10T00:28:56+00:00",
+    "verdict": "pass (score 54.2)",
+    "score": 54.2,
     "recommendation": "PASS"
   },
-  "cycle": 10511,
+  "cycle": 10515,
   "fills": [
     {
       "fill": 173.85,
@@ -234,5 +225,6 @@
       "symbol": "BTC-USD",
       "at": "2026-11-09T23:18:12+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-11-10T00:29:39+00:00"
 }
